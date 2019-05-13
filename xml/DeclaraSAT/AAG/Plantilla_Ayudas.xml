@@ -1,0 +1,180 @@
+﻿<textos>
+  <ayudas>
+    <entidad IdEntidad="1054">
+      <ayuda IdPropiedad="113023" Valor="Capture el efectivo en caja y los depósitos en instituciones de crédito  al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113025" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113027" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113029" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113033" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113035" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113036" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113038" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113039" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113041" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113042" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113043" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113044" Valor="Debido a la naturaleza de las cuentas, la depreciación acumulada está forzada para su captura con signo negativo." />
+      <ayuda IdPropiedad="113045" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="113046" Valor="Debido a la naturaleza de las cuentas, la amortización acumulada está forzada para su captura con signo negativo." />
+      <ayuda IdPropiedad="113047" Valor="Muestra la suma del activo de acuerdo a la información capturada" />
+      <ayuda IdPropiedad="114001" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="114005" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="114006" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="114007" Valor="Muestra el resultado  de sumar Cuentas y documentos por pagar,  Contribuciones por pagar y Otros pasivos." />
+      <ayuda IdPropiedad="115004" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara. En caso necesario anteceda a la cantidad con un signo negativo." />
+      <ayuda IdPropiedad="115007" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="115009" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara. En caso necesario anteceda a la cantidad con un signo negativo." />
+      <ayuda IdPropiedad="115010" Valor="Muestra el resultado de sumar  Capital, Utilidades acumuladas, Utilidades del ejercicio, Pérdidas acumuladas, Pérdidas del ejercicio, Actualización del capital y Otras cuentas de capital" />
+      <ayuda IdPropiedad="118001" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="118002" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declara." />
+      <ayuda IdPropiedad="118003" Valor="Muestra la cantidad obtenida de la sumatoria de los campos Suma pasivo más Suma capital" />
+      <ayuda IdPropiedad="139866T" Valor="Captura el monto total de los pagos que a su vez sean exentos para los trabajadores entre otros, la previsión social, cajas y fondos de ahorro, pagos por separación, gratificación anual, horas extras, prima vacacional y dominical, participación de los trabajadores en las utilidades (PTU) de las empresas, seguro de gastos médicos." />
+      <ayuda IdPropiedad="139867T" Valor="A partir de 2014, son deducibles los pagos que a su vez sean ingresos exentos para el trabajador hasta por la cantidad que resulte de aplicar el factor de 0.47 al monto de dichos pagos." />
+      <ayuda IdPropiedad="139868T" Valor="Cuando las prestaciones otorgadas en el ejercicio de que se trate no disminuyan respecto de las otorgadas en el ejercicio fiscal inmediato anterior  se aplicará el  factor del 0.53." />
+    </entidad>
+    <entidad IdEntidad="1055">
+      <ayuda IdPropiedad="AE31T" Valor="Captura la deducción de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE32T" Valor="Captura la deducción de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE33T" Valor="Captura la deducción de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE34T" Valor="Captura la deducción de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE35T" Valor="Captura la deducción de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE36T" Valor="Captura la deducción de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE37T" Valor="Captura la deducción de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE38T" Valor="Captura la deducción de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE40T" Valor="Captura la deducción inmediata de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE41T" Valor="Captura la deducción inmediata de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE42T" Valor="El único equipo de oficina por el que se puede aplicar este estímulo fiscal es el equipo de computo" />
+      <ayuda IdPropiedad="AE43T" Valor="Captura la deducción inmediata de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE44T" Valor="Captura la deducción inmediata de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE45T" Valor="Captura la deducción inmediata de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE46T" Valor="Captura la deducción inmediata de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE47T" Valor="Captura la deducción inmediata de la inversión en el ejercicio." />
+      <ayuda IdPropiedad="AE49T" Valor="Captura el monto original de la inversión en el ejercicio por este concepto." />
+      <ayuda IdPropiedad="AE50T" Valor="Captura el monto original de la inversión en el ejercicio por este concepto." />
+      <ayuda IdPropiedad="AE51T" Valor="Captura el monto original de la inversión en el ejercicio por este concepto." />
+      <ayuda IdPropiedad="AE52T" Valor="Captura el monto original de la inversión en el ejercicio por este concepto." />
+      <ayuda IdPropiedad="AE53T" Valor="Captura el monto original de la inversión en el ejercicio por este concepto." />
+      <ayuda IdPropiedad="AE54T" Valor="Captura el monto original de la inversión en el ejercicio por este concepto." />
+      <ayuda IdPropiedad="AE55T" Valor="Captura el monto original de la inversión en el ejercicio por este concepto." />
+      <ayuda IdPropiedad="AE56T" Valor="Captura el monto original de la inversión en el ejercicio por este concepto." />
+    </entidad>
+    <entidad IdEntidad="1088">
+      <ayuda IdPropiedad="AE10T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE11T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE12T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE13T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE14T" Valor="Debido a la naturaleza de las cuentas, la depreciación acumulada está forzada para su captura con signo negativo." />
+      <ayuda IdPropiedad="AE15T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE16T" Valor="Debido a la naturaleza de las cuentas, la amortización acumulada está forzada para su captura con signo negativo." />
+      <ayuda IdPropiedad="AE17T" Valor="Muestra la suma del activo de acuerdo a la información capturada" />
+      <ayuda IdPropiedad="AE18T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE19T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE1T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE20T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE21T" Valor="Muestra el resultado  de sumar Cuentas y documentos por pagar,  Contribuciones por pagar y Otros pasivos." />
+      <ayuda IdPropiedad="AE22T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE23T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE24T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE25T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE26T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE27T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras. En caso necesario antecede a la cantidad con un signo negativo." />
+      <ayuda IdPropiedad="AE28T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras. En caso necesario antecede a la cantidad con un signo negativo." />
+      <ayuda IdPropiedad="AE29T" Valor="Muestra el resultado de sumar  Capital, Utilidades acumuladas, Utilidades del ejercicio, Pérdidas acumuladas, Pérdidas del ejercicio, Actualización del capital y Otras cuentas de capital" />
+      <ayuda IdPropiedad="AE2T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE30T" Valor="Muestra la cantidad obtenida de la sumatoria de los campos Suma pasivo más Suma capital" />
+      <ayuda IdPropiedad="AE3T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE4T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE5T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE6T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE7T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE8T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+      <ayuda IdPropiedad="AE9T" Valor="Captura las cifras contables al 31 de diciembre del ejercicio que declaras." />
+    </entidad>
+    <entidad IdEntidad="1091">
+      <ayuda IdPropiedad="AE100T" Valor="Muestra la sumatoria de los egresos capturados." />
+      <ayuda IdPropiedad="AE122T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE123T" Valor="A partir de 2014, son deducibles los pagos que a su vez sean ingresos exentos para el trabajador hasta por la cantidad que resulte de aplicar el factor de 0.47 al monto de dichos pagos." />
+      <ayuda IdPropiedad="AE124T" Valor="Cuando las prestaciones otorgadas en el ejercicio de que se trate no disminuyan respecto de las otorgadas en el ejercicio fiscal inmediato anterior  se aplicará el  factor del 0.53." />
+      <ayuda IdPropiedad="AE66T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE67T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE68T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE69T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE71T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE72T" Valor="Las aportaciones efectuadas para la creación o incremento de reservas para fondos de pensiones o jubilaciones del personal, complementarias a las que establece la Ley del Seguro Social, no  podrán exceder a la cantidad que resulte de aplicar el factor de 0.47 al monto de la aportación realizada en el ejercicio de que se trate. El factor será del 0.53 cuando las prestaciones otorgadas por los contribuyentes a favor de sus trabajadores que a su vez sean ingresos exentos para dichos trabajadores, en el ejercicio de que se trate, no disminuyan respecto de las otorgadas en el ejercicio fiscal inmediato anterior." />
+      <ayuda IdPropiedad="AE73T" Valor="A partir de 2014, sólo serán deducibles las cuotas al IMSS a cargo de los patrones, incluidas las previstas en la Ley del seguro de desempleo." />
+      <ayuda IdPropiedad="AE74T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE75T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE76T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE77T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE78T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE79T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE80T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE81T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE82T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE83T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE84T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE85T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE86T" Valor="Tratándose de gastos de viaje destinados a la alimentación, éstos sólo serán deducibles hasta por un monto que no exceda de $750.00 diarios por cada beneficiario, cuando los mismos se eroguen en territorio nacional, o $1,500.00 cuando se eroguen en el extranjero." />
+      <ayuda IdPropiedad="AE87T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE88T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE89T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE90T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE91T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE92T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE93T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE94T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+      <ayuda IdPropiedad="AE95T" Valor="Aplica a partir del ejercicio 2005." />
+      <ayuda IdPropiedad="AE96T" Valor="Si empleaste durante el ejercicio a personas que padecen discapacidad motriz, puedes deducir de tus ingresos, un monto equivalente al 100% del impuesto sobre la renta de estos trabajadores retenido&lt;br/&gt; y enterado, o bien, un monto adicional equivalente al 25% del salario gravado efectivamente pagado a dichas personas. (Primer párrafo del Artículo 186 de la LISR y Decreto publicado en el DOF del 26 de diciembre de 2013 ).Adicionalmente si empleaste a personas de 65 años y más, podrás aplicar un estímulo consistente en el equivalente al 25 % del salario efectivamente pagado a dichas personas. (Segundo párrafo del Art. 186 LISR)." />
+      <ayuda IdPropiedad="AE97T" Valor="A partir de 2014 el monto de deducción de pagos efectuados por el uso o goce temporal de automóviles es de hasta $200.00, diarios por automóvil." />
+      <ayuda IdPropiedad="AE98T" Valor="Los patrones que durante la vigencia del Capítulo VIII, del Título VII de la Ley del Impuesto sobre la Renta para 2013, hubieran establecido puestos de nueva creación para ser ocupados por trabajadores de primer empleo conforme a los previsto por el Artículo 232 de la Ley del Impuesto sobre la Renta de la misma ley, tendrán el beneficio a que se refiere el mismo respecto de dicho empleos hasta por un periodo de 36 meses (fracción XXXVII Artículo noveno transitorio LISR)." />
+      <ayuda IdPropiedad="AE99T" Valor="Captura las cifras determinadas conforme a las disposiciones fiscales vigentes en el ejercicio que declaras." />
+    </entidad>
+    <entidad IdEntidad="1092">
+      <ayuda IdPropiedad="AE58T" Valor="Captura el monto total de los ingresos nacionales  por actividades empresariales (incluyendo ingresos exentos), efectivamente percibidos en el ejercicio en efectivo, en bienes o en servicios." />
+      <ayuda IdPropiedad="AE59T" Valor="Captura el monto total de los ingresos del extranjeros por actividades empresariales, efectivamente percibidos en el ejercicio en efectivo." />
+      <ayuda IdPropiedad="AE60T" Valor="Captura el monto total de los ingresos exentos obtenidos en la realización de actividades empresariales (Actividades agrícolas, ganaderas, pesqueras o silvícolas, hasta por cuarenta salarios mínimos anuales)." />
+      <ayuda IdPropiedad="AE61T" Valor="Captura el monto por la ganancia de acciones o por reembolso de capital." />
+      <ayuda IdPropiedad="AE62T" Valor="Captura la ganancia derivada de la enajenación de activos afectos a la actividad empresarial." />
+      <ayuda IdPropiedad="AE63T" Valor="Captura el monto por concepto de anticipos de sus clientes." />
+      <ayuda IdPropiedad="AE64T" Valor="Captura en este campo cualquier otro ingreso derivado de la realización de actividades empresariales, cuyo concepto no se encuentre contemplado en ninguno de los rubros anteriores." />
+      <ayuda IdPropiedad="AE65T" Valor="Muestra el resultado obtenido de sumar Ingresos totales propios de la actividad nacionales más  Ingresos totales propios de la actividad extranjeros menos los Ingresos exentos más los campos Ganancia en la enajenación de acciones o por reembolsos de capital, Ganancia en la enajenación de terrenos y activo fijo, Anticipos de clientes y Otros ingresos." />
+    </entidad>
+    <entidad IdEntidad="1093">
+      <ayuda IdPropiedad="AE101T" Valor="Muestra el resultado de disminuir al Total de ingresos el Total de Deducciones Autorizadas, cuando los ingresos son mayores." />
+      <ayuda IdPropiedad="AE102T" Valor="Muestra el resultado de disminuir al Total de ingresos el Total de Deducciones Autorizadas, cuando los ingresos son menores (se muestra en valores positivos)." />
+      <ayuda IdPropiedad="AE103T" Valor="Capture el importe de la participación en las utilidades del ejercicio 2012 que efectivamente se repartió entre los asalariados durante el ejercicio 2013. Recuerde que la Participación de los Trabajadores en las Utilidades de las empresas pagada en el ejercicio es deducible a partir del ejercicio 2006, caso en el que proviene de la utilidad generada en 2005." />
+      <ayuda IdPropiedad="AE104T" Valor="Muestra el resultado de disminuir a la Utilidad fiscal obtenida (en su caso), el importe capturado como PTU pagada en el ejercicio, cuando el primer concepto es mayor." />
+      <ayuda IdPropiedad="AE105T" Valor="Muestra (con números positivos) el resultado de disminuir a la Utilidad Fiscal el monto de la PTU, cuando ésta última es mayor. O bien, muestra el resultado de sumar a la Pérdida fiscal el monto de la PTU." />
+      <ayuda IdPropiedad="AE106T" Valor="Captura el monto de las pérdidas actualizadas que pueden ser amortizadas en el ejercicio correspondientes a los ejercicios ( 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 y 2012 para este régimen fiscal).&lt;br/&gt;Nota: Si utilizas el módulo de apoyo para determinar el monto de la Amortización de Pérdidas Fiscales puedes transferir los resultados obtenidos a este campo (Pérdidas fiscales de ejercicios anteriores aplicada en el ejercicio)." />
+      <ayuda IdPropiedad="AE107T" Valor="Muestra el resultado de disminuir las Pérdidas fiscales de ejercicios anteriores aplicadas en el ejercicio de la Diferencia (Utilidad), o bien, muestra cero cuando se hubiera determinado Diferencia (Pérdida)." />
+    </entidad>
+    <entidad IdEntidad="1094">
+      <ayuda IdPropiedad="AE108T" Valor="Captura estos datos de acuerdo con la información del negocio." />
+      <ayuda IdPropiedad="AE109T" Valor="Captura estos datos de acuerdo con la información del negocio." />
+      <ayuda IdPropiedad="AE110T" Valor="Captura el monto de PTU a distribuir correspondiente al ejercicio por el que se lleva a cabo la declaración." />
+      <ayuda IdPropiedad="AE111T" Valor="Captura el monto total de la pérdida fiscal ocurrida en ejercicios anteriores actualizada, pendiente de amortizar." />
+      <ayuda IdPropiedad="AE112T" Valor="En el caso de que hasta en tres ejercicios inmediatos anteriores, el impuesto sobre la renta causado hubiera sido superior al impuesto al activo causado, captura el total de las diferencias obtenidas entre ambos impuestos, determinadas por cada ejercicio. Esta información se generó, en su caso, únicamente hasta el ejercicio 2007." />
+    </entidad>
+    <entidad IdEntidad="1095">
+      <ayuda IdPropiedad="AE113T" Valor="Captura el monto de tus ingresos por la venta de activos fijos y terrenos. Este es un elemento que sirve de base para determinar la exclusividad de tus actividades agrícolas, ganaderas, pesqueras o silvícolas y nos ayuda para calcular, de ser procedente, la reducción del ISR." />
+      <ayuda IdPropiedad="AE114T" Valor="Señale si realiza este tipo de actividades." />
+      <ayuda IdPropiedad="AE115T" Valor="Captura el monto de tus ingresos por las actividades antes señaladas, a efecto de determinar, en tu caso, la reducción del ISR." />
+    </entidad>
+    <entidad IdEntidad="1097">
+      <ayuda IdPropiedad="AE116T" Valor="Selecciona esta opción si te hicieron retenciones de ISR y/o IVA por actividades profesionales." />
+      <ayuda IdPropiedad="AE117T" Valor="Selecciona esta opción si te hicieron retenciones de ISR y/o IVA por actividades profesionales." />
+      <ayuda IdPropiedad="AE118T" Valor="Captura el monto de los ingresos por actividades profesionales que percibiste en el año, por los que te retuvieron cantidades por concepto de ISR y/o de IVA. Si tuviste varios retenedores de ISR o IVA, captura por separado cada uno de ellos para identificarlos conforme a su Registro Federal de Contribuyentes." />
+      <ayuda IdPropiedad="AE119T" Valor="Captura el impuesto sobre la renta que te retuvieron." />
+      <ayuda IdPropiedad="AE120T" Valor="Captura la retención llevada a cabo en los términos de la LIVA." />
+      <ayuda IdPropiedad="AE121T" Valor="Captura el Registro Federal de Contribuyentes a 12 posiciones de la persona moral que efectuó la(s) retención(es)." />
+    </entidad>
+    <entidad IdEntidad="1166">
+      <ayuda IdPropiedad="MASAE116T" Valor="Seleccione esta opción si le hicieron retenciones de ISR y/o IVA por actividades profesionales" />
+      <ayuda IdPropiedad="MASAE117T" Valor="Seleccione esta opción si le hicieron retenciones de ISR y/o IVA por la realización de actividades empresariales" />
+      <ayuda IdPropiedad="MASAE118T" Valor="El monto de los ingresos pagados en Retenciones por actividades empresariales y profesionales no puede ser superior al total de ingresos por dicho concepto." />
+      <ayuda IdPropiedad="MASAE119T" Valor="Captura el impuesto sobre la renta que te retuvieron." />
+      <ayuda IdPropiedad="MASAE120T" Valor="Captura la retención llevada a cabo en los términos de la LIVA." />
+      <ayuda IdPropiedad="MASAE121T" Valor="Captura el Registro Federal de Contribuyentes a 12 posiciones de la persona moral que efectuó la(s) retención(es)." />
+    </entidad>
+  </ayudas>
+</textos>

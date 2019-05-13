@@ -1,0 +1,8 @@
+﻿<navegacion>
+  <agrupador idEntidad="1000" idFormulario="6" id="1071" titulo="Enajenaciones" idTipoAgrupador="1" icono="Enajenaciones" idSubRegimen="7" Orden="7">
+    <seccion idControlFormulario="1035001" tituloSeccion="Bienes inmuebles" tipoSeccion="Determinación del Pago" Orden="2" />
+    <seccion idControlFormulario="1115001" tituloSeccion="Bienes muebles" tipoSeccion="Determinación del Pago" Orden="3" />
+    <seccion idControlFormulario="1034001" tituloSeccion="Datos adicionales de enajenación" tipoSeccion="Determinación del Pago" Orden="4" />
+    <seccion idControlFormulario="1116001" tituloSeccion="Enajenación de bienes" tipoSeccion="Determinación del Pago" Orden="5" ocultar="1" />
+  </agrupador>
+</navegacion>

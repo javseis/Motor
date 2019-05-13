@@ -1,0 +1,666 @@
+﻿<diagramacion>
+  <formulario idEntidad="1000" id="6" nombre="Personas Físicas" versionMayor="1" versionMenor="0">
+    <controles>
+      <control id="1005001" tipoControl="Grupo" idEntidadPropiedad="1005" orden="1">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Sueldos y salarios" />
+          <atributo nombre="TituloLargo" valor="Sueldos y salarios" />
+        </atributos>
+        <controles>
+          <control id="1005002" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+            <controles>
+              <control id="1005003" tipoControl="FormularioGridEdicion" idEntidadPropiedad="1005" orden="4">
+                <controles>
+                  <control id="1005080" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                    <controles>
+                      <control id="1005081" tipoControl="Grupo" idEntidadPropiedad="1005" orden="3">
+                        <controles>
+                          <control id="1005082" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                            <controles>
+                              <control id="1005077" tipoControl="Grupo" idEntidadPropiedad="1005" orden="1">
+                                <controles>
+                                  <control id="1005056" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005074" tipoControl="Etiqueta" idEntidadPropiedad="1005" idPropiedad="ETQ0" orden="1">
+                                        <atributos>
+                                          <atributo nombre="SinTitulo" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005060" tipoControl="CuadroVerificacion" idEntidadPropiedad="1005" idPropiedad="SS0" orden="10">
+                                        <atributos>
+                                          <atributo nombre="OrdenTabulador" valor="16" />
+                                          <atributo nombre="Panel" valor="1" />
+                                          <atributo nombre="ValidaLongitud" valor="1" />
+                                          <atributo nombre="NoValidarCampoVacio" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005084" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="AUX111819" orden="303" />
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Opciones de salarios - Columna 1" />
+                                      <atributo nombre="TituloLargo" valor="Opciones de salarios - Columna 1" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1005057" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005100" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SS5A" />
+                                      <control id="1014010" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SSMRTI">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="SSMRTI" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005069" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SS5" orden="1">
+                                        <atributos>
+                                          <atributo nombre="EnMayusculas" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="10" />
+                                          <atributo nombre="SinTitulo" />
+                                          <atributo nombre="ValidaLongitud" valor="13" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005061" tipoControl="CuadroVerificacion" idEntidadPropiedad="1005" idPropiedad="SS0A" orden="11">
+                                        <atributos>
+                                          <atributo nombre="OrdenTabulador" valor="17" />
+                                          <atributo nombre="Panel" valor="2" />
+                                          <atributo nombre="ValidaLongitud" valor="1" />
+                                          <atributo nombre="NoValidarCampoVacio" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Opciones de salarios - Columna 2" />
+                                      <atributo nombre="TituloLargo" valor="Opciones de salarios - Columna 2" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1005058" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005075" tipoControl="ControlVacio" idEntidadPropiedad="1005" orden="1">
+                                        <atributos>
+                                          <atributo nombre="SinTitulo" />
+                                          <atributo nombre="TituloCorto" valor="Campo vacio" />
+                                          <atributo nombre="TituloLargo" valor="Campo vacio" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005062" tipoControl="CuadroVerificacion" idEntidadPropiedad="1005" idPropiedad="SS0B" orden="12">
+                                        <atributos>
+                                          <atributo nombre="OrdenTabulador" valor="18" />
+                                          <atributo nombre="Panel" valor="3" />
+                                          <atributo nombre="ValidaLongitud" valor="1" />
+                                          <atributo nombre="NoValidarCampoVacio" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Opciones de salarios - Columna 3" />
+                                      <atributo nombre="TituloLargo" valor="Opciones de salarios - Columna 3" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1005059" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005076" tipoControl="ControlVacio" idEntidadPropiedad="1005" orden="1">
+                                        <atributos>
+                                          <atributo nombre="SinTitulo" />
+                                          <atributo nombre="TituloCorto" valor="Campo vacio" />
+                                          <atributo nombre="TituloLargo" valor="Campo vacio" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1014009" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SSMR" orden="3">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="SSMR" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005070" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SSEXE" orden="4" />
+                                      <control id="1014011" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SSRISR" orden="5">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="SSRISR" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005063" tipoControl="CuadroVerificacion" idEntidadPropiedad="1005" idPropiedad="SS0C" orden="13">
+                                        <atributos>
+                                          <atributo nombre="OrdenTabulador" valor="19" />
+                                          <atributo nombre="Panel" valor="4" />
+                                          <atributo nombre="ValidaLongitud" valor="1" />
+                                          <atributo nombre="NoValidarCampoVacio" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Opciones de salarios - Columna 4" />
+                                      <atributo nombre="TituloLargo" valor="Opciones de salarios - Columna 4" />
+                                    </atributos>
+                                  </control>
+                                </controles>
+                              </control>
+                              <control id="1005004" tipoControl="Grupo" idEntidadPropiedad="1005" orden="100">
+                                <controles>
+                                  <control id="1005005" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005009" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SS1" orden="1">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="20" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Salarios - Columna 1" />
+                                      <atributo nombre="TituloLargo" valor="Salarios - Columna 1" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1005006" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005010" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SS2" orden="2">
+                                        <atributos>
+                                          <atributo nombre="AyudaEnDialogo" valor="Evita duplicar tus exenciones por concepto de Aguinaldo, Prima Vacacional y PTU." />
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="21" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Salarios - Columna 2" />
+                                      <atributo nombre="TituloLargo" valor="Salarios - Columna 2" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1005007" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005011" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SS3" orden="3">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="22" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Salarios - Columna 3" />
+                                      <atributo nombre="TituloLargo" valor="Salarios - Columna 3" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1005008" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005012" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SS4" orden="4">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="23" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Salarios - Columna 4" />
+                                      <atributo nombre="TituloLargo" valor="Salarios - Columna 4" />
+                                    </atributos>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="Panel" valor="1" />
+                                  <atributo nombre="TituloCorto" valor="Salarios" />
+                                  <atributo nombre="TituloLargo" valor="Salarios" />
+                                </atributos>
+                              </control>
+                              <control id="1005013" tipoControl="Grupo" idEntidadPropiedad="1005" orden="200">
+                                <controles>
+                                  <control id="1005014" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005018" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SI1" orden="30">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="25" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Indemnización - Columna 1" />
+                                      <atributo nombre="TituloLargo" valor="Indemnización - Columna 1" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1005015" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005019" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SI2" orden="31">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="26" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Indemnización - Columna 2" />
+                                      <atributo nombre="TituloLargo" valor="Indemnización - Columna 2" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1005016" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1014012" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="AUXSI3" />
+                                      <control id="1014013" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="AUXSI3N" />
+                                      <control id="1005020" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SI3" orden="32">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="27" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Indemnización - Columna 3" />
+                                      <atributo nombre="TituloLargo" valor="Indemnización - Columna 3" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1005017" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005021" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SI4" orden="33">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="28" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Indemnización - Columna 4" />
+                                      <atributo nombre="TituloLargo" valor="Indemnización - Columna 4" />
+                                    </atributos>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="Panel" valor="2" />
+                                  <atributo nombre="TituloCorto" valor="Indemnización" />
+                                  <atributo nombre="TituloLargo" valor="Indemnización" />
+                                </atributos>
+                              </control>
+                              <control id="1005078" tipoControl="Grupo" idEntidadPropiedad="1005" orden="400">
+                                <controles>
+                                  <control id="1005079" tipoControl="Columna" idEntidadPropiedad="1005" orden="51">
+                                    <controles>
+                                      <control id="1005022" tipoControl="Grupo" idEntidadPropiedad="1005" orden="300">
+                                        <controles>
+                                          <control id="1005023" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                            <controles>
+                                              <control id="1005027" tipoControl="CuadroVerificacion" idEntidadPropiedad="1005" idPropiedad="SJ1" orden="35">
+                                                <atributos>
+                                                  <atributo nombre="OrdenTabulador" valor="29" />
+                                                  <atributo nombre="ValidaLongitud" valor="10" />
+                                                  <atributo nombre="NoValidarCampoVacio" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                            <atributos>
+                                              <atributo nombre="TituloCorto" valor="Tipo de jubilación - Columna 1" />
+                                              <atributo nombre="TituloLargo" valor="Tipo de jubilación - Columna 1" />
+                                            </atributos>
+                                          </control>
+                                          <control id="1005024" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                            <controles>
+                                              <control id="1005083" tipoControl="CuadroVerificacion" idEntidadPropiedad="1005" idPropiedad="SJ1A" orden="36">
+                                                <atributos>
+                                                  <atributo nombre="OrdenTabulador" valor="30" />
+                                                  <atributo nombre="ValidaLongitud" valor="10" />
+                                                  <atributo nombre="NoValidarCampoVacio" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                          </control>
+                                          <control id="1005025" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                            <atributos>
+                                              <atributo nombre="TituloCorto" valor="Tipo de jubilación - Columna 3" />
+                                              <atributo nombre="TituloLargo" valor="Tipo de jubilación - Columna 3" />
+                                            </atributos>
+                                          </control>
+                                          <control id="1005026" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                            <atributos>
+                                              <atributo nombre="TituloCorto" valor="Tipo de jubilación - Columna 4" />
+                                              <atributo nombre="TituloLargo" valor="Tipo de jubilación - Columna 4" />
+                                            </atributos>
+                                          </control>
+                                        </controles>
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="Tipo de jubilación" />
+                                          <atributo nombre="TituloLargo" valor="Tipo de jubilación" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005029" tipoControl="Grupo" idEntidadPropiedad="1005" orden="500">
+                                        <controles>
+                                          <control id="1005030" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                            <controles>
+                                              <control id="1005034" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SJ2" orden="37">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="31" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                            <atributos>
+                                              <atributo nombre="TituloCorto" valor="Jubilación en parcialidades - Columna 1" />
+                                              <atributo nombre="TituloLargo" valor="Jubilación en parcialidades - Columna 1" />
+                                            </atributos>
+                                          </control>
+                                          <control id="1005031" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                            <controles>
+                                              <control id="1005035" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SJ3" orden="38">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="32" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                            <atributos>
+                                              <atributo nombre="TituloCorto" valor="Jubilación en parcialidades - Columna 2" />
+                                              <atributo nombre="TituloLargo" valor="Jubilación en parcialidades - Columna 2" />
+                                            </atributos>
+                                          </control>
+                                          <control id="1005032" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                            <controles>
+                                              <control id="1005036" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SJ4" orden="39">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="33" />
+                                                  <atributo nombre="SoloNumerosPositivos" valor="1" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                            <atributos>
+                                              <atributo nombre="TituloCorto" valor="Jubilación en parcialidades - Columna 3" />
+                                              <atributo nombre="TituloLargo" valor="Jubilación en parcialidades - Columna 3" />
+                                            </atributos>
+                                          </control>
+                                          <control id="1005033" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                            <controles>
+                                              <control id="1005037" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SJ5" orden="40">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="34" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                            <atributos>
+                                              <atributo nombre="TituloCorto" valor="Jubilación en parcialidades - Columna 4" />
+                                              <atributo nombre="TituloLargo" valor="Jubilación en parcialidades - Columna 4" />
+                                            </atributos>
+                                          </control>
+                                        </controles>
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="Jubilación en parcialidades" />
+                                          <atributo nombre="TituloLargo" valor="Jubilación en parcialidades" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005038" tipoControl="Grupo" idEntidadPropiedad="1005" orden="600">
+                                        <controles>
+                                          <control id="1005039" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                            <controles>
+                                              <control id="1005043" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SJ6" orden="41">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="35" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                            <atributos>
+                                              <atributo nombre="TituloCorto" valor="Jubilación en una sola exhibición - Columna 1" />
+                                              <atributo nombre="TituloLargo" valor="Jubilación en una sola exhibición - Columna 1" />
+                                            </atributos>
+                                          </control>
+                                          <control id="1005040" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                            <controles>
+                                              <control id="1005044" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SJ7" orden="42">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="36" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                            <atributos>
+                                              <atributo nombre="TituloCorto" valor="Jubilación en una sola exhibición - Columna 2" />
+                                              <atributo nombre="TituloLargo" valor="Jubilación en una sola exhibición - Columna 2" />
+                                            </atributos>
+                                          </control>
+                                          <control id="1005041" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                            <controles>
+                                              <control id="1014014" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="AUXSJ8" />
+                                              <control id="1014015" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="AUXSJ8N" />
+                                              <control id="1005045" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SJ8" orden="43">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="37" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                            <atributos>
+                                              <atributo nombre="TituloCorto" valor="Jubilación en una sola exhibición - Columna 3" />
+                                              <atributo nombre="TituloLargo" valor="Jubilación en una sola exhibición - Columna 3" />
+                                            </atributos>
+                                          </control>
+                                          <control id="1005042" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                            <controles>
+                                              <control id="1005046" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SJ9" orden="44">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="38" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                            <atributos>
+                                              <atributo nombre="TituloCorto" valor="Jubilación en una sola exhibición - Columna 4" />
+                                              <atributo nombre="TituloLargo" valor="Jubilación en una sola exhibición - Columna 4" />
+                                            </atributos>
+                                          </control>
+                                        </controles>
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="Jubilación en una sola exhibición" />
+                                          <atributo nombre="TituloLargo" valor="Jubilación en una sola exhibición" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="Panel" valor="3" />
+                                  <atributo nombre="TituloCorto" valor="Jubilación" />
+                                </atributos>
+                              </control>
+                              <control id="1005047" tipoControl="Grupo" idEntidadPropiedad="1005" orden="700">
+                                <controles>
+                                  <control id="1005048" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005052" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SA1" orden="45">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="39" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Asimilados a salarios - Columna 1" />
+                                      <atributo nombre="TituloLargo" valor="Asimilados a salarios - Columna 1" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1005049" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <controles>
+                                      <control id="1005053" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="SA2" orden="46">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="40" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Asimilados a salarios - Columna 2" />
+                                      <atributo nombre="TituloLargo" valor="Asimilados a salarios - Columna 2" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1005050" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Asimilados a salarios - Columna 3" />
+                                      <atributo nombre="TituloLargo" valor="Asimilados a salarios - Columna 3" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1005051" tipoControl="Columna" idEntidadPropiedad="1005" orden="2">
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Asimilados a salarios - Columna 4" />
+                                      <atributo nombre="TituloLargo" valor="Asimilados a salarios - Columna 4" />
+                                    </atributos>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="Panel" valor="4" />
+                                  <atributo nombre="TituloCorto" valor="Asimilados a salarios" />
+                                  <atributo nombre="TituloLargo" valor="Asimilados a salarios" />
+                                </atributos>
+                              </control>
+                            </controles>
+                          </control>
+                        </controles>
+                      </control>
+                    </controles>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Sueldos y Salarios - Grid" />
+                  <atributo nombre="TituloLargo" valor="Sueldos y Salarios - Grid" />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Sueldos y Salarios - Columna Principal" />
+              <atributo nombre="TituloLargo" valor="Sueldos y Salarios - Columna Principal" />
+            </atributos>
+          </control>
+        </controles>
+      </control>
+      <control id="1056001" tipoControl="Grupo" idEntidadPropiedad="1056" orden="2">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Subsidio para el empleo" />
+          <atributo nombre="TituloLargo" valor="Subsidio para el empleo" />
+        </atributos>
+        <controles>
+          <control id="1056002" tipoControl="Columna" idEntidadPropiedad="1056" orden="2">
+            <controles>
+              <control id="1056004" tipoControl="CuadroTexto" idEntidadPropiedad="1056" idPropiedad="SE1" orden="5">
+                <atributos>
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="4" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Asimilados a salarios - Columna 1" />
+              <atributo nombre="TituloLargo" valor="Asimilados a salarios - Columna 1" />
+            </atributos>
+          </control>
+          <control id="1056003" tipoControl="Columna" idEntidadPropiedad="1056" orden="2">
+            <controles>
+              <control id="1056005" tipoControl="CuadroTexto" idEntidadPropiedad="1056" idPropiedad="SE2" orden="6">
+                <atributos>
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="5" />
+                  <atributo nombre="SoloNumerosPositivos" valor="1" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Asimilados a salarios - Columna 2" />
+              <atributo nombre="TituloLargo" valor="Asimilados a salarios - Columna 2" />
+            </atributos>
+          </control>
+        </controles>
+      </control>
+      <control id="1014001" tipoControl="Grupo" idEntidadPropiedad="1014" orden="2">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Sueldos y salarios" />
+          <atributo nombre="TituloLargo" valor="Ingresos por salarios y en general por la prestación de un servicio personal subordinado" />
+        </atributos>
+        <controles>
+          <control id="1014002" tipoControl="Columna" idEntidadPropiedad="1014" orden="2">
+            <controles>
+              <control id="1014004" tipoControl="CuadroTexto" idEntidadPropiedad="1014" idPropiedad="111201" orden="5">
+                <atributos>
+                  <atributo nombre="OrdenTabulador" valor="4" />
+                  <atributo nombre="SoloNumerosPositivos" valor="1" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1014005" tipoControl="CuadroTexto" idEntidadPropiedad="1014" idPropiedad="111202" orden="6">
+                <atributos>
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="5" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="TituloCorto" valor="Ingresos exentos" />
+                  <atributo nombre="TituloLargo" valor="Ingresos exentos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Campos de la declaración - Columna 1" />
+              <atributo nombre="TituloLargo" valor="Campos de la declaración - Columna 1" />
+            </atributos>
+          </control>
+          <control id="1014003" tipoControl="Columna" idEntidadPropiedad="1014" orden="2">
+            <controles>
+              <control id="1014006" tipoControl="CuadroTexto" idEntidadPropiedad="1014" idPropiedad="111207" orden="7">
+                <atributos>
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="6" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="TituloCorto" valor="Ingresos acumulables" />
+                  <atributo nombre="TituloLargo" valor="Ingresos acumulables" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1014007" tipoControl="CuadroTexto" idEntidadPropiedad="1014" idPropiedad="111206" orden="8">
+                <atributos>
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="7" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="TituloCorto" valor="Ingresos no acumulables" />
+                  <atributo nombre="TituloLargo" valor="Ingresos no acumulables" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Campos de la declaración - Columna 2" />
+              <atributo nombre="TituloLargo" valor="Campos de la declaración - Columna 2" />
+            </atributos>
+          </control>
+        </controles>
+      </control>
+    </controles>
+  </formulario>
+</diagramacion>

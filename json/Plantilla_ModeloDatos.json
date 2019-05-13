@@ -1,0 +1,4518 @@
+[
+    {
+        "id": "2520001",
+        "nombre": "DETERMINACIÓN DE IMPUESTO",
+        "atributos": {
+            "atributo": [
+                {
+                    "nombre": "tipo",
+                    "valor": "SAT_ANEXOS "
+                },
+                {
+                    "nombre": "multiplicidad",
+                    "valor": "1"
+                },
+                {
+                    "nombre": "ClaveImpuesto",
+                    "valor": "0119"
+                }
+            ]
+        },
+        "propiedades": {
+            "propiedad": [
+                {
+                    "id": "DEG01",
+                    "nombre": "Ingresos Acumulables",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG01",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ingresos Acumulables"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Ingresos Acumulables"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG02",
+                    "nombre": "Perdidas excepto de los Capitulos I y II",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG02",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Perdidas excepto de los Capitulos I y II"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Pérdidas que podrá disminuise de los demás ingresos obtenidos excepto de los Capitulos I y II"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG03",
+                    "nombre": "Diferencia excepto de los Capitulos I y II",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG03",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Diferencia excepto de los Capitulos I y II"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Diferencia que podrá disminuirse de los demás Ingresos obtenidos excepto de los Capitulos I y II"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG04",
+                    "nombre": "Deducciones personales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG04",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Deducciones personales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Deducciones personales"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG05",
+                    "nombre": "Base gravable",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG05",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Base gravable"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Base gravable"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG06",
+                    "nombre": "ISR conforme a la tarifa anual",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG06",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR conforme a la tarifa anual"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR conforme a la tarifa anual"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG07",
+                    "nombre": "Subsidio al Empleo",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG07",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Subsidio al Empleo"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Subsidio al Empleo"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG08",
+                    "nombre": "ISR de Sueldos y salarios por ingresos no acumulables",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG08",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR de Sueldos y salarios por ingresos no acumulables"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR de Sueldos y salarios por ingresos no acumulables"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG09",
+                    "nombre": "ISR de Enajenación de bienes por la ganancia no acumulable ",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG09",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR de Enajenación de bienes por la ganancia no acumulable "
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR de Enajenación de bienes por la ganancia no acumulable "
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG10",
+                    "nombre": "ISR de Intereses  sobre retiros parciales o totales de seguros antes de su vencimiento",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG10",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR de Intereses  sobre retiros parciales o totales de seguros antes de su vencimiento"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR de Intereses  sobre retiros parciales o totales de seguros antes de su vencimiento"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG11",
+                    "nombre": "ISR de Demás ingresos por planes personales de retiro",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG11",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR de Demás ingresos por planes personales de retiro"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR de Demás ingresos por planes personales de retiro"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG12",
+                    "nombre": "Pagos provicionales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG12",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Pagos provicionales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Pagos provicionales"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG13",
+                    "nombre": "ISR retiro",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG13",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR retiro"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR retiro"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG14",
+                    "nombre": "ISR pagado en el extranjero",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG14",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR pagado en el extranjero"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR pagado en el extranjero"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG15",
+                    "nombre": "ISR acreditable de ingresos por dividenedos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG15",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR acreditable de ingresos por dividenedos"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR acreditable de ingresos por dividenedos"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG16",
+                    "nombre": "Acreditamiento de Demá ingresos por inmuebles destinados al hospedaje",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG16",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Acreditamiento de Demá ingresos por inmuebles destinados al hospedaje"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Acreditamiento de Demá ingresos por inmuebles destinados al hospedaje"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG17",
+                    "nombre": "Acreditamiento de pérdidas por  enajenación de bienes",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG17",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Acreditamiento de pérdidas por  enajenación de bienes"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Acreditamiento de pérdidas por  enajenación de bienes"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG18",
+                    "nombre": "ISR a cargo",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG18",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR a cargo"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR a cargo"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG19",
+                    "nombre": "ISR a favor",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG19",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR a favor"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR a favor"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG19D1",
+                    "nombre": "Numero de cuenta CLABE",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG19D1",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Numero de cuenta CLABE"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Numero de cuenta CLABE"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG19D2",
+                    "nombre": "Numero de cuenta CLABE",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DEG19D2",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Numero de cuenta CLABE"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Numero de cuenta CLABE"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG19D2A",
+                    "nombre": "Nombre del banco",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "DEG19D2A",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Nombre del banco"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Nombre del banco"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DEG19D3",
+                    "nombre": "Titular de la Cuenta",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "DEG19D3",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Titular de la Cuenta"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Declaro bajo protesta de decir la verdad, que soy titular de la cuenta CLABE"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ACE17",
+                    "nombre": "Utilidad gravable",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ACE17",
+                    "atributos": {
+                        "atributo": []
+                    }
+                },
+                {
+                    "id": "SP19",
+                    "nombre": "Utilidad gravable",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "SP19",
+                    "atributos": {
+                        "atributo": []
+                    }
+                },
+                {
+                    "id": "ARR11",
+                    "nombre": "Utilidad gravable",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARR11",
+                    "atributos": {
+                        "atributo": []
+                    }
+                },
+                {
+                    "id": "EB13",
+                    "nombre": "Ingresos acumulables",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "EB13",
+                    "atributos": {
+                        "atributo": []
+                    }
+                },
+                {
+                    "id": "AB11",
+                    "nombre": "Ingresos acumulables.",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "AB11",
+                    "atributos": {
+                        "atributo": []
+                    }
+                },
+                {
+                    "id": "IN16",
+                    "nombre": "Ingresos acumulables",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "IN16",
+                    "atributos": {
+                        "atributo": []
+                    }
+                },
+                {
+                    "id": "PRE05",
+                    "nombre": "Ingresos acumulables",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "PRE05",
+                    "atributos": {
+                        "atributo": []
+                    }
+                },
+                {
+                    "id": "DIV05",
+                    "nombre": "Ingresos acumulables",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DIV05",
+                    "atributos": {
+                        "atributo": []
+                    }
+                },
+                {
+                    "id": "DI08",
+                    "nombre": "Ingresos acumulables",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DI08",
+                    "atributos": {
+                        "atributo": []
+                    }
+                },
+                {
+                    "id": "111810A",
+                    "nombre": "Ingresos Acumulables Anteriores",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "111810A",
+                    "atributos": {
+                        "atributo": []
+                    }
+                },
+                {
+                    "id": "INGANUAL",
+                    "nombre": "INGRESO ANUAL",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "INGANUAL",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "INGRESO ANUAL"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "INGRESO ANUAL"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TOTALINGEXT",
+                    "nombre": "TOTALINGEXT",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TOTALINGEXT",
+                    "atributos": {
+                        "atributo": []
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": "2520002",
+        "nombre": "ARRENDAMIENTO",
+        "atributos": {
+            "atributo": [
+                {
+                    "nombre": "tipo",
+                    "valor": "SAT_ANEXOS"
+                },
+                {
+                    "nombre": "multiplicidad",
+                    "valor": "1"
+                },
+                {
+                    "nombre": "llave",
+                    "valor": "SAT_ARR"
+                },
+                {
+                    "nombre": "Orden",
+                    "valor": "1061"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "1|Ingresos"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "2|Deducciones autorizadas"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "3|Estímulos fiscales"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "5|Pagos provisionales"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "6|Retenciones de ISR"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "7|ISR pagado en el extranjero"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "4|Resultado"
+                },
+                {
+                    "nombre": "ClaveImpuesto",
+                    "valor": "0119"
+                }
+            ]
+        },
+        "propiedades": {
+            "propiedad": [
+                {
+                    "id": "ARR01",
+                    "nombre": "Ingresos gravados",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "140A",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ingresos cobrados"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Ingresos cobrados"
+                            },
+                            {
+                                "nombre": "EdicionPrecarga",
+                                "valor": "79"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "AyudaEnLinea",
+                                "valor": "El monto de tus ingresos cobrados corresponde a los manifestados en tus pagos provisionales, si obtuviste ingresos por FIBRAS que no hayas declarado en tus pagos provisionales registralos en el apartado de “Ingresos por FIBRAS”."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "SARR01",
+                    "nombre": "Ingresos gravados",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11081201",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ingresos cobrados"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Ingresos cobrados"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "5"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR02",
+                    "nombre": "Tipo de deducción",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "140Bis",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Tipo de deducción"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Tipo de deducción"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "40"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR03",
+                    "nombre": "Deducciones autorizadas",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11081301",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Deducciones autorizadas"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Deducciones autorizadas"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "EntidadDetalle",
+                                "valor": "SAT_ARR_MON_PEN"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR04",
+                    "nombre": "Impuesto predial",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "143A",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Impuesto predial"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Impuesto predial"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR05",
+                    "nombre": "Total de deducciones autorizadas",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11081302",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total de deducciones autorizadas"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total de deducciones autorizadas"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "SARR02",
+                    "nombre": "Rentas pagadas",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11081401",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Rentas pagadas"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Rentas pagadas"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR06E1",
+                    "nombre": "Del fomento al primer empleo",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11081501",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Estímulo por contratación de adultos mayores y/o con discapacidad"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Estímulo por contratación de adultos mayores y/o con discapacidad"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "3"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR06E2",
+                    "nombre": "Ayuda alimentaria para los trabajadores",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11081502",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ayuda alimentaria para los trabajadores"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Ayuda alimentaria para los trabajadores"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR06E3",
+                    "nombre": "Empleo de personas con discapacidad y/o adultos mayores",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11081503",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Deducción del Impuesto sobre la renta retenido a personas con discapacidad motriz"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Deducción del Impuesto sobre la renta retenido a personas con discapacidad motriz"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "3"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR06",
+                    "nombre": "Total de estímulos fiscales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11081504",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total de estímulos fiscales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total de estímulos fiscales"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "3"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR07",
+                    "nombre": "Pagos provisionales efectuados en el ejercicio",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "308A",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Pagos provisionales efectuados en el ejercicio"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Pagos provisionales efectuados en el ejercicio"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "5"
+                            },
+                            {
+                                "nombre": "EdicionPrecarga",
+                                "valor": "79"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "SARR05",
+                    "nombre": "Pagos provisionales efectuados en el ejercicio",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "308AS",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Pagos provisionales efectuados en el ejercicio"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Pagos provisionales efectuados en el ejercicio"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "5"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR08",
+                    "nombre": "ISR retenido por personas morales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "150A",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR retenido por personas morales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR retenido por personas morales"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "6"
+                            },
+                            {
+                                "nombre": "EdicionPrecarga",
+                                "valor": "79"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "SARR06",
+                    "nombre": "ISR retenido por personas morales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "150AS",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR retenido por personas morales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR retenido por personas morales"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "6"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR09",
+                    "nombre": "Pagos efectuados en el extranjero por arrendamiento",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11081601",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Impuestos pagados en el extranjero"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Impuestos pagados en el extranjero"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "7"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "SARR07",
+                    "nombre": "Pagos efectuados en el extranjero por arrendamiento",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11081601S",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Pagos efectuados en el extranjero por subarrendamiento"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Pagos efectuados en el extranjero por subarrendamiento"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "7"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR20",
+                    "nombre": "Monto por detallar",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11081303",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto por detallar"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto por detallar"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR00A",
+                    "nombre": "¿Tus ingresos fueron por subarrendamiento?",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARR00A",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Selecciona el tipo de ingreso"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Selecciona el tipo de ingreso"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "186"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR00B",
+                    "nombre": "¿Tienes estímulos fiscales que no hayas acreditado en pagos provisionales?",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARR00B",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "¿Tienes estímulos fiscales que no hayas acreditado en pagos provisionales?"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "¿Tienes estímulos fiscales que no hayas acreditado en pagos provisionales?"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "3"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR00C",
+                    "nombre": "¿Pagaste ISR en el extranjero por ingresos de arrendamiento?",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARR00C",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "¿Pagaste impuestos en el extranjero por arrendamiento y o subarrendamiento?"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "¿Pagaste impuestos en el extranjero por arrendamiento y o subarrendamiento?"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "6"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR00MODAL",
+                    "nombre": "ISR retenido por personas morales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARR00MODAL",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR retenido por personas morales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR retenido por personas morales"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "6"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR22",
+                    "nombre": "Ingresos acumulables",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11082014",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ingresos acumulables"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Ingresos acumulables"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR21",
+                    "nombre": "Deducciones superiores a los ingresos (Pérdida)",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11082013",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Deducciones superiores a los ingresos (Pérdida)"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Deducciones superiores a los ingresos (Pérdida)"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "SUMRARRMPG02",
+                    "nombre": "SUMRARRMPG02",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "SUMRARRMPG02",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "SUMRARRMPG02"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "SUMRARRMPG02"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "SUMRARRMPG02MONTOTOTAL",
+                    "nombre": "SUMRARRMPG02MONTOTOTAL",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "SUMRARRMPG02MONTOTOTAL",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "SUMRARRMPG02MONTOTOTAL"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "SUMRARRMPG02MONTOTOTAL"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARRTIENEPRECARGA",
+                    "nombre": "ARRTIENEPRECARGA",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARRTIENEPRECARGA",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ARRTIENEPRECARGA"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ARRTIENEPRECARGA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR00MODALMONTOTOTAL",
+                    "nombre": "SUMA DEL CAMPO ARR083",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARR00MODALMONTOTOTAL",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "SUMA DEL CAMPO ARR083"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "SUMA DEL CAMPO ARR083"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR08PRECARGA",
+                    "nombre": "ARR08PRECARGA",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARR08PRECARGA",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ARR08PRECARGA"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ARR08PRECARGA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR01PRECARGA",
+                    "nombre": "ARR01PRECARGA",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARR01PRECARGA",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ARR01PRECARGA"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ARR01PRECARGA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR07PRECARGA",
+                    "nombre": "ARR07PRECARGA",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARR07PRECARGA",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ARR07PRECARGA"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ARR07PRECARGA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "NUMREGISTROSARR083",
+                    "nombre": "NUMREGISTROSARR083",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "NUMREGISTROSARR083",
+                    "atributos": {
+                        "atributo": []
+                    }
+                },
+                {
+                    "id": "ARRE1",
+                    "nombre": "Ingresos exentos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARRE1",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ingresos exentos"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Ingresos exentos"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARRE2",
+                    "nombre": "Ingresos gravados",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARRE2",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ingresos gravados"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Ingresos gravados"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARRPE01",
+                    "nombre": "Ingreso percibido",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARRPE01",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ingreso percibido"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Ingreso percibido"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "7"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARRPE02",
+                    "nombre": "Ingreso acumulable",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARRPE02",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ingreso acumulable"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Ingreso acumulable"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "7"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "AUXARR21",
+                    "nombre": "AUXARR21",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "AUXARR21",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "AUX ARR21"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "AUX_ARR21"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARR00A1",
+                    "nombre": " ¿Tuviste ingresos por FIBRAS que no hayas informado en pagos provisionales?",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARR00A1",
+                    "enteros": "1",
+                    "decimales": "0",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": " ¿Tuviste ingresos por FIBRAS que no hayas informado en pagos provisionales?"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": " ¿Tuviste ingresos por FIBRAS que no hayas informado en pagos provisionales?"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "6"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ARRE3",
+                    "nombre": "Ingresos por FIBRAS",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ARRE3",
+                    "enteros": "12",
+                    "decimales": "0",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ingresos por FIBRAS"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Ingresos por FIBRAS"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "7"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "subregimen": "606"
+    },
+    {
+        "id": "2520003",
+        "nombre": "DEDUCCIONES PERSONALES",
+        "atributos": {
+            "atributo": [
+                {
+                    "nombre": "llave",
+                    "valor": "SAT_DED_PER"
+                },
+                {
+                    "nombre": "multiplicidad",
+                    "valor": "*"
+                },
+                {
+                    "nombre": "tipo",
+                    "valor": "SAT_ANEXOS"
+                },
+                {
+                    "nombre": "tipoSeccion",
+                    "valor": "Anexo"
+                },
+                {
+                    "nombre": "TituloCorto",
+                    "valor": "Deducciones personales"
+                },
+                {
+                    "nombre": "TituloLargo",
+                    "valor": "Deducciones personales"
+                },
+                {
+                    "nombre": "OrdenarXProp",
+                    "valor": "11060410"
+                },
+                {
+                    "nombre": "Orden",
+                    "valor": "2011"
+                },
+                {
+                    "nombre": "ClaveImpuesto",
+                    "valor": "0119"
+                }
+            ]
+        },
+        "propiedades": {
+            "propiedad": [
+                {
+                    "id": "UUID",
+                    "nombre": "UUID",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "UUID",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "UUID"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "UUID"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "UUID"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "Uuid"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "Ejercicio",
+                    "nombre": "Ejercicio",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "Ejercicio",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "Ejercicio"
+                            }
+                        ]
+                    },
+                    "enteros": "4",
+                    "decimales": "0",
+                    "longitud": ""
+                },
+                {
+                    "id": "RFCEmisor",
+                    "nombre": "RFCEmisor",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "RFCEmisor",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "RFCEmisor"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "RFC del Emisor"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "RFC del Emisor"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "Ancho",
+                                "valor": "1.82in"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "RfcEmisor"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "NombreEmisor",
+                    "nombre": "NombreEmisor",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "NombreEmisor",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "NombreEmisor"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "NombreEmisor"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "NombreEmisor"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "NombreEmisor"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "RFCReceptor",
+                    "nombre": "RFCReceptor",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "RFCReceptor",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "RFCReceptor"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "RFCReceptor"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "RFCReceptor"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "RfcReceptor"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "FechaEmision",
+                    "nombre": "FechaEmision",
+                    "tipoDatos": "Fecha",
+                    "claveInformativa": "FechaEmision",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "FechaEmision"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "FechaEmision"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "FechaEmision"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "FechaEmision"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TipoComprobante",
+                    "nombre": "TipoComprobante",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "TipoComprobante",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "TipoComprobante"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TipoComprobante"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TipoComprobante"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "TipoComprobante"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MetododePagoID",
+                    "nombre": "MetododePagoID",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "MetododePagoID",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "MetododePagoId"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "FormadePago",
+                    "nombre": "FormadePago",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "FormadePago",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "FormadePago"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "FormadePago"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "FormadePago"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "FormadePago"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "117"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "5"
+                            }
+                        ]
+                    },
+                    "enteros": "2",
+                    "decimales": "0",
+                    "longitud": ""
+                },
+                {
+                    "id": "Concepto",
+                    "nombre": "Concepto",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "Concepto",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "Concepto"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Descripción o concepto"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Descripción o concepto"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "Descripcion"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "Total",
+                    "nombre": "Total",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "Total",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "Total"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Importe total"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Importe total"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "Importe"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TipoDeduccion",
+                    "nombre": "TipoDeduccion",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "11060410",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "TipoDeduccion"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Tipo de deducción"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Tipo de deducción"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Ancho",
+                                "valor": "0.73in"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "47"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "EdicionPrecarga",
+                                "valor": "77"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "Clasificacion"
+                            },
+                            {
+                                "nombre": "ValorInicial",
+                                "valor": "L"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "NombreAlumno",
+                    "nombre": "NombreAlumno",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "NombreAlumno",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "NombreAlumno"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "NombreAlumno"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "NombreAlumno"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "NombreBeneficiario"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "NumBeneficiarios",
+                    "nombre": "NumBeneficiarios",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "NumBeneficiarios",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "NumBeneficiarios"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "NumBeneficiarios"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "NumBeneficiarios"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "NumBeneficiarios"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "CURP",
+                    "nombre": "CURP",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "CURP",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "CURP"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "CURP del beneficiario"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "CURP del beneficiario"
+                            },
+                            {
+                                "nombre": "Ancho",
+                                "valor": "1.82in"
+                            },
+                            {
+                                "nombre": "EdicionPrecarga",
+                                "valor": "77"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "CurpBeneficiario"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "Nivel",
+                    "nombre": "Nivel",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "Nivel",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "llave",
+                                "valor": "Nivel"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Nivel educativo"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Nivel educativo"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "45"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "5"
+                            },
+                            {
+                                "nombre": "Ancho",
+                                "valor": "1.47in"
+                            },
+                            {
+                                "nombre": "EdicionPrecarga",
+                                "valor": "77"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "NivelEducativo"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoDeducible",
+                    "nombre": "MontoDeducible",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11060412",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "AyudaEnLinea",
+                                "valor": "Importe del gasto que puedes deducir, incluido en la factura."
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "3"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto deducible"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto deducible"
+                            },
+                            {
+                                "nombre": "SeparaMiles",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Ancho",
+                                "valor": "1.09in"
+                            },
+                            {
+                                "nombre": "DescartaSiCero",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "EdicionPrecarga",
+                                "valor": "77"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "Deducible"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoRecuperacion",
+                    "nombre": "MontoRecuperacion",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoRecuperacion",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Recuperación de gastos efectuados"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Recuperación de gastos efectuados"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "EdicionPrecarga",
+                                "valor": "77"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "RecuperadoGastosEfectuados"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ProvieneDePrecarga",
+                    "nombre": "Proviene De Precarga",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "ProvieneDePrecarga",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "Origen"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "Beneficiario",
+                    "nombre": "Beneficiario",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "Beneficiario",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "46"
+                            },
+                            {
+                                "nombre": "Orden",
+                                "valor": "6"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Beneficiario"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Beneficiario"
+                            },
+                            {
+                                "nombre": "Ancho",
+                                "valor": "1.47in"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "Beneficiario"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "CreditoDerivado",
+                    "nombre": "CreditoDerivado",
+                    "tipoDatos": "Booleano",
+                    "claveInformativa": "CreditoDerivadoFideicomiso",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Credito derivado de fideicomiso"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Credito derivado de fideicomiso"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "EsCreditoFideicomiso"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoOriginalCredito",
+                    "nombre": "MontoOriginalCredito",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoOriginalCreditoHipotecario",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto original del credito hipotecario"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto original del credito hipotecario"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "AyudaEnLinea",
+                                "valor": "Captura el monto original del crédito hipotecario sin que este exceda de setecientas cincuenta mil unidades de inversión. "
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "MontoOriginalCredito"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "FechaContratacion",
+                    "nombre": "FechaContratacion",
+                    "tipoDatos": "Fecha",
+                    "claveInformativa": "FechaContratacionCredito",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Fecha de contratacion del credito"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Fecha de contratacion del credito"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "FechaContratacion"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "CreditoDestinado",
+                    "nombre": "CreditoDestinado",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "CreditoDestinadoA",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Credito destinado a"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Credito destinado a"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "136"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "DestinoCredito"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "SaldoInsoluto",
+                    "nombre": "SaldoInsoluto",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "SaldoCredito31Dic",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Saldo insoluto del credito a 31 de diciembre del periodo reportado"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Saldo insoluto del credito a 31 de diciembre del periodo reportado"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "AyudaEnLinea",
+                                "valor": "Captura el monto del saldo insoluto del crédito al 31 de diciembre de 2015."
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "SaldoInsoluto"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "InteresReal",
+                    "nombre": "InteresReal",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "InteresReal",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Interes real"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Interes real"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "InteresReal"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "InteresMoratorio",
+                    "nombre": "InteresMoratorio",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "InteresMoratorioPagadoEjercicio",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Interes moratorio pagado en el ejercicio"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Interes moratorio pagado en el ejercicio"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "InteresMoratorio"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "CreditoCofinanciamiento",
+                    "nombre": "CreditoCofinanciamiento",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "CreditoConfinanciamiento",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Credito en cofinanciamiento"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Credito en cofinanciamiento"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "CreditoCofinanciamiento"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "EsCreditoHipotecario",
+                    "nombre": "EsCreditoHipotecario",
+                    "tipoDatos": "Booleano",
+                    "claveInformativa": "EsCreditoHipotecario",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Es Credito Hipotecario"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Es Credito Hipotecario"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "EsCreditoHipotecario"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "UsoCFDI",
+                    "nombre": "UsoCFDI",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "UsoCFDI",
+                    "enteros": "",
+                    "decimales": "",
+                    "longitud": "1",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "UsoCFDI"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ClaveConcepto",
+                    "nombre": "ClaveConcepto",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "ClaveConcepto",
+                    "enteros": "",
+                    "decimales": "",
+                    "longitud": "1",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "Consecutivo"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MotivoClasificacionLM",
+                    "nombre": "MotivoClasificacionLM",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "MotivoClasificacionLM",
+                    "enteros": "",
+                    "decimales": "",
+                    "longitud": "256",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "MotivoClasificacion"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IdConcepto",
+                    "nombre": "IdConcepto",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "IdConcepto",
+                    "enteros": "",
+                    "decimales": "",
+                    "longitud": "256",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "Id"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "LlaveRegistro",
+                    "nombre": "LlaveRegistro",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "LlaveRegistro",
+                    "enteros": "",
+                    "decimales": "",
+                    "longitud": "256",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "PropiedadMapeo",
+                                "valor": "LlaveRegistro"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": "2520004",
+        "nombre": "TOTAL DE DEDUCCIONES PERSONALES",
+        "atributos": {
+            "atributo": [
+                {
+                    "nombre": "tipo",
+                    "valor": "SAT_ANEXOS"
+                },
+                {
+                    "nombre": "multiplicidad",
+                    "valor": "1"
+                },
+                {
+                    "nombre": "llave",
+                    "valor": "SAT_TOT_DED_PER"
+                },
+                {
+                    "nombre": "VisibleImpresion",
+                    "valor": "0"
+                },
+                {
+                    "nombre": "Orden",
+                    "valor": "2012"
+                },
+                {
+                    "nombre": "ClaveImpuesto",
+                    "valor": "0119"
+                }
+            ]
+        },
+        "propiedades": {
+            "propiedad": [
+                {
+                    "id": "TotalDeduccionesPersonales",
+                    "nombre": "Total Deducciones Personales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalDeduccionesPersonales",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto deducible de las deducciones personales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto deducible de las deducciones personales"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalEstimulosFiscales",
+                    "nombre": "Total Estimulos Fiscales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalEstimulosFiscales",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto deducible de los estímulos fiscales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto deducible de los estímulos fiscales"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalSinSeleccion",
+                    "nombre": "Total Sin Seleccion",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalSinSeleccion",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Sin selección"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Sin selección"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoPorDeducir",
+                    "nombre": "MontoPorDeducir",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoPorDeducir",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total por deducir"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total por deducir (Tope máximo)"
+                            },
+                            {
+                                "nombre": "AyudaEnLinea",
+                                "valor": "El monto total por deducir, no podrá exceder de la cantidad que resulte menor entre el 15% del total de tus ingresos o de $147,014.40 (5 UMA´s elevadas al año).  Se disminuye con el importe de las facturas deducibles, excepto de aquellas que no son consideradas para el monto total deducible."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalMontoRecuperacion",
+                    "nombre": "TotalMontoRecuperacion",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalMontoRecuperacion",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total de recuperación de gastos efectuados"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total de recuperación de gastos efectuados"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "11060405",
+                    "nombre": "Total Gasto Recuperado",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11060405",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "En su caso, cantidad recuperada de los gastos efectuados"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "11060404",
+                    "nombre": "Total Monto Deducible",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11060404",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total de monto deducible"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "11060406",
+                    "nombre": "Total Monto Aplicable",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11060406",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total deducible"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total deducible"
+                            },
+                            {
+                                "nombre": "AyudaEnLinea",
+                                "valor": "Suma de los montos deducibles incluido en tus facturas."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoHonorariosMedicos",
+                    "nombre": "Monto Honorarios Medicos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoHonorariosMedicos",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Honorarios médicos, dentales y gastos hospitalarios"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Honorarios médicos, dentales y gastos hospitalarios"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoIncapacidadDiscapacidad",
+                    "nombre": "Monto Incapacidad Discapacidad",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoIncapacidadDiscapacidad",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Gastos médicos por incapacidad o discapacidad"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Gastos médicos por incapacidad o discapacidad"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoFunerales",
+                    "nombre": "Monto Funerales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoFunerales",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Gastos funerales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Gastos funerales"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoDonativos",
+                    "nombre": "Monto Donativos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoDonativos",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Donativos"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Donativos"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoInteresesHipotecarios",
+                    "nombre": "Monto Intereses Hipotecarios",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoInteresesHipotecarios",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Intereses reales efectivamente pagados por créditos hipotecarios (casa habitación)"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Intereses reales efectivamente pagados por créditos hipotecarios (casa habitación)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoAportaciones",
+                    "nombre": "Monto Aportaciones",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoAportaciones",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Aportaciones voluntarias y complementarias al SAR"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Aportaciones voluntarias y complementarias al SAR"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoPrimasSeguros",
+                    "nombre": "Monto Primas Seguros",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoPrimasSeguros",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Primas por seguros de gastos médicos"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Primas por seguros de gastos médicos"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoTransportacionEscolar",
+                    "nombre": "Monto Transportacion Escolar",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoTransportacionEscolar",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Gastos de transportación escolar obligatoria"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Gastos de transportación escolar obligatoria"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoAhorro",
+                    "nombre": "Monto Ahorro",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoAhorro",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Depósitos en cuentas para el ahorro, primas que tengan como base planes de pensiones"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Depósitos en cuentas para el ahorro, primas que tengan como base planes de pensiones"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoEducativos",
+                    "nombre": "Monto Educativos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoEducativos",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Pagos por servicios educativos (Colegiaturas)"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Pagos por servicios educativos (Colegiaturas)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TieneIncapacidad",
+                    "nombre": "TieneIncapacidad",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TieneIncapacidad",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Tiene incapacidad"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Tiene incapacidad"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TopeAnualUMMA",
+                    "nombre": "TopeAnualUMMA",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TopeAnualUMMA",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Tope anual UMA"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Tope anual UMA"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "1100AYUDA",
+                    "nombre": "Ayuda deduccciones personales",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "1100AYUDA",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ayuda deduccciones personales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Ayuda deduccciones personales"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalGastoRecuperado",
+                    "nombre": "TotalGastoRecuperado",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalGastoRecuperado",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Gasto Recuperado"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Gasto Recuperado"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalMontoDeducible",
+                    "nombre": "TotalMontoDeducible",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalMontoDeducible",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Monto Deducible"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Monto Deducible"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalMontoAplicable",
+                    "nombre": "TotalMontoAplicable",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalMontoAplicable",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Monto Aplicable"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Monto Aplicable"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalHonorariosMedicos",
+                    "nombre": "TotalHonorariosMedicos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalHonorariosMedicos",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TotalHonorariosMedicos"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TotalHonorariosMedicos"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalFunerales",
+                    "nombre": "TotalFunerales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalFunerales",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Funerales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Funerales"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalInteresesHipotecarios",
+                    "nombre": "TotalInteresesHipotecarios",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalInteresesHipotecarios",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Intereses Hipotecarios"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Intereses Hipotecarios"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalPrimasSeguros",
+                    "nombre": "TotalPrimasSeguros",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalPrimasSeguros",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Primas Seguros"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Primas Seguros"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalTransportacionEscolar",
+                    "nombre": "TotalTransportacionEscolar",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalTransportacionEscolar",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Transportacion Escolar"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Transportacion Escolar"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalRecuperacionMedicos",
+                    "nombre": "Total Recuperacion Medicos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalRecuperacionMedicos",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Recuperacion Medicos"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Recuperacion Medicos"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalRecuperacionIncapacidad",
+                    "nombre": "Total Recuperacion Incapacidad",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalRecuperacionIncapacidad",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Recuperacion Incapacidad"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Recuperacion Incapacidad"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalRecuperacionFunerales",
+                    "nombre": "Total Recuperacion Funerales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalRecuperacionFunerales",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Recuperacion Funerales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Recuperacion Funerales"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalDonativos",
+                    "nombre": "Tota lDonativos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalDonativos",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Donativos"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Donativos"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalAhorro",
+                    "nombre": "Total Ahorro",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalAhorro",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Ahorro"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Ahorro"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalEducativos",
+                    "nombre": "Total Educativos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalEducativos",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Educativos"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Educativos"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalIncapacidadDiscapacidad",
+                    "nombre": "Total Incapacidad Discapacidad",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalIncapacidadDiscapacidad",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Incapacidad Discapacidad"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Incapacidad Discapacidad"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalAportaciones",
+                    "nombre": "Total Aportaciones",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalAportaciones",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Total Aportaciones"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Total Aportaciones"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TopeDonativos",
+                    "nombre": "Tope Donativos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TopeDonativos",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Tope Donativos"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Tope Donativos"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoMaximoEducativos",
+                    "nombre": "Monto Maximo Educativos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoMaximoEducativos",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto Maximo Educativos"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto Maximo Educativos"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "DP01",
+                    "nombre": "Comparativo intereses",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "DP01",
+                    "enteros": "14",
+                    "decimales": "0",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Comparativo intereses"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Comparativo intereses"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "Opconcepto",
+                    "nombre": "Opconcepto",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "Opconcepto",
+                    "enteros": "",
+                    "decimales": "",
+                    "longitud": "50",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Opción concepto"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Opción concepto"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalImporteHonorariosMedicos",
+                    "nombre": "TotalImporteHonorariosMedicos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalImporteHonorariosMedicos",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TotalImporteHonorariosMedicos"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TotalImporteHonorariosMedicos"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalImporteFunerales",
+                    "nombre": "TotalImporteFunerales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalImporteFunerales",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TotalImporteFunerales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TotalImporteFunerales"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalImporteInteresesHipotecarios",
+                    "nombre": "TotalImporteInteresesHipotecarios",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalImporteInteresesHipotecarios",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TotalImporteInteresesHipotecarios"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TotalImporteInteresesHipotecarios"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalImportePrimasSeguros",
+                    "nombre": "TotalImportePrimasSeguros",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalImportePrimasSeguros",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TotalImportePrimasSeguros"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TotalImportePrimasSeguros"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalImporteTransportacionEscolar",
+                    "nombre": "TotalImporteTransportacionEscolar",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalImporteTransportacionEscolar",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TotalImporteTransportacionEscolar"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TotalImporteTransportacionEscolar"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalImporteDonativos",
+                    "nombre": "TotalImporteDonativos",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalImporteDonativos",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TotalImporteDonativos"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TotalImporteDonativos"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalImporteAhorro",
+                    "nombre": "TotalImporteAhorro",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalImporteAhorro",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TotalImporteAhorro"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TotalImporteAhorro"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalImporteEducatios",
+                    "nombre": "TotalImporteEducatios",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalImporteEducatios",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TotalImporteEducatios"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TotalImporteEducatios"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalImporteIncapacidadDiscapacidad",
+                    "nombre": "TotalImporteIncapacidadDiscapacidad",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalImporteIncapacidadDiscapacidad",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TotalImporteIncapacidadDiscapacidad"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TotalImporteIncapacidadDiscapacidad"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalImporteAportaciones",
+                    "nombre": "TotalImporteAportaciones",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalImporteAportaciones",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TotalImporteAportaciones"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TotalImporteAportaciones"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TotalImporteSinClasificacion",
+                    "nombre": "TotalImporteSinClasificacion",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "TotalImporteSinClasificacion",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "TotalImporteSinClasificacion"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "TotalImporteSinClasificacion"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TituloClasificados",
+                    "nombre": "TituloClasificados",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "TituloClasificados",
+                    "enteros": "",
+                    "decimales": "",
+                    "longitud": "256",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "A continuación, se muestran las facturas que el SAT tiene identificadas como posibles deducciones personales, favor de verificarlas antes de enviar tu declaración."
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "A continuación, se muestran las facturas que el SAT tiene identificadas como posibles deducciones personales, favor de verificarlas antes de enviar tu declaración."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "TituloSinClasificar",
+                    "nombre": "TituloSinClasificar",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "TituloSinClasificar",
+                    "enteros": "",
+                    "decimales": "",
+                    "longitud": "256",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Estas facturas no fueron identificadas por el SAT como deducciones personales, puedes revisarlas y si cumplen con las disposiciones fiscales vigentes, clasifícalas como tales."
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Estas facturas no fueron identificadas por el SAT como deducciones personales, puedes revisarlas y si cumplen con las disposiciones fiscales vigentes, clasifícalas como tales."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "MontoSinClasificar",
+                    "nombre": "MontoSinClasificar",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "MontoSinClasificar",
+                    "enteros": "12",
+                    "decimales": "0",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "MontoSinClasificar"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IngresoAnualAux",
+                    "nombre": "IngresoAnualAux",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "IngresoAnualAux",
+                    "enteros": "12",
+                    "decimales": "0",
+                    "longitud": "",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "IngresoAnualAux"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "IngresoAnualAux"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 2520005,
+        "nombre": "TOTALES DE LOS INTERESES",
+        "atributos": {
+            "atributo": [
+                {
+                    "nombre": "tipo",
+                    "valor": "SAT_ANEXOS"
+                },
+                {
+                    "nombre": "multiplicidad",
+                    "valor": "1"
+                },
+                {
+                    "nombre": "llave",
+                    "valor": "SAT_TOT_INT"
+                },
+                {
+                    "nombre": "Orden",
+                    "valor": "1094"
+                },
+                {
+                    "nombre": "TituloLargo",
+                    "valor": "Intereses"
+                },
+                {
+                    "nombre": "TituloCorto",
+                    "valor": "Intereses"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "1|A. Sistema financiero"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "2|B. Sistema no financiero"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "3|C. Ingresos por retiros parciales o totales"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "6|D. Pérdida de ejercicios anteriores"
+                },
+                {
+                    "nombre": "ClaveImpuesto",
+                    "valor": "0119"
+                },
+                {
+                    "nombre": "Columna",
+                    "valor": "4|1|Ejercicio"
+                },
+                {
+                    "nombre": "Columna",
+                    "valor": "4|2|Tasa de ISR %"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "5|"
+                },
+                {
+                    "nombre": "Seccion",
+                    "valor": "4|"
+                }
+            ]
+        },
+        "propiedades": {
+            "propiedad": [
+                {
+                    "id": "IN01",
+                    "nombre": "Monto total de los intereses nominales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122201",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total de los intereses nominales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total de los intereses nominales"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN02",
+                    "nombre": "Monto total de los intereses reales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122202",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total de los intereses reales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total de los intereses reales"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN03",
+                    "nombre": "Monto total de la pérdida",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122203",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total de la pérdida"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total de la pérdida"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN04",
+                    "nombre": "Monto total del ISR retenido",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122204",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total del ISR retenido"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total del ISR retenido"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "EntidadDetalle",
+                                "valor": "SAT_ING_SIS_FIN"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN05",
+                    "nombre": "Monto total de los intereses nominales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122306",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total de los intereses nominales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total de los intereses nominales"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN06",
+                    "nombre": "Monto total de los intereses reales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122307",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total de los intereses reales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total de los intereses reales"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN07",
+                    "nombre": "Monto total de la Pérdida",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122308",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total de la Pérdida"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total de la Pérdida"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN08",
+                    "nombre": "Monto total del ISR retenido",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122309",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total del ISR retenido"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total del ISR retenido"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "EntidadDetalle",
+                                "valor": "SAT_ING_SIS_NO_FIN"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN09",
+                    "nombre": "Monto total de los intereses nominales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122405",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total de los intereses nominales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total de los intereses nominales"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN10",
+                    "nombre": "Monto total de los intereses reales",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122406",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total de los intereses reales"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total de los intereses reales"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN11",
+                    "nombre": "Monto total del ISR retenido",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122407",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Monto total del ISR retenido"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Monto total del ISR retenido"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "3"
+                            },
+                            {
+                                "nombre": "EntidadDetalle",
+                                "valor": "SAT_ING_RET_PAR_TOT"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "INT01",
+                    "nombre": "Tasa de ISR",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122408",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Tasa de ISR"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Tasa de ISR"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "Decimales",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "Columna",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "Renglon",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "SinTitulo",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "INT02",
+                    "nombre": "Tasa de ISR",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122409",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Tasa de ISR"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Tasa de ISR"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "Decimales",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "Columna",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "Renglon",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "SinTitulo",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "INT03",
+                    "nombre": "Tasa de ISR",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122410",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Tasa de ISR"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Tasa de ISR"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "Decimales",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "Columna",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "Renglon",
+                                "valor": "3"
+                            },
+                            {
+                                "nombre": "SinTitulo",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "INT04",
+                    "nombre": "Tasa de ISR",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122411",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Tasa de ISR"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Tasa de ISR"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "Decimales",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "Columna",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "Renglon",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "SinTitulo",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "INT05",
+                    "nombre": "Tasa de ISR",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122412",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Tasa de ISR"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Tasa de ISR"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "Decimales",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "Columna",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "Renglon",
+                                "valor": "5"
+                            },
+                            {
+                                "nombre": "SinTitulo",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "INT06",
+                    "nombre": "Suma de Tasas %",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122413",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Suma de Tasas %"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Suma de Tasas %"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "5"
+                            },
+                            {
+                                "nombre": "Decimales",
+                                "valor": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN12",
+                    "nombre": "Tasa promedio",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122414",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Tasa promedio"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Tasa promedio"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "5"
+                            },
+                            {
+                                "nombre": "Decimales",
+                                "valor": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN13",
+                    "nombre": "ISR sobre el interés real",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122415",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "ISR sobre el interés real"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "ISR sobre el interés real"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "5"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN14",
+                    "nombre": "Pérdida de ejercicios anteriores",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "11122501",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Pérdida de ejercicios anteriores"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Pérdida de ejercicios anteriores"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "6"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "INT01Ejercicio",
+                    "nombre": "Ejercicio",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "INT01Ejercicio",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ejercicio"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Año del Ejercicio"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "Columna",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Renglon",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "SinTitulo",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "INT02Ejercicio",
+                    "nombre": "Ejercicio",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "INT02Ejercicio",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ejercicio"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Año del Ejercicio"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "Columna",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Renglon",
+                                "valor": "2"
+                            },
+                            {
+                                "nombre": "SinTitulo",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "INT03Ejercicio",
+                    "nombre": "Ejercicio",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "INT03Ejercicio",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ejercicio"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Año del Ejercicio"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "Columna",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Renglon",
+                                "valor": "3"
+                            },
+                            {
+                                "nombre": "SinTitulo",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "INT04Ejercicio",
+                    "nombre": "Ejercicio",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "INT04Ejercicio",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ejercicio"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Año del Ejercicio"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "Columna",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Renglon",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "SinTitulo",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "INT05Ejercicio",
+                    "nombre": "Ejercicio",
+                    "tipoDatos": "Alfanumerico",
+                    "claveInformativa": "INT05Ejercicio",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Ejercicio"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Año del Ejercicio"
+                            },
+                            {
+                                "nombre": "Seccion",
+                                "valor": "4"
+                            },
+                            {
+                                "nombre": "Columna",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "Renglon",
+                                "valor": "5"
+                            },
+                            {
+                                "nombre": "SinTitulo",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN00A",
+                    "nombre": "¿Obtuviste ingresos provenientes del Sistema No Financiero?",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "IN00A",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "¿Obtuviste ingresos provenientes del Sistema No Financiero?"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "¿Obtuviste ingresos provenientes del Sistema No Financiero?"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN00B",
+                    "nombre": " ¿Obtuviste ingresos por retiros parciales o totales?",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "IN00B",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "¿Obtuviste ingresos de retiros parciales por el seguro de separación individualizado?"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "¿Obtuviste ingresos de retiros parciales por el seguro de separación individualizado?"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "1"
+                            },
+                            {
+                                "nombre": "llave",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "IN00C",
+                    "nombre": "¿Tienes pérdidas de ejercicios anteriores pendientes de aplicar?",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "IN00C",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "¿Tienes pérdidas de ejercicios anteriores pendientes de aplicar?"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "¿Tienes pérdidas de ejercicios anteriores pendientes de aplicar?"
+                            },
+                            {
+                                "nombre": "Catalogo",
+                                "valor": "100"
+                            },
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "SUMINF01RFC",
+                    "nombre": "Suma de RFC MME en INF01",
+                    "tipoDatos": "Numerico",
+                    "claveInformativa": "SUMINF01RFC",
+                    "atributos": {
+                        "atributo": [
+                            {
+                                "nombre": "VisibleImpresion",
+                                "valor": "0"
+                            },
+                            {
+                                "nombre": "TituloCorto",
+                                "valor": "Suma de RFC MME en INF01"
+                            },
+                            {
+                                "nombre": "TituloLargo",
+                                "valor": "Suma de RFC MME en INF01"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "subregimen": "9"
+    }
+]

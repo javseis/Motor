@@ -1,0 +1,49 @@
+{
+    "extends": [
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 5
+    },
+    "env": {
+        "browser": true,
+        "jquery": true
+    },
+    "rules": {
+        "quotes": [
+            1,
+            "double",
+            "avoid-escape"
+        ],
+        "no-console": "off",
+        "no-debugger": "off",
+        "semi": [
+            1,
+            "always"
+        ],
+        "no-alert": "off",
+        "no-redeclare": "off"
+    },
+    "globals": {
+        "fbUtils": true,
+        "fbCatalogos": true,
+        "fbViewModel": true,
+        "Enumerable": true,
+        "FECHA": true,
+        "IsNullOrEmpty": true,
+        "IsNullOrEmptyWhite": true,
+        "IsNullOrEmptyOrZero": true,
+        "Service": true,
+        "Helper": true,
+        "symToVal": true,
+        "isDateEmpty": true,
+        "utils": true,
+        "REDONDEARSAT": true,
+        "MOSTRAR": true,
+        "ESNUMERO": true,
+        "TIPO_REGLA": true,
+        "$39": true,
+        "preventDefaultEvent": true,
+        "ORIGEN_DATOS_GRID": true
+    }
+}

@@ -1,0 +1,708 @@
+table{
+    font-family: "robotoregular", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+td{
+    font-size: 14px;
+}
+.img-responsive {
+    margin-top: 8px;
+}
+.btnImg {
+    text-align: center;
+    min-height: 130px;
+    margin-bottom: 10px;
+    border-right: 1px solid #eee;
+}
+.textIconos {
+    font-size: 10px;
+    font-weight: 600;
+    color: #757575;
+    text-transform: uppercase;
+    padding-top: 10px;
+    height: 50px;
+}
+.linksIconos {
+    font-size: 12px;
+    text-align: right;
+}
+.bg-contTable {
+    background:#DBDBDB;
+}
+th {
+    background: white;
+}
+.clasificador .nivel-2 {
+    padding: 20px;
+}
+table{
+    background: white;
+}
+.table{
+    margin-bottom: 0px;
+}
+.clasificador .nivel-1 {
+    margin-bottom: 0px;
+}
+.seccContent {
+    padding: 5px 0px;
+    margin-bottom: 10px !important;
+}
+.panel-body {
+    padding: 10px;
+}
+.montosTotales{
+    background: #DBDBDB;
+    margin-bottom: 30px;
+}
+.montoDeduccion {
+    font-weight: 500;
+    font-size: 14px;
+    min-height: 58px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-bottom: 0px;
+    padding: 0px 15px;
+    color: #232821;
+    background: #DBDBDB;
+}
+.montoDeduccion .col-xs-6 {
+    min-height: 58px;
+}
+.gastosDeducibles{
+    margin:30px 15px 0;
+}
+#htmlOutput .sat-height-field.montosContent{
+    height: 50px;
+    width: 100%;
+}
+#htmlOutput input.form-control.sat-height-field.montosContent {
+    border-radius: 0;
+    margin-top: 9px;
+    width: 100%!important;
+}
+.sticky{
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+.borderRight{
+    border-right: 1px solid white;
+}
+
+  #accionesFila{
+    display: none;
+  }
+  
+  #filaTable:hover > td > #accionesFila{
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background:rgba(51, 51, 51, 0.6);
+    color:white;
+  }
+  .titulosSecciones{
+      color:#333;
+      font-weight: 400;
+  }
+
+
+
+
+
+
+
+  .bg-banner {
+    background: white;
+    height: 75px;
+    max-height: 75px;
+}
+
+header#headerDeclaraciones{
+    display: inherit;
+}
+.img-banner {
+    max-width: 100%;
+    width: auto;
+    max-height: 75px;
+}
+.btnImgContainer{
+    padding: 0px;
+}
+.btnImg {
+    width: 100%;
+    text-align: center;
+    min-height: 130px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-right: 1px solid #eee;
+    white-space: normal;
+}
+.btnAyuda{
+    background: transparent;
+    padding: 0px;
+    border: none;
+    border-radius: 50%;
+}
+.btnImg:hover {
+    background:#F6F6F6;
+    cursor: pointer;
+}
+p.textIconos {
+    margin-bottom: 0;
+}
+.linksIconos {
+    font-size: 12px;
+    float: right;
+    text-decoration: none;
+}
+.bg-contTable {
+    background:#DBDBDB;
+}
+table {
+    font-size: 14px;
+}
+.table>thead>tr>th {
+    font-size: 13px;
+}
+.tableSection tbody>tr:hover {
+    background: #f2f2f2!important;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+    box-shadow: 0 1px 4px 0 rgba(60, 64, 67, 0.1), 0 1px 4px 1px rgba(60,64,67,.1);
+    z-index: 10;
+}
+.nota{
+    background: #F6F6F6;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.notaSeccion{
+    background: #F6F6F6;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.table .checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 0;
+
+}
+.table.tableSection>thead:first-child>tr:first-child>th {
+    vertical-align: top;
+}
+.clasificador .nivel-2 {
+    padding: 20px;
+}
+.clasificador .nivel-1 {
+    margin-bottom: 0px;
+}
+.seccContent {
+    padding: 5px 0px;
+    margin-bottom: 10px !important;
+}
+.panel {
+    max-width: 100%;
+}
+.panel-body {
+    padding: 10px;
+}
+.montosContent {
+    font-size: 14px;
+}
+.montoDeduccion .col-xs-6 {
+    min-height: 58px;
+}
+.gastosDeducibles{
+    margin:0px 0px 30px;
+}
+.montoDeduccion input {
+    margin-top: 9px;
+    text-align: right;
+}
+
+.gobmx-callout.gobmx-callout-warning {
+    border-left-color: #777;
+}
+
+.gobmx-callout {
+    border: 1px solid #eeeeee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    margin: 30px 0 60px;
+    padding: 0px 15px;
+}
+.FactClasificadas{
+    margin-bottom: 60px;
+}
+.sticky{
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+.nivel2{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.borderRight{
+    border-right: 1px solid white;
+}
+.borderRightGray {
+    border-right: 1px solid #dddddd;
+}
+
+.table.tipoDeduccion>tbody>tr>td{
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}
+.botonesAccion{
+    text-align: right;
+    margin-bottom: 40px;
+}
+.actBtn{
+    height: 30px;
+    width: 30px;
+    border: none;
+    box-shadow: none;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+}
+.actBtn:hover{
+    background-color: #d4d4d4;
+}
+.tablaCategoria{
+    overflow-y: auto;
+}
+
+
+.accionesFila {
+    display: none;
+  }
+  
+  .filaTable:hover > td > .accionesFila {
+    display: block;
+    width: 112px;
+    height: auto;
+  }
+  .txtMonto{
+      padding-top: 17px;
+  }
+
+/*  categoria tab */
+div.categoria-tab-container{
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 0 !important;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    border:1px solid #ddd;
+    margin-top: 20px;
+    margin-left: 50px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    background-clip: padding-box;
+    opacity: 0.97;
+    filter: alpha(opacity=97);
+  }
+  div.menu-tipo-deduccion{
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  div.menu-tipo-deduccion div.list-group{
+    margin-bottom: 0;
+    background: #ffffff;
+    height: 65px;
+  }
+  .list-group-item{
+    background: #ffffff;
+    border-bottom: 1px #ccc solid;
+  }
+  div.menu-tipo-deduccion div.list-group>a{
+    margin-bottom: 0;
+    text-decoration: none;
+    height: 65px;
+  }
+  div.menu-tipo-deduccion div.list-group>a .glyphicon,
+  div.menu-tipo-deduccion div.list-group>a .fa {
+    color: #4A90E2;
+  }
+  div.menu-tipo-deduccion div.list-group>a:first-child{
+    border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+  }
+  div.menu-tipo-deduccion div.list-group>a:last-child{
+    border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+  }
+  div.menu-tipo-deduccion div.list-group>a.active,
+  div.menu-tipo-deduccion div.list-group>a.active .glyphicon,
+  div.menu-tipo-deduccion div.list-group>a.active .fa{
+    background-color: #F6F6F6;
+    background-image: #4A90E2;
+    color: #555;
+    font-weight: 600;
+    border-color: #ddd;
+    border-left: 4px solid #4A90E2;
+    border-radius: 0;
+    height: 65px;
+  }
+  
+  div.categoria-tab-content{
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  
+  div.contenedor-controles div.categoria-tab-content:not(.active){
+    display: none;
+  }
+  .ellipsis{
+    overflow: hidden;
+    height: 40px;
+    float:left;
+  }
+  .txtMenuCategoria{
+    width: 80%;
+  }
+  .badgeMenuCategoria{
+    min-width: 35px;
+    font-size: 12px;
+    color: #f5f5f5;
+    text-align: center;
+    background-color: #777;
+    border-radius: 10px;
+    margin-left:0;
+  }
+
+  .list-group-item.active>.badge, .nav-pills>.active>a>.badge {
+    color: #ffffff;
+    background-color: #373c3e;
+}
+.tituloCategoria {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    min-height: 25px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.floatRight{
+    float: right;
+}
+.contenedor-controles {
+    min-height: 650px;
+}
+.detalleDeduccionesPersonales{
+    margin: 30px 0 60px;
+}
+.detalleNoClasificadas{
+    margin: 30px 0 60px;
+}
+.tablaNoClasificadas{
+    overflow-x: auto;
+}
+.txtMontosCategoria{
+    font-size: 13px;
+    text-align: center;
+}
+.NumMontosCategoria{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;  
+}
+
+.tituloCategoriaPanel {
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.cortar{
+    text-overflow:ellipsis;
+    white-space:nowrap; 
+    overflow:hidden; 
+}
+.montosPorCategoria{
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd; 
+    margin-bottom: 30px;
+    padding: 10px 0;
+    font-size: 16px;
+}
+.montosPorCategoria input{
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 8px;
+}
+.txtMontosCategoriaSeccion{
+    padding-top: 10px;
+}
+.datosDeclaracion {
+    font-size: 14px;
+    text-align: right;
+    font-weight: 400;
+    padding-top: 18px;
+}
+.iconoClasificacion {
+    width: 40px;
+    margin-right: 10px;
+}
+.infoIcon{
+    width: 18px;
+}
+.form-control.monto{
+    text-align: right;
+}
+.tab-content form .form-control {
+    margin-bottom: 0px;
+}
+tr.conceptosClasificados {
+    background: rgba(77, 146, 223, 0.2)!important;
+    font-weight: 400;
+}
+tr.conceptoSeleccionado {
+    -webkit-box-shadow: 0 1px 4px 0 rgba(60, 64, 67, 0.1), 0 1px 4px 1px rgba(60,64,67,.1);
+    box-shadow: 0 1px 4px 0 rgba(60, 64, 67, 0.1), 0 1px 4px 1px rgba(60,64,67,.1);
+    z-index: 10;
+    background: #b1d2f5!important;
+}
+.table>tbody>tr.conceptoSeleccionado>td {
+    border-top: 1px solid #b1d2f5;
+    border-bottom: 1px solid #b1d2f5;
+}
+.datosFactura{
+    margin-bottom: 30px;
+}
+.indicadoresColor{
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 30px;
+}
+.circuloColorClasificado{
+    float: left;
+    margin: 12px 0px;
+    border-radius: 50%;
+    background: #d9e9fa;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.circuloColorSeleccionado{
+    float: left;
+    margin: 12px 0px;
+    border-radius: 50%;
+    background: #aad1f9;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.txtIndicadores{
+    float: left;
+    font-size: 14px;
+    padding-top: 8px;
+    margin-bottom: 0;
+}
+.indicadorGrupo1{
+    margin: 0 auto;
+    float: right;
+}
+.indicadorGrupo2{
+    margin: 0 auto;
+}
+/*forms*/
+form .form-control, form .form-group {
+    font-size: 16px;
+}
+.custom-select.is-invalid, .form-control.is-invalid, .was-validated .custom-select:invalid, .was-validated .form-control:invalid {
+    border-color: #dc3545;
+}
+.custom-select.is-invalid:focus, .form-control.is-invalid:focus, .was-validated .custom-select:invalid:focus, .was-validated .form-control:invalid:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25);
+}
+.custom-select.is-invalid~.invalid-feedback, .custom-select.is-invalid~.invalid-tooltip, .form-control.is-invalid~.invalid-feedback, .form-control.is-invalid~.invalid-tooltip, .was-validated .custom-select:invalid~.invalid-feedback, .was-validated .custom-select:invalid~.invalid-tooltip, .was-validated .form-control:invalid~.invalid-feedback, .was-validated .form-control:invalid~.invalid-tooltip {
+    display: block;
+}
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+/*cards*/
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-weight: 400;
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    font-size: 14px;
+}
+.card-title {
+    font-weight: 600;
+    margin-bottom: 0rem;
+}
+.card.datosInformativosFactura{
+    background: rgba(0,0,0,.03);
+}
+.card.datosEmisor{
+    min-height: 181px;
+}
+.card.datosReceptor{
+    min-height: 181px;
+}
+
+.contenedor-grid{
+    min-height: 600px;
+    margin-top: 50px;
+    border-top: 1px #ccc solid;
+}
+
+.acciones-concepto{
+    position: absolute;
+    z-index:9;
+}
+
+.acciones-concepto > ul{
+    list-style: none;
+}
+
+.acciones-concepto > ul > li{
+    margin: 0 5px;
+    display: inline;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .btnImg {
+        margin-bottom: 0px;
+    }    
+    .detalleDeduccionesPersonales {
+        margin: 30px 0 60px;
+        position: relative;
+        float: none;
+    }
+    .nav-tabs.menuConceptos>li {
+        float: left;
+        margin-bottom: -1px;
+        width: 33.3%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .nav-tabs.menuConceptos>li.active>a, .nav-tabs.menuConceptos>li.active>a:focus, .nav-tabs.menuConceptos>li.active>a:hover {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    div.menu-tipo-deduccion {
+        overflow-x: auto;
+    }
+    div.categoria-tab-content {
+        padding-left: 0px; 
+    }
+    .list-group {
+        display: flex;
+    }
+    div.menu-tipo-deduccion div.list-group>a.active,
+    div.menu-tipo-deduccion div.list-group>a.active .glyphicon,
+    div.menu-tipo-deduccion div.list-group>a.active .fa{
+      background-color: #F6F6F6;
+      border-left: 1px;
+      background-image: #4A90E2;
+      color: #555;
+      font-weight: 600;
+      border-color: #ddd;
+      border-bottom: 4px solid #4A90E2;
+    }
+    a.list-group-item {
+        min-width: 45%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 1px;
+    }
+    .contenedor-controles {
+        min-height: auto;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .txtMenuCategoria{
+        width: 100%;
+        height: 24px;
+    }
+    .badgeMenuCategoria{
+        width: 100%;
+    }
+    .ellipsis{
+        float:left;
+        text-overflow:ellipsis;
+        white-space:nowrap; 
+        overflow:hidden; 
+    }
+    .tituloCategoria {
+        text-overflow: ellipsis;
+        white-space: normal;
+        overflow: auto;
+    }
+    .borderRightGray {
+        border-right: 0px solid #dddddd;
+        }
+    .img-banner {
+        max-width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .datosDeclaracion {
+        font-size: 10px;
+        text-align: right;
+        font-weight: 400;
+        padding-top: 25px;
+    }
+    .accionesFila {
+        display: block;
+        width: 130px;
+        height: auto;
+    }
+    .btnImg {
+        min-height: 0;
+        border-bottom: 1px solid #eee;
+    }
+    .indicadorGrupo1{
+        float: left;
+    }
+}

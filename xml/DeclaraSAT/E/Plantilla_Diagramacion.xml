@@ -1,0 +1,2193 @@
+﻿<diagramacion>
+  <formulario idEntidad="1000" id="6" nombre="Personas Físicas" versionMayor="1" versionMenor="0">
+    <controles>
+      <control id="1035001" tipoControl="Grupo" idEntidadPropiedad="1035" orden="1">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Bienes inmuebles" />
+          <atributo nombre="TituloLargo" valor="Bienes inmuebles" />
+        </atributos>
+        <controles>
+          <control id="1035002" tipoControl="Columna" idEntidadPropiedad="1035" orden="2">
+            <controles>
+              <control id="1035007" tipoControl="Grupo" idEntidadPropiedad="1035" orden="11">
+                <controles>
+                  <control id="1035008" tipoControl="Columna" idEntidadPropiedad="1035" orden="12">
+                    <controles>
+                      <control id="1035009" tipoControl="FormularioGrid" idEntidadPropiedad="1035" orden="15">
+                        <controles>
+                          <control id="1035105" tipoControl="Columna" idEntidadPropiedad="1035" orden="7">
+                            <controles>
+                              <control id="1035048" tipoControl="Grupo" idEntidadPropiedad="1035">
+                                <controles>
+                                  <control id="1035049" tipoControl="Columna" idEntidadPropiedad="1035">
+                                    <controles>
+                                      <control id="1035148" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CC1C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC1C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035149" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CC2C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC2C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035150" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CC3C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC3C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035151" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CC4C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC4C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035152" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CC5C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC5C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035153" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CC6C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC6C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035154" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CC7C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC7C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035155" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CC8C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC8C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035156" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CC9C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC9C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035157" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CC10C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC10C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035506" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CC10CA">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC10CA" />
+                                        </atributos>
+                                      </control>
+                                      <control id="10357060" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="AUXCC9G" />
+                                      <control id="10357072" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="AUXCC9CM" />
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Columna Separados Construccion" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035050" tipoControl="Columna" idEntidadPropiedad="1035">
+                                    <controles>
+                                      <control id="1116016" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE1EII">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE1EII" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116017" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE2EII">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE2EII" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116018" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE3EII">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE3EII" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116019" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE4EII">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE4EII" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116020" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE5EII">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE5EII" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116021" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE6EII">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE6EII" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116700" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="IMPNAEN">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE3EIIA" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116780" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="INOBANIN">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="INOBANIN" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116810" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="IAI" />
+                                      <control id="1116811" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="IAM" />
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Columna Separados Construccion" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035051" tipoControl="Columna" idEntidadPropiedad="1035">
+                                    <controles>
+                                      <control id="1116052" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE1EIS">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE1EIS" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116053" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE2EIS">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE2EIS" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116054" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE3EIS">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE3EIS" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116055" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE4EIS">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE4EIS" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116056" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE5EIS">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE5EIS" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116057" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE6EIS">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE6EIS" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116658" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE5EIIA">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE5EIIA" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116659" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE5EIIB">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE5EIIB" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116701" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="GE3EISA">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE3EISA" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Columna Separados Construccion" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035052" tipoControl="Columna" idEntidadPropiedad="1035">
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Columna Separados Construccion" />
+                                    </atributos>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="ocultar" valor="1" />
+                                  <atributo nombre="TituloCorto" valor="Separados Construccion" />
+                                </atributos>
+                              </control>
+                              <control id="1035120" tipoControl="Grupo" idEntidadPropiedad="1035">
+                                <controles>
+                                  <control id="1035121" tipoControl="Columna" idEntidadPropiedad="1035">
+                                    <controles>
+                                      <control id="1035122" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CT1T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT1T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035123" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CT2T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT2T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035124" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CT3T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT3T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035125" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CT4T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT4T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035126" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CT5T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT5T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035127" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CT6T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT6T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035128" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CT7T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT7T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035129" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CT8T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT8T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035505" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CT8TA">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT8TA" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035550" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CT8TB" />
+                                      <control id="1035801" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="ENMRTI" orden="1" />
+                                      <control id="1035800" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="ENMR" orden="3" />
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035130" tipoControl="Columna" idEntidadPropiedad="1035">
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Columna" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035139" tipoControl="Columna" idEntidadPropiedad="1035" />
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="ocultar" valor="1" />
+                                  <atributo nombre="TituloCorto" />
+                                </atributos>
+                              </control>
+                              <control id="1035188" tipoControl="Grupo" idEntidadPropiedad="1035" orden="0">
+                                <controles>
+                                  <control id="1035189" tipoControl="Columna" idEntidadPropiedad="1035" orden="0">
+                                    <controles>
+                                      <control id="1035194" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI1T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI1T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035195" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI2T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI2T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035196" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI3T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI3T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035197" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI4T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI4T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035198" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI5T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI5T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035199" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI6T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI6T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035200" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI7T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI7T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035201" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI8T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI8T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035202" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI9T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI9T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035203" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI10T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI10T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035204" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI11T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI11T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035205" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI12T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI12T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035206" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI13T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI13T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035207" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI14T">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI14T" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035500" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI11TA">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI11TA" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035501" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI12TA">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI12TA" />
+                                        </atributos>
+                                      </control>
+                                      <control id="10357501" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="AUXCI9CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="AUXCI9CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="10357502" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="AUXCI9G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="AUXCI9G" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1035190" tipoControl="Columna" idEntidadPropiedad="1035" orden="0">
+                                    <controles>
+                                      <control id="1035208" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI1C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI1C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035209" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI2C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI2C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035210" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI3C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI3C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035211" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI4C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI4C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035212" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI5C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI5C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035213" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI6C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI6C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035214" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI7C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI7C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035215" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI8C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI8C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035216" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI9C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI9C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035217" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI10C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI10C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035218" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI11C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI11C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035219" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI12C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI12C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035220" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI13C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI13C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035221" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI14C">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI14C" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035503" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI11CA">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI11CA" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035504" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI12CA">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI12CA" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035900" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="CI7" />
+                                    </controles>
+                                  </control>
+                                  <control id="1035191" tipoControl="Columna" idEntidadPropiedad="1035" orden="0" />
+                                  <control id="1035192" tipoControl="Columna" idEntidadPropiedad="1035" orden="0" />
+                                  <control id="1035193" tipoControl="Columna" idEntidadPropiedad="1035" orden="0" />
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="ocultar" valor="1" />
+                                </atributos>
+                              </control>
+                              <control id="1035106" tipoControl="Grupo" idEntidadPropiedad="1035" orden="8">
+                                <controles>
+                                  <control id="1035010" tipoControl="Columna" idEntidadPropiedad="1035" orden="16">
+                                    <controles>
+                                      <control id="10357513" tipoControl="Grupo" idEntidadPropiedad="1035" orden="1">
+                                        <controles>
+                                          <control id="10357514" tipoControl="Columna" idEntidadPropiedad="1035">
+                                            <controles>
+                                              <control id="1035005" tipoControl="CuadroCombinado" idEntidadPropiedad="1035" idPropiedad="EB6" orden="9">
+                                                <atributos>
+                                                  <atributo nombre="OrdenTabulador" valor="5" />
+                                                  <atributo nombre="TituloCorto" valor="Tipo de captura" />
+                                                  <atributo nombre="TituloLargo" valor="Tipo de captura" />
+                                                  <atributo nombre="ValidaLongitud" valor="1" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                          </control>
+                                        </controles>
+                                      </control>
+                                      <control id="10357503" tipoControl="Grupo" idEntidadPropiedad="1035" orden="2">
+                                        <controles>
+                                          <control id="10357504" tipoControl="Columna" idEntidadPropiedad="1035">
+                                            <controles>
+                                              <control id="1035013" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB7" orden="1">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="7" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                              <control id="1035014" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB8" orden="2">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="8" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                          </control>
+                                        </controles>
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="Integrados" />
+                                          <atributo nombre="TituloLargo" valor="Integrados" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Columna Grid 1 - Columna 1" />
+                                      <atributo nombre="TituloLargo" valor="Columna Grid 1 - Columna 1" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035011" tipoControl="Columna" idEntidadPropiedad="1035" orden="17">
+                                    <controles>
+                                      <control id="10357515" tipoControl="Grupo" idEntidadPropiedad="1035" orden="1">
+                                        <controles>
+                                          <control id="10357516" tipoControl="Columna" idEntidadPropiedad="1035">
+                                            <controles>
+                                              <control id="1035019" tipoControl="ControlFecha" idEntidadPropiedad="1035" idPropiedad="EB13" orden="1">
+                                                <atributos>
+                                                  <atributo nombre="Mascara" valor="99/99/9999" />
+                                                  <atributo nombre="OrdenTabulador" valor="6" />
+                                                  <atributo nombre="ValidaLongitud" valor="10" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                          </control>
+                                        </controles>
+                                      </control>
+                                      <control id="10357505" tipoControl="Grupo" idEntidadPropiedad="1035" orden="2">
+                                        <controles>
+                                          <control id="10357506" tipoControl="Columna" idEntidadPropiedad="1035">
+                                            <controles>
+                                              <control id="1035015" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB9" orden="1">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="9" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                              <control id="1035016" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB10" orden="2">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="10" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                              <control id="1035017" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB11" orden="5">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="11" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                              <control id="1035018" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB12" orden="24">
+                                                <atributos>
+                                                  <atributo nombre="CapturaDecimales" valor="1" />
+                                                  <atributo nombre="OrdenTabulador" valor="12" />
+                                                  <atributo nombre="SoloNumerosPositivos" />
+                                                  <atributo nombre="ValidaLongitud" valor="12" />
+                                                </atributos>
+                                              </control>
+                                            </controles>
+                                          </control>
+                                        </controles>
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="Separados" />
+                                          <atributo nombre="TituloLargo" valor="Separados" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Columna Grid 1 - Columna 1 - Columna 2" />
+                                      <atributo nombre="TituloLargo" valor="Columna Grid 1 - Columna 1 - Columna 2" />
+                                    </atributos>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="TituloCorto" valor="Datos de la enajenación" />
+                                  <atributo nombre="TituloLargo" valor="Datos de la enajenación" />
+                                </atributos>
+                              </control>
+                              <control id="1035111" tipoControl="Grupo" idEntidadPropiedad="1035" orden="40">
+                                <controles>
+                                  <control id="1035112" tipoControl="Columna" idEntidadPropiedad="1035" orden="45">
+                                    <controles>
+                                      <control id="1035020" tipoControl="CuadroVerificacion" idEntidadPropiedad="1035" idPropiedad="EB14" orden="26">
+                                        <atributos>
+                                          <atributo nombre="OrdenTabulador" valor="12" />
+                                          <atributo nombre="TituloCorto" valor="Cobro en parcialidades" />
+                                          <atributo nombre="TituloLargo" valor="Cobro en parcialidades" />
+                                          <atributo nombre="ValidaLongitud" valor="1" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Cobro en parcialidades - Columna 1" />
+                                      <atributo nombre="TituloLargo" valor="Cobro en parcialidades - Columna 1" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035113" tipoControl="Columna" idEntidadPropiedad="1035" orden="46">
+                                    <controles>
+                                      <control id="1035021" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB15" orden="27">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="13" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Cobro en parcialidades - Columna 2" />
+                                      <atributo nombre="TituloLargo" valor="Cobro en parcialidades - Columna 2" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035114" tipoControl="Columna" idEntidadPropiedad="1035" orden="47">
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Cobro en parcialidades - Columna 3" />
+                                      <atributo nombre="TituloLargo" valor="Cobro en parcialidades - Columna 3" />
+                                    </atributos>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="TituloCorto" valor="Cobro en parcialidades" />
+                                  <atributo nombre="TituloLargo" valor="Cobro en parcialidades" />
+                                </atributos>
+                              </control>
+                              <control id="1035107" tipoControl="Grupo" idEntidadPropiedad="1035" orden="44">
+                                <controles>
+                                  <control id="1035108" tipoControl="Columna" idEntidadPropiedad="1035" orden="1">
+                                    <controles>
+                                      <control id="1035022" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB16" orden="2">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="14" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Datos adicionales de la enajenación - Columna 1" />
+                                      <atributo nombre="TituloLargo" valor="Datos adicionales de la enajenación - Columna 1" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035109" tipoControl="Columna" idEntidadPropiedad="1035" orden="3">
+                                    <controles>
+                                      <control id="1035023" tipoControl="ControlFecha" idEntidadPropiedad="1035" idPropiedad="EB17" orden="2">
+                                        <atributos>
+                                          <atributo nombre="Mascara" valor="99/99/9999" />
+                                          <atributo nombre="OrdenTabulador" valor="15" />
+                                          <atributo nombre="ValidaLongitud" valor="8" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Datos adicionales de la enajenación - Columna 2" />
+                                      <atributo nombre="TituloLargo" valor="Datos adicionales de la enajenación - Columna 2" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035110" tipoControl="Columna" idEntidadPropiedad="1035" orden="43">
+                                    <controles>
+                                      <control id="1035024" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB18" orden="3">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="16" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Datos adicionales de la enajenación - Columna 3" />
+                                      <atributo nombre="TituloLargo" valor="Datos adicionales de la enajenación - Columna 3" />
+                                    </atributos>
+                                  </control>
+                                  <control id="10357507" tipoControl="Columna" idEntidadPropiedad="1035" orden="45">
+                                    <controles>
+                                      <control id="1035025" tipoControl="ControlFecha" idEntidadPropiedad="1035" idPropiedad="EB19" orden="31">
+                                        <atributos>
+                                          <atributo nombre="Mascara" valor="99/99/9999" />
+                                          <atributo nombre="OrdenTabulador" valor="17" />
+                                          <atributo nombre="ValidaLongitud" valor="8" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="TituloCorto" valor="Datos de adquisición del bien inmueble" />
+                                  <atributo nombre="TituloLargo" valor="Datos de adquisición del bien inmueble" />
+                                </atributos>
+                              </control>
+                              <control id="10357508" tipoControl="Grupo" idEntidadPropiedad="1035" orden="46">
+                                <controles>
+                                  <control id="10357509" tipoControl="Columna" idEntidadPropiedad="1035">
+                                    <controles>
+                                      <control id="1035026" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB20" orden="1">
+                                        <atributos>
+                                          <atributo nombre="EnMayusculas" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="20" />
+                                          <atributo nombre="ValidaLongitud" valor="13" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035751" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="EBTI" orden="1">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="Tipo Retención" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="10357510" tipoControl="Columna" idEntidadPropiedad="1035">
+                                    <controles>
+                                      <control id="1035027" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB21" orden="33">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="21" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="10357511" tipoControl="Columna" idEntidadPropiedad="1035">
+                                    <controles>
+                                      <control id="1035028" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB22" orden="34">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="22" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="10357512" tipoControl="Columna" idEntidadPropiedad="1035">
+                                    <controles>
+                                      <control id="1035029" tipoControl="CuadroTexto" idEntidadPropiedad="1035" idPropiedad="EB23" orden="1">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="23" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="TituloCorto" valor="Datos del impuesto retenido o recaudado por terceros" />
+                                  <atributo nombre="TituloLargo" valor="Datos del impuesto retenido o recaudado por terceros" />
+                                </atributos>
+                              </control>
+                              <control id="1035115" tipoControl="Grupo" idEntidadPropiedad="1035" orden="48">
+                                <controles>
+                                  <control id="1035116" tipoControl="Columna" idEntidadPropiedad="1035" orden="49">
+                                    <controles>
+                                      <control id="1035030" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="EN1" orden="36">
+                                        <atributos>
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="32" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Datos informativos - Columna 1" />
+                                      <atributo nombre="TituloLargo" valor="Datos informativos - Columna 1" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035117" tipoControl="Columna" idEntidadPropiedad="1035" orden="50">
+                                    <controles>
+                                      <control id="1035031" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="EN2" orden="37">
+                                        <atributos>
+                                          <atributo nombre="MuestraEnGrid" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="33" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Datos informativos - Columna 2" />
+                                      <atributo nombre="TituloLargo" valor="Datos informativos - Columna 2" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035118" tipoControl="Columna" idEntidadPropiedad="1035" orden="51">
+                                    <controles>
+                                      <control id="1035032" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="EN3" orden="38">
+                                        <atributos>
+                                          <atributo nombre="Mascara" valor="99/99/9999" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="34" />
+                                          <atributo nombre="ValidaLongitud" valor="14" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Datos informativos - Columna 3" />
+                                      <atributo nombre="TituloLargo" valor="Datos informativos - Columna 3" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035119" tipoControl="Columna" idEntidadPropiedad="1035" orden="52">
+                                    <controles>
+                                      <control id="1035033" tipoControl="Oculto" idEntidadPropiedad="1035" idPropiedad="EN4" orden="39">
+                                        <atributos>
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="35" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Datos informativos - Columna 4" />
+                                      <atributo nombre="TituloLargo" valor="Datos informativos - Columna 4" />
+                                    </atributos>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="ocultar" valor="1" />
+                                  <atributo nombre="TituloCorto" valor="Datos informativos" />
+                                  <atributo nombre="TituloLargo" valor="Datos informativos" />
+                                </atributos>
+                              </control>
+                            </controles>
+                            <atributos>
+                              <atributo nombre="TituloCorto" valor="Columna Fromulario Grid" />
+                              <atributo nombre="TituloLargo" valor="Columna Fromulario Grid" />
+                            </atributos>
+                          </control>
+                        </controles>
+                        <atributos>
+                          <atributo nombre="EntidadHijo" valor="1117" />
+                          <atributo nombre="TituloCorto" valor="Datos de la enajenación - Columna 2" />
+                          <atributo nombre="TituloLargo" valor="Datos de la enajenación - Columna 2" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Datos de la enajenación - Columna 1" />
+                      <atributo nombre="TituloLargo" valor="Datos de la enajenación - Columna 1" />
+                    </atributos>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Datos de la enajenación" />
+                  <atributo nombre="TituloLargo" valor="Datos de la enajenación" />
+                </atributos>
+              </control>
+              <control id="1035034" tipoControl="Grupo" idEntidadPropiedad="1117" orden="36">
+                <controles>
+                  <control id="1035035" tipoControl="Columna" idEntidadPropiedad="1117" orden="37">
+                    <controles>
+                      <control id="1035036" tipoControl="FormularioGrid" idEntidadPropiedad="1117" orden="38">
+                        <controles>
+                          <control id="1035303" tipoControl="Columna" idEntidadPropiedad="1117" orden="1">
+                            <controles>
+                              <control id="1035301" tipoControl="Grupo" idEntidadPropiedad="1117" orden="1">
+                                <controles>
+                                  <control id="1035037" tipoControl="Columna" idEntidadPropiedad="1117" orden="39">
+                                    <controles>
+                                      <control id="1035100" tipoControl="CuadroTexto" idEntidadPropiedad="1117" idPropiedad="EBA1" orden="41">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1035|EN1" />
+                                          <atributo nombre="OrdenTabulador" valor="30" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035041" tipoControl="CuadroTexto" idEntidadPropiedad="1117" idPropiedad="EB25" orden="43">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="31" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035042" tipoControl="ControlFecha" idEntidadPropiedad="1117" idPropiedad="EB26" orden="44">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="Mascara" valor="99/99/9999" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="32" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="8" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Control Grid 2 - Columna 1" />
+                                      <atributo nombre="TituloLargo" valor="Control Grid 2 - Columna 1" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035038" tipoControl="Columna" idEntidadPropiedad="1117" orden="40">
+                                    <controles>
+                                      <control id="1035040" tipoControl="CuadroCombinado" idEntidadPropiedad="1117" idPropiedad="EB24" orden="42">
+                                        <atributos>
+                                          <atributo nombre="OrdenTabulador" valor="33" />
+                                          <atributo nombre="ValidaLongitud" valor="1" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035043" tipoControl="CuadroTexto" idEntidadPropiedad="1117" idPropiedad="EB27" orden="45">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="34" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035044" tipoControl="ControlFecha" idEntidadPropiedad="1117" idPropiedad="EB28" orden="46">
+                                        <atributos>
+                                          <atributo nombre="Mascara" valor="99/99/9999" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="35" />
+                                          <atributo nombre="ValidaLongitud" valor="8" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Control Grid 2 - Columna 2" />
+                                      <atributo nombre="TituloLargo" valor="Control Grid 2 - Columna 2" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1035039" tipoControl="Columna" idEntidadPropiedad="1117" orden="41">
+                                    <controles>
+                                      <control id="1035047" tipoControl="ControlVacio" idEntidadPropiedad="1117">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="Ctrl Blanco" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035045" tipoControl="CuadroTexto" idEntidadPropiedad="1117" idPropiedad="EB29" orden="47">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="36" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035046" tipoControl="ControlFecha" idEntidadPropiedad="1117" idPropiedad="EB30" orden="48">
+                                        <atributos>
+                                          <atributo nombre="Mascara" valor="99/99/9999" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="37" />
+                                          <atributo nombre="ValidaLongitud" valor="8" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Control Grid 2 - Columna 3" />
+                                      <atributo nombre="TituloLargo" valor="Control Grid 2 - Columna 3" />
+                                    </atributos>
+                                  </control>
+                                </controles>
+                              </control>
+                              <control id="1035302" tipoControl="Grupo" idEntidadPropiedad="1117" orden="1">
+                                <controles>
+                                  <control id="1035304" tipoControl="Columna" idEntidadPropiedad="1117" orden="1">
+                                    <controles>
+                                      <control id="1035222" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI1CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI1CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035223" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI2CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI2CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035224" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI3CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI3CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035225" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI4CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI4CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035226" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI5CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI5CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035227" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI6CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI6CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035228" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI7CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI7CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035229" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI8CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI8CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035230" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI9CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI9CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035231" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI10CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI10CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035232" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI11CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI11CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035233" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI12CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI12CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035234" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI13CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI13CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035235" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI14CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI14CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035307" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="EB13A" orden="100">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1035|EB13" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035308" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="EB17A" orden="200">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1035|EB17" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035309" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="EB19A" orden="300">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1035|EB19" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035310" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="EB7A" orden="300">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1035|EB7" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035312" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="EB9A" orden="302">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1035|EB9" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035314" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="EB11A" orden="304">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1035|EB11" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035316" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="EB16A" orden="306">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1035|EB16" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1035305" tipoControl="Columna" idEntidadPropiedad="1117" orden="1">
+                                    <controles>
+                                      <control id="1035236" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI1G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI1G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035237" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI2G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI2G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035238" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI3G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI3G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035239" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI4G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI4G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035240" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI5G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI5G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035241" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI6G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI6G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035242" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI7G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI7G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035243" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI8G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI8G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035244" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI9G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI9G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035245" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI10G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI10G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035246" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI11G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI11G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035247" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI12G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI12G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035248" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI13G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI13G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035249" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI14G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI14G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035311" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="EB8A" orden="301">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1035|EB8" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035313" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="EB10A" orden="303">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1035|EB10" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035315" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="EB12A" orden="305">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1035|EB12" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035317" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="EB18A" orden="307">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1035|EB18" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1035306" tipoControl="Columna" idEntidadPropiedad="1117" orden="1">
+                                    <controles>
+                                      <control id="1035250" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI1L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI1L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035251" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI2L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI2L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035252" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI3L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI3L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035253" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI4L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI4L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035254" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI5L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI5L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035255" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI6L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI6L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035256" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI7L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI7L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035257" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI8L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI8L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035258" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI9L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI9L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035259" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI10L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI10L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035260" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI11L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI11L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035261" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI12L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI12L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035262" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI13L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI13L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035263" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CI14L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CI14L" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="ocultar" valor="1" />
+                                </atributos>
+                              </control>
+                              <control id="1035318" tipoControl="Grupo" idEntidadPropiedad="1117" orden="1">
+                                <controles>
+                                  <control id="1035319" tipoControl="Columna" idEntidadPropiedad="1117" orden="1">
+                                    <controles>
+                                      <control id="1035158" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC1CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC1CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035159" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC2CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC2CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035160" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC3CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC3CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035161" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC4CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC4CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035162" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC5CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC5CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035163" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC6CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC6CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035164" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC7CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC7CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035165" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC8CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC8CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035166" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC9CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC9CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035167" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC10CM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC10CM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1117700" tipoControl="CuadroTexto" idEntidadPropiedad="1117" idPropiedad="CT1CM" />
+                                      <control id="1117701" tipoControl="CuadroTexto" idEntidadPropiedad="1117" idPropiedad="CT2CM" />
+                                      <control id="1117702" tipoControl="CuadroTexto" idEntidadPropiedad="1117" idPropiedad="CT3CM" />
+                                      <control id="1117703" tipoControl="CuadroTexto" idEntidadPropiedad="1117" idPropiedad="CT4CM" />
+                                      <control id="1117704" tipoControl="CuadroTexto" idEntidadPropiedad="1117" idPropiedad="CT5CM" />
+                                      <control id="1117705" tipoControl="CuadroTexto" idEntidadPropiedad="1117" idPropiedad="CT6CM" />
+                                      <control id="1117706" tipoControl="CuadroTexto" idEntidadPropiedad="1117" idPropiedad="CT7CM" />
+                                    </controles>
+                                  </control>
+                                  <control id="1035320" tipoControl="Columna" idEntidadPropiedad="1117" orden="1">
+                                    <controles>
+                                      <control id="1035168" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC1G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC1G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035169" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC2G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC2G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035170" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC3G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC3G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035171" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC4G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC4G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035172" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC5G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC5G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035173" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC6G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC6G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035174" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC7G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC7G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035175" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC8G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC8G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035176" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC9G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC9G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035177" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC10G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC10G" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1035321" tipoControl="Columna" idEntidadPropiedad="1117" orden="1">
+                                    <controles>
+                                      <control id="1035178" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC1L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC1L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035179" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC2L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC2L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035180" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC3L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC3L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035181" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC4L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC4L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035182" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC5L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC5L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035183" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC6L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC6L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035184" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC7L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC7L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035185" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC8L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC8L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035186" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC9L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC9L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035187" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CC10L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CC10L" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="ocultar" valor="1" />
+                                </atributos>
+                              </control>
+                              <control id="1035322" tipoControl="Grupo" idEntidadPropiedad="1117" orden="1">
+                                <controles>
+                                  <control id="1035323" tipoControl="Columna" idEntidadPropiedad="1117" orden="1">
+                                    <controles>
+                                      <control id="1035131" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT1G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT1G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035132" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT2G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT2G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035133" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT3G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT3G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035134" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT4G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT4G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035135" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT5G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT5G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035136" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT6G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT6G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035137" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT7G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT7G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035138" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT8G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT8G" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1035324" tipoControl="Columna" idEntidadPropiedad="1117" orden="1">
+                                    <controles>
+                                      <control id="1035140" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT1L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT1L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035141" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT2L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT2L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035142" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT3L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT3L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035143" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT4L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT4L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035144" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT5L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT5L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035145" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT6L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT6L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035146" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT7L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT7L" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035147" tipoControl="Oculto" idEntidadPropiedad="1117" idPropiedad="CT8L">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CT8L" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1035325" tipoControl="Columna" idEntidadPropiedad="1117" orden="1" />
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="ocultar" valor="1" />
+                                </atributos>
+                              </control>
+                            </controles>
+                          </control>
+                        </controles>
+                        <atributos>
+                          <atributo nombre="EntidadPadre" valor="1035" />
+                          <atributo nombre="TituloCorto" valor="Control Grid 2" />
+                          <atributo nombre="TituloLargo" valor="Control Grid 2" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="CopiadoDesde" valor="1035|EB13" />
+                      <atributo nombre="TituloCorto" valor="Deducciones bienes inmuebles - Columna 1" />
+                      <atributo nombre="TituloLargo" valor="Deducciones bienes inmuebles - Columna 1" />
+                    </atributos>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Deducciones bienes inmuebles" />
+                  <atributo nombre="TituloLargo" valor="Deducciones bienes inmuebles" />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Bienes inmuebles - Columna Principal" />
+              <atributo nombre="TituloLargo" valor="Bienes inmuebles - Columna Principal" />
+            </atributos>
+          </control>
+        </controles>
+      </control>
+      <control id="1115001" tipoControl="Grupo" idEntidadPropiedad="1115" orden="1">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Bienes muebles" />
+          <atributo nombre="TituloLargo" valor="Bienes muebles" />
+        </atributos>
+        <controles>
+          <control id="1115002" tipoControl="Columna" idEntidadPropiedad="1115" orden="2">
+            <controles>
+              <control id="1115003" tipoControl="Grupo" idEntidadPropiedad="1115" orden="7">
+                <controles>
+                  <control id="1115004" tipoControl="Columna" idEntidadPropiedad="1115" orden="8">
+                    <controles>
+                      <control id="1115024" tipoControl="FormularioGrid" idEntidadPropiedad="1115" orden="0">
+                        <controles>
+                          <control id="115023" tipoControl="Columna" idEntidadPropiedad="1115" orden="0">
+                            <controles>
+                              <control id="115019" tipoControl="Grupo" idEntidadPropiedad="1115" orden="0">
+                                <controles>
+                                  <control id="115020" tipoControl="Columna" idEntidadPropiedad="1115" orden="0">
+                                    <controles>
+                                      <control id="1035264" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="CM1B">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM1B" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035265" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="CM2B">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM2B" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035266" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="CM3B">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM3B" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035267" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="CM4B">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM4B" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035268" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="CM5B">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM5B" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035269" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="CM6B">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM6B" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035270" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="CM7B">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM7B" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035271" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="CM8B">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM8B" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035600" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="ACM8B" />
+                                    </controles>
+                                  </control>
+                                  <control id="115021" tipoControl="Columna" idEntidadPropiedad="1115" orden="0" />
+                                  <control id="115024" tipoControl="Columna" idEntidadPropiedad="1115" orden="1">
+                                    <controles>
+                                      <control id="1115032" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="GE1EMA">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE1EMA" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1115033" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="BGE1EM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="BGE1EM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116062" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="GE1EM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE1EM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116063" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="GE2EM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE2EM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116064" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="GE3EM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE3EM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116065" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="GE4EM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE4EM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116066" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="GE5EM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE5EM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116067" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="GE6EM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE6EM" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1116703" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="GE3EMA">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="GE3EMA" />
+                                        </atributos>
+                                      </control>
+                                      <control id="11156001" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="CGE1EM">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CGE1EM" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="ocultar" valor="1" />
+                                </atributos>
+                              </control>
+                              <control id="115022" tipoControl="Grupo" idEntidadPropiedad="1115" orden="0">
+                                <controles>
+                                  <control id="1115006" tipoControl="Columna" idEntidadPropiedad="1115" orden="12">
+                                    <controles>
+                                      <control id="1115800" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="INOBANM" />
+                                      <control id="115025" tipoControl="Oculto" idEntidadPropiedad="1115" idPropiedad="EB31TI" orden="0">
+                                        <atributos>
+                                          <atributo nombre="TituloLargo" valor="Tipo de Retencion" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1115009" tipoControl="CuadroTexto" idEntidadPropiedad="1115" idPropiedad="EB31" orden="15">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="15" />
+                                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1115012" tipoControl="CuadroTexto" idEntidadPropiedad="1115" idPropiedad="EB34" orden="18">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="18" />
+                                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1115015" tipoControl="CuadroCombinado" idEntidadPropiedad="1115" idPropiedad="EB37" orden="21">
+                                        <atributos>
+                                          <atributo nombre="OrdenTabulador" valor="21" />
+                                          <atributo nombre="ValidaLongitud" valor="1" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1115018" tipoControl="CuadroCombinado" idEntidadPropiedad="1115" idPropiedad="EB40" orden="24">
+                                        <atributos>
+                                          <atributo nombre="OrdenTabulador" valor="24" />
+                                          <atributo nombre="TituloCorto" valor="Señale si se trata de la enajenación de alguno de los siguientes bienes" />
+                                          <atributo nombre="TituloLargo" valor="Señale si se trata de la enajenación de alguno de los siguientes bienes" />
+                                          <atributo nombre="ValidaLongitud" valor="1" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Columna Grid 1 - Columna 1" />
+                                      <atributo nombre="TituloLargo" valor="Columna Grid 1 - Columna 1" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1115007" tipoControl="Columna" idEntidadPropiedad="1115" orden="13">
+                                    <controles>
+                                      <control id="1115010" tipoControl="ControlFecha" idEntidadPropiedad="1115" idPropiedad="EB32" orden="16">
+                                        <atributos>
+                                          <atributo nombre="Mascara" valor="99/99/9999" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="16" />
+                                          <atributo nombre="ValidaLongitud" valor="8" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1115013" tipoControl="CuadroVerificacion" idEntidadPropiedad="1115" idPropiedad="EB35" orden="19">
+                                        <atributos>
+                                          <atributo nombre="OrdenTabulador" valor="19" />
+                                          <atributo nombre="TituloCorto" valor="Cobro en parcialidades" />
+                                          <atributo nombre="TituloLargo" valor="Cobro en parcialidades" />
+                                          <atributo nombre="ValidaLongitud" valor="1" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1115016" tipoControl="CuadroTexto" idEntidadPropiedad="1115" idPropiedad="EB38" orden="22">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="22" />
+                                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                                          <atributo nombre="TituloCorto" valor="Costo del bien" />
+                                          <atributo nombre="TituloLargo" valor="Costo del bien" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Columna Grid 1 - Columna 1 - Columna 2" />
+                                      <atributo nombre="TituloLargo" valor="Columna Grid 1 - Columna 1 - Columna 2" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1115008" tipoControl="Columna" idEntidadPropiedad="1115" orden="14">
+                                    <controles>
+                                      <control id="1115011" tipoControl="CuadroTexto" idEntidadPropiedad="1115" idPropiedad="EB33" orden="17">
+                                        <atributos>
+                                          <atributo nombre="EnMayusculas" valor="1" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="17" />
+                                          <atributo nombre="ValidaLongitud" valor="13" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1115014" tipoControl="CuadroTexto" idEntidadPropiedad="1115" idPropiedad="EB36" orden="20">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="20" />
+                                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                                          <atributo nombre="TituloCorto" valor="Ingreso efectivamente obtenido en el año" />
+                                          <atributo nombre="TituloLargo" valor="Ingreso efectivamente obtenido en el año" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1115017" tipoControl="ControlFecha" idEntidadPropiedad="1115" idPropiedad="EB39" orden="23">
+                                        <atributos>
+                                          <atributo nombre="Mascara" valor="99/99/9999" />
+                                          <atributo nombre="OrdenTabulador" valor="23" />
+                                          <atributo nombre="ValidaLongitud" valor="8" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Columna Grid 1 - Columna 1 - Columna 3" />
+                                      <atributo nombre="TituloLargo" valor="Columna Grid 1 - Columna 1 - Columna 3" />
+                                    </atributos>
+                                  </control>
+                                </controles>
+                              </control>
+                            </controles>
+                          </control>
+                        </controles>
+                        <atributos>
+                          <atributo nombre="EntidadHijo" valor="1118" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Datos de la enajenación - Columna 1" />
+                      <atributo nombre="TituloLargo" valor="Datos de la enajenación - Columna 1" />
+                    </atributos>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Datos de la enajenación" />
+                  <atributo nombre="TituloLargo" valor="Datos de la enajenación" />
+                </atributos>
+              </control>
+              <control id="1115019" tipoControl="Grupo" idEntidadPropiedad="1118" orden="36">
+                <controles>
+                  <control id="1115020" tipoControl="Columna" idEntidadPropiedad="1118" orden="37">
+                    <controles>
+                      <control id="1115021" tipoControl="FormularioGrid" idEntidadPropiedad="1118" orden="38">
+                        <controles>
+                          <control id="1115027" tipoControl="Columna" idEntidadPropiedad="1118" orden="0">
+                            <controles>
+                              <control id="1115028" tipoControl="Grupo" idEntidadPropiedad="1118" orden="0">
+                                <controles>
+                                  <control id="1115022" tipoControl="Columna" idEntidadPropiedad="1118" orden="39">
+                                    <controles>
+                                      <control id="1115025" tipoControl="CuadroTexto" idEntidadPropiedad="1118" idPropiedad="EB41" orden="42">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="MuestraEnGrid" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="42" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Control Grid 2 - Columna 1" />
+                                      <atributo nombre="TituloLargo" valor="Control Grid 2 - Columna 1" />
+                                    </atributos>
+                                  </control>
+                                  <control id="1115023" tipoControl="Columna" idEntidadPropiedad="1118" orden="40">
+                                    <controles>
+                                      <control id="1115041" tipoControl="Oculto" idEntidadPropiedad="1118" idPropiedad="EB39A" orden="24">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1115|EB39" />
+                                          <atributo nombre="Mascara" valor="99/99/9999" />
+                                          <atributo nombre="ValidaLongitud" valor="8" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1115026" tipoControl="ControlFecha" idEntidadPropiedad="1118" idPropiedad="EB42" orden="43">
+                                        <atributos>
+                                          <atributo nombre="Mascara" valor="99/99/9999" />
+                                          <atributo nombre="MuestraEnGrid" valor="1" />
+                                          <atributo nombre="OrdenTabulador" valor="43" />
+                                          <atributo nombre="ValidaLongitud" valor="8" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                    <atributos>
+                                      <atributo nombre="TituloCorto" valor="Control Grid 2 - Columna 2" />
+                                      <atributo nombre="TituloLargo" valor="Control Grid 2 - Columna 2" />
+                                    </atributos>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="TituloCorto" valor="Gastos notariales, impuestos, derechos, comisiones y mediaciones" />
+                                  <atributo nombre="TituloLargo" valor="Gastos notariales, impuestos, derechos, comisiones y mediaciones" />
+                                </atributos>
+                              </control>
+                              <control id="1115029" tipoControl="Grupo" idEntidadPropiedad="1118" orden="0">
+                                <controles>
+                                  <control id="1115030" tipoControl="Columna" idEntidadPropiedad="1118" orden="0">
+                                    <controles>
+                                      <control id="1035272" tipoControl="Oculto" idEntidadPropiedad="1118" idPropiedad="CM1G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM1G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035273" tipoControl="Oculto" idEntidadPropiedad="1118" idPropiedad="CM2G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM2G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035274" tipoControl="Oculto" idEntidadPropiedad="1118" idPropiedad="CM3G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM3G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035275" tipoControl="Oculto" idEntidadPropiedad="1118" idPropiedad="CM4G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM4G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035276" tipoControl="Oculto" idEntidadPropiedad="1118" idPropiedad="CM5G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM5G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035277" tipoControl="Oculto" idEntidadPropiedad="1118" idPropiedad="CM6G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM6G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035278" tipoControl="Oculto" idEntidadPropiedad="1118" idPropiedad="CM7G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM7G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1035279" tipoControl="Oculto" idEntidadPropiedad="1118" idPropiedad="CM8G">
+                                        <atributos>
+                                          <atributo nombre="TituloCorto" valor="CM8G" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1115031" tipoControl="Oculto" idEntidadPropiedad="1118" idPropiedad="EB32A" orden="100">
+                                        <atributos>
+                                          <atributo nombre="CopiadoDesde" valor="1115|EB32" />
+                                          <atributo nombre="Mascara" valor="99/99/9999" />
+                                          <atributo nombre="ValidaLongitud" valor="8" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="ocultar" valor="1" />
+                                </atributos>
+                              </control>
+                            </controles>
+                          </control>
+                        </controles>
+                        <atributos>
+                          <atributo nombre="EntidadPadre" valor="1115" />
+                          <atributo nombre="TituloCorto" valor="Control Grid 2" />
+                          <atributo nombre="TituloLargo" valor="Control Grid 2" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Deducciones bienes muebles - Columna 1" />
+                      <atributo nombre="TituloLargo" valor="Deducciones bienes muebles - Columna 1" />
+                    </atributos>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Deducciones bienes muebles" />
+                  <atributo nombre="TituloLargo" valor="Deducciones bienes muebles" />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Bienes muebles - Columna Principal" />
+              <atributo nombre="TituloLargo" valor="Bienes muebles - Columna Principal" />
+            </atributos>
+          </control>
+        </controles>
+      </control>
+      <control id="1034001" tipoControl="Grupo" idEntidadPropiedad="1034" orden="2">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Datos adicionales de enajenación" />
+          <atributo nombre="TituloLargo" valor="Datos adicionales de enajenación" />
+        </atributos>
+        <controles>
+          <control id="1034002" tipoControl="Columna" idEntidadPropiedad="1034" orden="2">
+            <controles>
+              <control id="1034003" tipoControl="CuadroTexto" idEntidadPropiedad="1034" idPropiedad="EB1" orden="6">
+                <atributos>
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="5" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1034004" tipoControl="CuadroTexto" idEntidadPropiedad="1034" idPropiedad="EB2" orden="7">
+                <atributos>
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="6" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1034006" tipoControl="CuadroTexto" idEntidadPropiedad="1034" idPropiedad="EB3" orden="9">
+                <atributos>
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="8" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Calculo Enajenación de Bienes - Columna 1" />
+              <atributo nombre="TituloLargo" valor="Calculo Enajenación de Bienes - Columna 1" />
+            </atributos>
+          </control>
+          <control id="1034005" tipoControl="Columna" idEntidadPropiedad="1034" orden="3">
+            <controles>
+              <control id="1034007" tipoControl="CuadroTexto" idEntidadPropiedad="1034" idPropiedad="EB4" orden="10">
+                <atributos>
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="9" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1034008" tipoControl="CuadroTexto" idEntidadPropiedad="1034" idPropiedad="EB5" orden="11">
+                <atributos>
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="10" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Calculo Enajenación de Bienes - Columna 2" />
+              <atributo nombre="TituloLargo" valor="Calculo Enajenación de Bienes - Columna 2" />
+            </atributos>
+          </control>
+        </controles>
+      </control>
+      <control id="1116001" tipoControl="Grupo" idEntidadPropiedad="1116" orden="1">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Enajenación de bienes" />
+          <atributo nombre="TituloLargo" valor="Enajenación de bienes" />
+        </atributos>
+        <controles>
+          <control id="1116012" tipoControl="Columna" idEntidadPropiedad="1116" orden="0">
+            <controles>
+              <control id="1116013" tipoControl="Grupo" idEntidadPropiedad="1116" orden="0">
+                <controles>
+                  <control id="1116002" tipoControl="Columna" idEntidadPropiedad="1116" orden="2">
+                    <controles>
+                      <control id="1116004" tipoControl="CuadroTexto" idEntidadPropiedad="1116" idPropiedad="111501" orden="4">
+                        <atributos>
+                          <atributo nombre="OrdenTabulador" valor="4" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Total de ingresos por enajenación de bienes" />
+                          <atributo nombre="TituloLargo" valor="Total de ingresos por enajenación de bienes" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1116005" tipoControl="CuadroTexto" idEntidadPropiedad="1116" idPropiedad="111504" orden="5">
+                        <atributos>
+                          <atributo nombre="OrdenTabulador" valor="5" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Ingresos exentos" />
+                          <atributo nombre="TituloLargo" valor="Ingresos exentos" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1116006" tipoControl="CuadroTexto" idEntidadPropiedad="1116" idPropiedad="111523" orden="6">
+                        <atributos>
+                          <atributo nombre="OrdenTabulador" valor="6" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Deducciones autorizadas (gastos)" />
+                          <atributo nombre="TituloLargo" valor="Deducciones autorizadas (gastos)" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1116007" tipoControl="CuadroTexto" idEntidadPropiedad="1116" idPropiedad="111599" orden="7">
+                        <atributos>
+                          <atributo nombre="OrdenTabulador" valor="7" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Impuesto local por los ingresos por enajenación de bienes inmuebles" />
+                          <atributo nombre="TituloLargo" valor="Impuesto local por los ingresos por enajenación de bienes inmuebles" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Deducciones (enajenación de bienes muebles) - Columna Principal 1" />
+                      <atributo nombre="TituloLargo" valor="Deducciones (enajenación de bienes muebles) - Columna Principal 1" />
+                    </atributos>
+                  </control>
+                  <control id="1116003" tipoControl="Columna" idEntidadPropiedad="1116" orden="3">
+                    <controles>
+                      <control id="1116008" tipoControl="CuadroTexto" idEntidadPropiedad="1116" idPropiedad="111544" orden="8">
+                        <atributos>
+                          <atributo nombre="OrdenTabulador" valor="8" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Pérdida de enajenación de bienes de ejercicios anteriores, aplicada en el ejercicio" />
+                          <atributo nombre="TituloLargo" valor="Pérdida de enajenación de bienes de ejercicios anteriores, aplicada en el ejercicio" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1116009" tipoControl="CuadroTexto" idEntidadPropiedad="1116" idPropiedad="111535" orden="9">
+                        <atributos>
+                          <atributo nombre="OrdenTabulador" valor="9" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Ganancia acumulable" />
+                          <atributo nombre="TituloLargo" valor="Ganancia acumulable" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1116010" tipoControl="CuadroTexto" idEntidadPropiedad="1116" idPropiedad="111536" orden="10">
+                        <atributos>
+                          <atributo nombre="OrdenTabulador" valor="10" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Ganacia no acumulable por enajenación de bienes" />
+                          <atributo nombre="TituloLargo" valor="Ganacia no acumulable por enajenación de bienes" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1116011" tipoControl="CuadroTexto" idEntidadPropiedad="1116" idPropiedad="111840" orden="11">
+                        <atributos>
+                          <atributo nombre="OrdenTabulador" valor="11" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Pérdida" />
+                          <atributo nombre="TituloLargo" valor="Pérdida" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Deducciones (enajenación de bienes muebles) - Columna Principal 2" />
+                      <atributo nombre="TituloLargo" valor="Deducciones (enajenación de bienes muebles) - Columna Principal 2" />
+                    </atributos>
+                  </control>
+                </controles>
+              </control>
+              <control id="1116014" tipoControl="Grupo" idEntidadPropiedad="1116" orden="0">
+                <controles>
+                  <control id="1116015" tipoControl="Columna" idEntidadPropiedad="1116" orden="0">
+                    <controles>
+                      <control id="1116068" tipoControl="Oculto" idEntidadPropiedad="1116" idPropiedad="GE7EM">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="GE7EM" />
+                        </atributos>
+                      </control>
+                      <control id="1116069" tipoControl="Oculto" idEntidadPropiedad="1116" idPropiedad="GE8EM">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="GE8EM" />
+                        </atributos>
+                      </control>
+                      <control id="1116070" tipoControl="Oculto" idEntidadPropiedad="1116" idPropiedad="GE9EM">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="GE9EM" />
+                        </atributos>
+                      </control>
+                      <control id="1116071" tipoControl="Oculto" idEntidadPropiedad="1116" idPropiedad="GE10EM">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="GE10EM" />
+                        </atributos>
+                      </control>
+                    </controles>
+                  </control>
+                  <control id="1116050" tipoControl="Columna" idEntidadPropiedad="1116" orden="0">
+                    <controles>
+                      <control id="1116022" tipoControl="Oculto" idEntidadPropiedad="1116" idPropiedad="GE7EII">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="GE7EII" />
+                        </atributos>
+                      </control>
+                      <control id="1116023" tipoControl="Oculto" idEntidadPropiedad="1116" idPropiedad="GE8EII">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="GE8EII" />
+                        </atributos>
+                      </control>
+                      <control id="1116024" tipoControl="Oculto" idEntidadPropiedad="1116" idPropiedad="GE9EII">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="GE9EII" />
+                        </atributos>
+                      </control>
+                      <control id="1116025" tipoControl="Oculto" idEntidadPropiedad="1116" idPropiedad="GE10EII">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="GE10EII" />
+                        </atributos>
+                      </control>
+                    </controles>
+                  </control>
+                  <control id="1116051" tipoControl="Columna" idEntidadPropiedad="1116" orden="0">
+                    <controles>
+                      <control id="1116058" tipoControl="Oculto" idEntidadPropiedad="1116" idPropiedad="GE7EIS">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="GE7EIS" />
+                        </atributos>
+                      </control>
+                      <control id="1116059" tipoControl="Oculto" idEntidadPropiedad="1116" idPropiedad="GE8EIS">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="GE8EIS" />
+                        </atributos>
+                      </control>
+                      <control id="1116060" tipoControl="Oculto" idEntidadPropiedad="1116" idPropiedad="GE9EIS">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="GE9EIS" />
+                        </atributos>
+                      </control>
+                      <control id="1116061" tipoControl="Oculto" idEntidadPropiedad="1116" idPropiedad="GE10EIS">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="GE10EIS" />
+                        </atributos>
+                      </control>
+                    </controles>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="ocultar" valor="1" />
+                </atributos>
+              </control>
+            </controles>
+          </control>
+        </controles>
+      </control>
+    </controles>
+  </formulario>
+</diagramacion>

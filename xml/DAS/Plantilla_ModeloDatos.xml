@@ -1,0 +1,3043 @@
+﻿<modeloDatos>
+  <entidades>
+    <entidad id="1000" nombre="Personas Fisicas">
+      <atributos>
+        <atributo nombre="llave" valor="SAT_PER_FI" />
+        <atributo nombre="tipo" valor="SAT_FOR" />
+      </atributos>
+      <propiedades />
+    </entidad>
+    <entidad id="1001" nombre="Datos del Contribuyente">
+      <atributos>
+        <atributo nombre="llave" valor="SAT_DAT_DEL_CO" />
+        <atributo nombre="multiplicidad" valor="1" />
+        <atributo nombre="tipo" valor="SAT_DATOS_CONTRIBUYENTE" />
+        <atributo nombre="tipoSeccion" valor="Datos Generales del Contribuyente" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloCorto" valor="Datos del Contribuyente" />
+        <atributo nombre="TituloLargo" valor="Datos del Contribuyente" />
+      </atributos>
+      <propiedades>
+        <propiedad id="10" nombre="RFC" tipoDatos="Alfanumerico" claveInformativa="10">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_RFC" />
+            <atributo nombre="Orden" valor="8" />
+            <atributo nombre="TituloCorto" valor="RFC" />
+            <atributo nombre="TituloLargo" valor="RFC" />
+          </atributos>
+        </propiedad>
+        <propiedad id="11" nombre="RFC Representante Legal" tipoDatos="Alfanumerico" claveInformativa="11">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_RFC_REP_LEG" />
+            <atributo nombre="Orden" valor="9" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="RFC Representante Legal" />
+          </atributos>
+        </propiedad>
+        <propiedad id="12" nombre="CURP Representante Legal" tipoDatos="Alfanumerico" claveInformativa="12">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CUR_REP_LEG" />
+            <atributo nombre="Orden" valor="10" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="CURP Representante Legal" />
+          </atributos>
+        </propiedad>
+        <propiedad id="13" nombre="Nombre del Rep Legal" tipoDatos="Alfanumerico" claveInformativa="13">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_NOM_DEL_REP_LEG" />
+            <atributo nombre="Orden" valor="11" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Nombre del Representante Legal" />
+          </atributos>
+        </propiedad>
+        <propiedad id="14" nombre="Apellido Paterno Rep Legal" tipoDatos="Alfanumerico" claveInformativa="14">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_APE_PAT_REP_LEG" />
+            <atributo nombre="Orden" valor="12" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Apellido Paterno Representante Legal" />
+          </atributos>
+        </propiedad>
+        <propiedad id="15" nombre="Apellido Materno Rep Legal" tipoDatos="Alfanumerico" claveInformativa="15">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_APE_MAT_REP_LEG" />
+            <atributo nombre="Orden" valor="13" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Apellido Materno Representante Legal" />
+          </atributos>
+        </propiedad>
+        <propiedad id="16" nombre="BO_ID" tipoDatos="Alfanumerico" claveInformativa="16">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_BO_" />
+            <atributo nombre="Orden" valor="14" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="BO_ID" />
+          </atributos>
+        </propiedad>
+        <propiedad id="17" nombre="ALSC" tipoDatos="Alfanumerico" claveInformativa="17">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ALS" />
+            <atributo nombre="Orden" valor="15" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="ALSC" />
+          </atributos>
+        </propiedad>
+        <propiedad id="18" nombre="Addenda" tipoDatos="Alfanumerico" claveInformativa="18">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ADD" />
+            <atributo nombre="Orden" valor="16" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Addenda" />
+          </atributos>
+        </propiedad>
+        <propiedad id="2" nombre="CURP" tipoDatos="Alfanumerico" claveInformativa="2">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CUR" />
+            <atributo nombre="TituloCorto" valor="CURP" />
+            <atributo nombre="TituloLargo" valor="CURP" />
+          </atributos>
+        </propiedad>
+        <propiedad id="3" nombre="Nombre" tipoDatos="Alfanumerico" claveInformativa="3">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_NOM" />
+            <atributo nombre="Orden" valor="1" />
+            <atributo nombre="TituloCorto" valor="Nombre" />
+            <atributo nombre="TituloLargo" valor="Nombre" />
+          </atributos>
+        </propiedad>
+        <propiedad id="3A" nombre="NombreCompleto" tipoDatos="Alfanumerico" claveInformativa="3A">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_NOM_COM" />
+            <atributo nombre="TituloCorto" valor="Nombre" />
+            <atributo nombre="TituloLargo" valor="Nombre" />
+          </atributos>
+        </propiedad>
+        <propiedad id="4" nombre="Apellido Paterno" tipoDatos="Alfanumerico" claveInformativa="4">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_APE_PAT" />
+            <atributo nombre="Orden" valor="2" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Apellido Paterno" />
+          </atributos>
+        </propiedad>
+        <propiedad id="5" nombre="Apellido Materno" tipoDatos="Alfanumerico" claveInformativa="5">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_APE_MAT" />
+            <atributo nombre="Orden" valor="3" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Apellido Materno" />
+          </atributos>
+        </propiedad>
+        <propiedad id="6" nombre="Razón Social" tipoDatos="Alfanumerico" claveInformativa="6">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_RAZ_SOC" />
+            <atributo nombre="Orden" valor="4" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Razón Social" />
+          </atributos>
+        </propiedad>
+        <propiedad id="7" nombre="Tipo de Sociedad" tipoDatos="Alfanumerico" claveInformativa="7">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_TIP_DE_SOC" />
+            <atributo nombre="Orden" valor="5" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Tipo de Sociedad" />
+          </atributos>
+        </propiedad>
+        <propiedad id="8" nombre="ID de Persona" tipoDatos="Alfanumerico" claveInformativa="8">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ID_DE_PER" />
+            <atributo nombre="Orden" valor="6" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="ID de Persona" />
+          </atributos>
+        </propiedad>
+        <propiedad id="9" nombre="Tipo de Persona" tipoDatos="Alfanumerico" claveInformativa="9">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_TIP_DE_PER" />
+            <atributo nombre="Orden" valor="7" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Tipo de Persona" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1002" nombre="Datos Generales">
+      <atributos>
+        <atributo nombre="llave" valor="SAT_DAT_GE" />
+        <atributo nombre="multiplicidad" valor="1" />
+        <atributo nombre="tipo" valor="SAT_DATOS_GENERALES" />
+        <atributo nombre="tipoSeccion" valor="Datos Generales de la Declaración" />
+        <atributo nombre="TituloCorto" valor="Datos Generales" />
+        <atributo nombre="TituloLargo" valor="Datos Generales" />
+      </atributos>
+      <propiedades>
+        <propiedad id="1" nombre="Formato 18" tipoDatos="Alfanumerico" claveInformativa="1">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_FOR" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Formato 18" />
+          </atributos>
+        </propiedad>
+        <propiedad id="20" nombre="ID de la declaración" tipoDatos="Numerico" claveInformativa="20">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ID_DE_LA_DEC" />
+            <atributo nombre="Orden" valor="1" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="ID de la declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="21" nombre="Versión de la Reforma" tipoDatos="Numerico" claveInformativa="21">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_VER_DE_LA_REF" />
+            <atributo nombre="Orden" valor="2" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Versión de la Reforma" />
+          </atributos>
+        </propiedad>
+        <propiedad id="22" nombre="Clave Tipo de Complementaria" tipoDatos="Alfanumerico" claveInformativa="22">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CLA_TIP_DE_COM" />
+            <atributo nombre="Orden" valor="3" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Clave Tipo de Complementaria" />
+          </atributos>
+        </propiedad>
+        <propiedad id="23" nombre="Clave del Periodo" tipoDatos="Alfanumerico" claveInformativa="23">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CLA_DEL_PER" />
+            <atributo nombre="Orden" valor="4" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Clave del Periodo" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24" nombre="Descripción del Tipo de Declaración" tipoDatos="Alfanumerico" claveInformativa="24">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_DES_DEL_TIP_DE_DEC" />
+            <atributo nombre="Orden" valor="5" />
+            <atributo nombre="TituloCorto" valor="Tipo de declaración" />
+            <atributo nombre="TituloLargo" valor="Descripción del tipo de declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="25" nombre="Descripción de la Periodicidad" tipoDatos="Alfanumerico" claveInformativa="25">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_DES_DE_LA_PER" />
+            <atributo nombre="Orden" valor="6" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Descripción de la Periodicidad" />
+          </atributos>
+        </propiedad>
+        <propiedad id="26" nombre="Descripción del Periodo" tipoDatos="Alfanumerico" claveInformativa="26">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_DES_DEL_PER" />
+            <atributo nombre="Orden" valor="7" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Descripción del Periodo" />
+          </atributos>
+        </propiedad>
+        <propiedad id="27" nombre="Clave de la Clase de Declaración" tipoDatos="Alfanumerico" claveInformativa="27">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CLA_DE_LA_CLA_DE_DEC" />
+            <atributo nombre="Orden" valor="8" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Clave de la Clase de Declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="28" nombre="Fecha de Vencimiento de la Declaración" tipoDatos="Fecha" claveInformativa="28">
+          <atributos>
+            <atributo nombre="EsFechaISO" valor="1" />
+            <atributo nombre="llave" valor="SAT_FEC_DE_VEN_DE_LA_DEC" />
+            <atributo nombre="Orden" valor="9" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Fecha de Vencimiento de la Declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="29" nombre="Fecha de Causación" tipoDatos="Fecha" claveInformativa="29">
+          <atributos>
+            <atributo nombre="EsFechaISO" valor="1" />
+            <atributo nombre="llave" valor="SAT_FEC_DE_CAU" />
+            <atributo nombre="Orden" valor="10" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Fecha de Causación" />
+          </atributos>
+        </propiedad>
+        <propiedad id="30" nombre="Ejercicio" tipoDatos="Alfanumerico" claveInformativa="30">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_EJE" />
+            <atributo nombre="Orden" valor="11" />
+            <atributo nombre="TituloCorto" valor="Ejercicio" />
+            <atributo nombre="TituloLargo" valor="Ejercicio" />
+          </atributos>
+        </propiedad>
+        <propiedad id="31" nombre="Clave del Tipo de Declaración" tipoDatos="Alfanumerico" claveInformativa="31">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CLA_DEL_TIP_DE_DEC" />
+            <atributo nombre="Orden" valor="12" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Clave del Tipo de Declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="32" nombre="Clave de Periodicidad" tipoDatos="Alfanumerico" claveInformativa="32">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CLA_DE_PER" />
+            <atributo nombre="Orden" valor="13" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Clave de Periodicidad" />
+          </atributos>
+        </propiedad>
+        <propiedad id="33" nombre="Descripción del Tipo de Complementaria" tipoDatos="Alfanumerico" claveInformativa="33">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_DES_DEL_TIP_DE_COM" />
+            <atributo nombre="Orden" valor="14" />
+            <atributo nombre="TituloCorto" valor="Tipo de complementaria" />
+            <atributo nombre="TituloLargo" valor="Descripción del tipo de complementaria" />
+          </atributos>
+        </propiedad>
+        <propiedad id="34" nombre="Medio de llenado de la declaración" tipoDatos="Alfanumerico" claveInformativa="34">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_MED_DE_LLE_DE_LA_DEC" />
+            <atributo nombre="Orden" valor="15" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Medio de llenado de la declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="35" nombre="ID de la declaración padre" tipoDatos="Numerico" claveInformativa="35">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ID_DE_LA_DEC_PAD" />
+            <atributo nombre="Orden" valor="16" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="ID de la declaración padre" />
+          </atributos>
+        </propiedad>
+        <propiedad id="36" nombre="ID de la declaración raiz" tipoDatos="Numerico" claveInformativa="36">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ID_DE_LA_DEC_RAI" />
+            <atributo nombre="Orden" valor="17" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="ID de la declaración raíz" />
+          </atributos>
+        </propiedad>
+        <propiedad id="37" nombre="Medio de Presentación de la Declaración" tipoDatos="Alfanumerico" claveInformativa="37">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_MED_DE_PRE_DE_LA_DEC" />
+            <atributo nombre="Orden" valor="18" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Medio de Presentación de la Declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="38" nombre="Fecha Configuración Declaración" tipoDatos="Fecha" claveInformativa="38">
+          <atributos>
+            <atributo nombre="EsFechaISO" valor="2" />
+            <atributo nombre="llave" valor="SAT_FEC_CON_DEC" />
+            <atributo nombre="Orden" valor="19" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Fecha Configuración Declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="39" nombre="Clave usuario inicia" tipoDatos="Alfanumerico" claveInformativa="39">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CLA_USU_INI" />
+            <atributo nombre="Orden" valor="20" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Clave usuario inicia" />
+          </atributos>
+        </propiedad>
+        <propiedad id="40" nombre="Clave usuario concluye" tipoDatos="Alfanumerico" claveInformativa="40">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CLA_USU_CON" />
+            <atributo nombre="Orden" valor="21" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Clave usuario concluye" />
+          </atributos>
+        </propiedad>
+        <propiedad id="41" nombre="Clave del Régimen Presentado" tipoDatos="Alfanumerico" claveInformativa="41">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CLA_DEL_REG_PRE" />
+            <atributo nombre="Orden" valor="22" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Clave del Régimen Presentado" />
+          </atributos>
+        </propiedad>
+        <propiedad id="42" nombre="Descripción del Régimen Presentado" tipoDatos="Alfanumerico" claveInformativa="42">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_DES_DEL_REG_PRE" />
+            <atributo nombre="Orden" valor="23" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Descripción del Régimen Presentado" />
+          </atributos>
+        </propiedad>
+        <propiedad id="43" nombre="Firmado de la declaración" tipoDatos="Numerico" claveInformativa="43">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_FIR_DE_LA_DEC" />
+            <atributo nombre="Orden" valor="24" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Firmado de la declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="44" nombre="Número de Serie Certificado" tipoDatos="Numerico" claveInformativa="44">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_NUM_DE_SER_CER" />
+            <atributo nombre="Orden" valor="25" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Número de Serie Certificado" />
+          </atributos>
+        </propiedad>
+        <propiedad id="45" nombre="Medio de autenticación" tipoDatos="Alfanumerico" claveInformativa="45">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_MED_DE_AUT" />
+            <atributo nombre="Orden" valor="26" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Medio de autenticación" />
+          </atributos>
+        </propiedad>
+        <propiedad id="46" nombre="Addenda" tipoDatos="Alfanumerico" claveInformativa="46">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ADD" />
+            <atributo nombre="Orden" valor="16" />
+            <atributo nombre="Orden" valor="27" />
+            <atributo nombre="Orden" valor="9" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Addenda" />
+          </atributos>
+        </propiedad>
+        <propiedad id="47" nombre="Fecha del Sistema" tipoDatos="FechaHora" claveInformativa="47">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_FEC_SIS" />
+          </atributos>
+        </propiedad>
+        <propiedad id="48" nombre="Certificado" tipoDatos="Numerico" claveInformativa="48">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CER" />
+            <atributo nombre="TituloCorto" valor="Certificado" />
+            <atributo nombre="TituloLargo" valor="Certificado" />
+          </atributos>
+        </propiedad>
+        <propiedad id="49" nombre="Firma" tipoDatos="Numerico" claveInformativa="49">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_FIR" />
+            <atributo nombre="TituloCorto" valor="Firma" />
+            <atributo nombre="TituloLargo" valor="Firma" />
+          </atributos>
+        </propiedad>
+        <propiedad id="50" nombre="Clave Medio de Presentacion" tipoDatos="Alfanumerico" claveInformativa="50">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CVE_MED_PRE" />
+            <atributo nombre="TituloCorto" valor="CveMedioPago" />
+            <atributo nombre="TituloLargo" valor="CveMedioPago" />
+          </atributos>
+        </propiedad>
+        <propiedad id="51" nombre="IdAreaGeografica" tipoDatos="Numerico" claveInformativa="51">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ID_ARE_GEO" />
+          </atributos>
+        </propiedad>
+        <propiedad id="52" nombre="Descripcion Área Geográfica" tipoDatos="Numerico" claveInformativa="52">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_DES_ARE_GEO" />
+            <atributo nombre="Orden" valor="11" />
+            <atributo nombre="TituloCorto" valor="Área geográfica" />
+            <atributo nombre="TituloLargo" valor="Área geográfica" />
+          </atributos>
+        </propiedad>
+        <propiedad id="52A" nombre="Area Geografica Unica" tipoDatos="Numerico" claveInformativa="52A">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ARE_GEO_UNI" />
+            <atributo nombre="TituloCorto" valor="Área geográfica" />
+            <atributo nombre="TituloLargo" valor="Área geográfica" />
+          </atributos>
+        </propiedad>
+        <propiedad id="53" nombre="SubRegimenes" tipoDatos="Alfanumerico" claveInformativa="53">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_SUB_REG" />
+          </atributos>
+        </propiedad>
+        <propiedad id="54" nombre="IdAnuales" tipoDatos="Alfanumerico" claveInformativa="54">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ID_ANU" />
+          </atributos>
+        </propiedad>
+        <propiedad id="55" nombre="SinCalculo" tipoDatos="Numerico" claveInformativa="55">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_SIN_CAL" />
+          </atributos>
+        </propiedad>
+        <propiedad id="56" nombre="Simplificado" tipoDatos="Numerico" claveInformativa="56">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_SIM" />
+          </atributos>
+        </propiedad>
+        <propiedad id="57" nombre="Con Precarga" tipoDatos="Numerico" claveInformativa="57">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CON_PRE" />
+          </atributos>
+        </propiedad>
+        <propiedad id="58" nombre="Fuera de Linea" tipoDatos="Numerico" claveInformativa="58">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_FUE_LIN" />
+          </atributos>
+        </propiedad>
+        <propiedad id="59" nombre="Tiene Trabajadores" tipoDatos="Numerico" claveInformativa="59">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_TIE_TRA" />
+          </atributos>
+        </propiedad>
+        <propiedad id="60" nombre="Aplica Estimulos" tipoDatos="Numerico" claveInformativa="60">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_APL_EST" />
+          </atributos>
+        </propiedad>
+        <propiedad id="61" nombre="Sector Primario" tipoDatos="Numerico" claveInformativa="61">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_SEC_PRI" />
+          </atributos>
+        </propiedad>
+        <propiedad id="62" nombre="Entidad Federativa" tipoDatos="Alfanumerico" claveInformativa="62">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ENT_FED" />
+          </atributos>
+        </propiedad>
+        <propiedad id="63" nombre="Entidad Federativa Historico" tipoDatos="Alfanumerico" claveInformativa="63">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ENT_FED_HIST" />
+          </atributos>
+        </propiedad>
+        <propiedad id="64" nombre="SubRegimenes Historico" tipoDatos="Alfanumerico" claveInformativa="64">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_SUB_REG_HIST" />
+          </atributos>
+        </propiedad>
+        <propiedad id="65" nombre="IdAplicativo" tipoDatos="Numerico" claveInformativa="65">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ID_APL" />
+          </atributos>
+        </propiedad>
+        <propiedad id="66" nombre="Nombre Aplicativo" tipoDatos="Alfanumerico" claveInformativa="66">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_NOM_APL" />
+          </atributos>
+        </propiedad>
+        <propiedad id="67" nombre="Es Movil" tipoDatos="Numerico" claveInformativa="67">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ES_MOV" />
+          </atributos>
+        </propiedad>
+        <propiedad id="69" nombre="Es Propuesta" tipoDatos="Numerico" claveInformativa="69">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ES_PRO" />
+          </atributos>
+        </propiedad>
+        <propiedad id="70" nombre="Rechazo Propuesta" tipoDatos="Numerico" claveInformativa="70">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_REC_PRO" />
+          </atributos>
+        </propiedad>
+        <propiedad id="71" nombre="Aplica pago en parcialidades" tipoDatos="Numerico" claveInformativa="71">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_APL_PAG_PAR" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1005" nombre="Salarios">
+      <atributos>
+        <atributo nombre="llave" valor="SAT_SUE_YS_SA" />
+        <atributo nombre="multiplicidad" valor="*" />
+        <atributo nombre="tipo" valor="SAT_ANEXOS" />
+        <atributo nombre="tipoSeccion" valor="Anexo" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloCorto" valor="Sueldos y Salarios" />
+        <atributo nombre="TituloLargo" valor="Sueldos y Salarios" />
+        <atributo nombre="TituloRegimen" valor="Sueldos y Salarios" />
+      </atributos>
+      <propiedades>
+        <propiedad id="0" nombre="Salarios" tipoDatos="Alfanumerico" claveInformativa="0">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Salarios" />
+          </atributos>
+        </propiedad>
+        <propiedad id="100501" nombre="Sueldos y Salarios" tipoDatos="Alfanumerico" claveInformativa="100501">
+          <atributos>
+            <atributo nombre="llave" valor="SUE_Y S_SAL" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUX111819" nombre="Indicador existe sección de salario,indemnización o jubilación" tipoDatos="Numerico" claveInformativa="AUX111819">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSI3" nombre="Ingresos acumulables de Indemnizaciones" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSI3N" nombre="Ingresos No acumulables de Indemnizaciones" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSJ8" nombre="Ingresos acumulables de jubilaciones" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSJ8N" nombre="Ingresos No acumulables de jubilaciones" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSS5" nombre="Contador RFC Embajadas SS5" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_AUX_SS5" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DASSE1" nombre="Subsidio para el empleo correspondiente en el ejercicio" tipoDatos="Numerico" claveInformativa="DASSE1">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Subsidio para el empleo correspondiente en el ejercicio" />
+            <atributo nombre="TituloLargo" valor="Subsidio para el empleo correspondiente en el ejercicio" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DASSE2" nombre="Subsidio para el empleo entregado (diferencias)" tipoDatos="Numerico" claveInformativa="DASSE2">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Subsidio para el empleo entregado (diferencias)" />
+            <atributo nombre="TituloLargo" valor="Subsidio para el empleo entregado (diferencias)" />
+          </atributos>
+        </propiedad>
+        <propiedad id="ETQ0" nombre="RFC" tipoDatos="Alfanumerico" claveInformativa="ETQ0">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="RFC del retenedor" />
+            <atributo nombre="TituloLargo" valor="RFC" />
+          </atributos>
+        </propiedad>
+        <propiedad id="ETQ1" nombre="Nombre, denominación o razón social" tipoDatos="Alfanumerico">
+          <atributos>
+            <atributo nombre="llave" valor="ETQ1" />
+            <atributo nombre="TituloCorto" valor="Nombre, denominación o razón social" />
+            <atributo nombre="TituloLargo" valor="Nombre, denominación o razón social" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDSA1" nombre="Ingresos asimilados a salarios" tipoDatos="Numerico" claveInformativa="GRIDSA1">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingreso anual" />
+            <atributo nombre="TituloLargo" valor="Ingresos asimilados a salarios" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDSA2" nombre="Impuesto retenido durante el ejercicio" tipoDatos="Numerico" claveInformativa="GRIDSA2">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Impuesto retenido" />
+            <atributo nombre="TituloLargo" valor="Impuesto retenido durante el ejercicio" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDSS1" nombre="Ingreso anual Grid" tipoDatos="Numerico" claveInformativa="GRIDSS1">
+          <atributos>
+            <atributo nombre="llave" valor="ING_ANU" />
+            <atributo nombre="TituloCorto" valor="Ingreso anual" />
+            <atributo nombre="TituloLargo" valor="Ingreso anual" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDSS12" nombre="Nombre, denominación o razón social Grid" tipoDatos="Alfanumerico" claveInformativa="GRIDSS12">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_NOMBRE_DEN" />
+            <atributo nombre="TituloCorto" valor="Nombre, denominación o razón social" />
+            <atributo nombre="TituloLargo" valor="Nombre, denominación o razón social" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDSS2" nombre="Ingreso excento Grid" tipoDatos="Numerico" claveInformativa="GRIDSS2">
+          <atributos>
+            <atributo nombre="llave" valor="ING_EXC" />
+            <atributo nombre="TituloCorto" valor="Ingreso exento" />
+            <atributo nombre="TituloLargo" valor="Ingreso exento" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDSS3" nombre="Rentenciones Grid" tipoDatos="Numerico" claveInformativa="GRIDSS3">
+          <atributos>
+            <atributo nombre="llave" valor="REN" />
+            <atributo nombre="TituloCorto" valor="Retenciones" />
+            <atributo nombre="TituloLargo" valor="Retenciones" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDSS5" nombre="RFC del retenedor Grid" tipoDatos="Alfanumerico" claveInformativa="GRIDSS5">
+          <atributos>
+            <atributo nombre="llave" valor="RFC_DEL_RET" />
+            <atributo nombre="TituloCorto" valor="RFC del retenedor" />
+            <atributo nombre="TituloLargo" valor="Registro federal de contribuyentes del retenedor" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDSSTI" nombre="Tipo de ingreso" tipoDatos="Numerico" claveInformativa="GRIDSSTI">
+          <atributos>
+            <atributo nombre="Catalogo" valor="108" />
+            <atributo nombre="llave" valor="SAT_TIP_ING" />
+            <atributo nombre="TituloCorto" valor="Tipo de ingreso" />
+            <atributo nombre="TituloLargo" valor="Tipo de ingreso" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SA1" nombre="Ingresos asimilados a salarios" tipoDatos="Numerico" claveInformativa="SA1">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos asimilados a salarios" />
+            <atributo nombre="TituloLargo" valor="Ingresos asimilados a salarios" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SA2" nombre="Impuesto retenido durante el ejercicio" tipoDatos="Numerico" claveInformativa="SA2">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Impuesto retenido durante el ejercicio" />
+            <atributo nombre="TituloLargo" valor="Impuesto retenido durante el ejercicio" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SI1" nombre="Ingresos" tipoDatos="Numerico" claveInformativa="SI1">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos" />
+            <atributo nombre="TituloLargo" valor="Ingresos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SI2" nombre="Ingresos exentos" tipoDatos="Numerico" claveInformativa="SI2">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos exentos" />
+            <atributo nombre="TituloLargo" valor="Ingresos exentos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SI3" nombre="Último sueldo mensual ordinario" tipoDatos="Numerico" claveInformativa="SI3">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Último sueldo mensual ordinario" />
+            <atributo nombre="TituloLargo" valor="Último sueldo mensual ordinario" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SI4" nombre="Impuesto retenido" tipoDatos="Numerico" claveInformativa="SI4">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Impuesto retenido" />
+            <atributo nombre="TituloLargo" valor="Impuesto retenido" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SJ0" nombre="Vacio" tipoDatos="Alfanumerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SJ1" nombre="Tipo de jubilación" tipoDatos="Booleano" claveInformativa="SJ1">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="En parcialidades" />
+            <atributo nombre="TituloLargo" valor="En parcialidades" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SJ1A" nombre="En una sola exhibición" tipoDatos="Booleano" claveInformativa="SJ1A">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="En una sola exhibición" />
+            <atributo nombre="TituloLargo" valor="En una sola exhibición" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SJ2" nombre="Monto total pagado" tipoDatos="Numerico" claveInformativa="SJ2">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto total pagado" />
+            <atributo nombre="TituloLargo" valor="Monto total pagado" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SJ3" nombre="Ingrsos exentos" tipoDatos="Numerico" claveInformativa="SJ3">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos exentos" />
+            <atributo nombre="TituloLargo" valor="Ingresos exentos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SJ4" nombre="Ingreso Acumulable" tipoDatos="Numerico" claveInformativa="SJ4">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingreso acumulable" />
+            <atributo nombre="TituloLargo" valor="Ingreso acumulable" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SJ5" nombre="Ingreso retenido" tipoDatos="Numerico" claveInformativa="SJ5">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Impuesto retenido" />
+            <atributo nombre="TituloLargo" valor="Impuesto retenido" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SJ6" nombre="Ingresos" tipoDatos="Numerico" claveInformativa="SJ6">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos" />
+            <atributo nombre="TituloLargo" valor="Ingresos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SJ7" nombre="Ingrsos exentos" tipoDatos="Numerico" claveInformativa="SJ7">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos exentos" />
+            <atributo nombre="TituloLargo" valor="Ingresos exentos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SJ8" nombre="Último sueldo mensual ordinario" tipoDatos="Numerico" claveInformativa="SJ8">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Último sueldo mensual ordinario" />
+            <atributo nombre="TituloLargo" valor="Último sueldo mensual ordinario" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SJ9" nombre="Ingreso retenido" tipoDatos="Numerico" claveInformativa="SJ9">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Impuesto retenido" />
+            <atributo nombre="TituloLargo" valor="Impuesto retenido" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SS0" nombre="Tipo de salario" tipoDatos="Booleano" claveInformativa="SS0">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Salarios" />
+            <atributo nombre="TituloLargo" valor="Salarios" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SS0A" nombre="Indemnización" tipoDatos="Booleano" claveInformativa="SS0A">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Indemnización" />
+            <atributo nombre="TituloLargo" valor="Indemnización" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SS0B" nombre="Jubilación" tipoDatos="Booleano" claveInformativa="SS0B">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Jubilación" />
+            <atributo nombre="TituloLargo" valor="Jubilación" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SS0C" nombre="Asimilados a salarios" tipoDatos="Booleano" claveInformativa="SS0C">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Asimilados a salarios" />
+            <atributo nombre="TituloLargo" valor="Asimilados a salarios" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SS1" nombre="Ingreso anual" tipoDatos="Numerico" claveInformativa="SS1">
+          <atributos>
+            <atributo nombre="llave" valor="ING_ANU" />
+            <atributo nombre="TituloCorto" valor="Ingreso anual" />
+            <atributo nombre="TituloLargo" valor="Ingreso anual" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SS12" nombre="Nombre, denominación o razón social" tipoDatos="Alfanumerico" claveInformativa="139878">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_NOMBRE_DEN" />
+            <atributo nombre="TituloCorto" valor="Nombre, denominación o razón social" />
+            <atributo nombre="TituloLargo" valor="Nombre, denominación o razón social" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SS2" nombre="Ingreso excento" tipoDatos="Numerico" claveInformativa="SS2">
+          <atributos>
+            <atributo nombre="llave" valor="ING_EXC" />
+            <atributo nombre="TituloCorto" valor="Ingreso exento" />
+            <atributo nombre="TituloLargo" valor="Ingreso exento" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SS3" nombre="Rentenciones" tipoDatos="Numerico" claveInformativa="SS3">
+          <atributos>
+            <atributo nombre="llave" valor="REN" />
+            <atributo nombre="TituloCorto" valor="Retenciones" />
+            <atributo nombre="TituloLargo" valor="Retenciones" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SS4" nombre="Pagos provicionales" tipoDatos="Numerico" claveInformativa="SS4">
+          <atributos>
+            <atributo nombre="llave" valor="PAG_PRO" />
+            <atributo nombre="TituloCorto" valor="Pagos provisionales" />
+            <atributo nombre="TituloLargo" valor="Pagos provisionales" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SS5" nombre="RFC del retenedor" tipoDatos="Alfanumerico" claveInformativa="118438">
+          <atributos>
+            <atributo nombre="llave" valor="RFC_DEL_RET" />
+            <atributo nombre="TituloCorto" valor="RFC del retenedor" />
+            <atributo nombre="TituloLargo" valor="Registro federal de contribuyentes del retenedor" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SS5A" nombre="Contar RFC vacio" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="RFC Vacio" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SSEXE" nombre="Ingreso exento" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingreso exento" />
+            <atributo nombre="TituloLArgo" valor="Ingreso exento" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SSMR" nombre="Monto de Retenciones" tipoDatos="Numerico" claveInformativa="116391">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingreso anual" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SSMRTI" nombre="Tipo de Ingreso de Retencion" tipoDatos="Numerico" claveInformativa="118591">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Tipo de retención" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SSRISR" nombre="Retenciones ISR" tipoDatos="Numerico" claveInformativa="112208">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Impuesto retenido" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SSTI" nombre="Tipo de ingreso" tipoDatos="Numerico" claveInformativa="SSTI">
+          <atributos>
+            <atributo nombre="Catalogo" valor="108" />
+            <atributo nombre="llave" valor="SAT_TIP_ING" />
+            <atributo nombre="TituloCorto" valor="Tipo de ingreso" />
+            <atributo nombre="TituloLargo" valor="Tipo de ingreso" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1014" nombre="Campos de la declaración">
+      <atributos>
+        <atributo nombre="llave" valor="SAT_CAM_DE_LA_DEC" />
+        <atributo nombre="multiplicidad" valor="1" />
+        <atributo nombre="tipo" valor="SAT_ANEXOS" />
+        <atributo nombre="tipoSeccion" valor="Anexo" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloRegimen" valor="Sueldos y Salarios" />
+      </atributos>
+      <propiedades>
+        <propiedad id="0" nombre="Campos de la declaración" tipoDatos="Alfanumerico" claveInformativa="0">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CAM_DE_LA_DEC" />
+            <atributo nombre="TituloCorto" valor="Campos de la declaración" />
+            <atributo nombre="TituloLargo" valor="Campos de la declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111201" nombre="Total de ingresos por sueldos, salarios y conceptos asimilados" tipoDatos="Numerico" claveInformativa="111201">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_TOT_DE_ING_POR_SUE_SAL_YC_CON_ASI" />
+            <atributo nombre="TituloCorto" valor="Total de ingresos por sueldos, salarios y conceptos asimilados" />
+            <atributo nombre="TituloLargo" valor="Total de ingresos por sueldos, salarios y conceptos asimilados" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111202" nombre="Ingresos exentos" tipoDatos="Numerico" claveInformativa="111202">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ING_EXE" />
+            <atributo nombre="TituloCorto" valor="Ingresos exentos" />
+            <atributo nombre="TituloLargo" valor="Ingresos exentos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111206" nombre="Ingresos no acumulables" tipoDatos="Numerico" claveInformativa="111206">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ING_NO_ACU" />
+            <atributo nombre="TituloCorto" valor="Ingresos no acumulables" />
+            <atributo nombre="TituloLargo" valor="Ingresos no acumulables" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111207" nombre="Ingresos acumulables" tipoDatos="Numerico" claveInformativa="111207">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ING_ACU" />
+            <atributo nombre="TituloCorto" valor="Ingresos acumulables" />
+            <atributo nombre="TituloLargo" valor="Ingresos acumulables" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111207A" nombre="Ingresos acumulables ejercicio anterior" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos Ejercicio anterior" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXAUXSI3" nombre="AUXAUXSI3" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXAUXSI3N" nombre="AUXAUXSI3N" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXAUXSJ8" nombre="AUXAUXSJ8" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXAUXSJ8N" nombre="AUXAUXSJ8N" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSA1" nombre="AUXSA1" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSI1" nombre="AUXSI1" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSI2" nombre="AUXSI2" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSJ2" nombre="AUXSJ2" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSJ3" nombre="AUXSJ3" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSJ4" nombre="AUXSJ4" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSJ6" nombre="AUXSJ6" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSJ7" nombre="AUXSJ7" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSS1" nombre="AUXSS1" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSS2" nombre="AUXSS2" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1019" nombre="Campos de la declaración">
+      <atributos>
+        <atributo nombre="llave" valor="SAT_CAM_DE_LA_DEC" />
+        <atributo nombre="multiplicidad" valor="1" />
+        <atributo nombre="NombreImpuesto" valor="ISR POR INGRESOS SUJETOS A REGÍMENES FISCALES PREFERENTES" />
+        <atributo nombre="tipo" valor="SAT_ANEXOS" />
+        <atributo nombre="tipoSeccion" valor="Anexo" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Impuesto" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloRegimen" valor="Deducciones personales" />
+      </atributos>
+      <propiedades>
+        <propiedad id="0" nombre="Campos de la Declaración" tipoDatos="Alfanumerico" claveInformativa="0">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CAM_DE_LA_DEC" />
+            <atributo nombre="TituloCorto" valor="Campos de la Declaración" />
+            <atributo nombre="TituloLargo" valor="Campos de la Declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="117522" nombre="EN SU CASO, CANTIDAD RECUPERADA EN LOS GASTOS EFECTUADOS " tipoDatos="Numerico" claveInformativa="117522">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_EN_SU_CAS_CAN_REC_EN_LOS_GAS_EFE" />
+            <atributo nombre="TituloCorto" valor="En su caso, cantidad recuperada en los gastos efectuados" />
+            <atributo nombre="TituloLargo" valor="EN SU CASO, CANTIDAD RECUPERADA EN LOS GASTOS EFECTUADOS " />
+          </atributos>
+        </propiedad>
+        <propiedad id="117523" nombre="V. IMPORTE" tipoDatos="Numerico" claveInformativa="117523">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_V_IMP" />
+            <atributo nombre="TituloCorto" valor="V. Importe" />
+            <atributo nombre="TituloLargo" valor="SUMA DE DEDUCCIONES PERSONALES" />
+          </atributos>
+        </propiedad>
+        <propiedad id="117523A" nombre="Total Monto Gastos Personales" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Gastos personales" />
+          </atributos>
+        </propiedad>
+        <propiedad id="119008" nombre="TOTAL DE DEDUCCIONES PERSONALES" tipoDatos="Numerico" claveInformativa="119008">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_TOT_DE_DED_PER" />
+            <atributo nombre="TituloCorto" valor="Total de deducciones personales" />
+            <atributo nombre="TituloLargo" valor="TOTAL DE DEDUCCIONES PERSONALES" />
+          </atributos>
+        </propiedad>
+        <propiedad id="119008A" nombre="Total deducciones personales solo deducciones especiales" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Total deducciones personales solo deducciones especiales" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139857" nombre="Monto deducible de pagos por servicios educativos (colegiaturas) y donativos" tipoDatos="Numerico" claveInformativa="139857">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto deducible de pagos por servicios educativos (colegiaturas) y donativos" />
+            <atributo nombre="TituloLargo" valor="Monto deducible de pagos por servicios educativos (colegiaturas) y donativos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139858" nombre="Monto máximo deducible de las demás deducciones personales" tipoDatos="Numerico" claveInformativa="139858">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto máximo deducible de las demás deducciones personales" />
+            <atributo nombre="TituloLargo" valor="Monto máximo deducible de las demás deducciones personales" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139859" nombre="Monto aplicable de las deducciones personales" tipoDatos="Numerico" claveInformativa="139859">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto aplicable de las deducciones personales" />
+            <atributo nombre="TituloLargo" valor="Monto aplicable de las deducciones personales" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1024" nombre="Datos del Acuse">
+      <atributos>
+        <atributo nombre="llave" valor="SAT_DAT_DEL_AC" />
+        <atributo nombre="multiplicidad" valor="1" />
+        <atributo nombre="tipo" valor="SAT_DATOS_ACUSE" />
+        <atributo nombre="TituloCorto" valor="Datos del Acuse" />
+        <atributo nombre="TituloLargo" valor="Datos del Acuse" />
+      </atributos>
+      <propiedades>
+        <propiedad id="1" nombre="Formato 18" tipoDatos="Alfanumerico" claveInformativa="1">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_FOR" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Formato 18" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24001" nombre="Fecha de Presentación de la declaración" tipoDatos="FechaHora" claveInformativa="24001">
+          <atributos>
+            <atributo nombre="EsFechaISO" valor="2" />
+            <atributo nombre="llave" valor="SAT_FEC_DE_PRE_DE_LA_DEC" />
+            <atributo nombre="Orden" valor="1" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Fecha de Presentación de la declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24002" nombre="Fecha de Vencimiento de la Línea de Captura" tipoDatos="Fecha" claveInformativa="24002">
+          <atributos>
+            <atributo nombre="Catalogo" valor=" " />
+            <atributo nombre="EsFechaISO" valor="1" />
+            <atributo nombre="llave" valor="SAT_FEC_DE_VEN_DE_LA_LIN_DE_CAP" />
+            <atributo nombre="Orden" valor="2" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Fecha de Vencimiento de la Línea de Captura" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24003" nombre="Sello Digital" tipoDatos="Alfanumerico" claveInformativa="24003">
+          <atributos>
+            <atributo nombre="Catalogo" valor=" " />
+            <atributo nombre="llave" valor="SAT_SEL_DIG" />
+            <atributo nombre="Orden" valor="3" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Sello Digital" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24004" nombre="Línea de Captura" tipoDatos="Alfanumerico" claveInformativa="24004">
+          <atributos>
+            <atributo nombre="Catalogo" valor=" " />
+            <atributo nombre="llave" valor="SAT_LIN_DE_CAP" />
+            <atributo nombre="Orden" valor="4" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Línea de Captura" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24005" nombre="Leyenda Obligado a Pagar por Internet" tipoDatos="Alfanumerico" claveInformativa="24005">
+          <atributos>
+            <atributo nombre="Catalogo" valor=" " />
+            <atributo nombre="llave" valor="SAT_LEY_OBL_AP_PAG_POR_INT" />
+            <atributo nombre="Orden" valor="5" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Leyenda Obligado a Pagar por Internet" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24006" nombre="Número de Operación" tipoDatos="Alfanumerico" claveInformativa="24006">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_NUM_DE_OPE" />
+            <atributo nombre="Orden" valor="6" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Número de Operación" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24007" nombre="Total a pagar" tipoDatos="Numerico" claveInformativa="24007">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_TOT_AP_PAG" />
+            <atributo nombre="Orden" valor="7" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Total a pagar" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24008" nombre="ALSC en donde se presentó la Dec" tipoDatos="Alfanumerico" claveInformativa="24008">
+          <atributos>
+            <atributo nombre="Catalogo" valor=" " />
+            <atributo nombre="llave" valor="SAT_ALS_EN_DON_SE_PRE_LA" />
+            <atributo nombre="Orden" valor="8" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="ALSC en donde se presentó la Dec" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24009" nombre="Addenda" tipoDatos="Alfanumerico" claveInformativa="24009">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ADD" />
+            <atributo nombre="Orden" valor="16" />
+            <atributo nombre="Orden" valor="27" />
+            <atributo nombre="Orden" valor="9" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Addenda" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24010" nombre="Codigo de Barras" tipoDatos="Alfanumerico" claveInformativa="24010">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_COD_DE_BAR" />
+            <atributo nombre="Orden" valor="10" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24011" nombre="Codigo QR" tipoDatos="Alfanumerico" claveInformativa="24011">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_COD" />
+            <atributo nombre="Orden" valor="11" />
+          </atributos>
+        </propiedad>
+        <propiedad id="24012" nombre="Contiene Códigos" tipoDatos="Booleano" claveInformativa="24012">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CON_COD" />
+            <atributo nombre="Orden" valor="12" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1025" nombre="Determinación del ISR">
+      <atributos>
+        <atributo nombre="ClaveImpuesto" valor="0119" />
+        <atributo nombre="llave" valor="SAT_DET_DEL" />
+        <atributo nombre="multiplicidad" valor="1" />
+        <atributo nombre="tipo" valor="SAT_DETERMINACION_IMPUESTO" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Impuesto" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloCorto" valor="ISR" />
+        <atributo nombre="TituloLargo" valor="Determinación del ISR Personas Físicas" />
+      </atributos>
+      <propiedades>
+        <propiedad id="111021" nombre="Impuesto a cargo (1a diferencia)" tipoDatos="Numerico" claveInformativa="111021">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_IMP_AC_CAR_1A_DIF" />
+            <atributo nombre="TituloCorto" valor="Impuesto a cargo (1a. diferencia)" />
+            <atributo nombre="TituloLargo" valor="Impuesto a cargo (1a. diferencia)" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111023" nombre="ISR pagado en exceso aplicado contra el IMPAC" tipoDatos="Numerico" claveInformativa="111023">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ISR_PAG_EN_EXC_APL_CON_EL_IMP" />
+            <atributo nombre="TituloCorto" valor="ISR pagado en exceso aplicado contra el IMPAC" />
+            <atributo nombre="TituloLargo" valor="ISR pagado en exceso aplicado contra el IMPAC" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111024" nombre="ISR a favor  del ejercicio" tipoDatos="Numerico" claveInformativa="111024">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ISR_AF_FAV_DE_DEL_EJE" />
+            <atributo nombre="TituloCorto" valor="ISR a favor  del ejercicio" />
+            <atributo nombre="TituloLargo" valor="ISR a favor  del ejercicio" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111260" nombre="Impuesto sobre el interes real por retiros parciales" tipoDatos="Numerico" claveInformativa="111260">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_IMP_SOB_EL_INT_REA_POR_RET_PAR" />
+            <atributo nombre="TituloCorto" valor="Impuesto sobre el interés real por retiros parciales" />
+            <atributo nombre="TituloLargo" valor="Impuesto sobre el interés real por retiros parciales" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111810" nombre="Total de ingresos acumulables" tipoDatos="Numerico" claveInformativa="111810">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_TOT_DE_ING_ACU" />
+            <atributo nombre="TituloCorto" valor="Total de ingresos acumulables" />
+            <atributo nombre="TituloLargo" valor="Total de ingresos acumulables" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111810A" nombre="Total de ingresos ejercicio anterior" tipoDatos="Numerico" claveInformativa="111810A">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Total ingresos Ejercicio Anterior" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111811" nombre="Deducciones personales" tipoDatos="Numerico" claveInformativa="111811">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_DED_PER" />
+            <atributo nombre="TituloCorto" valor="Deducciones personales" />
+            <atributo nombre="TituloLargo" valor="Deducciones personales" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111812" nombre="Base gravable" tipoDatos="Numerico" claveInformativa="111812">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_BAS_GRA" />
+            <atributo nombre="TituloCorto" valor="Base gravable" />
+            <atributo nombre="TituloLargo" valor="Base gravable" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111812A" nombre="Base gravable sin deducciones personales especiales" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Base gravable sin deducciones personales especiales" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111813" nombre="ISR conforme a tarifa anual" tipoDatos="Numerico" claveInformativa="111813">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ISR_CON_AT_TAR_ANU" />
+            <atributo nombre="TituloCorto" valor="ISR conforme a tarifa anual" />
+            <atributo nombre="TituloLargo" valor="ISR conforme a tarifa anual" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111813A" nombre="ISR Conforme a tarifa sin deducciones especiales" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="ISR Conforme a tarifa sin deducciones especiales" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111814" nombre="Subsidio acreditable" tipoDatos="Numerico" claveInformativa="111814">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_SUB_ACR" />
+            <atributo nombre="TituloCorto" valor="Subsidio acreditable" />
+            <atributo nombre="TituloLargo" valor="Subsidio acreditable" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111815" nombre="Reducciones de ISR" tipoDatos="Numerico" claveInformativa="111815">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_RED_DE" />
+            <atributo nombre="TituloCorto" valor="Reducciones de ISR" />
+            <atributo nombre="TituloLargo" valor="Reducciones de ISR" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111817" nombre="Impuesto sobre ingresos no acumulables" tipoDatos="Numerico" claveInformativa="111817">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_IMP_SOB_ING_NO_ACU" />
+            <atributo nombre="TituloCorto" valor="Impuesto sobre ingresos no acumulables" />
+            <atributo nombre="TituloLargo" valor="Impuesto sobre ingresos no acumulables" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111817EN" nombre="INGRESO NO ACUMULABLE ENAJENACIONES" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Impuesto sobre ingreso no acumulable enajenacion" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111817ENM" nombre="INGRESO NO AUCMULADO PARA BIENES MUEBLES" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Impuesto sobre ingresos no acumlados bienes muebes" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111818" nombre="Impuesto sobre la renta causado" tipoDatos="Numerico" claveInformativa="111818">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_IMP_SOB_LA_REN_CAU" />
+            <atributo nombre="TituloCorto" valor="Impuesto sobre la renta causado" />
+            <atributo nombre="TituloLargo" valor="Impuesto sobre la renta causado" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111819" nombre="Impuesto retenido al contribuyente o pagado por terceros" tipoDatos="Numerico" claveInformativa="111819">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_IMP_RET_AL_CON_OP_PAG_POR_TER" />
+            <atributo nombre="TituloCorto" valor="Impuesto retenido al contribuyente o pagado por terceros" />
+            <atributo nombre="TituloLargo" valor="Impuesto retenido al contribuyente o pagado por terceros" />
+            <atributo nombre="ValorInicial" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111820" nombre="Pagos provisionales efectuados  a la federación" tipoDatos="Numerico" claveInformativa="111820">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_PAG_PRO_EFE_A_AL_LA_FED" />
+            <atributo nombre="TituloCorto" valor="Pagos provisionales efectuados  a la federación" />
+            <atributo nombre="TituloLargo" valor="Pagos provisionales efectuados  a la federación" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111822" nombre="Impuesto acreditable pagado en el extranjero" tipoDatos="Numerico" claveInformativa="111822">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_IMP_ACR_PAG_EN_EL_EXT" />
+            <atributo nombre="TituloCorto" valor="Impuesto acreditable pagado en el extranjero" />
+            <atributo nombre="TituloLargo" valor="Impuesto acreditable pagado en el extranjero" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111827" nombre="ISR pagado en exceso" tipoDatos="Numerico" claveInformativa="111827">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ISR_PAG_EN_EXC" />
+            <atributo nombre="TituloCorto" valor="ISR pagado en exceso" />
+            <atributo nombre="TituloLargo" valor="ISR pagado en exceso" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111837" nombre="Ingresos o utilidades acumulables" tipoDatos="Numerico" claveInformativa="111837">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ING_OU_UTI_ACU" />
+            <atributo nombre="TituloCorto" valor="Ingresos o utilidades acumulables" />
+            <atributo nombre="TituloLargo" valor="Ingresos o utilidades acumulables" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111838" nombre="Pérdidas" tipoDatos="Numerico" claveInformativa="111838">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_PER" />
+            <atributo nombre="TituloCorto" valor="Pérdidas" />
+            <atributo nombre="TituloLargo" valor="Pérdidas" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111848" nombre="Impuesto sobre ingresos acumulables" tipoDatos="Numerico" claveInformativa="111848">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_IMP_SOB_ING_ACU" />
+            <atributo nombre="TituloCorto" valor="Impuesto sobre ingresos acumulables" />
+            <atributo nombre="TituloLargo" valor="Impuesto sobre ingresos acumulables" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111860" nombre="Estímulos fiscales aplicados durante el  ejercicio" tipoDatos="Numerico" claveInformativa="111860">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_EST_FIS_APL_DUR_EL_EJ_EJE" />
+            <atributo nombre="TituloCorto" valor="Estímulos fiscales aplicados durante el  ejercicio" />
+            <atributo nombre="TituloLargo" valor="Estímulos fiscales aplicados durante el  ejercicio" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111888" nombre="Otras cantidades a cargo del contribuyente" tipoDatos="Numerico" claveInformativa="111888">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_OTR_CAN_AC_CAR_DEL_CON" />
+            <atributo nombre="TituloCorto" valor="Otras cantidades a cargo del contribuyente" />
+            <atributo nombre="TituloLargo" valor="Otras cantidades a cargo del contribuyente" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111889" nombre="Otras cantidades a favor del contribuyente" tipoDatos="Numerico" claveInformativa="111889">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_OTR_CAN_AF_FAV_DEL_CON" />
+            <atributo nombre="TituloCorto" valor="Otras cantidades a favor del contribuyente" />
+            <atributo nombre="TituloLargo" valor="Otras cantidades a favor del contribuyente" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111889A" nombre="Impuesto acreditable enajenaciones" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Impuesto acreditable inmuebles" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111889B" nombre="Impuesto acreditable muebles" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Impuesto acreditable muebles" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111897" nombre="Pagos  efectuados a la entidad federativa" tipoDatos="Numerico" claveInformativa="111897">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_PAG_EF_EFE_AL_LA_ENT_FED" />
+            <atributo nombre="TituloCorto" valor="Pagos  efectuados a la entidad federativa" />
+            <atributo nombre="TituloLargo" valor="Pagos  efectuados a la entidad federativa" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111956" nombre="Subsidio para el empleo" tipoDatos="Numerico" claveInformativa="111956">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_SUB_PAR_EL_EMP" />
+            <atributo nombre="TituloCorto" valor="Subsidio para el empleo" />
+            <atributo nombre="TituloLargo" valor="Subsidio para el empleo" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111957" nombre="Estímulo por proyectos de investigación y desarrollo tecnológico" tipoDatos="Numerico" claveInformativa="111957">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_EST_POR_PRO_DE_INV_YD_DES_TEC" />
+            <atributo nombre="TituloCorto" valor="Estímulo por proyectos de investigación y desarrollo tecnológico" />
+            <atributo nombre="TituloLargo" valor="Estímulo por proyectos de investigación y desarrollo tecnológico" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111958" nombre="Estímulo por proyectos de inversión  en la producción cinematográfica nacional" tipoDatos="Numerico" claveInformativa="111958">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_EST_POR_PRO_DE_INV_EN_EN_LA_PRO_CIN_NAC" />
+            <atributo nombre="TituloCorto" valor="Estímulo a la producción y distribución cinematográfica nacional" />
+            <atributo nombre="TituloLargo" valor="Estímulo a la producción y distribución cinematográfica nacional" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111959" nombre="Crédito fiscal IETU por deducciones mayores a los ingresos" tipoDatos="Numerico" claveInformativa="111959">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CRE_FIS_IET_POR_DED_MAY_AL_LOS_ING" />
+            <atributo nombre="TituloCorto" valor="Crédito fiscal IETU por deducciones mayores a los ingresos" />
+            <atributo nombre="TituloLargo" valor="Crédito fiscal IETU por deducciones mayores a los ingresos" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111960" nombre="Impuesto acreditable por depósitos en efectivo del ejercicio" tipoDatos="Numerico" claveInformativa="111960">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_IMP_ACR_POR_DEP_EN_EFE_DEL_EJE" />
+            <atributo nombre="TituloCorto" valor="Impuesto acreditable por depósitos en efectivo del ejercicio" />
+            <atributo nombre="TituloLargo" valor="Impuesto acreditable por depósitos en efectivo del ejercicio" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111961" nombre="ISR a cargo del ejercicio" tipoDatos="Numerico" claveInformativa="111961">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_ISR_AC_CAR_DEL_EJE" />
+            <atributo nombre="TituloCorto" valor="ISR a cargo del ejercicio" />
+            <atributo nombre="TituloLargo" valor="ISR a cargo del ejercicio" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139812" nombre="Estímulo por proyectos de inversión en la producción teatral nacional" tipoDatos="Numerico" claveInformativa="139812">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_EST_POR_PRO_DE_INV_EN_LA_PRO_TEA_NAC" />
+            <atributo nombre="TituloCorto" valor="Estímulo por proyectos de inversión en la producción teatral nacional" />
+            <atributo nombre="TituloLargo" valor="Estímulo por proyectos de inversión en la producción teatral nacional" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139869" nombre="Utilidad sujeta a reducción de ISR" tipoDatos="Numerico" claveInformativa="139869">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_UTI_SUJ_RED_ISR" />
+            <atributo nombre="TituloCorto" valor="Utilidad sujeta a reducción de ISR" />
+            <atributo nombre="TituloLargo" valor="Utilidad sujeta a reducción de ISR" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139870" nombre="Utilidad o ingresos no sujetos a reducción de ISR" tipoDatos="Numerico" claveInformativa="139870">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_UTI_ING_NSU_RED_ISR" />
+            <atributo nombre="TituloCorto" valor="Utilidad o ingresos no sujetos a reducción de ISR" />
+            <atributo nombre="TituloLargo" valor="Utilidad o ingresos no sujetos a reducción de ISR" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139873" nombre="ISR sobre la base por la que se aplica reducción" tipoDatos="Numerico" claveInformativa="139873">
+          <atributos>
+            <atributo nombre="llave" valor="ISR_SOB_BAS_POR_APL_RED" />
+            <atributo nombre="TituloCorto" valor="ISR sobre la base por la que se aplica reducción" />
+            <atributo nombre="TituloLargo" valor="ISR sobre la base por la que se aplica reducción" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139874" nombre="Impuesto Reducido" tipoDatos="Numerico" claveInformativa="139874">
+          <atributos>
+            <atributo nombre="llave" valor="IMP_RED" />
+            <atributo nombre="TituloCorto" valor="Impuesto Reducido" />
+            <atributo nombre="TituloLargo" valor="Impuesto Reducido" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139875" nombre="ISR sobre la base por la que no se aplica reducción" tipoDatos="Numerico" claveInformativa="139875">
+          <atributos>
+            <atributo nombre="llave" valor="ISR_SOB_BAS_POR_NSE_APL_RED" />
+            <atributo nombre="TituloCorto" valor="ISR sobre la base por la que no se aplica reducción" />
+            <atributo nombre="TituloLargo" valor="ISR sobre la base por la que no se aplica reducción" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139877" nombre="Declaro bajo protesta de decir verdad, que soy titular de la cuenta &quot;CLABE&quot; interbancaria, motivo por el cual, autorizo al Servicio de Administración Tributaria para que la misma sea verificada ante la institución de crédito correspondiente." tipoDatos="Numerico" claveInformativa="139877">
+          <atributos>
+            <atributo nombre="Catalogo" valor="1" />
+            <atributo nombre="llave" valor="SAT_DEC" />
+            <atributo nombre="TituloCorto" valor="Declaro bajo protesta de decir verdad, que soy titular de la &quot;CLABE&quot; interbancaria, motivo por el cual, autorizo al Servicio de Administración Tributaria para que la misma sea verificada ante la institución de crédito correspondiente, con el propósito de efectuar el depósito de la devolución del impuesto, en caso de ser autorizada" />
+            <atributo nombre="TituloLargo" valor="Declaro bajo protesta de decir verdad, que soy titular de la &quot;CLABE&quot; interbancaria, motivo por el cual, autorizo al Servicio de Administración Tributaria para que la misma sea verificada ante la institución de crédito correspondiente, con el propósito de efectuar el depósito de la devolución del impuesto, en caso de ser autorizada" />
+          </atributos>
+        </propiedad>
+        <propiedad id="190085" nombre="IDE pendiente de aplicar del ejercicio" tipoDatos="Numerico" claveInformativa="190085">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_IDE_PEN_DE_APL_DEL_EJE" />
+            <atributo nombre="TituloCorto" valor="IDE pendiente de aplicar del ejercicio" />
+            <atributo nombre="TituloLargo" valor="IDE pendiente de aplicar del ejercicio" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="205192" nombre="En el caso de obtener saldo a favor del ISR, marque con &quot;x&quot; si opta por:" tipoDatos="Numerico" claveInformativa="205192">
+          <atributos>
+            <atributo nombre="Catalogo" valor="77" />
+            <atributo nombre="llave" valor="SAT_EN_EL_CAS_DE_OBT_SAL_AF_FAV_DEL_ISR_MAR_CON_X_SI_OPT_POR" />
+            <atributo nombre="TituloCorto" valor="En caso de obtener saldo a favor del ISR, indica la opción que deseas" />
+            <atributo nombre="TituloLargo" valor="En caso de obtener saldo a favor del ISR, indica la opción que deseas" />
+          </atributos>
+        </propiedad>
+        <propiedad id="205358" nombre="Nombre del banco" tipoDatos="Numerico" claveInformativa="205358">
+          <atributos>
+            <atributo nombre="Catalogo" valor="93" />
+            <atributo nombre="llave" valor="SAT_NOM_DEL_BAN" />
+            <atributo nombre="TituloCorto" valor="Nombre del banco" />
+            <atributo nombre="TituloLargo" valor="Nombre del banco" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="205359" nombre="Número de cuenta &quot;CLABE&quot;" tipoDatos="Alfanumerico" claveInformativa="205359">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_NUM_DE_CUE_CL" />
+            <atributo nombre="TituloCorto" valor="Número de clabe interbancaria" />
+            <atributo nombre="TituloLargo" valor="Número de clabe interbancaria" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="205359A" nombre="Número de cuenta &quot;CLABE&quot;" tipoDatos="Alfanumerico" claveInformativa="205359">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_NUM_DE_CUE_CL" />
+            <atributo nombre="TituloCorto" valor="Selecciona tu número de clabe interbancaria" />
+            <atributo nombre="TituloLargo" valor="Selecciona tu número de clabe interbancaria" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUX111820" nombre="Bandera aplica pagos provisionales" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_BAN_PAG_PRO" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUX2SA1" nombre="AUX2SA1" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUX2SI1" nombre="AUX2SI1" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUX2SJ2" nombre="AUX2SJ2" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUX2SJ6" nombre="AUX2SJ6" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUX2SS1" nombre="AUX2SS1" tipoDatos="Numerico" claveInformativa="AUX2SS1">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXAD07" nombre="AUXAD07" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXAE119" nombre="AUXAE119" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXAE119T" nombre="AUXAE119T" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXAES119" nombre="AUXAES119" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXARR20" nombre="AUXARR20" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXAUX111819" nombre="AUXAUX111819" tipoDatos="Numerico" claveInformativa="AUXAUX111819">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXDIV06" nombre="AUXDIV06" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXDMI25" nombre="AUXDMI25" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXEB21" nombre="Suma parcial de ISR pagado de la federación enajenaciones" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXEB21R" nombre="AUXEB21R" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXEB23R" nombre="Suma parcial de IVA para la sección de enajenaciones" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXEB34" nombre="Suma parcial de ISR retenido enajenaciones" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXIN14" nombre="AUXIN14" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXPR5" nombre="AUXPR5" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXRI27" nombre="AUXRI27" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSA2" nombre="AUXSA2" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSI4" nombre="AUXSI4" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSJ5" nombre="AUXSJ5" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSJ9" nombre="AUXSJ9" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXSS3" nombre="AUXSS3" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="ISR01" nombre="Determinación de impuesto sobre la renta" tipoDatos="Alfanumerico" claveInformativa="ISR01">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_DET_DE_IMP_SOB_LA_REN" />
+            <atributo nombre="TituloCorto" valor="Determinación de impuesto sobre la renta" />
+            <atributo nombre="TituloLargo" valor="Determinación de impuesto sobre la renta" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RABI" nombre="Suma parcial de ISR Retenido" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RABMTO" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RAEI" nombre="Suma parcial de ISR Retenido" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RAEIV" nombre="Calculo Parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RAEMTO" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RAESI" nombre="Suma parcial de ISR Retenido" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RAESIV" nombre="Calculo Parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RAESMTO" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RARI" nombre="Suma parcial de ISR Retenido" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RARIV" nombre="Calculo Parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RARMTO" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RDII" nombre="Suma parcial de ISR Retenido" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RDIIV" nombre="Calculo Parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RDIMTO" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RDVI" nombre="Suma parcial de ISR Retenido" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RDVMTO" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RENI" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo Parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RENIV" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo Parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RENMTO" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo Parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RINI" nombre="Suma parcial de ISR Retenido" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RINIV" nombre="Calculo Parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RINMTO" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RPRI" nombre="Suma parcial de ISR Retenido" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RPRMTO" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RRII" nombre="Suma parcial de ISR Retenido" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RRIIV" nombre="Calculo Parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RRIMTO" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RSI" nombre="Monto retenciones isr" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto retenciones isr" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RSI2" nombre="Monto retenciones isr" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto retenciones isr" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RSI3" nombre="Monto retenciones isr" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto retenciones isr" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RSI4" nombre="Monto retenciones isr" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto retenciones isr" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RSI5" nombre="Monto retenciones isr" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto retenciones isr" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RSMTO" nombre="Monto retenciones salarios" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto retenciones Salarios" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RSPI" nombre="Suma parcial de ISR Retenido" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RSPIV" nombre="Calculo Parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="RSPMTO" nombre="Calculo parcial" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Calculo parcial" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SINOBANIN" nombre="Suma de ingresos en el año " tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Suma ingreso obtenido en el año" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SINOBANM" nombre="Suma de ingresos obtenidos ene l año " tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Suma ingresos obtenidos en el año" />
+          </atributos>
+        </propiedad>
+        <propiedad id="TOPEDC6" nombre="Tope calculado para el dato DC6 entre Impuesto Causado y Enaj. y Demás Ingresos" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="TOPEENAJDING" nombre="Tope calculado para Enajenaciones y Demás Ingresos" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="TOPEIMPCAUESTISR" nombre="Tope calculado para el Impuesto Causado menos estimulos de Det. ISR" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="TOPEIMPENAJDING" nombre="Tope calculado minimo entre Impuesto Causado y Enaj. y Demás Ing" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1033" nombre="Deducciones personales">
+      <atributos>
+        <atributo nombre="llave" valor="SAT_DAT_DE_LA_DED" />
+        <atributo nombre="multiplicidad" valor="*" />
+        <atributo nombre="tipo" valor="SAT_ANEXOS" />
+        <atributo nombre="tipoSeccion" valor="Anexo" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloCorto" valor="Deducciones personales" />
+        <atributo nombre="TituloLargo" valor="Deducciones personales" />
+        <atributo nombre="TituloRegimen" valor="Deducciones personales" />
+      </atributos>
+      <propiedades>
+        <propiedad id="1" nombre="Datos de la deducción" tipoDatos="Alfanumerico" claveInformativa="1">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Datos de la deducción" />
+            <atributo nombre="TituloLargo" valor="Datos de la deducción" />
+          </atributos>
+        </propiedad>
+        <propiedad id="1033AYUDA" nombre="Ayuda deducciones" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_DED_AYU" />
+            <atributo nombre="TituloCorto" valor="Consulta los tipos de deducciones" />
+            <atributo nombre="TituloLargo" valor="Consulta los tipos de deducciones" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111837A" nombre="Propiedad paso" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Paso" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXCOMPARA" nombre="Almacena RFC, CURP y Nivel" tipoDatos="Alfanumerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC14" nombre="Concepto" tipoDatos="Numerico" claveInformativa="281008">
+          <atributos>
+            <atributo nombre="Catalogo" valor="47" />
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Concepto" />
+            <atributo nombre="TituloLargo" valor="Concepto" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC15" nombre="Monto" tipoDatos="Numerico" claveInformativa="DPC15">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto" />
+            <atributo nombre="TituloLargo" valor="Monto" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC16" nombre="RFC (factura)" tipoDatos="Alfanumerico" claveInformativa="118454">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="RFC del proveedor o prestador de servicios" />
+            <atributo nombre="TituloLargo" valor="RFC del proveedor o prestador de servicios" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC5" nombre="NIVEL" tipoDatos="Numerico" claveInformativa="139837">
+          <atributos>
+            <atributo nombre="Catalogo" valor="45" />
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Nivel educativo" />
+            <atributo nombre="TituloLargo" valor="Nivel educativo" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC7" nombre="CURP" tipoDatos="Alfanumerico" claveInformativa="139838">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="CURP" />
+            <atributo nombre="TituloLargo" valor="CURP" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC8" nombre="BENEFICIARIOSERVICIOS" tipoDatos="Numerico" claveInformativa="139876">
+          <atributos>
+            <atributo nombre="Catalogo" valor="46" />
+            <atributo nombre="llave" valor="SAT_BEN_SER_EDU" />
+            <atributo nombre="TituloCorto" valor="Beneficiario" />
+            <atributo nombre="TituloLargo" valor="Beneficiario" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC999" nombre="Campo oculto de Deduccionespersonales" tipoDatos="Alfanumerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Campo oculto de Deduccionespersonales" />
+            <atributo nombre="TituloLargo" valor="Campo oculto de Deduccionespersonales" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDAUXCOMPARA" nombre="Almacena RFC, CURP y Nivel Grid" tipoDatos="Alfanumerico">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDDPC14" nombre="Concepto Grid" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="Catalogo" valor="47" />
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Concepto" />
+            <atributo nombre="TituloLargo" valor="Concepto" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDDPC15" nombre="Monto Grid" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto" />
+            <atributo nombre="TituloLargo" valor="Monto" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDDPC16" nombre="RFC (factura) Grid" tipoDatos="Alfanumerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="RFC del proveedor o prestador de servicios" />
+            <atributo nombre="TituloLargo" valor="RFC del proveedor o prestador de servicios" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDDPC5" nombre="NIVEL Grid" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="Catalogo" valor="45" />
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Nivel educativo" />
+            <atributo nombre="TituloLargo" valor="Nivel educativo" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDDPC7" nombre="CURP Grid" tipoDatos="Alfanumerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="CURP" />
+            <atributo nombre="TituloLargo" valor="CURP" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDDPC8" nombre="BENEFICIARIOSERVICIOS Grid" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="Catalogo" valor="46" />
+            <atributo nombre="llave" valor="SAT_BEN_SER_EDU" />
+            <atributo nombre="TituloCorto" valor="Beneficiario" />
+            <atributo nombre="TituloLargo" valor="Beneficiario" />
+          </atributos>
+        </propiedad>
+        <propiedad id="GRIDDPC999" nombre="Campo oculto de Deduccionespersonales Grid" tipoDatos="Alfanumerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Campo oculto de Deduccionespersonales" />
+            <atributo nombre="TituloLargo" valor="Campo oculto de Deduccionespersonales" />
+          </atributos>
+        </propiedad>
+        <propiedad id="MG2" nombre="Nombre, denominación o razón social" tipoDatos="Alfanumerico" claveInformativa="MG2">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="MG4" nombre="Descripción" tipoDatos="Alfanumerico" claveInformativa="MG4">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="MG6" nombre="Forma de pago" tipoDatos="Numerico" claveInformativa="MG6">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="MG7" nombre="Importe total de la factura" tipoDatos="Numerico" claveInformativa="MG7">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="MG8" nombre="Monto deducible" tipoDatos="Numerico" claveInformativa="MG8">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+        <propiedad id="MG9" nombre="Nombre del beneficiario" tipoDatos="Numerico" claveInformativa="MG9">
+          <atributos>
+            <atributo nombre="llave" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1056" nombre="Subcidio para el empleo">
+      <atributos>
+        <atributo nombre="llave" valor="SAT_SUB_PAR_EL_EMP" />
+        <atributo nombre="multiplicidad" valor="1" />
+        <atributo nombre="tipo" valor="SAT_ANEXOS" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloCorto" valor="Subsidio para el empleo" />
+        <atributo nombre="TituloLargo" valor="Subsidio para el empleo" />
+        <atributo nombre="TituloRegimen" valor="Sueldos y Salarios" />
+      </atributos>
+      <propiedades>
+        <propiedad id="1" nombre="Subcidio para el empleo" tipoDatos="Alfanumerico" claveInformativa="1">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Subcidio para el empleo" />
+            <atributo nombre="TituloLargo" valor="Subcidio para el empleo" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SE1" nombre="Subsidio para el empleo correspondiente en el ejercicio" tipoDatos="Numerico" claveInformativa="SE1">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Subsidio para el empleo correspondiente en el ejercicio" />
+            <atributo nombre="TituloLargo" valor="Subsidio para el empleo correspondiente en el ejercicio" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SE2" nombre="Subsidio para el empleo entregado (diferencias)" tipoDatos="Numerico" claveInformativa="SE2">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Subsidio para el empleo entregado (diferencias)" />
+            <atributo nombre="TituloLargo" valor="Subsidio para el empleo entregado (diferencias)" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1080" nombre="Datos informativos obligatorios">
+      <atributos>
+        <atributo nombre="llave" valor="SAT_DAT_INF_OBL" />
+        <atributo nombre="multiplicidad" valor="1" />
+        <atributo nombre="tipo" valor="SAT_ANEXOS" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloCorto" valor="Datos informativos obligatorios" />
+        <atributo nombre="TituloLargo" valor="Datos informativos obligatorios" />
+        <atributo nombre="TituloRegimen" valor="Datos Complementarios" />
+      </atributos>
+      <propiedades>
+        <propiedad id="1" nombre="Datos informativos obligatorios" tipoDatos="Alfanumerico" claveInformativa="1">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Inmuebles destinados al hospedaje" />
+            <atributo nombre="TituloLargo" valor="Datos informativos obligatorios" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO0" nombre="¿Informas otros ingresos exentos? (Préstamos, premios, viáticos, etc.)" tipoDatos="Numerico" claveInformativa="DIO0">
+          <atributos>
+            <atributo nombre="Catalogo" valor="100" />
+            <atributo nombre="llave" valor="SAT_ING_EX" />
+            <atributo nombre="TituloCorto" valor="¿Informas otros ingresos exentos? (Préstamos, premios, viáticos, etc.)" />
+            <atributo nombre="TituloLargo" valor="¿Informas otros ingresos exentos? (Préstamos, premios, viáticos, etc.)" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO1" nombre="Préstamos recibidos" tipoDatos="Numerico" claveInformativa="DIO1">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Préstamos recibidos" />
+            <atributo nombre="TituloLargo" valor="Préstamos recibidos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO10" nombre="Total del estímulo otorgado por concepto de proyectos de inversión en la producción teatral nacional" tipoDatos="Numerico" claveInformativa="DIO10">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Total del estímulo otorgado por concepto de proyectos de inversión en la producción teatral nacional" />
+            <atributo nombre="TituloLargo" valor="Total del estímulo otorgado por concepto de proyectos de inversión en la producción teatral nacional" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO11" nombre="Deducción adicional del fomento al primer empleo no aplicada" tipoDatos="Numerico" claveInformativa="DIO11">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Deducción adicional del fomento al primer empleo no aplicada" />
+            <atributo nombre="TituloLargo" valor="Deducción adicional del fomento al primer empleo no aplicada" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO12" nombre="Deducción por concepto de ayuda alimentaria" tipoDatos="Numerico" claveInformativa="DIO12">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Deducción por concepto de ayuda alimentaria" />
+            <atributo nombre="TituloLargo" valor="Deducción por concepto de ayuda alimentaria" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO13" nombre="Ingresos acumulables con partes relacionadas" tipoDatos="Numerico" claveInformativa="DIO13">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos acumulables con partes relacionadas" />
+            <atributo nombre="TituloLargo" valor="Ingresos acumulables con partes relacionadas" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO14" nombre="Deducciones autorizadas con partes relacionadas" tipoDatos="Numerico" claveInformativa="DIO14">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Deducciones autorizadas con partes relacionadas" />
+            <atributo nombre="TituloLargo" valor="Deducciones autorizadas con partes relacionadas" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO2" nombre="Premios obtenidos" tipoDatos="Numerico" claveInformativa="DIO2">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Premios obtenidos" />
+            <atributo nombre="TituloLargo" valor="Premios obtenidos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO3" nombre="Donativos obtenidos" tipoDatos="Numerico" claveInformativa="DIO3">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Donativos obtenidos" />
+            <atributo nombre="TituloLargo" valor="Donativos obtenidos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO4" nombre="Viáticos cobrados (exentos)" tipoDatos="Numerico" claveInformativa="DIO4">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Viáticos cobrados (exentos)" />
+            <atributo nombre="TituloLargo" valor="Viáticos cobrados (exentos)" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO5" nombre="Ingresos exentos por enajenación de casa habitación del contribuyente" tipoDatos="Numerico" claveInformativa="DIO5">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos exentos por enajenación de casa habitación del contribuyente" />
+            <atributo nombre="TituloLargo" valor="Ingresos exentos por enajenación de casa habitación del contribuyente" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO6" nombre="Ingresos exentos por herencias o legados " tipoDatos="Numerico" claveInformativa="DIO6">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos exentos por herencias o legados " />
+            <atributo nombre="TituloLargo" valor="Ingresos exentos por herencias o legados " />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO7" nombre="Diferencia de pagos efectuados a la entidad federativa" tipoDatos="Numerico" claveInformativa="DIO7">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Diferencia de pagos efectuados a la entidad federativa" />
+            <atributo nombre="TituloLargo" valor="Diferencia de pagos efectuados a la entidad federativa" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO8" nombre="Total del estímulo otorgado  por concepto de proyectos de investigación y desarrollo tecnológico " tipoDatos="Numerico" claveInformativa="DIO8">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Total del estímulo otorgado  por concepto de proyectos de investigación y desarrollo tecnológico " />
+            <atributo nombre="TituloLargo" valor="Total del estímulo otorgado  por concepto de proyectos de investigación y desarrollo tecnológico " />
+          </atributos>
+        </propiedad>
+        <propiedad id="DIO9" nombre="Total del estímulo a la producción y distribución cinematográfica nacional" tipoDatos="Numerico" claveInformativa="DIO9">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Total del estímulo a la producción y distribución cinematográfica nacional" />
+            <atributo nombre="TituloLargo" valor="Total del estímulo a la producción y distribución cinematográfica nacional" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1083" nombre="Campos de la declaración">
+      <atributos>
+        <atributo nombre="llave" valor="SAT_CAM_DE_LA_DEC" />
+        <atributo nombre="multiplicidad" valor="1" />
+        <atributo nombre="tipo" valor="SAT_ANEXOS" />
+        <atributo nombre="tipoSeccion" valor="Anexo" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloRegimen" valor="Datos Complementarios" />
+      </atributos>
+      <propiedades>
+        <propiedad id="1" nombre="Campos de la declaración" tipoDatos="Alfanumerico" claveInformativa="1">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Campos de la declaración" />
+            <atributo nombre="TituloLargo" valor="Campos de la declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111865" nombre="Préstamos recibidos" tipoDatos="Numerico" claveInformativa="111865">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Préstamos recibidos" />
+            <atributo nombre="TituloLargo" valor="Préstamos recibidos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111866" nombre="Premios obtenidos" tipoDatos="Numerico" claveInformativa="111866">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Premios obtenidos" />
+            <atributo nombre="TituloLargo" valor="Premios obtenidos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111867" nombre="Donativos obtenidos" tipoDatos="Numerico" claveInformativa="111867">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Donativos obtenidos" />
+            <atributo nombre="TituloLargo" valor="Donativos obtenidos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111868" nombre="Viáticos cobrados (exentos)" tipoDatos="Numerico" claveInformativa="111868">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Viáticos cobrados (exentos)" />
+            <atributo nombre="TituloLargo" valor="Viáticos cobrados (exentos)" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111869" nombre="Ingresos exentos por enajenación de casa habitación del contribuyente" tipoDatos="Numerico" claveInformativa="111869">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos exentos por enajenación de casa habitación del contribuyente" />
+            <atributo nombre="TituloLargo" valor="Ingresos exentos por enajenación de casa habitación del contribuyente" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111870" nombre="Ingresos exentos por herencias o legados " tipoDatos="Numerico" claveInformativa="111870">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos exentos por herencias o legados " />
+            <atributo nombre="TituloLargo" valor="Ingresos exentos por herencias o legados " />
+          </atributos>
+        </propiedad>
+        <propiedad id="111898" nombre="Diferencia de pagos efectuados a la entidad federativa" tipoDatos="Numerico" claveInformativa="111898">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Diferencia de pagos efectuados a la entidad federativa" />
+            <atributo nombre="TituloLargo" valor="Diferencia de pagos efectuados a la entidad federativa" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111899" nombre="Total del estímulo otorgado  por concepto de proyectos de investigación y desarrollo tecnológico " tipoDatos="Numerico" claveInformativa="111899">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Total del estímulo otorgado  por concepto de proyectos de investigación y desarrollo tecnológico " />
+            <atributo nombre="TituloLargo" valor="Total del estímulo otorgado  por concepto de proyectos de investigación y desarrollo tecnológico " />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111906" nombre="Total del estímulo a la producción y distribución cinematográfica nacional" tipoDatos="Numerico" claveInformativa="111906">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Total del estímulo a la producción y distribución cinematográfica nacional" />
+            <atributo nombre="TituloLargo" valor="Total del estímulo a la producción y distribución cinematográfica nacional" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111907" nombre="Ingresos acumulables con partes relacionadas" tipoDatos="Numerico" claveInformativa="111907">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Ingresos acumulables con partes relacionadas" />
+            <atributo nombre="TituloLargo" valor="Ingresos acumulables con partes relacionadas" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="111908" nombre="Deducciones autorizadas con partes relacionadas" tipoDatos="Numerico" claveInformativa="111908">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Deducciones autorizadas con partes relacionadas" />
+            <atributo nombre="TituloLargo" valor="Deducciones autorizadas con partes relacionadas" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139813" nombre="Total del estímulo otorgado por concepto de proyectos de inversión en la producción teatral nacional" tipoDatos="Numerico" claveInformativa="139813">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Total del estímulo otorgado por concepto de proyectos de inversión en la producción teatral nacional" />
+            <atributo nombre="TituloLargo" valor="Total del estímulo otorgado por concepto de proyectos de inversión en la producción teatral nacional" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139814" nombre="Deducción adicional del fomento al primer empleo no aplicada" tipoDatos="Numerico" claveInformativa="139814">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Deducción adicional del fomento al primer empleo no aplicada" />
+            <atributo nombre="TituloLargo" valor="Deducción adicional del fomento al primer empleo no aplicada" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="139815" nombre="Deducción por concepto de ayuda alimentaria" tipoDatos="Numerico" claveInformativa="139815">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Deducción por concepto de ayuda alimentaria" />
+            <atributo nombre="TituloLargo" valor="Deducción por concepto de ayuda alimentaria" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1085" nombre="Determinacion del pago ISR">
+      <atributos>
+        <atributo nombre="ClaveImpuesto" valor="0119" />
+        <atributo nombre="ConceptoPago" valor="ISR PERSONAS FÍSICAS" />
+        <atributo nombre="llave" valor="SAT_DET_PAG_ISR" />
+        <atributo nombre="multiplicidad" valor="1" />
+        <atributo nombre="NombreImpuesto" valor="ISR PERSONAS FÍSICAS" />
+        <atributo nombre="tipo" valor="SAT_DETERMINACION_PAGO" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloCorto" valor="Detalle del Pago (ISR)" />
+        <atributo nombre="TituloLargo" valor="Determinación del Pago ISR Personas Físicas" />
+      </atributos>
+      <propiedades>
+        <propiedad id="1" nombre="Formato 18" tipoDatos="Alfanumerico" claveInformativa="1">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_FOR" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Formato 18" />
+          </atributos>
+        </propiedad>
+        <propiedad id="301" nombre="A cargo" tipoDatos="Numerico" claveInformativa="C7">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_AC_CAR" />
+            <atributo nombre="Orden" valor="1" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="A cargo" />
+            <atributo nombre="TituloLargo" valor="A cargo" />
+          </atributos>
+        </propiedad>
+        <propiedad id="302" nombre="Parte actualizada" tipoDatos="Numerico" claveInformativa="C8">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_PAR_ACT" />
+            <atributo nombre="Orden" valor="2" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Parte actualizada" />
+            <atributo nombre="TituloLargo" valor="Parte actualizada" />
+          </atributos>
+        </propiedad>
+        <propiedad id="303" nombre="Recargos" tipoDatos="Numerico" claveInformativa="C9">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_REC" />
+            <atributo nombre="Orden" valor="3" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Recargos" />
+            <atributo nombre="TituloLargo" valor="Recargos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="304" nombre="Multa por corrección" tipoDatos="Numerico" claveInformativa="C10">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_MUL_POR_COR" />
+            <atributo nombre="Orden" valor="4" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Multa por corrección" />
+            <atributo nombre="TituloLargo" valor="Multa por corrección" />
+          </atributos>
+        </propiedad>
+        <propiedad id="305" nombre="Total de contribuciones" tipoDatos="Numerico" claveInformativa="C11">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_TOT_DE_CON" />
+            <atributo nombre="Orden" valor="5" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Total de contribuciones" />
+            <atributo nombre="TituloLargo" valor="Total de contribuciones" />
+          </atributos>
+        </propiedad>
+        <propiedad id="306" nombre="Crédito al salario" tipoDatos="Numerico" claveInformativa="C12">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CRE_AL_SAL" />
+            <atributo nombre="Orden" valor="6" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Crédito al salario" />
+            <atributo nombre="TituloLargo" valor="Crédito al salario" />
+          </atributos>
+        </propiedad>
+        <propiedad id="307" nombre="Subsidio para el empleo" tipoDatos="Numerico" claveInformativa="C12A">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_SUB_PAR_EL_EMP" />
+            <atributo nombre="Orden" valor="7" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Subsidio para el empleo" />
+            <atributo nombre="TituloLargo" valor="Subsidio para el empleo" />
+          </atributos>
+        </propiedad>
+        <propiedad id="308" nombre="A favor" tipoDatos="Numerico" claveInformativa="C6">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_AF_FAV" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="A favor" />
+            <atributo nombre="TituloLargo" valor="A favor" />
+          </atributos>
+        </propiedad>
+        <propiedad id="309" nombre="Compensaciones" tipoDatos="Numerico" claveInformativa="C13">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_COM" />
+            <atributo nombre="Orden" valor="9" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TieneCompensaciones" valor="1" />
+            <atributo nombre="TituloCorto" valor="Compensaciones" />
+            <atributo nombre="TituloLargo" valor="Compensaciones" />
+          </atributos>
+        </propiedad>
+        <propiedad id="310" nombre="Crédito IEPS Diesel sector primario y minero" tipoDatos="Numerico" claveInformativa="C14">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CRE_IEP_DIE_SEC_PRI_YM_MIN" />
+            <atributo nombre="Orden" valor="10" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Crédito IEPS diésel, sector primario y minero" />
+            <atributo nombre="TituloLargo" valor="Crédito IEPS diésel, sector primario y minero" />
+          </atributos>
+        </propiedad>
+        <propiedad id="311" nombre="Diesel automotriz para transporte" tipoDatos="Numerico" claveInformativa="C15">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_DIE_AUT_PAR_TRA" />
+            <atributo nombre="Orden" valor="11" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Diésel automotriz para transporte" />
+            <atributo nombre="TituloLargo" valor="Diésel automotriz para transporte" />
+          </atributos>
+        </propiedad>
+        <propiedad id="312" nombre="Uso de infraestructura carretera de cuota" tipoDatos="Numerico" claveInformativa="C16">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_USO_DE_INF_CAR_DE_CUO" />
+            <atributo nombre="Orden" valor="12" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Uso de infraestructura, carretera de cuota" />
+            <atributo nombre="TituloLargo" valor="Uso de infraestructura, carretera de cuota" />
+          </atributos>
+        </propiedad>
+        <propiedad id="314" nombre="Otros estímulos" tipoDatos="Numerico" claveInformativa="C18">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_OTR_EST" />
+            <atributo nombre="Orden" valor="14" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TieneOtrosEstimulos" valor="1" />
+            <atributo nombre="TituloCorto" valor="Otros estímulos" />
+            <atributo nombre="TituloLargo" valor="Otros estímulos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="315" nombre="Certificados TESOFE" tipoDatos="Numerico" claveInformativa="C19">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CER_TES" />
+          </atributos>
+        </propiedad>
+        <propiedad id="316" nombre="Diesel marino" tipoDatos="Numerico" claveInformativa="C34">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_DIE_MAR" />
+            <atributo nombre="Orden" valor="16" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Diésel marino" />
+            <atributo nombre="TituloLargo" valor="Diésel marino" />
+          </atributos>
+        </propiedad>
+        <propiedad id="317" nombre="Total de aplicaciones" tipoDatos="Numerico" claveInformativa="C21">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_TOT_DE_APL" />
+            <atributo nombre="Orden" valor="17" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Total de aplicaciones" />
+            <atributo nombre="TituloLargo" valor="Total de aplicaciones" />
+          </atributos>
+        </propiedad>
+        <propiedad id="318" nombre="Fecha de pago realizado con anterioridad" tipoDatos="Fecha" claveInformativa="C5">
+          <atributos>
+            <atributo nombre="EsFechaISO" valor="1" />
+            <atributo nombre="llave" valor="SAT_FEC_DE_PAG_REA_CON_ANT" />
+            <atributo nombre="Orden" valor="18" />
+            <atributo nombre="TituloCorto" valor="Fecha del pago realizado con anterioridad (dd/mm/aaaa)" />
+            <atributo nombre="TituloLargo" valor="Fecha del pago realizado con anterioridad (dd/mm/aaaa)" />
+          </atributos>
+        </propiedad>
+        <propiedad id="319" nombre="Monto pagado con anterioridad" tipoDatos="Numerico" claveInformativa="C20">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_MON_PAG_CON_ANT" />
+            <atributo nombre="Orden" valor="19" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Monto pagado con anterioridad" />
+            <atributo nombre="TituloLargo" valor="Monto pagado con anterioridad" />
+          </atributos>
+        </propiedad>
+        <propiedad id="320" nombre="¿Usted realizó en las últimas 48 horas un pago para este concepto?" tipoDatos="Numerico" claveInformativa="C20B">
+          <atributos>
+            <atributo nombre="Catalogo" valor="1" />
+            <atributo nombre="llave" valor="SAT_US_REA_EN_LAS_ULT_48_HOR_UN_PAG_PAR_EST_CON" />
+            <atributo nombre="Orden" valor="20" />
+            <atributo nombre="TituloCorto" valor="¿Usted realizó en las últimas 48 horas un pago para este concepto?" />
+            <atributo nombre="TituloLargo" valor="¿Usted realizó en las últimas 48 horas un pago para este concepto?" />
+            <atributo nombre="ValorInicial" valor="0" />
+          </atributos>
+        </propiedad>
+        <propiedad id="321" nombre="Importe pagado en las últimas 48 horas" tipoDatos="Numerico" claveInformativa="C20A">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_IMP_PAG_EN_LAS_ULT_48_HOR" />
+            <atributo nombre="Orden" valor="21" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Importe pagado en las últimas 48 horas" />
+            <atributo nombre="TituloLargo" valor="Importe pagado en las últimas 48 horas" />
+          </atributos>
+        </propiedad>
+        <propiedad id="322" nombre="Cantidad a cargo" tipoDatos="Numerico" claveInformativa="C22">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CAN_AC_CAR" />
+            <atributo nombre="Orden" valor="22" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Cantidad a cargo" />
+            <atributo nombre="TituloLargo" valor="Cantidad a cargo" />
+          </atributos>
+        </propiedad>
+        <propiedad id="323" nombre="¿Aplica primer parcialidad?" tipoDatos="Numerico" claveInformativa="C23A">
+          <atributos>
+            <atributo nombre="Catalogo" valor="100" />
+            <atributo nombre="llave" valor="SAT_AP_PRI_PAR" />
+            <atributo nombre="TituloCorto" valor="¿Aplica primera parcialidad?" />
+            <atributo nombre="TituloLargo" valor="¿Aplica primera parcialidad?" />
+            <atributo nombre="ValorInicial" valor="0" />
+          </atributos>
+        </propiedad>
+        <propiedad id="324" nombre="Importe de la 1ra. Parcialidad" tipoDatos="Numerico" claveInformativa="C23">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_IMP_DE_LA_1RA_PAR" />
+            <atributo nombre="Orden" valor="24" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Importe de la primera parcialidad" />
+            <atributo nombre="TituloLargo" valor="Importe de la primera parcialidad" />
+          </atributos>
+        </propiedad>
+        <propiedad id="325" nombre="Importe sin  1ra. Parcialidad" tipoDatos="Numerico" claveInformativa="C24">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_IMP_SIN_1R_1RA_PAR" />
+            <atributo nombre="Orden" valor="25" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Importe sin la primera parcialidad" />
+            <atributo nombre="TituloLargo" valor="Importe sin la primera parcialidad" />
+          </atributos>
+        </propiedad>
+        <propiedad id="326" nombre="Cantidad a favor" tipoDatos="Numerico" claveInformativa="C25">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CAN_AF_FAV" />
+            <atributo nombre="Orden" valor="26" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Cantidad a favor" />
+            <atributo nombre="TituloLargo" valor="Cantidad a favor" />
+          </atributos>
+        </propiedad>
+        <propiedad id="327" nombre="Cantidad a pagar" tipoDatos="Numerico" claveInformativa="C26">
+          <atributos>
+            <atributo nombre="ActivarConSaldoAFavor" valor="E1085P318" />
+            <atributo nombre="llave" valor="SAT_CAN_AP_PAG" />
+            <atributo nombre="Orden" valor="27" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Cantidad a pagar" />
+            <atributo nombre="TituloLargo" valor="Cantidad a pagar" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DASC1" nombre="¿Deseas aplicar alguna disminución para determinar el impuesto a cargo?" tipoDatos="Numerico" claveInformativa="DASC1">
+          <atributos>
+            <atributo nombre="Catalogo" valor="100" />
+            <atributo nombre="llave" valor="SAT_DIS_IMP" />
+            <atributo nombre="TituloCorto" valor="¿Deseas aplicar alguna disminución para determinar el impuesto a cargo?" />
+            <atributo nombre="TituloLargo" valor="¿Deseas aplicar alguna disminución para determinar el impuesto a cargo?" />
+          </atributos>
+        </propiedad>
+        <propiedad id="PARC1" nombre="Numero de parcialidades" tipoDatos="Numerico" claveInformativa="PARC1">
+          <atributos>
+            <atributo nombre="Catalogo" valor="83" />
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Número de parcialidades" />
+            <atributo nombre="TituloLargo" valor="Número de parcialidades" />
+            <atributo nombre="ValorInicial" valor="0" />
+          </atributos>
+        </propiedad>
+        <propiedad id="U_302" nombre="Parte actualizada establecido por el usuario" tipoDatos="Numerico" claveInformativa="U_C8">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_PAR_ACT_EST_USU" />
+          </atributos>
+        </propiedad>
+        <propiedad id="U_303" nombre="Recargos establecido por el usuario" tipoDatos="Numerico" claveInformativa="U_C9">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_REC_EST_USU" />
+          </atributos>
+        </propiedad>
+        <propiedad id="U1085C26" nombre="Cantidad a pagar de declaración anterior" tipoDatos="Numerico" claveInformativa="UC26">
+          <atributos>
+            <atributo nombre="llave" valor="CAN_PAG_DEC_ANT" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1086" nombre="Detalle de Compensaciones">
+      <atributos>
+        <atributo nombre="ClaveImpuesto" valor="0119" />
+        <atributo nombre="llave" valor="SAT_DET_DE_CO" />
+        <atributo nombre="multiplicidad" valor="*" />
+        <atributo nombre="tipo" valor="SAT_COMPENSACIONES" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloCorto" valor="Detalle de Compensaciones" />
+        <atributo nombre="TituloLargo" valor="Detalle de Compensaciones" />
+      </atributos>
+      <propiedades>
+        <propiedad id="1" nombre="Formato 18" tipoDatos="Alfanumerico" claveInformativa="1">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_FOR" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Formato 18" />
+          </atributos>
+        </propiedad>
+        <propiedad id="400" nombre="Tipo" tipoDatos="Numerico" claveInformativa="C1302">
+          <atributos>
+            <atributo nombre="Catalogo" valor="14" />
+            <atributo nombre="llave" valor="SAT_TIP" />
+            <atributo nombre="Orden" valor="1" />
+            <atributo nombre="TituloCorto" valor="Tipo" />
+            <atributo nombre="TituloLargo" valor="Tipo" />
+          </atributos>
+        </propiedad>
+        <propiedad id="401" nombre="Periodicidad" tipoDatos="Numerico" claveInformativa="C1303">
+          <atributos>
+            <atributo nombre="Catalogo" valor="20" />
+            <atributo nombre="llave" valor="SAT_PER" />
+            <atributo nombre="Orden" valor="12" />
+            <atributo nombre="TituloCorto" valor="Periodicidad" />
+            <atributo nombre="TituloLargo" valor="Periodicidad" />
+          </atributos>
+        </propiedad>
+        <propiedad id="402" nombre="Periodo" tipoDatos="Numerico" claveInformativa="C1304">
+          <atributos>
+            <atributo nombre="Catalogo" valor="21" />
+            <atributo nombre="llave" valor="SAT_PER1" />
+            <atributo nombre="Orden" valor="2" />
+            <atributo nombre="TituloCorto" valor="Período" />
+            <atributo nombre="TituloLargo" valor="Período" />
+          </atributos>
+        </propiedad>
+        <propiedad id="403" nombre="Ejercicio" tipoDatos="Alfanumerico" claveInformativa="C1305">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_EJE" />
+            <atributo nombre="Orden" valor="3" />
+            <atributo nombre="TituloCorto" valor="Ejercicio" />
+            <atributo nombre="TituloLargo" valor="Ejercicio" />
+          </atributos>
+        </propiedad>
+        <propiedad id="404" nombre="Fecha de causación" tipoDatos="Fecha" claveInformativa="C1315">
+          <atributos>
+            <atributo nombre="EsFechaISO" valor="1" />
+            <atributo nombre="llave" valor="SAT_FEC_DE_CAU" />
+            <atributo nombre="Orden" valor="2" />
+            <atributo nombre="TituloCorto" valor="Fecha de causación" />
+            <atributo nombre="TituloLargo" valor="Fecha de causación" />
+          </atributos>
+        </propiedad>
+        <propiedad id="405" nombre="Número de operación" tipoDatos="Alfanumerico" claveInformativa="C1306">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_NUM_DE_OPE" />
+            <atributo nombre="Orden" valor="3" />
+            <atributo nombre="TituloCorto" valor="Número de operación" />
+            <atributo nombre="TituloLargo" valor="Número de operación" />
+          </atributos>
+        </propiedad>
+        <propiedad id="406" nombre="Concepto" tipoDatos="Numerico" claveInformativa="C1307">
+          <atributos>
+            <atributo nombre="Catalogo" valor="19" />
+            <atributo nombre="llave" valor="SAT_CON" />
+            <atributo nombre="Orden" valor="1" />
+            <atributo nombre="TituloCorto" valor="Concepto de pago" />
+            <atributo nombre="TituloLargo" valor="Concepto de pago" />
+          </atributos>
+        </propiedad>
+        <propiedad id="407" nombre="Saldo a aplicar" tipoDatos="Numerico" claveInformativa="C1308">
+          <atributos>
+            <atributo nombre="EsCompensacionTabulada" valor="1" />
+            <atributo nombre="llave" valor="SAT_SAL_AA_APL" />
+            <atributo nombre="Orden" valor="6" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Saldo a aplicar" />
+            <atributo nombre="TituloLargo" valor="Saldo a aplicar" />
+          </atributos>
+        </propiedad>
+        <propiedad id="408" nombre="Tipo de declaración" tipoDatos="Numerico" claveInformativa="C1309">
+          <atributos>
+            <atributo nombre="Catalogo" valor="24" />
+            <atributo nombre="llave" valor="SAT_TIP_DE_DEC" />
+            <atributo nombre="Orden" valor="4" />
+            <atributo nombre="TituloCorto" valor="Tipo de declaración" />
+            <atributo nombre="TituloLargo" valor="Tipo de declaración" />
+          </atributos>
+        </propiedad>
+        <propiedad id="409" nombre="Monto del saldo a favor original" tipoDatos="Numerico" claveInformativa="C1311">
+          <atributos>
+            <atributo nombre="EsCompensacionTabulada" valor="1" />
+            <atributo nombre="llave" valor="SAT_MON_DEL_SAL_AF_FAV_ORI" />
+            <atributo nombre="Orden" valor="7" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Monto del saldo a favor original" />
+            <atributo nombre="TituloLargo" valor="Monto del saldo a favor original" />
+          </atributos>
+        </propiedad>
+        <propiedad id="410" nombre="Fecha en que se presentó la declaración del saldo a favor" tipoDatos="Fecha" claveInformativa="C1314">
+          <atributos>
+            <atributo nombre="EsFechaISO" valor="1" />
+            <atributo nombre="llave" valor="SAT_FEC_EN_QUE_SE_PRE_LA_DEC_DEL_SAL_AF_FAV" />
+            <atributo nombre="Orden" valor="10" />
+            <atributo nombre="TituloCorto" valor="Fecha en que se presentó la declaración del saldo a favor" />
+            <atributo nombre="TituloLargo" valor="Fecha en que se presentó la declaración del saldo a favor" />
+          </atributos>
+        </propiedad>
+        <propiedad id="411" nombre="Número de operación" tipoDatos="Alfanumerico" claveInformativa="C1310">
+          <atributos>
+            <atributo nombre="Align" valor="right" />
+            <atributo nombre="llave" valor="SAT_NUM_DE_OPE1" />
+            <atributo nombre="Orden" valor="5" />
+            <atributo nombre="TituloCorto" valor="Número de operación" />
+            <atributo nombre="TituloLargo" valor="Número de operación" />
+          </atributos>
+        </propiedad>
+        <propiedad id="412" nombre="Permanente histórico antes de la aplicación" tipoDatos="Numerico" claveInformativa="C1312">
+          <atributos>
+            <atributo nombre="EsCompensacionTabulada" valor="1" />
+            <atributo nombre="llave" valor="SAT_PER_HIS_ANT_DE_LA_APL" />
+            <atributo nombre="Orden" valor="8" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Remanente histórico antes de la aplicación" />
+            <atributo nombre="TituloLargo" valor="Remanente histórico antes de la aplicación" />
+          </atributos>
+        </propiedad>
+        <propiedad id="413" nombre="Permanente actualizado antes de la aplicación" tipoDatos="Numerico" claveInformativa="C1313">
+          <atributos>
+            <atributo nombre="EsCompensacionTabulada" valor="1" />
+            <atributo nombre="llave" valor="SAT_PER_ACT_ANT_DE_LA_APL" />
+            <atributo nombre="Orden" valor="9" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Remanente actualizado antes de la aplicación" />
+            <atributo nombre="TituloLargo" valor="Remanente actualizado antes de la aplicación" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1087" nombre="Detalle de Otros Estímulos">
+      <atributos>
+        <atributo nombre="ClaveImpuesto" valor="0119" />
+        <atributo nombre="llave" valor="SAT_DET_DE_OTR_ES" />
+        <atributo nombre="multiplicidad" valor="*" />
+        <atributo nombre="tipo" valor="SAT_OTROS_ESTIMULOS" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloCorto" valor="Detalle de Otros Estímulos" />
+        <atributo nombre="TituloLargo" valor="Detalle de Otros Estímulos" />
+      </atributos>
+      <propiedades>
+        <propiedad id="1" nombre="Formato 18" tipoDatos="Alfanumerico" claveInformativa="1">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_FOR" />
+            <atributo nombre="TituloCorto" valor="" />
+            <atributo nombre="TituloLargo" valor="Formato 18" />
+          </atributos>
+        </propiedad>
+        <propiedad id="414" nombre="Estímulo" tipoDatos="Numerico" claveInformativa="C1802">
+          <atributos>
+            <atributo nombre="Acumulador" />
+            <atributo nombre="Catalogo" valor="38" />
+            <atributo nombre="llave" valor="SAT_EST" />
+            <atributo nombre="Orden" valor="1" />
+            <atributo nombre="TituloCorto" valor="Estímulo" />
+            <atributo nombre="TituloLargo" valor="Estímulo" />
+            <atributo nombre="ValorInicial" valor="0" />
+          </atributos>
+        </propiedad>
+        <propiedad id="415" nombre="Monto " tipoDatos="Numerico" claveInformativa="C1803">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_MON" />
+            <atributo nombre="Orden" valor="2" />
+            <atributo nombre="SeparaMiles" valor="1" />
+            <atributo nombre="TituloCorto" valor="Monto" />
+            <atributo nombre="TituloLargo" valor="Monto" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1150" nombre="Cantidad recuperada">
+      <atributos>
+        <atributo nombre="llave" />
+        <atributo nombre="multiplicidad" valor="1" />
+        <atributo nombre="tipo" valor="SAT_ANEXOS" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloRegimen" valor="Deducciones personales" />
+      </atributos>
+      <propiedades>
+        <propiedad id="AUXATMP" nombre="Suma de conceptos A, B, D, E, F, G, H, I" tipoDatos="Numerico" claveInformativa="AUX_A">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_AUX_A" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXBTMP" nombre="Bandera para mostrar mensaje global de maximos" tipoDatos="Numerico" claveInformativa="AUX_B">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_AUX_B" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXMASDP" nombre="Auxiliar Cargas Masivas DP" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" valor="AUX_CAR_MAS_DP" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC1A" nombre="Cantidad recuperada en los gastos efectuados" tipoDatos="Numerico" claveInformativa="DPC1A">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="En su caso, cantidad recuperada en los gastos efectuados" />
+            <atributo nombre="TituloLargo" valor="En su caso, cantidad recuperada en los gastos efectuados" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC1B" nombre="Total de deducciones personales" tipoDatos="Numerico" claveInformativa="DPC1B">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Importe" />
+            <atributo nombre="TituloLargo" valor="Importe" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC1C" nombre="Total de deducciones personales" tipoDatos="Numerico" claveInformativa="DPC1C">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Total de deducciones personales" />
+            <atributo nombre="TituloLargo" valor="Total de deducciones personales" />
+            <atributo nombre="ValorInicial" valor="" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC20" nombre="Monto deducible de pagos por servicios educativos (colegiaturas) y donativos." tipoDatos="Numerico" claveInformativa="DPC20">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto deducible de pagos por servicios educativos (colegiaturas) y donativos" />
+            <atributo nombre="TituloLargo" valor="Monto deducible de pagos por servicios educativos (colegiaturas) y donativos" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC21" nombre="Monto máximo deducible de las demás deducciones personales" tipoDatos="Numerico" claveInformativa="DPC21">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto máximo deducible de las demás deducciones personales" />
+            <atributo nombre="TituloLargo" valor="Monto máximo deducible de las demás deducciones personales" />
+          </atributos>
+        </propiedad>
+        <propiedad id="DPC22" nombre="Monto aplicable de las deducciones personales" tipoDatos="Numerico" claveInformativa="DPC22">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Monto aplicable de las deducciones personales" />
+            <atributo nombre="TituloLargo" valor="Monto aplicable de las deducciones personales" />
+          </atributos>
+        </propiedad>
+        <propiedad id="TOTGASFUN" nombre="Total gastos funerarios" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Total gastos funerarios" />
+          </atributos>
+        </propiedad>
+        <propiedad id="TOTGASMED" nombre="Total honorarios medicos" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" />
+            <atributo nombre="TituloCorto" valor="Total gastos Medicos" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+    <entidad id="1160" nombre="Suma Retenciones">
+      <atributos>
+        <atributo nombre="llave" valor="SAT_SIN_CAL_SUM_RET" />
+        <atributo nombre="multiplicidad" valor="1" />
+        <atributo nombre="tipo" valor="SAT_ANEXOS" />
+        <atributo nombre="tipoSeccion" valor="Anexo" />
+        <atributo nombre="tipoSeccion" valor="Determinación del Pago" />
+        <atributo nombre="TituloCorto" valor="Suma Retenciones" />
+        <atributo nombre="TituloLargo" valor="Suma Retenciones" />
+      </atributos>
+      <propiedades>
+        <propiedad id="112226" nombre="Total  de Impuestos Retenidos al Contribuyente  y/o Pagados por Terceros (ISR)" tipoDatos="Numerico" claveInformativa="112226">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_RET_TOT_ISR" />
+            <atributo nombre="TituloCorto" valor="Total  de Impuestos Retenidos al Contribuyente  y/o Pagados por Terceros (ISR)" />
+            <atributo nombre="TituloLargo" valor="Total  de Impuestos Retenidos al Contribuyente  y/o Pagados por Terceros (ISR)" />
+          </atributos>
+        </propiedad>
+        <propiedad id="132226" nombre="Total  de impuestos Retenidos al Contribuyente  y/o Pagados por Terceros (IVA)" tipoDatos="Numerico" claveInformativa="132226">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_RET_TOT_IVA" />
+            <atributo nombre="TituloCorto" valor="Total  de impuestos Retenidos al Contribuyente  y/o Pagados por Terceros (IVA)" />
+            <atributo nombre="TituloLargo" valor="Total  de impuestos Retenidos al Contribuyente  y/o Pagados por Terceros (IVA)" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXAUXSCR7" nombre="Auxiliar Auxiliar Subsidio para el Empleo" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_AUX_AUX_SUB_EMP" />
+          </atributos>
+        </propiedad>
+        <propiedad id="AUXMARET" nombre="Auxiliar Cargas Masivas RET" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" valor="AUX_CAR_MAS_RET" />
+          </atributos>
+        </propiedad>
+        <propiedad id="CONTSCR" nombre="Contador de retenciones sin calculo manuales" tipoDatos="Numerico">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_CON_RET_SIN_CAL_MAN" />
+          </atributos>
+        </propiedad>
+        <propiedad id="SCR7" nombre="Subsidio para el Empleo" tipoDatos="Numerico" claveInformativa="SCR12">
+          <atributos>
+            <atributo nombre="llave" valor="SAT_RET_SUB_EMP" />
+            <atributo nombre="TituloCorto" valor="Subsidio para el empleo" />
+            <atributo nombre="TituloLargo" valor="Subsidio para el empleo" />
+          </atributos>
+        </propiedad>
+      </propiedades>
+    </entidad>
+  </entidades>
+</modeloDatos>

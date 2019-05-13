@@ -1,0 +1,1 @@
+cat subregimen.b64 | base64 --decode -o form.str

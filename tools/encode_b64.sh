@@ -1,0 +1,1 @@
+echo 'hola mundo' | base64 -o test.b64 

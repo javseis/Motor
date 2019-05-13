@@ -1,0 +1,14 @@
+﻿<navegacion>
+  <agrupador idEntidad="1000" idFormulario="6" id="2107" titulo="Actividades Empresariales y Profesionales" idEntidadPropiedad="1008" idTipoAgrupador="1" icono="ActividadesEmpresariales" idSubRegimen="2" Orden="2">
+    <seccion idControlFormulario="1088001" tituloSeccion="Estado de posición financiera" tipoSeccion="Determinación del Pago" Orden="1" />
+    <seccion idControlFormulario="10550001" tituloSeccion="Inversiones" tipoSeccion="Determinación del Pago" Orden="2" />
+    <seccion idControlFormulario="10920001" tituloSeccion="Ingresos" tipoSeccion="Determinación del Pago" Orden="3" />
+    <seccion idControlFormulario="10910001" tituloSeccion="Egresos" tipoSeccion="Determinación del Pago" Orden="4" />
+    <seccion idControlFormulario="10930001" tituloSeccion="Resultados" tipoSeccion="Determinación del Pago" Orden="5" />
+    <seccion idControlFormulario="10950001" tituloSeccion="Reducción de ISR" tipoSeccion="Determinación del Pago" Orden="6" />
+    <seccion idControlFormulario="10940001" tituloSeccion="Datos informativos" tipoSeccion="Determinación del Pago" Orden="7" />
+    <seccion idControlFormulario="10970001" tituloSeccion="Retenciones de ISR e IVA" tipoSeccion="Determinación del Pago" Orden="8" />
+    <seccion idControlFormulario="11660001" tituloSeccion="Carga masiva de retenciones" tipoSeccion="Determinación del Pago" Orden="9" />
+    <seccion idControlFormulario="1054001" tituloSeccion="Campos de la declaración" tipoSeccion="Determinación del Pago" Orden="9" ocultar="1" />
+  </agrupador>
+</navegacion>

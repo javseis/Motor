@@ -1,0 +1,7 @@
+﻿<navegacion>
+  <agrupador idEntidad="1000" idFormulario="6" id="35" titulo="Sueldos, Salarios y Asimilados" idEntidadPropiedad="1005" idTipoAgrupador="1" icono="SueldosYSalarios" idSubRegimen="605" Orden="1">
+    <seccion idControlFormulario="1005001" tituloSeccion="Sueldos y salarios" tipoSeccion="Determinación del Pago" Orden="1" />
+    <seccion idControlFormulario="1056001" tituloSeccion="Subsidio para el empleo" tipoSeccion="Determinación del Pago" Orden="2" />
+    <seccion idControlFormulario="1014001" tituloSeccion="Sueldos y salarios" tipoSeccion="Determinación del Pago" Orden="6" ocultar="1" />
+  </agrupador>
+</navegacion>

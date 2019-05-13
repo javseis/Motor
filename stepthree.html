@@ -1,0 +1,1952 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Declaraciones SAT</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/datepicker.css" rel="stylesheet" media="screen">
+    <link href="css/app.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/origami.css">
+    <style type="text/css">
+        ::-ms-clear {
+            display: none;
+        }
+    </style>
+</head>
+
+<body oncontextmenu="return false;" ondragstart="return false;" ondrop="return false;">
+    <!--main header -->
+    <div class="container-fluid">
+        <div class="col-xs-12 line-D-red bg-white cover-up">
+            <div class=" col-xs-4">
+                <img src="img/Banner.png" alt="DELCARASAT" class="img-responsive">
+                <label class="informacion-declaracion"></label>
+            </div>
+            <div class="col-lg-5 pull-right marg-T20px marg-R3pr text-right">
+                <span class="icon icon-user marg-R1pr"></span>
+                <span id="nombreContribuyente"></span> RFC: <span id="rfc"></span>
+                <a class="pull-right marg-R1pr marg-L5pr">
+                    <span class="icon icon-users"></span>
+                </a>
+                <img src="img/salir.png" id="cerrarSesion" class="icon cerrarSesion" alt="">
+                <div class="info-declara">
+                    <b></b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /main header -->
+
+    <!--sidebar left -->
+    <div class="mainmenu hides">
+        <nav>
+            <ul>
+                <li><a><span class="icon icon-edit"></span>Presentar declaración</a></li>
+                <li><a><span class="icon icon-search"></span>Consultar declaración</a></li>
+                <li><a><span class="icon icon-print"></span>Impresión de acuse</a></li>
+                <li><a><span class="icon icon-archive"></span>Declaraciones pagadas</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- /sidebar left -->
+
+    <!--right panel -->
+    <div class="panel-body2" id="mainPanel">
+        <!--subh eader -->
+        <div class="col-lg-12 padd-T10px padd-B10px clear">
+            <div class="col-lg-4">
+                <h2><span class="icon icon-edit marg-R1em type-primary"></span>Presentación de la declaración</h2>
+            </div>
+
+            <div class="topay">
+                <p>POR PAGAR</p>
+                <i class="icon icon-angle-down type-200pr marg-L3pr pull-right"></i><span></span>
+                <div class="panelmoney">
+                </div>
+            </div>
+
+            <div class="headerbtns marg-L1pr">
+                <a href="#" class="btn icon red alertas"><i class="icon icon-warning"></i><span class="number">0</span>
+                    <span class="panelalert">
+                        <span></span>
+                    </span>
+                </a>
+            </div>
+
+            <div class=" headerbtnFinal">
+                <a id="btnRegresaPerfil" class="btn icon">Perfil</a>
+                <a id="btnRegresarSelector" class="btn icon headerSelector" style="display: none">Regresar a Registro Fiscal</a>
+                <a id="btnRevisionDeclara" class="btn icon">Revisar</a>
+                <a id="btnEnviarDeclara" class="btn icon">Enviar</a>
+            </div>
+        </div>
+        <!--/ subHeader-->
+
+        <div class="col-lg-12 pull-right">
+            <!-- subMenu-->
+            <ul class="topmenu">
+                <li><a idTab="1" href="#">Regímenes</a></li>
+                <li><a idTab="2" href="#">Deducciones personales</a></li>
+                <li><a idTab="3" href="#">Datos complementarios</a></li>
+                <li><a idTab="4" href="#">Cálculo de impuesto</a></li>
+            </ul>
+            <!--/ subMenu-->
+
+            <!--Tabs menu-->
+            <div class="containerTabs">
+                <ul class="nav nav-tabs tabsmenu hide" idTab="1">
+                </ul>
+            </div>
+
+            <div class="containerTabs">
+                <ul class="nav nav-tabs tabsmenu hide" idTab="2">
+                </ul>
+            </div>
+
+            <div class="containerTabs">
+                <ul class="nav nav-tabs tabsmenu hide" idTab="3">
+                </ul>
+            </div>
+
+            <div class="containerTabs">
+                <ul class="nav nav-tabs tabsmenu hide" idTab="4">
+                </ul>
+            </div>
+            <!--/ Tabs menu-->
+        </div>
+        <div class="col-xs-12">
+            <!--left side menu-->
+            <div class="container-submenus">
+            </div>
+            <!--/left side menu-->
+
+            <div class="panel-body2">
+                <div id="htmlOutput">
+                    <div class="icon6-wrapper">
+                        <i class="icon-refresh icon-spin icon-6"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="panel-body list-sections">
+        <div class="row sat-div-sections" id="sat-sections">
+            <div class="icon4-wrapper hide">
+                <i class="icon-spinner icon-spin icon-4"></i>
+            </div>
+        </div>
+    </div> -->
+    <!--/right panel -->
+
+    <!-- Modales Fisicas -->
+
+
+    <div id="templateCuadroAmortizacion" style="display: none">
+        <div id="" aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" role="dialog" tabindex="-1">
+            <div class="modal-dialog" style="width: 900px">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="myModalLabel">Cálculo de amortización de pérdidas fiscales
+                        </h3>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="nav nav-tabs nav-justified">
+                            <li class="active"><a data-bind="click: clean" href="#captura" data-toggle="tab">1. Captura</a></li>
+                            <li><a href="#calculo" data-bind="click: applyCurrencyFormatToPane" data-toggle="tab">2. Cálculo</a></li>
+                            <li><a href="#resultado" data-bind="click: function (data, event) { adviceNoCalculos(data, event); applyCurrencyFormatToPane(data, event); }" data-toggle="tab">3. Resultado</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="captura">
+                                <p></p>
+                                <div class="panel panel-danger">
+                                    <div class=" panel-body text-danger" style="height: 70px;">
+                                        <div class="divHelp">
+                                        </div>
+                                        <div class="divCommonText">
+                                            Captura las utilidades o pérdidas obtenidas en cada ejercicio, al finalizar selecciona la pestaña "2.Cálculo" y
+                                            aplica las pérdidas contra las utilidades para continuar el proceso
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <p></p>
+                                <div style="overflow-y: auto; height: 324px; overflow-x: hidden;">
+                                    <table class="table table-hover">
+                                        <thead class="sat-amor-centertext">
+                                            <tr>
+                                                <th>Año</th>
+                                                <th>Tipo</th>
+                                                <th>Valor</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody data-bind="foreach: { data: ejerciciosPaginated, afterRender: $root.declareCustomEvents }">
+                                            <tr>
+                                                <td>
+                                                    <div class="row" style="margin: auto; width: 49px;">
+                                                        <div class="year">
+                                                            <h4><span data-bind="text: $data.Year" class="label label-default"></span></h4>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="row" style="width: 147px; margin: 0 auto">
+                                                        <div help-text="<span>Seleccione el tipo de ejercicio, puede ser Utlidad o Pérdida</span><br />" class="tipo btn-group" data-bind="radio: $data.Tipo">
+                                                            <button type="button" class="btn btn-default" data-value="Perdida">Pérdida</button>
+                                                            <button data-bind="disable: $root.ejercicios()[0].Year == $data.Year" type="button" class="btn btn-default" data-value="Utilidad">Utilidad</button>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div data-bind="event: { mouseover: $root.showHelpText, mouseout: $root.hideHelpText }" help-text="<span>Capture el monto de este ejercicio</span><br/>" class="valor row">
+                                                        <div class="col-lg-12">
+                                                            <input maxlength="12" data-bind="value: $data.Valor, enable: !IsNullOrEmpty($data.Tipo()), event: { blur: function (data, event) { $root.formatNumber(data, event); }, focus: $root.toNumber }" onkeydown=" return SoloNumerosPositivos(event) " onkeyup=" return OmitirSimulateKeys(event) " class="currency form-control col-xs-3" type="text" />
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="row hidden">
+                                    <div class="col-lg-4">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <ul class="pagination">
+                                            <li><a data-bind="click: previous">&laquo;</a></li>
+                                            <!-- ko foreach: pagesEjercicios-->
+                                            <li><a data-bind="text: $data, click: $root.setPage"></a></li>
+                                            <!-- /ko -->
+                                            <li><a data-bind="click: next">&raquo;</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="calculo">
+                                <p></p>
+                                <div class="panel panel-danger">
+                                    <div class=" panel-body text-danger" style="height: 130px">
+                                        <div class="divHelp hidden">
+                                        </div>
+                                        <div class="divCommonText">
+                                            Selecciona la pérdida de un ejercicio y la utilidad contra la que se aplica (o tus remanentes) y pulsa "Aplicar".
+                                            Repite la operación hasta realizar todas las aplicaciones que correspondan en cada caso.
+                                            Al finalizar selecciona la pestaña "3. Resultado"
+
+                                            <br />
+                                            Considera que cada que vez que selecciones la pestaña "1. Captura" deberás realizar el proceso de aplicación de las pérdidas contra las utilidades.
+
+                                            <br />
+                                            Respeta estrictamente el orden de aplicación de tus pérdidas (de la más antigua a la mas reciente)
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <p></p>
+                                <div class="col-md-12">
+                                    <div class="btn-group btn-group-justified">
+                                        <a data-bind="click: aplicarAmortizacion" class="btn btn-default" role="button">Aplicar</a>
+                                    </div>
+                                    <div class="row">
+                                        <div help-text="<span>Seleccione la pérdida que va a aplicar</span><br/>" id="divPerdidas" class="col-md-6">
+                                            <h3>
+                                                <span class="label label-default">Pérdidas</span>
+                                            </h3>
+                                            <div class="list-group" data-bind="template: { name: 'template-ejercicio-lectura', foreach: perdidasFilter }">
+                                            </div>
+                                        </div>
+                                        <div help-text="<span></span>Seleccione la utilidad a la que va a aplicar la pérdida y seleccione 'Aplicar'<br/>" id="divUtilidades" class="col-md-6">
+                                            <h3>
+                                                <span class="label label-default">Utilidades</span>
+                                            </h3>
+                                            <div class="list-group" data-bind="template: { name: 'template-ejercicio-lectura', foreach: utilidadesFilter }">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hidden btn-group btn-group-justified">
+                                        <a data-bind="click: aplicarAmortizacion" class="btn btn-default" role="button">Aplicar</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="resultado">
+                                <div class="table-responsive-force">
+                                    <p></p>
+                                    <table class="table table-hover table-amort">
+                                        <thead>
+                                            <tr>
+                                                <th>Ejercicio de la pérdida</th>
+                                                <th>Monto de la pérdida</th>
+                                                <th>INPC Jul.</th>
+                                                <th>INPC Dic.</th>
+                                                <th>FA</th>
+                                                <th>Pérdida act. a Dic.</th>
+                                                <th>Ejercicio de aplicación de pérdida</th>
+                                                <th>Utilidad fiscal</th>
+                                                <th>INPC Dic.</th>
+                                                <th>INPC Jun.</th>
+                                                <th>FA</th>
+                                                <th>Pérdida fiscal actualizada</th>
+                                                <th>Pérdida fiscal aplicada</th>
+                                                <th>Utilidad gravable ejercicio</th>
+                                                <th>Pérdida ejer. anterior pendiente aplicar</th>
+                                                <th>Pérdida no aplicada</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody data-bind="template: { name: 'template-calculo-row', foreach: resultado }">
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="btn-group btn-group-justified hidden">
+                                    <a class="btn btn-default" role="button">Imprimir</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <a id="btnCerrarAmort" class="btn btn-primary btn-red sat-button-dialog" data-dismiss="modal" aria-hidden="true">Cerrar</a>
+                        <a id="btnTerminarAmort" class="btn btn-primary btn-red sat-button-dialog">Terminar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="divAlertSection">
+    </div>
+
+    <div id="templateAlertMessage" style="display: none">
+        <div class="modal fade" style="z-index: 9999">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!--Message Here-->
+                    </div>
+                    <div class="modal-footer">
+                        <div class="validation hidden">
+                            <button type="button" class="si btn btn-primary btn-red">
+                                SI
+
+                            </button>
+                            <button type="button" class="no btn btn-primary btn-red">
+                                NO
+
+                            </button>
+                        </div>
+                        <div class="notify">
+                            <button type="button" class="no btn btn-primary btn-red">
+                                Aceptar
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="message-inmuebles-enajenacion" class="modal fade" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    Para agregar información aquí, es necesario agregar información previa.
+
+                </div>
+                <div class="modal-footer">
+                    <div class="notify">
+                        <button type="button" class="no btn btn-primary btn-red">
+                            OK
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/html" id="template-ejercicio-lectura">
+        <a class="list-group-item" data-bind="click: $root.selectElement">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="list-group-item-heading">Ejercicio <span data-bind="text: Year"></span></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="list-group-item-text">Monto $<span class="currency" data-bind="text: ValorFixed"></span></p>
+                </div>
+                <div class="col-lg-6">
+                    <span data-bind="visible: IsCalculo">(Remanente)</span>
+                </div>
+            </div>
+        </a>
+    </script>
+
+    <script type="text/html" id="template-calculo-row">
+        <tr>
+            <td class="center">
+                <h4 style="margin-top: 0"><span class="label label-default" data-bind="text: Perdida.Year"></span></h4>
+            </td>
+            <td class="currency" data-bind="text: Perdida.ValorFixed">2
+            </td>
+            <td data-bind="text: Perdida.INPCJulFixed, attr: { title: Perdida.INPCJul }">3
+            </td>
+            <td data-bind="text: Perdida.INPCDicFixed, attr: { title: Perdida.INPCDic }">4
+            </td>
+            <td class="currency-four" data-bind="text: Perdida.FAFixed">5
+            </td>
+            <td class="currency" data-bind="text: Perdida.PerdidaActualizadaDicFixed">6
+            </td>
+            <td class="center">
+                <h4 style="margin-top: 0"><span class="label label-default" data-bind="text: Utilidad.Year"></span></h4>
+            </td>
+            <td class="currency" data-bind="text: Utilidad.ValorFixed">8
+            </td>
+            <td data-bind="text: Utilidad.INPCDicFixed, attr: { title: Utilidad.INPCDic }">9
+            </td>
+            <td data-bind="text: Utilidad.INPCJunFixed, attr: { title: Utilidad.INPCJun }">10
+            </td>
+            <td class="currency-four" data-bind="text: Utilidad.FAFixed">11
+            </td>
+            <td class="currency" data-bind="text: Utilidad.PerdidaFiscalActualizadaFixed">12
+            </td>
+            <td class="currency" data-bind="text: Utilidad.PerdidaFiscalAplicadaFixed">13
+            </td>
+            <td class="currency" data-bind="text: Utilidad.UtilidadGravableEjercicioFixed">14
+            </td>
+            <!-- ko if: IsCalculo-->
+            <td class="currency" data-bind="text: Utilidad.PerdidaEjercicioAntPendAplicarFixed">15
+            </td>
+            <!-- /ko -->
+            <!-- ko if: !IsCalculo-->
+            <td class="currency" data-bind="text: Perdida.PerdidaEjercicioAntPendAplicarFixed">15
+            </td>
+            <!-- /ko-->
+            <td class="currency" data-bind="text: PerdidaNoAplicadaFixed()">16
+            </td>
+        </tr>
+    </script>
+
+    <div id="templateDlgCompensanciones">
+        <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h4 class="modal-title">Compensaciones</h4>
+                            </div>
+                            <div class="col-lg-6">
+                                <h4 class="modal-title">
+                                    <span>Total: $</span><span id="lblMonto"></span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body"></div>
+                    <div class="modal-footer">
+                        <button id="btnCancelar" type="button" class="btn btn-primary btn-red">Cancelar</button>
+                        <button id="addItem" type="button" class="btn btn-primary btn-red">Agregar</button>
+                        <button id="btnTerminar" type="button" class="btn btn-primary btn-red">Terminar</button>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+    </div>
+
+    <div id="templateRowCompensaciones" class="hide">
+        <div class="container sat-row-compensaciones">
+            <div class="row">
+                <div class="col-lg-3">
+                    <label>Tipo</label>
+                    <select id="tipoSelect" class="form-control sat-height-field" claveinformativa="C1302"></select>
+                </div>
+                <div class="col-lg-3">
+                    <label>Periodicidad</label>
+                    <select id="periodicidadSelect" class="form-control" disabled="disabled" claveinformativa="C1303"></select>
+                </div>
+                <div class="col-lg-3">
+                    <label>Período</label>
+                    <select id="periodoSelect" class="form-control" disabled="disabled" claveinformativa="C1304"></select>
+                </div>
+                <div class="col-lg-3">
+                    <label>Ejercicio</label>
+                    <select id="ejercicioSelect" class="form-control" disabled="disabled" claveinformativa="C1305"></select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <label>Fecha de causación (dd-mm-aaaa)</label>
+                    <div class="input-append date" id="datepicker" data-date-format="dd/mm/yyyy">
+                        <input class="form-control" maxlength="12" id="txtFechaCausacion" type="text" maxlength="10" disabled="disabled" claveinformativa="C1315" />
+                        <span style="display: none;" class="add-on"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <label>Número de operación</label>
+                    <input id="txtNumeroOperacion" onkeyup="ESALFANUMERICO(event)" maxlength="14" class="form-control" type="text" disabled="disabled" claveinformativa="C1306" />
+                </div>
+                <div class="col-lg-3">
+                    <label>Concepto</label>
+                    <select id="selectConcepto" class="form-control" disabled="disabled" claveinformativa="C1307"></select>
+                </div>
+                <div class="col-lg-3">
+                    <label>Saldo a aplicar</label>
+                    <input maxlength="12" id="txtSaldoAplicar" class="form-control currency" type="text" disabled="disabled" onkeydown="return SoloNumerosPositivos(event)" claveinformativa="C1308" />
+                    <button id="btnValidar" disabled="disabled">Continuar</button>
+                    <button id="btnEliminar">Eliminar</button>
+                </div>
+            </div>
+            <div style="width: 100%; border: solid 1px lightgrey; border-width: thin"></div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <table width="400px">
+                            <tr>
+                                <td style="width: 50%;">
+                                    <label>Tipo de declaración</label>
+                                </td>
+                                <td style="width: 50%;">
+                                    <select id="selectTipoDeclaracion" class="form-control" disabled="disabled" claveinformativa="C1309"></select>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <table width="400px">
+                            <tr>
+                                <td style="width: 50%;">
+                                    <label>Monto del saldo a favor original</label>
+                                </td>
+                                <td style="width: 50%;">
+                                    <input maxlength="12" id="txtSaldoFavor" class="form-control currency" type="text" disabled="disabled" onkeydown="return SoloNumerosPositivos(event)" claveinformativa="C1311" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <table width="400px">
+                            <tr>
+                                <td style="width: 50%;">
+                                    <label style="width: 200px;">Fecha en que se presentó la </br> declaración del saldo a favor (dd-mm-aaaa)</label>
+                                </td>
+                                <td style="width: 50%;">
+                                    <div class="input-append date" id="datepicker" data-date-format="dd/mm/yyyy">
+                                        <input class="form-control" style="float: left; width: 85%; margin-rigth: 5px;" id="txtFechaDeclaracion" type="text" maxlength="10" disabled="disabled" claveinformativa="C1314">
+                                        <span style="display: none;" class="add-on"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <table width="400px">
+                            <tr>
+                                <td style="width: 50%;">
+                                    <label>Número de operación</label>
+                                </td>
+                                <td style="width: 50%;">
+                                    <input id="txtNumeroOperacion1" onkeyup="ESALFANUMERICO(event)" maxlength="14" class="form-control" type="text" disabled="disabled" claveinformativa="C1310" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <table width="400px">
+                            <tr>
+                                <td style="width: 50%;">
+                                    <label>Remanente histórico antes de la aplicación</label>
+                                </td>
+                                <td style="width: 50%;">
+                                    <input maxlength="12" id="txtRemanenteHistorico" class="form-control currency" type="text" disabled="disabled" onkeydown="return SoloNumerosPositivos(event)" claveinformativa="C1312" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <table width="400px">
+                            <tr>
+                                <td style="width: 50%;">
+                                    <label>Remanente actualizado antes de la aplicación</label>
+                                </td>
+                                <td style="width: 50%;">
+                                    <input maxlength="12" id="txtRemanenteActualizado" class="form-control currency" type="text" disabled="disabled" onkeydown="return SoloNumerosPositivos(event)" claveinformativa="C1313" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 100%; border: solid 1px;"></div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="dlgCancelar" style="z-index: 9999" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Cancelar</h4>
+                </div>
+                <div class="modal-body">¿Está seguro de cancelar todas las Compensaciones?</div>
+                <div class="modal-footer">
+                    <button id="btnAceptar" type="button" class="btn btn-primary btn-red">SI</button>
+                    <button type="button" class="btn btn-primary btn-red" data-dismiss="modal">NO</button>
+                    <div style="clear: both;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="templateCuadroDialogoModal">
+        <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog" style="width: 800px;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h4 id="lblTituloCuadroDialogo" class="modal-title"></h4>
+                            </div>
+                            <div class="col-lg-6">
+                                <h4 class="modal-title">
+                                    <span>Total: $</span><span id="lblMontoEstimulo"></span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <input type="hidden" class="sat-tmpl-row" />
+                        <input type="hidden" class="sat-view-model-row-id" />
+
+                        <table class="table table-bordered sat-table">
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="cancelTable" type="button" class="btn btn-primary btn-red">
+                            Cancelar
+
+
+                        </button>
+                        <button id="nuevaFila" type="button" class="btn btn-primary btn-red">
+                            Agregar
+
+
+                        </button>
+                        <button id="acceptTable" type="button" class="btn btn-primary btn-red">
+                            Terminar
+
+
+                        </button>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+    </div>
+
+    <!-- /.modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Cargando información.</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="col-lg-offset-1 col-lg-11">
+                            <i class="icon-spinner icon-spin icon-large icon-6x"></i>
+                            <span class="title-progress">Espera por favor mientras termina de cargar la información necesaria.</span>
+
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalSeccion" class="modal fade" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- dialog body -->
+                <div class="modal-body">
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="si btn btn-primary btn-red">
+                        Aceptar
+
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="divDynamicModals">
+    </div>
+
+    <div id="modalSeccionSaltada" class="modal fade" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <input type="hidden">
+                <!-- dialog body -->
+                <div class="modal-body">
+                    La sección ya había sido marcada como "No Aplica", ¿Desea habilitarla nuevamente?
+
+
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" class="si btn btn-primary btn-red">
+                        SI
+
+
+                    </button>
+                    <button type="button" data-dismiss="modal" class="no btn btn-primary btn-red">
+                        NO
+
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalYesNo" class="modal fade" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- dialog body -->
+                <div class="modal-body">
+                    Ya hay información capturada, ¿desea continuar con la operación?
+
+
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" class="si btn btn-primary btn-red">
+                        SI
+
+
+                    </button>
+                    <button type="button" class="no btn btn-primary btn-red">
+                        NO
+
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalYesNoSeccion" class="modal fade" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <input type="hidden">
+                <!-- dialog body -->
+                <div class="modal-body">
+                    Toda la información capturada en esta sección se eliminará, ¿desea continuar con la operación?
+
+
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" class="si btn btn-primary btn-red">
+                        SI
+
+
+                    </button>
+                    <button type="button" data-dismiss="modal" class="no btn btn-primary btn-red">
+                        NO
+
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalFaltanSeccionesPorEntrar" class="modal fade" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <input type="hidden">
+                <!-- dialog body -->
+                <div class="modal-body">
+                    Para continuar con la validación de la declaración, deberá ingresar a todos los apartados.
+
+
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-primary btn-red">
+                        Aceptar
+
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalErroresEnSecciones" class="modal fade" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <input type="hidden">
+                <!-- dialog body -->
+                <div class="modal-body">
+                    Proceso concluido. Se detectaron errores en la declaración.
+
+
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-primary btn-red">
+                        Aceptar
+
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalValidacion" class="modal fade" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- dialog body -->
+                <div class="modal-body">
+                    Campos obligatorios. Los campos marcados con (*) son obligatorios. Favor de verificar.
+
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="si btn btn-primary btn-red">
+                        Aceptar
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalGuardando" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Guardando información.</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="col-lg-offset-1 col-lg-11">
+                            <i class="icon-spinner icon-spin icon-large icon-6x"></i>
+                            Espera por favor mientras termina de guardar la información necesaria.
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalExceededElements" class="modal fade" style="z-index: 9999" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- dialog body -->
+                <div class="modal-body">
+                    <blockquote>
+                        Hay información que no fue posible prellenar en su declaración debido a que excedió el numero máximo de registros por apartado, favor de verficarla y en su caso completarla.
+
+                        <br />
+                        <footer>
+                            <br />
+                            <ul id="secciones-exceeds">
+                            </ul>
+                        </footer>
+                    </blockquote>
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="si btn btn-primary btn-red">
+                        Aceptar
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Html para el modulo de cuadro de calculo de deduccion de inversiones-->
+    <div id="view-model-cuadrodeduccioninversion">
+        <div class="modal fade inputRightText" id="cuadrodeduccioninversion" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" style="width: 1200px">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h4 class="modal-title" id="H1">Cálculo de deducción de inversiones</h4>
+                            </div>
+                            <div class="col-md-3 col-md-offset-5">
+                                <button type="button" id="btn-nuevo-calculo" data-bind="click: agregarCalculo" class="btn-sm btn-default btn" aria-hidden="true">Nuevo</button>
+                                <button type="button" id="btn-eliminar-calculo" data-bind="click: eliminarCalculo" class="btn-sm btn-default btn" aria-hidden="true">Eliminar</button>
+                                <button type="button" style="display: none" id="btn-transferir" data-bind="click: transferir" class="btn-sm btn-default btn" aria-hidden="true">Transferir resultados</button>
+                                <button type="button" id="btn-ver-resultados" class="btn-sm btn-danger btn" aria-hidden="true">Resultados</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="height: 450px; overflow-y: auto" class="modal-body">
+                        <div id="form-calculo" class="row">
+                            <div class="col-xs-6">
+                                <div class="form-horizontal" role="form">
+                                    <div class="panel panel-default">
+                                        <div class="panel-body">
+                                            <div class="form-group">
+                                                <label for="inputNumero" class="col-sm-4 control-label">Número</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" data-bind="value: editItem().numero, css: requiredInputValue(editItem().numero())" maxlength="6" class="form-control numero default-disabled" id="inputNumero" placeholder="" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputDescripcion" class="col-sm-4 control-label">Descripción</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" maxlength="80" data-bind="value: editItem().descripcion, css: requiredInputValue(editItem().descripcion())" class="form-control default-disabled" id="inputDescripcion" placeholder="" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputClasificacion" class="col-sm-4 control-label">Clasificación</label>
+                                                <div class="col-sm-8">
+                                                    <select class="form-control default-disabled" data-bind=" options: catalogoClasificaciones, optionsText: 'texto', optionsValue: 'valor', value: editItem().clasificacion, css: requiredSelectValue(editItem().clasificacion())" id="inputClasificacion">
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputMontoOriginalInversion" class="col-sm-4 control-label">Monto original de la inversión</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" maxlength="12" data-bind="value: editItem().montoOriginalInversion, css: requiredInputValue(editItem().montoOriginalInversion()) " class="form-control currency default-disabled" id="inputMontoOriginalInversion" placeholder="" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputFechaAdquisicion" class="col-sm-4 control-label">Fecha de adquisición</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" mascara="99/99/9999" data-bind="value: editItem().fechaAdquisicion, css: requiredInputValue(editItem().fechaAdquisicion())" class="form-control default-disabled" id="inputFechaAdquisicion" placeholder="" />
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputPorcentajeDepreciacion" class="col-sm-4 control-label">Porcentaje de depreciación</label>
+                                                <div class="col-xs-4">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon">%</span>
+                                                        <select class="form-control default-disabled" data-bind="value: editItem().porcentajeDepreciacion, css: requiredSelectValue(editItem().porcentajeDepreciacion())" id="inputPorcentajeDepreciacion">
+                                                            <option value="0"></option>
+                                                            <option>3</option>
+                                                            <option>5</option>
+                                                            <option>6</option>
+                                                            <option>7</option>
+                                                            <option>8</option>
+                                                            <option>10</option>
+                                                            <option>11</option>
+                                                            <option>12</option>
+                                                            <option>15</option>
+                                                            <option>16</option>
+                                                            <option>20</option>
+                                                            <option>25</option>
+                                                            <option>30</option>
+                                                            <option>35</option>
+                                                            <option>50</option>
+                                                            <option>100</option>
+                                                            <option value="-1">otro</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-4">
+                                                    <div class="input-group" data-bind="visible: editItem().porcentajeDepreciacion() == -1">
+                                                        <span class="input-group-addon">%</span>
+                                                        <input type="text" data-bind=" event: { change: function (data, event) { AUTOCOMPLETAR(event, 2, 2) } }, value: editItem().otroPorcentajeDepreciacion, css: requiredOtroPorcentajeDepreciacion" maxlength="5" class="form-control default-disabled decimal" id="inputOtroPorcentajeDepreciacion" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputInicioUsoBien" class="col-sm-4 control-label">¿Ya inició el uso del bien?</label>
+                                                <div class="col-xs-8" data-bind="css: requiredInputValue(editItem().inicioUsoBien())">
+                                                    <div class="">
+                                                        <label>
+                                                            <input type="radio" class="default-disabled" data-bind="checked: editItem().inicioUsoBien" name="optionInicioUso" value="false" />No
+
+                                                        </label>
+                                                    </div>
+                                                    <div class="">
+                                                        <label>
+                                                            <input type="radio" class="default-disabled" data-bind="checked: editItem().inicioUsoBien" name="optionInicioUso" value="true" />Si
+
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputFechaUsoBien" class="col-sm-4 control-label">¿Qué Fecha?</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" mascara="99/99/9999" data-bind="value: editItem().fechaUsoBien, enable: editItem().inicioUsoBien() == 'true', css: requiredFechaUsoBien" class="form-control" id="inputFechaUsoBien" placeholder="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 form-horizontal">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">¿Inicia la deducción en?</div>
+                                    <div class="panel-body">
+                                        <div class="form-group" data-bind="css: requiredInicioDeduccion">
+                                            <div class="col-xs-6">
+                                                <div class="">
+                                                    <label>
+                                                        <input type="radio" data-bind="checked: editItem().inicioDeduccionEn, enable: editItem().inicioUsoBien() == 'true'" name="optionInicioDeduccion" value="usando" />
+                                                        Ejercicio en el que se inicia su uso
+
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <div class="">
+                                                    <label>
+                                                        <input type="radio" data-bind="checked: editItem().inicioDeduccionEn, enable: editItem().inicioUsoBien() == 'true'" name="optionInicioDeduccion" value="siguiente" />
+                                                        Ejercicio siguiente
+
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">En el ejercicio</div>
+                                    <div class="panel-body">
+                                        <div class="form-group" data-bind="css: requiredEjercicio">
+                                            <div class="col-xs-12">
+                                                <div class="">
+                                                    <label>
+                                                        <input type="radio" data-bind="checked: editItem().enElEjercicio, enable: editItem().inicioUsoBien() == 'true'" name="optionEjercicio" value="1" />
+                                                        No se prescindió del bien
+
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="row">
+                                                    <div class="col-xs-4" style="padding-left:0px;">
+                                                        <label>
+                                                            <input type="radio" data-bind="checked: editItem().enElEjercicio, enable: editItem().inicioUsoBien() == 'true'" name="optionEjercicio" value="2" />
+                                                            Se enajenó
+
+                                                        </label>
+                                                    </div>
+                                                    <div class="col-xs-8">
+                                                        <label for="inputPrecioVenta" class="col-sm-6 control-label">Precio de venta</label>
+                                                        <div class="col-sm-6">
+                                                            <input type="text" maxlength="12" data-bind="value: editItem().precioVenta, enable: editItem().inicioUsoBien() == 'true' && editItem().enElEjercicio() == 2, css: requiredPrecioVenta" class="form-control currency" id="inputPrecioVenta" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="">
+                                                    <label>
+                                                        <input type="radio" data-bind="checked: editItem().enElEjercicio, enable: editItem().inicioUsoBien() == 'true'" name="optionEjercicio" value="3" />
+                                                        Dejó de ser útil para obtener los ingresos
+
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="">
+                                                    <label>
+                                                        <input type="radio" data-bind="checked: editItem().enElEjercicio, enable: editItem().inicioUsoBien() == 'true'" name="optionEjercicio" value="4" />
+                                                        Se perdió por caso fortuito o fuerza mayor
+
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputMesPrescindioActivo" class="col-sm-12">Mes en que se prescindió del activo</label>
+                                            <div class="col-sm-12">
+                                                <select style="width: 30%" data-bind="value: editItem().mesPrescindioActivo, enable: editItem().inicioUsoBien() == 'true' && (!IsNullOrEmpty(editItem().enElEjercicio()) && editItem().enElEjercicio() != 1), css: requiredMesPrescindioActivo " id="inputMesPrescindioActivo">
+                                                    <option value="0"></option>
+                                                    <option value="1">Enero</option>
+                                                    <option value="2">Febrero</option>
+                                                    <option value="3">Marzo</option>
+                                                    <option value="4">Abril</option>
+                                                    <option value="5">Mayo</option>
+                                                    <option value="6">Junio</option>
+                                                    <option value="7">Julio</option>
+                                                    <option value="8">Agosto</option>
+                                                    <option value="9">Septiembre</option>
+                                                    <option value="10">Octubre</option>
+                                                    <option value="11">Noviembre</option>
+                                                    <option value="12">Diciembre</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="grid-calculo" class="row">
+                            <div class="col-xs-12">
+                                <table class="table table-condensed table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th>
+                                            <th>Descripción</th>
+                                            <th>Monto original</th>
+                                            <th>Fecha adquisición</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody data-bind="foreach: calculoArray">
+                                        <tr data-bind="click: $root.updateCalculo, css: { 'danger': $data.isNewOrEditItem() === 1 }">
+                                            <td data-bind="text: $data.numero"></td>
+                                            <td data-bind="text: $data.descripcion"></td>
+                                            <td class="currency" data-bind="text: $data.montoOriginalInversion"></td>
+                                            <td data-bind="text: $data.fechaAdquisicion"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="grid-resultado" class="row" style="display: none">
+                            <div class="col-xs-12">
+                                <div class="row">
+                                    <div class="table-responsive-force">
+                                        <table id="resultadosDeduccionInversion" class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>No.</th>
+                                                    <th>Descripción</th>
+                                                    <th>Clasificación</th>
+                                                    <th>MOI</th>
+                                                    <th>Fecha adquisición</th>
+                                                    <th>% Depreciación anual</th>
+                                                    <th>Depreciación anual</th>
+                                                    <th>Depreciación mensual</th>
+                                                    <th>Inició su uso en:</th>
+                                                    <th>Inició la deducción en:</th>
+                                                    <th>Dep al 31/12/<span class="declaracion-date">2011</span></th>
+                                                    <th>Se enajenó,
+
+                                                        <br />
+                                                        dejó de ser útil o se perdió</th>
+                                                    <th>Mes del evento</th>
+                                                    <th>Meses de uso</th>
+                                                    <th>Deprec ejerc (Histórica)</th>
+                                                    <th>Deprec parte no deducida /
+
+                                                        <br />
+                                                        Pérd histórica enaj</th>
+                                                    <th>INPC adq</th>
+                                                    <th>INPC últ mes 1a mitad </th>
+                                                    <th>FA</th>
+                                                    <th>Deduc inv ejerc</th>
+                                                    <th>Deduc parte no deducida /
+
+                                                        <br />
+                                                        Pérd actualizada enaj</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody data-bind="foreach: calculoArray">
+                                                <tr>
+                                                    <td data-bind="text: $data.numero"></td>
+                                                    <td data-bind="text: $data.descripcion"></td>
+                                                    <td data-bind="text: $data.clasificacionText"></td>
+                                                    <td><span>$</span>&nbsp;<span class="currency" data-bind="text: $data.montoOriginalInversion"></span></td>
+                                                    <td data-bind="text: $data.fechaAdquisicion"></td>
+                                                    <td data-bind="text: $data.porcentajeDepreciacionFixed"></td>
+                                                    <td><span>$</span>&nbsp;<span class="currency" data-bind="text: $data.depreciacionAnual"></span></td>
+                                                    <td><span>$</span>&nbsp;<span class="currency" data-bind="text: $data.depreciacionMensual"></span></td>
+                                                    <td data-bind="text: $data.fechaUsoBien"></td>
+                                                    <td data-bind="text: $data.inicioSuDeduccionEn"></td>
+                                                    <td><span data-bind="visible: $data.depreciacionAlEjercicio() > 0">$</span>&nbsp;<span class="currency" data-bind="    text: $data.depreciacionAlEjercicio"></span></td>
+                                                    <td data-bind="text: $data.enajenoDejoSerUtilOrSePerdio"></td>
+                                                    <td data-bind="text: $data.mesEvento"></td>
+                                                    <td data-bind="text: $data.mesesUso"></td>
+                                                    <td><span data-bind="visible: $data.depreciacionHistorica() > 0">$</span>&nbsp;<span class="currency" data-bind="    text: $data.depreciacionHistorica"></span></td>
+                                                    <td><span data-bind="visible: $data.depreciacionParteNoDeducida() > 0">$</span>&nbsp;<span class="currency" data-bind="    text: $data.depreciacionParteNoDeducida"></span></td>
+                                                    <td data-bind="attr: { 'title': $data.inpcAdq }, text: $data.inpcAdqFixed"></td>
+                                                    <td data-bind="text: $data.inpcUltimoMesPrimeraMitadFix"></td>
+                                                    <td data-bind="text: $data.fa"></td>
+                                                    <td><span data-bind="visible: $data.deduccionInverEjerc() > 0">$</span>&nbsp;<span class="currency" data-bind="    text: $data.deduccionInverEjerc"></span></td>
+                                                    <td><span data-bind="visible: $data.deduccionParteNoDeducida() > 0">$</span>&nbsp;<span class="currency" data-bind="    text: $data.deduccionParteNoDeducida"></span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">Suma</div>
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <label class="col-xs-6">Monto original de la inversión</label>
+                                                <div class="col-xs-6">
+                                                    <p class="currency" data-bind="text: TotalMontoOriginalInvercion()"></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <label class="col-xs-6">Depreciación acumulada al 31 diciembre de <span class="declaracion-date">2011</span></label>
+                                                <div class="col-xs-6">
+                                                    <p class="currency" data-bind="text: TotalDepreciacionAlEjercicio()"></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <label class="col-xs-6">Depreciación del ejercicio (histórica)</label>
+                                                <div class="col-xs-6">
+                                                    <p class="currency" data-bind="text: TotalDepreciacionEjercicioHistorica()"></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <label class="col-xs-6">Depreciación parte no deducida */ Pérdida histórica enajenada</label>
+                                                <div class="col-xs-6">
+                                                    <p class="currency" data-bind="text: TotalDepreciacionParteNoDeducida()"></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <label class="col-xs-6">Deducción de la inversión en el ejercicio</label>
+                                                <div class="col-xs-6">
+                                                    <p class="currency" data-bind="text: TotalDeduccionInvercion()"></p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <label class="col-xs-6">Deducción parte no deducida */ Pérdida actualizada enajenada</label>
+                                                <div class="col-xs-6">
+                                                    <p class="currency" data-bind="text: TotalDeduccionParteNoDeducida()"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-bind="click: cerrar">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="messages-deduccion-inversion">
+            <div id="modal-actividad-profesional" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Ganancia en enajenación de activos.</h4>
+                        </div>
+                        <div class="modal-body">
+                            <blockquote>
+                                <p>En el ejercicio se generaron ganancias por enajenación de activos por un monto de <strong>$</strong><strong class="currency"></strong>, sobre los bienes identificados con el (los) número(s) <span></span>.</p>
+                                <p>Adicione este importe a tus ingresos y capture el resultado en el campo total de ingresos cobrados.</p>
+                            </blockquote>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" data-bind="click: acceptGanancia" class="btn btn-primary btn-red">
+                                Aceptar
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="modal-actividad-empresarial-profesional" class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Ganancia en enajenación de activos.</h4>
+                        </div>
+                        <div class="modal-body">
+                            <blockquote>
+                                <p>En el ejercicio se generaron ganancias contables por enajenación de activos por un monto de <strong>$</strong><strong class="currency"></strong>, sobre los bienes identificados con el (los) número(s) <span></span>.</p>
+                                <p>En el ejercicio se generaron ganancias fiscales por enajenación de activos por un monto de <strong>$</strong><strong class="currency"></strong>, sobre los bienes identificados con el (los) número(s) <span></span>.</p>
+                            </blockquote>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" data-bind="click: acceptGanancia" class="btn btn-primary btn-red">
+                                Aceptar
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="modal-actividad-empresarial" class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Ganancia en enajenación de activos.</h4>
+                        </div>
+                        <div class="modal-body">
+                            <blockquote>
+                                <p>En el ejercicio se generaron ganancias por enajenación de activos por un monto de <strong>$</strong><strong class="currency"></strong>, sobre los bienes identificados con el (los) número(s) <span></span>.</p>
+                            </blockquote>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" data-bind="click: acceptGanancia" class="btn btn-primary btn-red">
+                                Aceptar
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="modal-regimen-intermedio" class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Ganancia en enajenación de activos.</h4>
+                        </div>
+                        <div class="modal-body">
+                            <blockquote>
+                                <p>En el ejercicio se generaron ganancias por enajenación de activos por un monto de <strong>$</strong><strong class="currency"></strong>, sobre los bienes identificados con el (los) número(s) <span></span>.</p>
+                                <p>Adicione este importe a tus ingresos y capture el resultado en el campo total de ingresos cobrados.</p>
+                            </blockquote>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" data-bind="click: acceptGanancia" class="btn btn-primary btn-red">
+                                Aceptar
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="transferencia-actividad-profesional" class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Transferir resultados.</h4>
+                        </div>
+                        <div class="modal-body">
+                            <blockquote>
+                                <p>
+                                    Al tranferir resultados, se modificará el campo.
+
+                                    <br />
+                                    Otras deducciones.<br />
+                                    ¿Estás de acuerdo con la modificación?
+
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-red" data-bind="click: acceptTransfer">
+                                Aceptar
+
+                            </button>
+                            <button data-bind="click: cancelTransfer" type="button" class="btn btn-primary btn-red cerrar">
+                                Cancelar
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="transferencia-empresarial-profesional" class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Transferir resultados.</h4>
+                        </div>
+                        <div class="modal-body">
+                            <blockquote>
+                                <p>
+                                    Al tranferir resultados, se modificarán los campos que contengan información de la sección I. de inversiones, así como los de la seccion III. de inversiones, el campo Ganancia en la enajenación de terrenos y activo fijo del apartado de ingresos, así como el campo Depreciación o deducción de inversiones del apartado de egresos.
+
+                                    <br />
+                                    ¿Estás de acuerdo con la modificación ?
+
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-red" data-bind="click: acceptTransfer">
+                                Aceptar
+
+                            </button>
+                            <button data-bind="click: cancelTransfer" type="button" class="btn btn-primary btn-red cerrar">
+                                Cancelar
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tarnsferencia-empresarial" class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Transferir resultados.</h4>
+                        </div>
+                        <div class="modal-body">
+                            <blockquote>
+                                <p>
+                                    Al tranferir resultados, se modificarán los campos que contengan información de la sección I. de inversiones, así como los de la seccion III. de inversiones, el campo Ganancia en la enajenación de terrenos y activo fijo del apartado de ingresos, así como el campo Depreciación o deducción de inversiones del apartado de egresos.
+
+                                    <br />
+                                    ¿Estás de acuerdo con la modificación ?
+
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-red" data-bind="click: acceptTransfer">
+                                Aceptar
+
+                            </button>
+                            <button data-bind="click: cancelTransfer" type="button" class="btn btn-primary btn-red cerrar">
+                                Cancelar
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="transferencia-regimen-intermedio" class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Transferir resultados.</h4>
+                        </div>
+                        <div class="modal-body">
+                            <blockquote>
+                                <p>
+                                    Al tranferir resultados, se modificará el campo.
+
+                                    <br />
+                                    Deduccion de inversiones.<br />
+                                    ¿Estás de acuerdo con la modificación?
+
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-red" data-bind="click: acceptTransfer">
+                                Aceptar
+
+                            </button>
+                            <button data-bind="click: cancelTransfer" type="button" class="btn btn-primary btn-red cerrar">
+                                Cancelar
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalAlertClient" class="modal fade" role="dialog" data-backdrop="static" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- dialog body -->
+                <div class="modal-body">
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="si btn btn-primary btn-red">
+                        Aceptar
+
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalAvisoPreCarga" class="modal fade" style="z-index: 9999" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- dialog body -->
+                <div class="modal-body">
+                    Hay información prellenada en tu declaración anual con base en los datos presentados por tu(s) retenedor(es) al Servicio de Administración Tributaria,
+favor de verificarla y en su caso modificarla.
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="si btn btn-primary btn-red">
+                        Aceptar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalAvisoNoPreCarga" class="modal fade" style="z-index: 9999" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- dialog body -->
+                <div class="modal-body">
+                    El Servicio de Administración Tributaria no cuenta con información presentada por tu(s) retenedor(es) para el prellenado de tu declaración anual. Favor de proceder con tu captura.
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="si btn btn-primary btn-red">
+                        Aceptar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalErrorBotonAgregarFormularioGrid" class="modal fade" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    Para agregar un nuevo registro, debe concluir la captura del registro actual.
+                </div>
+                <div class="modal-footer">
+                    <div class="notify">
+                        <button type="button" class="no btn btn-primary btn-red">
+                            Aceptar
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalErrorFilaFormularioGrid" class="modal fade" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    Para cambiar a otra fila, por favor corrige los errores de la fila actual o elimínala.
+
+                </div>
+                <div class="modal-footer">
+                    <div class="notify">
+                        <button type="button" class="no btn btn-primary btn-red">
+                            Aceptar
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalConceptosCompensaciones" class="modal fade" style="z-index: 9999" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    No existen conceptos a compensar en el periodo seleccionado.
+                </div>
+                <div class="modal-footer">
+                    <div class="notify">
+                        <button type="button" data-dismiss="modal" class="no btn btn-primary btn-red">
+                            Aceptar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalCargaMasiva" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Cargando información.</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="col-lg-offset-1 col-lg-11">
+                            <i class="icon-spinner icon-spin icon-large icon-6x"></i>
+                            Espera por favor mientras termina de cargar la información necesaria.
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalErroresMasivas" class="modal fade" style="z-index: 9999" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- dialog body -->
+                <div class="modal-body">
+
+                        Se encontraron errores en su archivo de carga masiva, favor de corregir su archivo y volver a intentarlo.
+
+                        <br />
+                        <footer>
+                            <br />
+                            <div style="height:150px;width:auto; overflow: auto;" id="erroresMasivas">
+
+                            </div>
+                        </footer>
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="si btn btn-primary btn-red">
+                        Aceptar
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div id="modalBorrarCargaMasiva" class="modal fade" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <input type="hidden">
+                <!-- dialog body -->
+                <div class="modal-body">
+                    ¿Está seguro de eliminar la carga masiva?
+                </div>
+                <!-- dialog buttons -->
+                <div class="modal-footer">
+                    <button type="button" class="si btn btn-primary btn-red">
+                        SI
+                    </button>
+                    <button type="button" data-dismiss="modal" class="no btn btn-primary btn-red">
+                        NO
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalErrorFilaFormularioGridEdicion" class="modal fade" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    Para realizar ésta acción, por favor corrige los errores de la captura del registro actual.
+                </div>
+                <div class="modal-footer">
+                    <div class="notify">
+                        <button type="button" data-dismiss="modal" class="no btn btn-primary btn-red">
+                            Aceptar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalCalculoIngresoExento" class="modal fade" backdrop="static" keyboard="false" style="z-index: 9999">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <table class="tabla-calculo-ingreso">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Concepto
+                                </th>
+                                <th>
+                                    Empleador 1
+                                </th>
+                                <th>
+                                    Empleador 2
+                                </th>
+                                <th>
+                                    Empleador 3
+                                </th>
+                                <th>
+                                    Empleador 4
+                                </th>
+                                <th>
+                                    Empleador 5
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Aguinaldo
+                                </td>
+                                <td>
+                                    <input tabindex="1000" class='E1DCE1' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1004" class='E2DCE1' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1008" class='E3DCE1' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1012" class='E4DCE1' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1016" class='E5DCE1' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Prima Vacacional
+                                </td>
+                                <td>
+                                    <input tabindex="1001" class='E1DCE2' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1005" class='E2DCE2' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1009" class='E3DCE2' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1013" class='E4DCE2' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1017" class='E5DCE2' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    PTU
+                                </td>
+                                <td>
+                                    <input tabindex="1002" class='E1DCE3' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1006" class='E2DCE3' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1010" class='E3DCE3' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1014" class='E4DCE3' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1018" class='E5DCE3' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Otros Ingresos Exentos
+                                </td>
+                                <td>
+                                    <input tabindex="1003" class='E1DCE4' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1007" class='E2DCE4' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1011" class='E3DCE4' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1015" class='E4DCE4' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                                <td>
+                                    <input tabindex="1019" class='E5DCE4' onpaste="return false;" onkeydown="SoloNumerosPositivos(event)" onkeypress="OmitirSimulateKeys(event)" onchange="RemoveZeros(event, false)" maxlength="12" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Ingreso Exento (Sugerido)
+                                </td>
+                                <td>
+                                    <label class='TotalE1'></label>
+                                </td>
+                                <td>
+                                    <label class='TotalE2'></label>
+                                </td>
+                                <td>
+                                    <label class='TotalE3'></label>
+                                </td>
+                                <td>
+                                    <label class='TotalE4'></label>
+                                </td>
+                                <td>
+                                    <label class='TotalE5'></label>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="calcular-ingreso-exento btn btn-primary">
+                        Calcular
+                    </button>
+                    <button type="button" class="limpiar-ingreso-exento btn btn-primary">
+                        Limpiar
+                    </button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-iconoAyuda" class="modal fade" backdrop="static" keyboard="false" style="z-index: 9999">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <div class="notify">
+                        <button type="button" class="btn btn-primary"  data-dismiss="modal">
+                            Aceptar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /Modales fisicas -->
+
+    <div id="DVPLANFOR" class="sat-div-contenedores hide">-</div>
+    <div id="DVDAPREFOR" class="sat-div-contenedores hide">-</div>
+    <div id="DVDAPREFORCOMP" class="sat-div-contenedores hide">-</div>
+    <div id="DVOPER" class="sat-div-contenedores hide">-</div>
+    <div id="DVDECLARACIONDISCO" class="sat-div-contenedores hide">-</div>
+    <div id="DVDECLARACION" class="sat-div-contenedores hide">-</div>
+    <div id="DVINFOCON" class="sat-div-contenedores hide">-</div>
+    <div id="DVINFOALERTCLIENT" class="sat-div-contenedores hide">-</div>
+    <div id="DVINFOALERTCLIENTORIGIN" class="sat-div-contenedores hide">-</div>
+
+    <div id="DVCA07" class="sat-div-contenedores hide">-</div>
+    <div id="DVCA08" class="sat-div-contenedores hide">-</div>
+
+    <div id="DVRETENCIONES" class="sat-div-contenedores hide">-</div>
+    <div id="DVINITRETENCIONES" class="sat-div-contenedores hide">-</div>
+    <div id="DVINFODECLA" clasS="sat-div-contenedores hide">-</div>
+    <input style="display: none;" id="fileDialog" type="file" />
+    <input type="hidden" id="idRetencion">
+
+    <!-- Carga los scripts despues del HTML (best-practices) -->
+    <script type='text/javascript' src="js/3rdparty/namespace.min.js"></script>
+    <script type='text/javascript' src="js/3rdparty/jquery-1.7.2.min.js"></script>
+    <script type='text/javascript' src="js/3rdparty/bootstrap.min.js"></script>
+    <script type='text/javascript' src="js/3rdparty/knockout-2.3.0.js"></script>
+    <script type='text/javascript' src="js/3rdparty/date.js"></script>
+    <script type='text/javascript' src="js/3rdparty/linq.js"></script>
+    <!-- Script de ayuda -->
+    <script type='text/javascript' src="js/fb.helper.js"></script>
+    <script type='text/javascript' src="js/fb.helperjson.js"></script>
+    <script type='text/javascript' src="js/fb.utils.js"></script>
+    <script type='text/javascript' src="js/fb.xmlform.js"></script>
+    <script type='text/javascript' src="js/sat.utils.js"></script>
+    <!-- Script que contiene las un administrador de promesas -->
+    <script type='text/javascript' src="js/fb.queue.promise.js"></script>
+    <!-- Scripts de la aplicacion principal -->
+    <script type='text/javascript' src="js/app.js"></script>
+    <script type='text/javascript' src="js/appui.js"></script>
+    <script type='text/javascript' src="js/appconfig.js"></script>
+    <!-- Script para Modal de Compensaciones -->
+    <script type='text/javascript' src="js/compensaciones.js"></script>
+    <!-- Componente de construccion de html -->
+    <script type='text/javascript' src="js/fb.htmlbuilder.js"></script>
+    <!-- Plugins que generan los controles visuales (htmldom)  -->
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.cuadrocompensaciones.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.cuadroingresoexento.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.list.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.textbox.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.decimal.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.checkbox.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.checkboxlist.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.oculto.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.radio.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.label.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.indexador.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.controlvacio.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.combobox.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.controlesgrid.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.controlesgridretenciones.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.paneldinamico.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.formulariogrid.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.formulariogridedicion.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.fecha.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.cuadrodialogo.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.iconosAyuda.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.controlbase.js"></script>
+    <script type='text/javascript' src="js/fbhtmlcontrols/fb.cuadroamortizacion.js"></script>
+    <script type="text/javascript" src="js/fbhtmlcontrols/fb.cuadrodeduccioninversion.js"></script>
+
+    <!-- Componente del Modelo del formulario -->
+    <script type='text/javascript' src="js/fb.viewmodel.js"></script>
+    <!-- Componente que genera las reglas y validaciones -->
+    <script type='text/javascript' src="js/fb.runtime.js"></script>
+    <!-- Componente que genera un repositorio de catalogos -->
+    <script type='text/javascript' src="js/fb.catalogs.js"></script>
+    <!-- Componente de parseo -->
+    <script type='text/javascript' src="js/fb.parserjson.js"></script>
+    <!-- Scripts de la aplicacion principal -->
+    <script type='text/javascript' src="js/sat.environment.js"></script>
+    <!-- Se cargan al final los scripts que no seran utilizados en un principio,
+    se modificara para cargarlos asincronamente -->
+    <script type='text/javascript' src="js/3rdparty/jquery.maskedinput.min.js"></script>
+    <script type='text/javascript' src="js/3rdparty/base64.min.js"></script>
+    <script type='text/javascript' src="js/3rdparty/jquery.formatCurrency.min.js"></script>
+    <script type='text/javascript' src="js/3rdparty/json2.min.js"></script>
+    <script type='text/javascript' src="js/3rdparty/bootstrap-datepicker.js"></script>
+    <script type="text/javascript">
+        "use strict";
+
+        $(document).ready(function () {
+            $("#cerrarSesion").on('click', function () {
+                verificaPagina('/Home/LogOut');
+            });
+
+            AppDeclaracionesSAT.initStepThree();
+            AppDeclaracionesSAT.initProxyDivs();
+
+            var info = {
+                rfc: 'ADC010403J89',
+                nombre: 'Ferreteria X',
+                tipodeclaracion: '001',
+                tipocomplementaria: '0',
+                tipodeclaraciontexto: 'texto declaracion',
+                tipocomplementariatexto: 'texto complementaria',
+                periodicidad: 'anual',
+                periodo: 'anual',
+                tipopersona: 'F',
+                origen: 'origen-data',
+                ejercicio: '2014',
+                subregimensugerido: '',
+                forma: 'tmp',
+                tipodisco: 'disco'
+            };
+
+            $('#DVINFOCON').html(JSON.stringify(info));
+
+            $(window).bind('scroll', function () {
+                if ($(window).scrollTop() > 94) {
+                    $('.lineGray').addClass('fixed');
+                } else {
+                    $('.lineGray').removeClass('fixed');
+                }
+            });
+            $(".mainmenu").css("height", $('#mainPanel').height());
+        });
+    </script>
+</body>
+</html>

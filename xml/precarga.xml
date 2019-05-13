@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DatosAnexoPersonaFisica>
+  <Interes />
+  <Isr />
+  <Salarios>
+    <DatosSalario clave="SAT_SUE_SAL" idEntidad="360006">
+      <IngresoExento claveInformativa="SSEXE">0</IngresoExento>
+      <IngresoAnual claveInformativa="SSMR">0</IngresoAnual>
+      <RetencionISR claveInformativa="SSRISR">0</RetencionISR>
+      <SubsidioEmpleo claveInformativa="SSSE">0</SubsidioEmpleo>
+      <C_DEC_RFCEEOG1 claveInformativa="206005">SAT970701NN3 </C_DEC_RFCEEOG1>
+      <C_DEC_LDLEATV1>35</C_DEC_LDLEATV1>
+      <C_DEC_NRFCR claveInformativa="206011">SERVICIO DE ADMINISTRACION TRIBUTARIA</C_DEC_NRFCR>
+      <C_DEC_NRFCR_GRID>SERVICIO DE ADMINISTRACION TRIBUTARIA</C_DEC_NRFCR_GRID>
+      <C_DEC_ERNETCI1>19013</C_DEC_ERNETCI1>
+      <N_DEC_MIENSIC1>1</N_DEC_MIENSIC1>
+      <N_DEC_MFEISNA1>12</N_DEC_MFEISNA1>
+      <I_DEC_MTPUSEO1 claveInformativa="117754">0</I_DEC_MTPUSEO1>
+      <I_DEC_ITPPNOA1 claveInformativa="117670">0</I_DEC_ITPPNOA1>
+      <I_DEC_MTPOPSO1 claveInformativa="117669">0</I_DEC_MTPOPSO1>
+      <I_DEC_IENXGER1 claveInformativa="117707">0</I_DEC_IENXGER1>
+      <I_DEC_IAUSMON1 claveInformativa="117808">0</I_DEC_IAUSMON1>
+      <I_DEC_IRMEPTU1 claveInformativa="117809">0</I_DEC_IRMEPTU1>
+      <I_DEC_SISSUNU1 claveInformativa="117934">343630</I_DEC_SISSUNU1>
+      <I_DEC_SISSUNU1_GRID>343630</I_DEC_SISSUNU1_GRID>
+      <I_DEC_IASNSAG1 claveInformativa="117815">0</I_DEC_IASNSAG1>
+      <I_DEC_IASNSAG1_GRID>0</I_DEC_IASNSAG1_GRID>
+      <I_DEC_SIESSUN1 claveInformativa="117746">5309</I_DEC_SIESSUN1>
+      <I_DEC_SIESSUN1_GRID>5309</I_DEC_SIESSUN1_GRID>
+      <I_DEC_IRDEQDM1 claveInformativa="117695">60880</I_DEC_IRDEQDM1>
+      <I_DEC_IRDEQDM1_GRID>60880</I_DEC_IRDEQDM1_GRID>
+      <I_DEC_IRDE2ME1 claveInformativa="117816">0</I_DEC_IRDE2ME1>
+      <I_DEC_IRDE2ME1_GRID>0</I_DEC_IRDE2ME1_GRID>
+      <I_DEC_ILISSGP1>0</I_DEC_ILISSGP1>
+      <I_DEC_SEEATUM1 claveInformativa="111891">0</I_DEC_SEEATUM1>
+      <I_DEC_IA2NCGU2>338321</I_DEC_IA2NCGU2>
+      <I_DEC_MSLNEEE1 claveInformativa="SSSE">0</I_DEC_MSLNEEE1>
+      <N_DEC_TUEQDAT1>0</N_DEC_TUEQDAT1>
+      <N_DEC_TU1AAT91>0</N_DEC_TU1AAT91>
+      <N_DEC_AGSMREA1>1</N_DEC_AGSMREA1>
+      <F_DEC_FPERCEH1>2016-02-12</F_DEC_FPERCEH1>
+      <CHKBOXSalarios>true</CHKBOXSalarios>
+      <CHKBOXAsimilados>false</CHKBOXAsimilados>
+      <CHKBOXIndemnizacion>false</CHKBOXIndemnizacion>
+      <CHKBOXParcialidades>false</CHKBOXParcialidades>
+      <CHKBOXUnaExhibicion>false</CHKBOXUnaExhibicion>
+      <CHKBOXJubilacion>false</CHKBOXJubilacion>
+      <COMBOTipoIngreso>1</COMBOTipoIngreso>
+      <COMBOTipoIngreso_GRID>1</COMBOTipoIngreso_GRID>
+    </DatosSalario>
+  </Salarios>
+  <SalariosSubsidios>
+    <DatosSalarioSubsidio>
+		<I_DEC_MSLNEEE1 claveInformativa="SS22">0</I_DEC_MSLNEEE1>
+      <I_DEC_SEEATUM1>0</I_DEC_SEEATUM1>
+      <I_DEC_MSLNEEE1>0</I_DEC_MSLNEEE1>
+    </DatosSalarioSubsidio>
+    <DatosSalarioIngresoAcumulable>
+      <I_DEC_IA2NCGU2>338321</I_DEC_IA2NCGU2>
+    </DatosSalarioIngresoAcumulable>
+  </SalariosSubsidios>
+  <Anexo2 />
+  <Selector />
+</DatosAnexoPersonaFisica>

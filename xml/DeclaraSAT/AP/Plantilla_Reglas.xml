@@ -1,0 +1,574 @@
+﻿<definicionReglas>
+  <reglas>
+    <regla idEntidad="1000" idFormulario="6" id="541541" definicion="$111837=REDONDEARSAT(MAX(SI(Y(ESNULO($111207),ESNULO($111404),ESNULO($111886),ESNULO($118955),ESNULO($118955T),ESNULO($111535),ESNULO($111553),ESNULO($111732),ESNULO($111744),ESNULO($111742),ESNULO($111726),ESNULO($111856),ESNULO($111148)),0,$111207+$111404+$111886+$118955+$118955T+$111535+$111553+$111732+$111744+$111742+$111726+$111856+$111148),0))" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="111837" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="542938" definicion="$111838=SI(Y(ESNULO($111938),ESNULO($111840),ESNULO($111842),ESNULO($111734),ESNULO($111728),ESNULO($IN12),ESNULO($139810),ESNULO($111207),ESNULO($111886),ESNULO($111148),ESNULO($118955)+ESNULO($118955T),ESNULO($111404),ESNULO($111535),ESNULO($111553),ESNULO($111732),ESNULO($111744),ESNULO($111856)),'',REDONDEARSAT(MAX(0,MIN($111938+$111840+MAX(0,$EB1-$111544)+$111842+$111734+$111728+$IN12-$139810,$111837-$111207-$111886-$111148-$118955-$118955T,$111404+$111535+$111553+$111732+$111744+$111856+$111726+$111742))))" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="111838" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="543766" definicion="SI($AEP2&lt;=$AEP1,VERDADERO,FALSO)" tipoRegla="Validacion" mensajeError="Los ingresos exentos no pueden ser mayores que los ingresos cobrados, verificar" mensajeAyuda="El valor de #AEP2 debe ser menor a #AEP1" idPropiedadAsociada="AEP2" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543767" definicion="$AEP3=$AEP11+$AEP12+$AEP13+$AEP14+$AEP15+$AEP16+$AEP17+$AEP18+$AEP19+$AEP21+$AEP22+$AEP28+$AEP29+$AEP24+$AEP20+$AEP23" tipoRegla="Calculo" idPropiedadAsociada="AEP3" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543768" definicion="SI($AEP1-($AEP2+$AEP11+$AEP12+$AEP13+$AEP14+$AEP15+$AEP16+$AEP17+$AEP18+$AEP19+$AEP21+$AEP22+$AEP28+$AEP29+$AEP24)&gt;=0,SI($AEP20&lt;=$AEP1-($AEP2+$AEP11+$AEP12+$AEP13+$AEP14+$AEP15+$AEP16+$AEP17+$AEP18+$AEP19+$AEP21+$AEP22+$AEP28+$AEP29+$AEP24),VERDADERO,FALSO),SI($AEP20==0,VERDADERO,FALSO))" tipoRegla="Validacion" mensajeError="El #AEP20 no debe exceder de $[SI($AEP1-($AEP2+$AEP11+$AEP12+$AEP13+$AEP14+$AEP15+$AEP16+$AEP17+$AEP18+$AEP19+$AEP21+$AEP22+$AEP28+$AEP29+$AEP24) &gt;= 0, DECIMALES($AEP1-($AEP2+$AEP11+$AEP12+$AEP13+$AEP14+$AEP15+$AEP16+$AEP17+$AEP18+$AEP19+$AEP21+$AEP22+$AEP28+$AEP29+$AEP24),2),0.00)]" idPropiedadAsociada="AEP20" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543769" definicion="SI($AEP1-($AEP2+$AEP11+$AEP12+$AEP13+$AEP14+$AEP15+$AEP16+$AEP17+$AEP18+$AEP19+$AEP21+$AEP22+$AEP28+$AEP29+$AEP24+$AEP20)&gt;=0,SI($AEP23&lt;=$AEP1-($AEP2+$AEP11+$AEP12+$AEP13+$AEP14+$AEP15+$AEP16+$AEP17+$AEP18+$AEP19+$AEP21+$AEP22+$AEP28+$AEP29+$AEP24+$AEP20),VERDADERO,FALSO),SI($AEP23==0,VERDADERO,FALSO))" tipoRegla="Validacion" mensajeError="La #AEP23 no debe exceder de $[SI($AEP1-($AEP2+$AEP11+$AEP12+$AEP13+$AEP14+$AEP15+$AEP16+$AEP17+$AEP18+$AEP19+$AEP21+$AEP22+$AEP28+$AEP29+$AEP24+$AEP20)&gt;=0, DECIMALES($AEP1-($AEP2+$AEP11+$AEP12+$AEP13+$AEP14+$AEP15+$AEP16+$AEP17+$AEP18+$AEP19+$AEP21+$AEP22+$AEP28+$AEP29+$AEP24+$AEP20),2),0.00)]" idPropiedadAsociada="AEP23" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543770" definicion="$AEP4=SI(($AEP1-$AEP2)&gt;=$AEP3,($AEP1-$AEP2)-$AEP3,'')" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="AEP4" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="543775" definicion="$AEP5=SI(($AEP1-$AEP2)&lt;$AEP3,MAX(ABS(($AEP1-$AEP2)-$AEP3),0),'')" tipoRegla="Calculo" idPropiedadAsociada="AEP5" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543776" definicion="$AEP7=SI($AEP4&gt;=$AEP6,$AEP4-$AEP6,'')" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="AEP7" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="543777" definicion="$AEP8=SI($AEP5&gt;0,MAX($AEP5+$AEP6,0),SI($AEP6&gt;$AEP4,MAX($AEP6-$AEP4,0),''))" tipoRegla="Calculo" idPropiedadAsociada="AEP8" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543778" definicion="SI($AEP7&gt;0,HABILITAR($AEP9),INHABILITAR($AEP9))" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="AEP9" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543779" definicion="SI($AEP9&lt;=$AEP7,VERDADERO,FALSO)" tipoRegla="Validacion" mensajeError="El monto de las pérdidas fiscales de ejercicios anteriores  no puede ser mayor que la #AEP7, verificar." idPropiedadAsociada="AEP9" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543780" definicion="$AEP10=SI($AEP7&gt;0,$AEP7-$AEP9,0)" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="AEP10" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="543781" definicion="$111880=$AEP1" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="111880" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="543782" definicion="$111881=$AEP2" tipoRegla="Calculo" idPropiedadAsociada="111881" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543783" definicion="$111882=$AEP3" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="111882" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="543784" definicion="$111883=SI(ESNULO($AEP4),'',$AEP4)" tipoRegla="Calculo" idPropiedadAsociada="111883" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543785" definicion="$111884=SI($AEP5&gt;$AEP4,$AEP5,'')" tipoRegla="Calculo" idPropiedadAsociada="111884" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543786" definicion="$111955=$AEP6" tipoRegla="Calculo" idPropiedadAsociada="111955" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543787" definicion="$111953=SI(ESNULO($AEP7),'',$AEP7)" tipoRegla="Calculo" idPropiedadAsociada="111953" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543788" definicion="$111954=SI($AEP8&gt;$AEP7,$AEP8,'')" tipoRegla="Calculo" idPropiedadAsociada="111954" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543789" definicion="$111885=SI(ESNULO($AEP9),'',$AEP9)" tipoRegla="Calculo" idPropiedadAsociada="111885" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543790" definicion="$111886=SI(ESNULO($AEP10),'',$AEP10)" tipoRegla="Calculo" idPropiedadAsociada="111886" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543791" definicion="$117001=$AEP11" tipoRegla="Calculo" idPropiedadAsociada="117001" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543792" definicion="$117989=$AEP12" tipoRegla="Calculo" idPropiedadAsociada="117989" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543793" definicion="$117073=$AEP13" tipoRegla="Calculo" idPropiedadAsociada="117073" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543794" definicion="$117071=$AEP14" tipoRegla="Calculo" idPropiedadAsociada="117071" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543795" definicion="$117076=$AEP15" tipoRegla="Calculo" idPropiedadAsociada="117076" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543796" definicion="$117285=$AEP16" tipoRegla="Calculo" idPropiedadAsociada="117285" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543797" definicion="$117065=$AEP17" tipoRegla="Calculo" idPropiedadAsociada="117065" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543798" definicion="$117066=$AEP18" tipoRegla="Calculo" idPropiedadAsociada="117066" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543799" definicion="$117983=$AEP19" tipoRegla="Calculo" idPropiedadAsociada="117983" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543800" definicion="$117986=$AEP20" tipoRegla="Calculo" idPropiedadAsociada="117986" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543801" definicion="$117990=$AEP21" tipoRegla="Calculo" idPropiedadAsociada="117990" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543802" definicion="$139842=$AEP22" tipoRegla="Calculo" idPropiedadAsociada="139842" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543803" definicion="$139821=$AEP23" tipoRegla="Calculo" idPropiedadAsociada="139821" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="543804" definicion="$117889=$AEP24" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="117889" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="543805" definicion="$201356=$AEP25" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="201356" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="543806" definicion="$111191=$AEP26" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="111191" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="544157" definicion="SI(SUMA($AES118)&lt;=$AEP1,VERDADERO,FALSO)" tipoRegla="Validacion" mensajeError="El #AES118 en retenciones por actividades profesionales no pueden ser superior al total de ingresos por dicho concepto." mensajeAyuda="El monto de los ingresos pagados (en Retenciones) por actividades empresariales y profesionales no pueden ser superior al total de ingresos por dicho concepto" idPropiedadAsociada="AES118" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="544159" definicion="SI(Y(($AES119+$AES120)&gt;$AES118,NO(ESNULOGRID($AES119))),FALSO,VERDADERO)" tipoRegla="Validacion" mensajeError="La suma de #AES119 e #AES120 no puede ser mayor al #AES118" mensajeAyuda="La suma de #AES119 y #AES120 debe ser menor o igual a #AES118" idPropiedadAsociada="AES119" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="544160" definicion="SI(Y(($AES119+$AES120)&gt;$AES118,NO(ESNULOGRID($AES120))),FALSO,VERDADERO)" tipoRegla="Validacion" mensajeError="La suma de #AES119 e #AES120 no puede ser mayor al #AES118" mensajeAyuda="La suma de las retenciones de ISR e IVA no puede ser mayor al Monto de los ingresos pagados" idPropiedadAsociada="AES120" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="544255" definicion="$AES118TI=SI(ESNULOGRID($AES118),'','2')" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="AES118TI" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="548147" definicion="O(RFCMORALES($AES121),ESNULOGRID($AES121))" tipoRegla="Validacion" mensajeError="El campo no cumple con el formato" mensajeAyuda="El campo no cumple con el formato requerido" idPropiedadAsociada="AES121" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="548148" definicion="SI(Y($AES118&gt;0,ESNULOGRID($AES121)),FALSO,VERDADERO)" tipoRegla="Validacion" mensajeError="Se requiere información" idPropiedadAsociada="AES121" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="548149" definicion="SI(Y(NO(ESNULOGRID($AES121)),RFCMORALES($AES121),ESNULOGRID($AES118)),FALSO,VERDADERO)" tipoRegla="Validacion" mensajeError="Se requiere información" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AES118" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="548165" definicion="$195236A=SI(EXISTESUBREGIMEN('15'),REDONDEARSAT(MIN(MAX(0,MIN($195229-($195230+$195231+$195232+$195233+$195234+$195235+$195248),MAX(0,SI(($111207+$111404+$111535+$111553+$111732+$111744+$111742+$111726+$111856+$111886+$111148+$118955+$118955T)!=0,MIN(($111818+$111260-$111860-$111957-$111958-$139812-$306-$307-$310-$311-$312-$314-$316)*TRUNCAR(($111404+$111535+$111553+$111732+$111744+$111742+$111726+$111856+$111886+$111148+$118955+$118955T)/($111207+$111404+$111535+$111553+$111732+$111744+$111742+$111726+$111856+$111886+$111148+$118955+$118955T),4),$195229-($195230-$195231-$195232-$195233-$195234-$195235-$195248)),$195229-($195230-$195231-$195232-$195233-$195234-$195235-$195248))))),$111818+$111260)),'')" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="195236A" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="550582" definicion="SI(O(Y($AES118&gt;0,O($AES119&gt;0,$AES120&gt;0)),Y($AES118&gt;0,O(ESNULOGRID($AES121),RFCMORALES($AES121)==false)),ESNULOGRID($AES118),$AES118==0),VERDADERO,FALSO)" tipoRegla="Validacion" mensajeError="Se requiere información" idPropiedadAsociada="AES119" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="550649" definicion="$AUXAES119=SI($AUXMAP==0,SUMA($AES119))" tipoRegla="Calculo" idPropiedadAsociada="AES119" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="551025" definicion="$RSPMTO=SI($AUXMAP==0,SUMA($AES118))" tipoRegla="Calculo" idPropiedadAsociada="AES118" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="551035" definicion="$RSPI=SI($AUXMAP==0,SUMA($AES119))" tipoRegla="Calculo" idPropiedadAsociada="AES119" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="551046" definicion="$RSPIV=SI($AUXMAP==0,SUMA($AES120))" tipoRegla="Calculo" idPropiedadAsociada="AES120" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="552286" definicion="RFCVALIDOACLAVEUSUARIOINICIA($AES121)" tipoRegla="Validacion" mensajeError="El #AES121 no puede ser el mismo que el del contribuyente" idPropiedadAsociada="AES121" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="552293" definicion="SI(O($AES118&gt;0,ESNULOGRID($AES118)),VERDADERO,FALSO)" tipoRegla="Validacion" mensajeError="El #AES118 deberá ser mayor a cero." idPropiedadAsociada="AES118" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="552951" definicion="$AEP9=SI($AEP7==0,'')" tipoRegla="Calculo" idPropiedadAsociada="AEP7" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="553957" definicion="O(NO(DUPLICADO($AES121)),ESNULOGRID($AES121))" tipoRegla="Validacion" mensajeError="El #AES121 no puede contener dos valores iguales" mensajeAyuda="El #AES121 no puede contener dos valores iguales" idPropiedadAsociada="AES121" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="557416" definicion="VALIDARLONGITUD($AEP1,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP1" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557417" definicion="VALIDARLONGITUD($AEP2,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP2" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557418" definicion="VALIDARLONGITUD($AEP3,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP3" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557419" definicion="VALIDARLONGITUD($AEP4,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP4" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557420" definicion="VALIDARLONGITUD($AEP5,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP5" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557421" definicion="VALIDARLONGITUD($AEP6,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP6" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557422" definicion="VALIDARLONGITUD($AEP7,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP7" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557423" definicion="VALIDARLONGITUD($AEP8,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP8" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557424" definicion="VALIDARLONGITUD($AEP9,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP9" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557425" definicion="VALIDARLONGITUD($AEP10,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP10" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557426" definicion="VALIDARLONGITUD($AEP11,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP11" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557427" definicion="VALIDARLONGITUD($AEP12,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP12" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557428" definicion="VALIDARLONGITUD($AEP13,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP13" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557429" definicion="VALIDARLONGITUD($AEP14,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP14" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557430" definicion="VALIDARLONGITUD($AEP15,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP15" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557431" definicion="VALIDARLONGITUD($AEP16,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP16" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557432" definicion="VALIDARLONGITUD($AEP17,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP17" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557433" definicion="VALIDARLONGITUD($AEP18,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP18" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557434" definicion="VALIDARLONGITUD($AEP19,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP19" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557435" definicion="VALIDARLONGITUD($AEP20,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP20" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557436" definicion="VALIDARLONGITUD($AEP21,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP21" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557437" definicion="VALIDARLONGITUD($AEP22,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP22" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557438" definicion="VALIDARLONGITUD($AEP23,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP23" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557439" definicion="VALIDARLONGITUD($AEP24,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP24" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557440" definicion="VALIDARLONGITUD($AEP25,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP25" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557441" definicion="VALIDARLONGITUD($AEP26,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AEP26" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557524" definicion="VALIDARLONGITUD($111880,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="111880" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557525" definicion="VALIDARLONGITUD($111881,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="111881" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557526" definicion="VALIDARLONGITUD($111882,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="111882" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557527" definicion="VALIDARLONGITUD($111883,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="111883" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557528" definicion="VALIDARLONGITUD($111884,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="111884" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557529" definicion="VALIDARLONGITUD($111955,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="111955" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557530" definicion="VALIDARLONGITUD($111953,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="111953" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557531" definicion="VALIDARLONGITUD($111954,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="111954" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557532" definicion="VALIDARLONGITUD($111885,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="111885" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557533" definicion="VALIDARLONGITUD($111886,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="111886" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557534" definicion="VALIDARLONGITUD($117001,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="117001" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557535" definicion="VALIDARLONGITUD($117989,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="117989" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557536" definicion="VALIDARLONGITUD($117073,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="117073" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557537" definicion="VALIDARLONGITUD($117071,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="117071" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557538" definicion="VALIDARLONGITUD($117076,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="117076" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557539" definicion="VALIDARLONGITUD($117285,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="117285" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557540" definicion="VALIDARLONGITUD($117065,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="117065" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557541" definicion="VALIDARLONGITUD($117066,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="117066" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557542" definicion="VALIDARLONGITUD($117983,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="117983" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557543" definicion="VALIDARLONGITUD($117986,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="117986" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557544" definicion="VALIDARLONGITUD($117990,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="117990" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557545" definicion="VALIDARLONGITUD($139842,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="139842" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557546" definicion="VALIDARLONGITUD($139821,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="139821" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557547" definicion="VALIDARLONGITUD($117889,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="117889" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557548" definicion="VALIDARLONGITUD($201356,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="201356" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557549" definicion="VALIDARLONGITUD($111191,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="111191" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="557955" definicion="VALIDARLONGITUD($AES118,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AES118" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="557956" definicion="VALIDARLONGITUD($AES119,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AES119" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="557957" definicion="VALIDARLONGITUD($AES120,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AES120" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="557958" definicion="VALIDARLONGITUD($AES121,0,12)" tipoRegla="Validacion" mensajeError="El campo debe tener una longitud entre 0 y 12 caracteres" mensajeAyuda="El campo debe tener una longitud entre 0 y 12 caracteres" idPropiedadAsociada="AES121" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="568690" definicion="$DPC21=MAX(MIN(REDONDEARSAT(4*BUSCAR(76,['cvebusqueda'],'monto',['SMGV'+SI($51==1,'A',SI($51==2,'B','C'))])*CONTARDIAS('01/01/'+$30,'31/12/'+$30)),REDONDEARSAT(($111201+$111401+$111501+$111550+$111743+$111730+$111261+$111740+$111724+$111850+$111880+$116392+$116392T+$116393+$116393T+$116024+$116024T+$116025+$116025T+$116023+$116023T+$116027+$116027T)*0.1),$DPC1C-$DPC20),0)" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="DPC15" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="568905" definicion="SI($30&gt;=2014,HABILITAR($AEP27),INHABILITAR($AEP27))" tipoRegla="Visual" mensajeAyuda="" ejecutarAlInicio="1" idPropiedadAsociada="AEP27" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="568907" definicion="SI(Y($30&gt;=2014,$AEP27&gt;0),HABILITAR($AEP28),INHABILITAR($AEP28))" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="AEP28" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="568909" definicion="SI(Y($30&gt;=2014,$AEP27&gt;0),HABILITAR($AEP29),INHABILITAR($AEP29))" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="AEP29" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="568911" definicion="SI($AEP27&gt;=$AEP28,VERDADERO,FALSO)" tipoRegla="Validacion" mensajeError="El #AEP28, no puede ser mayor al #AEP27" idPropiedadAsociada="AEP28" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="568912" definicion="SI($AEP27&gt;=$AEP29,VERDADERO,FALSO)" tipoRegla="Validacion" mensajeError="El #AEP29, no puede ser mayor al #AEP27" idPropiedadAsociada="AEP29" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="568913" definicion="$AEP28=SI(NO(ESNULO($AEP29)),'')" tipoRegla="Condicional Excluyente" idPropiedadAsociada="" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="568914" definicion="$AEP29=SI(NO(ESNULO($AEP28)),'')" tipoRegla="Condicional Excluyente" idPropiedadAsociada="" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="568915" definicion="$139863=$AEP27" tipoRegla="Calculo" idPropiedadAsociada="139863" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="568916" definicion="$139864=$AEP28" tipoRegla="Calculo" idPropiedadAsociada="139864" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="568917" definicion="$139865=$AEP29" tipoRegla="Calculo" idPropiedadAsociada="139865" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="569854" definicion="$111882=$117001+$117989+$117073+$117071+$117076+$117285+$117065+$117066+$117983+$117990+$139842+$139864+$139865+$117889+$117986+$139821" tipoRegla="Calculo" idPropiedadAsociada="111882" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="569855" definicion="INHABILITAR($111882)" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="111882" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="569861" definicion="SI($30&gt;=2005,HABILITAR($111955),INHABILITAR($111955))" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="111955" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="569862" definicion="SI($30&gt;=2005,HABILITAR($117983),INHABILITAR($117983))" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="117983" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="569863" definicion="SI($30&gt;=2014,HABILITAR($139863),INHABILITAR($139863))" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="139863" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="569864" definicion="SI(Y($30&gt;=2014,$139863&gt;0),HABILITAR($139864),INHABILITAR($139864))" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="139864" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="569865" definicion="SI(Y($30&gt;=2014,$139863&gt;0),HABILITAR($139865),INHABILITAR($139865))" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="139865" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="569866" definicion="SI($30&gt;=2005,HABILITAR($117986),INHABILITAR($117986))" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="117986" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="569867" definicion="SI($30&gt;=2011,HABILITAR($139821),INHABILITAR($139821))" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="139821" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="569877" definicion="$139869=SI(($AE115T/(($111201+$111401+$111501+$111550+$111743+$111730+$111261+$111740+$111724+$111850+$111880+$116392T+$116393T+$116024T+$116025T+$116023T+$116027T)-$AE113T))&gt;=.90,REDONDEARSAT($118955T*TRUNCAR(MIN(($AE115T-(40*BUSCAR(76,['cvebusqueda'],'monto',['SMGV'+SI($51==1,'A','B')])*CONTARDIAS('01/01/'+$30,'31/12/'+$30))),(((383*BUSCAR(76,['cvebusqueda'],'monto',['SMGV'+SI($51==1,'A','B')]))*CONTARDIAS('01/01/'+$30,'31/12/'+$30))-1))/(($116392T+$116393T+$116024T+$116025T+$116023T+$116027T)-(40*BUSCAR(76,['cvebusqueda'],'monto',['SMGV'+SI($51==1,'A','B')])*CONTARDIAS('01/01/'+$30,'31/12/'+$30))),4)),'')" tipoRegla="Calculo" ejecutarAlInicio="1" idPropiedadAsociada="139869" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="569903" definicion="$139864=SI(NO(ESNULO($139865)),'')" tipoRegla="Condicional Excluyente" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="569904" definicion="$139865=SI(NO(ESNULO($139864)),'')" tipoRegla="Condicional Excluyente" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="571129" definicion="$AEP28=SI($AEP27==0,'')" tipoRegla="Calculo" idPropiedadAsociada="AEP27" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="571130" definicion="$AEP29=SI($AEP27==0,'')" tipoRegla="Calculo" idPropiedadAsociada="AEP27" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="571236" definicion="$AUXBTMP=SI($AUXATMP&lt;MIN((4*(BUSCAR(76,['cvebusqueda'],'monto',['SMGV'+SI($51==1,'A',SI($51==2,'B','C'))])*CONTARDIAS('01/01/'+$30,'31/12/'+$30))),(($111201+$111401+$111501+$111550+$111743+$111730+$111261+$111740+$111724+$111850+$111880+$116392+$116393+$116024+$116025+$116023+$116027)*0.1)),0)" tipoRegla="Calculo" idPropiedadAsociada="DPC15" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="571237" definicion="$AUXBTMP=SI(Y($AUXBTMP!=2,($AUXATMP&gt;MIN((4*(BUSCAR(76,['cvebusqueda'],'monto',['SMGV'+SI($51==1,'A',SI($51==2,'B','C'))])*CONTARDIAS('01/01/'+$30,'31/12/'+$30))),(($111201+$111401+$111501+$111550+$111743+$111730+$111261+$111740+$111724+$111850+$111880+$116392+$116393+$116024+$116025+$116023+$116027)*0.1)))),1)" tipoRegla="Calculo" idPropiedadAsociada="DPC15" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="571247" definicion="SI(Y($AEP27&gt;0,ESNULO($AEP28),ESNULO($AEP29)),FALSO,VERDADERO)" tipoRegla="Validacion" mensajeError="A partir de 2014, sólo son deducibles los pagos que a su vez sean ingresos exentos para el trabajador, hasta por la cantidad que resulte de aplicar el factor de 0.47 al monto de dichos pagos. El factor es del 0.53 cuando las prestaciones otorgadas en el ejercicio de que se trate, no disminuyan respecto de las otorgadas en el ejercicio fiscal inmediato anterior." idPropiedadAsociada="AEP28" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="571248" definicion="SI(Y($AEP27&gt;0,ESNULO($AEP28),ESNULO($AEP29)),FALSO,VERDADERO)" tipoRegla="Validacion" mensajeError="A partir de 2014, sólo son deducibles los pagos que a su vez sean ingresos exentos para el trabajador, hasta por la cantidad que resulte de aplicar el factor de 0.47 al monto de dichos pagos. El factor es del 0.53 cuando las prestaciones otorgadas en el ejercicio de que se trate, no disminuyan respecto de las otorgadas en el ejercicio fiscal inmediato anterior." idPropiedadAsociada="AEP29" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="571252" definicion="SI($139863&gt;=$139864,VERDADERO,FALSO)" tipoRegla="Validacion" mensajeError="El Monto deducible al 47%, no puede ser mayor al Monto total de los pagos que sean ingresos exentos para el trabajador" ejecutarAlInicio="0" idPropiedadAsociada="139864" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="571253" definicion="SI($139863&gt;=$139865,VERDADERO,FALSO)" tipoRegla="Validacion" mensajeError="El Monto deducible al 53%, no puede ser mayor al Monto total de los pagos que sean ingresos exentos para el trabajador" ejecutarAlInicio="0" idPropiedadAsociada="139865" participaEnGrid="0" />
+    <regla idEntidad="1000" idFormulario="6" id="571998" definicion="SI(Y(RFCMORALES($AES121),NO(VALIDARDIGITOVERIFICADOR($AES121))),FALSO,VERDADERO)" tipoRegla="Validacion" mensajeError="El verificador (último carácter) del RFC &quot;!{$AES121}&quot; parece erróneo, dice !{$AES121.substr(LONGITUG($AES121)-1,1)} y debería decir !{DIGITOVERIFICADOR($AES121)}." idPropiedadAsociada="AES121" mensajeErrorEnDialogo="1" participaEnGrid="1" />
+    <regla idEntidad="1000" idFormulario="6" id="573052" definicion="$111880=SI(Y($55==1,ESNULO($111880)),0)" tipoRegla="Condicional Excluyente" ejecutarAlInicio="1" idPropiedadAsociada="111880" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="573053" definicion="$111886=SI(Y($55==1,ESNULO($111886)),0)" tipoRegla="Condicional Excluyente" ejecutarAlInicio="1" idPropiedadAsociada="111886" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="573111" definicion="SI(O($58==1,ELEMENTOSGRID($AES121)&gt;0),OCULTARMENUSECCION(1167),MOSTRARMENUSECCION(1167))" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="AES121" ejecutarEnGridVacio="1" participaEnGrid="1" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="573191" definicion="SI($AUXMAP==1,OCULTARMENUSECCION(1098),MOSTRARMENUSECCION(1098))" tipoRegla="Visual" ejecutarAlInicio="1" idPropiedadAsociada="AUXMAP" participaEnGrid="0" ejecutarEnSubregimenes="1" />
+    <regla idEntidad="1000" idFormulario="6" id="574200" definicion="SI(O($AUXMAP==0,SUMA($MASAES118)&lt;=$AEP1),VERDADERO,FALSO)" tipoRegla="Validacion" mensajeError="El #MASAES118 en retenciones por actividades profesionales no pueden ser superior al total de ingresos por dicho concepto." idPropiedadAsociada="MASAES118" participaEnGrid="1" />
+  </reglas>
+  <propiedades>
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1013" idPropiedad="111404" ejecutarRegla="1" id="111404541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1014" idPropiedad="111207" ejecutarRegla="1" id="111207541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1042" idPropiedad="111732" ejecutarRegla="1" id="111732541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1042" idPropiedad="111744" ejecutarRegla="1" id="111744541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1054" idPropiedad="118955T" ejecutarRegla="1" id="118955T541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1090" idPropiedad="118955" ejecutarRegla="1" id="118955541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1096" idPropiedad="111886" ejecutarRegla="1" id="111886541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1116" idPropiedad="111535" ejecutarRegla="1" id="111535541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1119" idPropiedad="111553" ejecutarRegla="1" id="111553541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1120" idPropiedad="111742" ejecutarRegla="1" id="111742541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1121" idPropiedad="111726" ejecutarRegla="1" id="111726541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1122" idPropiedad="111856" ejecutarRegla="1" id="111856541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="541541" idEntidadPropiedad="1147" idPropiedad="111148" ejecutarRegla="1" id="111148541541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1013" idPropiedad="111404" ejecutarRegla="1" id="111404542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1013" idPropiedad="111938" ejecutarRegla="1" id="111938542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1014" idPropiedad="111207" ejecutarRegla="1" id="111207542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1025" idPropiedad="111837" ejecutarRegla="1" id="111837542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1034" idPropiedad="EB1" ejecutarRegla="1" id="EB1542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1040" idPropiedad="IN12" ejecutarRegla="1" id="IN12542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1042" idPropiedad="111728" ejecutarRegla="1" id="111728542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1042" idPropiedad="111732" ejecutarRegla="1" id="111732542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1042" idPropiedad="111734" ejecutarRegla="1" id="111734542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1042" idPropiedad="111744" ejecutarRegla="1" id="111744542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1042" idPropiedad="139810" ejecutarRegla="1" id="139810542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1054" idPropiedad="118955T" ejecutarRegla="1" id="118955T542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1090" idPropiedad="118955" ejecutarRegla="1" id="118955542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1096" idPropiedad="111886" ejecutarRegla="1" id="111886542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1116" idPropiedad="111535" ejecutarRegla="1" id="111535542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1116" idPropiedad="111544" ejecutarRegla="1" id="111544542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1116" idPropiedad="111840" ejecutarRegla="1" id="111840542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1119" idPropiedad="111553" ejecutarRegla="1" id="111553542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1119" idPropiedad="111842" ejecutarRegla="1" id="111842542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1120" idPropiedad="111742" ejecutarRegla="1" id="111742542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1121" idPropiedad="111726" ejecutarRegla="1" id="111726542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1122" idPropiedad="111856" ejecutarRegla="1" id="111856542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="542938" idEntidadPropiedad="1147" idPropiedad="111148" ejecutarRegla="1" id="111148542938" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543766" idEntidadPropiedad="1089" idPropiedad="AEP1" ejecutarRegla="1" id="AEP1543766" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543766" idEntidadPropiedad="1089" idPropiedad="AEP2" ejecutarRegla="1" id="AEP2543766" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP11" ejecutarRegla="1" id="AEP11543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP12" ejecutarRegla="1" id="AEP12543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP13" ejecutarRegla="1" id="AEP13543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP14" ejecutarRegla="1" id="AEP14543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP15" ejecutarRegla="1" id="AEP15543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP16" ejecutarRegla="1" id="AEP16543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP17" ejecutarRegla="1" id="AEP17543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP18" ejecutarRegla="1" id="AEP18543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP19" ejecutarRegla="1" id="AEP19543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP20" ejecutarRegla="1" id="AEP20543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP21" ejecutarRegla="1" id="AEP21543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP22" ejecutarRegla="1" id="AEP22543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP23" ejecutarRegla="1" id="AEP23543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP24" ejecutarRegla="1" id="AEP24543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP28" ejecutarRegla="1" id="AEP28543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543767" idEntidadPropiedad="1089" idPropiedad="AEP29" ejecutarRegla="1" id="AEP29543767" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP1" ejecutarRegla="1" id="AEP1543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP11" ejecutarRegla="1" id="AEP11543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP12" ejecutarRegla="1" id="AEP12543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP13" ejecutarRegla="1" id="AEP13543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP14" ejecutarRegla="1" id="AEP14543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP15" ejecutarRegla="1" id="AEP15543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP16" ejecutarRegla="1" id="AEP16543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP17" ejecutarRegla="1" id="AEP17543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP18" ejecutarRegla="1" id="AEP18543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP19" ejecutarRegla="1" id="AEP19543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP2" ejecutarRegla="1" id="AEP2543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP20" ejecutarRegla="1" id="AEP20543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP21" ejecutarRegla="1" id="AEP21543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP22" ejecutarRegla="1" id="AEP22543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP24" ejecutarRegla="1" id="AEP24543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP28" ejecutarRegla="1" id="AEP28543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543768" idEntidadPropiedad="1089" idPropiedad="AEP29" ejecutarRegla="1" id="AEP29543768" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP1" ejecutarRegla="1" id="AEP1543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP11" ejecutarRegla="1" id="AEP11543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP12" ejecutarRegla="1" id="AEP12543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP13" ejecutarRegla="1" id="AEP13543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP14" ejecutarRegla="1" id="AEP14543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP15" ejecutarRegla="1" id="AEP15543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP16" ejecutarRegla="1" id="AEP16543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP17" ejecutarRegla="1" id="AEP17543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP18" ejecutarRegla="1" id="AEP18543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP19" ejecutarRegla="1" id="AEP19543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP2" ejecutarRegla="1" id="AEP2543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP20" ejecutarRegla="1" id="AEP20543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP21" ejecutarRegla="1" id="AEP21543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP22" ejecutarRegla="1" id="AEP22543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP23" ejecutarRegla="1" id="AEP23543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP24" ejecutarRegla="1" id="AEP24543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP28" ejecutarRegla="1" id="AEP28543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543769" idEntidadPropiedad="1089" idPropiedad="AEP29" ejecutarRegla="1" id="AEP29543769" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543770" idEntidadPropiedad="1089" idPropiedad="AEP1" ejecutarRegla="1" id="AEP1543770" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543770" idEntidadPropiedad="1089" idPropiedad="AEP2" ejecutarRegla="1" id="AEP2543770" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543770" idEntidadPropiedad="1089" idPropiedad="AEP3" ejecutarRegla="1" id="AEP3543770" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543775" idEntidadPropiedad="1089" idPropiedad="AEP1" ejecutarRegla="1" id="AEP1543775" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543775" idEntidadPropiedad="1089" idPropiedad="AEP2" ejecutarRegla="1" id="AEP2543775" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543775" idEntidadPropiedad="1089" idPropiedad="AEP3" ejecutarRegla="1" id="AEP3543775" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543776" idEntidadPropiedad="1089" idPropiedad="AEP4" ejecutarRegla="1" id="AEP4543776" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543776" idEntidadPropiedad="1089" idPropiedad="AEP6" ejecutarRegla="1" id="AEP6543776" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543777" idEntidadPropiedad="1089" idPropiedad="AEP4" ejecutarRegla="1" id="AEP4543777" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543777" idEntidadPropiedad="1089" idPropiedad="AEP5" ejecutarRegla="1" id="AEP5543777" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543777" idEntidadPropiedad="1089" idPropiedad="AEP6" ejecutarRegla="1" id="AEP6543777" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543778" idEntidadPropiedad="1089" idPropiedad="AEP7" ejecutarRegla="1" id="AEP7543778" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543778" idEntidadPropiedad="1089" idPropiedad="AEP9" ejecutarRegla="1" id="AEP9543778" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543779" idEntidadPropiedad="1089" idPropiedad="AEP7" ejecutarRegla="1" id="AEP7543779" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543779" idEntidadPropiedad="1089" idPropiedad="AEP9" ejecutarRegla="1" id="AEP9543779" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543780" idEntidadPropiedad="1089" idPropiedad="AEP7" ejecutarRegla="1" id="AEP7543780" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543780" idEntidadPropiedad="1089" idPropiedad="AEP9" ejecutarRegla="1" id="AEP9543780" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543781" idEntidadPropiedad="1089" idPropiedad="AEP1" ejecutarRegla="1" id="AEP1543781" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543782" idEntidadPropiedad="1089" idPropiedad="AEP2" ejecutarRegla="1" id="AEP2543782" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543783" idEntidadPropiedad="1089" idPropiedad="AEP3" ejecutarRegla="1" id="AEP3543783" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543784" idEntidadPropiedad="1089" idPropiedad="AEP4" ejecutarRegla="1" id="AEP4543784" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543785" idEntidadPropiedad="1089" idPropiedad="AEP4" ejecutarRegla="1" id="AEP4543785" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543785" idEntidadPropiedad="1089" idPropiedad="AEP5" ejecutarRegla="1" id="AEP5543785" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543786" idEntidadPropiedad="1089" idPropiedad="AEP6" ejecutarRegla="1" id="AEP6543786" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543787" idEntidadPropiedad="1089" idPropiedad="AEP7" ejecutarRegla="1" id="AEP7543787" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543788" idEntidadPropiedad="1089" idPropiedad="AEP7" ejecutarRegla="1" id="AEP7543788" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543788" idEntidadPropiedad="1089" idPropiedad="AEP8" ejecutarRegla="1" id="AEP8543788" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543789" idEntidadPropiedad="1089" idPropiedad="AEP9" ejecutarRegla="1" id="AEP9543789" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543790" idEntidadPropiedad="1089" idPropiedad="AEP10" ejecutarRegla="1" id="AEP10543790" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543791" idEntidadPropiedad="1089" idPropiedad="AEP11" ejecutarRegla="1" id="AEP11543791" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543792" idEntidadPropiedad="1089" idPropiedad="AEP12" ejecutarRegla="1" id="AEP12543792" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543793" idEntidadPropiedad="1089" idPropiedad="AEP13" ejecutarRegla="1" id="AEP13543793" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543794" idEntidadPropiedad="1089" idPropiedad="AEP14" ejecutarRegla="1" id="AEP14543794" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543795" idEntidadPropiedad="1089" idPropiedad="AEP15" ejecutarRegla="1" id="AEP15543795" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543796" idEntidadPropiedad="1089" idPropiedad="AEP16" ejecutarRegla="1" id="AEP16543796" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543797" idEntidadPropiedad="1089" idPropiedad="AEP17" ejecutarRegla="1" id="AEP17543797" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543798" idEntidadPropiedad="1089" idPropiedad="AEP18" ejecutarRegla="1" id="AEP18543798" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543799" idEntidadPropiedad="1089" idPropiedad="AEP19" ejecutarRegla="1" id="AEP19543799" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543800" idEntidadPropiedad="1089" idPropiedad="AEP20" ejecutarRegla="1" id="AEP20543800" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543801" idEntidadPropiedad="1089" idPropiedad="AEP21" ejecutarRegla="1" id="AEP21543801" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543802" idEntidadPropiedad="1089" idPropiedad="AEP22" ejecutarRegla="1" id="AEP22543802" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543803" idEntidadPropiedad="1089" idPropiedad="AEP23" ejecutarRegla="1" id="AEP23543803" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543804" idEntidadPropiedad="1089" idPropiedad="AEP24" ejecutarRegla="1" id="AEP24543804" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543805" idEntidadPropiedad="1089" idPropiedad="AEP25" ejecutarRegla="1" id="AEP25543805" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="543806" idEntidadPropiedad="1089" idPropiedad="AEP26" ejecutarRegla="1" id="AEP26543806" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="544157" idEntidadPropiedad="1089" idPropiedad="AEP1" ejecutarRegla="1" id="AEP1544157" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="544157" idEntidadPropiedad="1098" idPropiedad="AES118" ejecutarRegla="1" id="AES118544157" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="544159" idEntidadPropiedad="1098" idPropiedad="AES118" ejecutarRegla="1" id="AES118544159" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="544159" idEntidadPropiedad="1098" idPropiedad="AES119" ejecutarRegla="1" id="AES119544159" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="544159" idEntidadPropiedad="1098" idPropiedad="AES120" ejecutarRegla="1" id="AES120544159" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="544160" idEntidadPropiedad="1098" idPropiedad="AES118" ejecutarRegla="1" id="AES118544160" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="544160" idEntidadPropiedad="1098" idPropiedad="AES119" ejecutarRegla="1" id="AES119544160" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="544160" idEntidadPropiedad="1098" idPropiedad="AES120" ejecutarRegla="1" id="AES120544160" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="544255" idEntidadPropiedad="1098" idPropiedad="AES118" ejecutarRegla="1" id="AES118544255" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548147" idEntidadPropiedad="1098" idPropiedad="AES121" ejecutarRegla="1" id="AES121548147" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548148" idEntidadPropiedad="1098" idPropiedad="AES118" ejecutarRegla="1" id="AES118548148" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548148" idEntidadPropiedad="1098" idPropiedad="AES121" ejecutarRegla="1" id="AES121548148" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548149" idEntidadPropiedad="1098" idPropiedad="AES118" ejecutarRegla="1" id="AES118548149" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548149" idEntidadPropiedad="1098" idPropiedad="AES121" ejecutarRegla="1" id="AES121548149" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1013" idPropiedad="111404" ejecutarRegla="1" id="111404548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1014" idPropiedad="111207" ejecutarRegla="1" id="111207548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1025" idPropiedad="111260" ejecutarRegla="1" id="111260548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1025" idPropiedad="111818" ejecutarRegla="1" id="111818548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1025" idPropiedad="111860" ejecutarRegla="1" id="111860548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1025" idPropiedad="111957" ejecutarRegla="1" id="111957548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1025" idPropiedad="111958" ejecutarRegla="1" id="111958548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1025" idPropiedad="139812" ejecutarRegla="1" id="139812548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1029" idPropiedad="195229" ejecutarRegla="1" id="195229548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1029" idPropiedad="195230" ejecutarRegla="1" id="195230548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1029" idPropiedad="195231" ejecutarRegla="1" id="195231548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1029" idPropiedad="195232" ejecutarRegla="1" id="195232548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1029" idPropiedad="195233" ejecutarRegla="1" id="195233548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1029" idPropiedad="195234" ejecutarRegla="1" id="195234548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1029" idPropiedad="195235" ejecutarRegla="1" id="195235548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1029" idPropiedad="195248" ejecutarRegla="1" id="195248548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1042" idPropiedad="111732" ejecutarRegla="1" id="111732548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1042" idPropiedad="111744" ejecutarRegla="1" id="111744548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1054" idPropiedad="118955T" ejecutarRegla="1" id="118955T548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1085" idPropiedad="306" ejecutarRegla="1" id="306548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1085" idPropiedad="307" ejecutarRegla="1" id="307548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1085" idPropiedad="310" ejecutarRegla="1" id="310548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1085" idPropiedad="311" ejecutarRegla="1" id="311548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1085" idPropiedad="312" ejecutarRegla="1" id="312548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1085" idPropiedad="314" ejecutarRegla="1" id="314548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1085" idPropiedad="316" ejecutarRegla="1" id="316548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1090" idPropiedad="118955" ejecutarRegla="1" id="118955548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1096" idPropiedad="111886" ejecutarRegla="1" id="111886548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1116" idPropiedad="111535" ejecutarRegla="1" id="111535548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1119" idPropiedad="111553" ejecutarRegla="1" id="111553548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1120" idPropiedad="111742" ejecutarRegla="1" id="111742548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1121" idPropiedad="111726" ejecutarRegla="1" id="111726548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1122" idPropiedad="111856" ejecutarRegla="1" id="111856548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="548165" idEntidadPropiedad="1147" idPropiedad="111148" ejecutarRegla="1" id="111148548165" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="550582" idEntidadPropiedad="1098" idPropiedad="AES118" ejecutarRegla="1" id="AES118550582" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="550582" idEntidadPropiedad="1098" idPropiedad="AES119" ejecutarRegla="1" id="AES119550582" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="550582" idEntidadPropiedad="1098" idPropiedad="AES120" ejecutarRegla="1" id="AES120550582" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="550582" idEntidadPropiedad="1098" idPropiedad="AES121" ejecutarRegla="1" id="AES121550582" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="550649" idEntidadPropiedad="1089" idPropiedad="AUXMAP" ejecutarRegla="1" id="AUXMAP550649" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="550649" idEntidadPropiedad="1098" idPropiedad="AES119" ejecutarRegla="1" id="AES119550649" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="551025" idEntidadPropiedad="1089" idPropiedad="AUXMAP" ejecutarRegla="1" id="AUXMAP551025" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="551025" idEntidadPropiedad="1098" idPropiedad="AES118" ejecutarRegla="1" id="AES118551025" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="551035" idEntidadPropiedad="1089" idPropiedad="AUXMAP" ejecutarRegla="1" id="AUXMAP551035" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="551035" idEntidadPropiedad="1098" idPropiedad="AES119" ejecutarRegla="1" id="AES119551035" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="551046" idEntidadPropiedad="1089" idPropiedad="AUXMAP" ejecutarRegla="1" id="AUXMAP551046" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="551046" idEntidadPropiedad="1098" idPropiedad="AES120" ejecutarRegla="1" id="AES120551046" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="552286" idEntidadPropiedad="1098" idPropiedad="AES121" ejecutarRegla="1" id="AES121552286" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="552293" idEntidadPropiedad="1098" idPropiedad="AES118" ejecutarRegla="1" id="AES118552293" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="552951" idEntidadPropiedad="1089" idPropiedad="AEP7" ejecutarRegla="1" id="AEP7552951" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="553957" idEntidadPropiedad="1098" idPropiedad="AES121" ejecutarRegla="1" id="AES121553957" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557416" idEntidadPropiedad="1089" idPropiedad="AEP1" ejecutarRegla="1" id="AEP1557416" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557417" idEntidadPropiedad="1089" idPropiedad="AEP2" ejecutarRegla="1" id="AEP2557417" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557418" idEntidadPropiedad="1089" idPropiedad="AEP3" ejecutarRegla="1" id="AEP3557418" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557419" idEntidadPropiedad="1089" idPropiedad="AEP4" ejecutarRegla="1" id="AEP4557419" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557420" idEntidadPropiedad="1089" idPropiedad="AEP5" ejecutarRegla="1" id="AEP5557420" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557421" idEntidadPropiedad="1089" idPropiedad="AEP6" ejecutarRegla="1" id="AEP6557421" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557422" idEntidadPropiedad="1089" idPropiedad="AEP7" ejecutarRegla="1" id="AEP7557422" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557423" idEntidadPropiedad="1089" idPropiedad="AEP8" ejecutarRegla="1" id="AEP8557423" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557424" idEntidadPropiedad="1089" idPropiedad="AEP9" ejecutarRegla="1" id="AEP9557424" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557425" idEntidadPropiedad="1089" idPropiedad="AEP10" ejecutarRegla="1" id="AEP10557425" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557426" idEntidadPropiedad="1089" idPropiedad="AEP11" ejecutarRegla="1" id="AEP11557426" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557427" idEntidadPropiedad="1089" idPropiedad="AEP12" ejecutarRegla="1" id="AEP12557427" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557428" idEntidadPropiedad="1089" idPropiedad="AEP13" ejecutarRegla="1" id="AEP13557428" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557429" idEntidadPropiedad="1089" idPropiedad="AEP14" ejecutarRegla="1" id="AEP14557429" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557430" idEntidadPropiedad="1089" idPropiedad="AEP15" ejecutarRegla="1" id="AEP15557430" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557431" idEntidadPropiedad="1089" idPropiedad="AEP16" ejecutarRegla="1" id="AEP16557431" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557432" idEntidadPropiedad="1089" idPropiedad="AEP17" ejecutarRegla="1" id="AEP17557432" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557433" idEntidadPropiedad="1089" idPropiedad="AEP18" ejecutarRegla="1" id="AEP18557433" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557434" idEntidadPropiedad="1089" idPropiedad="AEP19" ejecutarRegla="1" id="AEP19557434" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557435" idEntidadPropiedad="1089" idPropiedad="AEP20" ejecutarRegla="1" id="AEP20557435" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557436" idEntidadPropiedad="1089" idPropiedad="AEP21" ejecutarRegla="1" id="AEP21557436" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557437" idEntidadPropiedad="1089" idPropiedad="AEP22" ejecutarRegla="1" id="AEP22557437" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557438" idEntidadPropiedad="1089" idPropiedad="AEP23" ejecutarRegla="1" id="AEP23557438" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557439" idEntidadPropiedad="1089" idPropiedad="AEP24" ejecutarRegla="1" id="AEP24557439" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557440" idEntidadPropiedad="1089" idPropiedad="AEP25" ejecutarRegla="1" id="AEP25557440" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557441" idEntidadPropiedad="1089" idPropiedad="AEP26" ejecutarRegla="1" id="AEP26557441" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557524" idEntidadPropiedad="1096" idPropiedad="111880" ejecutarRegla="1" id="111880557524" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557525" idEntidadPropiedad="1096" idPropiedad="111881" ejecutarRegla="1" id="111881557525" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557526" idEntidadPropiedad="1096" idPropiedad="111882" ejecutarRegla="1" id="111882557526" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557527" idEntidadPropiedad="1096" idPropiedad="111883" ejecutarRegla="1" id="111883557527" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557528" idEntidadPropiedad="1096" idPropiedad="111884" ejecutarRegla="1" id="111884557528" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557529" idEntidadPropiedad="1096" idPropiedad="111955" ejecutarRegla="1" id="111955557529" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557530" idEntidadPropiedad="1096" idPropiedad="111953" ejecutarRegla="1" id="111953557530" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557531" idEntidadPropiedad="1096" idPropiedad="111954" ejecutarRegla="1" id="111954557531" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557532" idEntidadPropiedad="1096" idPropiedad="111885" ejecutarRegla="1" id="111885557532" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557533" idEntidadPropiedad="1096" idPropiedad="111886" ejecutarRegla="1" id="111886557533" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557534" idEntidadPropiedad="1096" idPropiedad="117001" ejecutarRegla="1" id="117001557534" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557535" idEntidadPropiedad="1096" idPropiedad="117989" ejecutarRegla="1" id="117989557535" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557536" idEntidadPropiedad="1096" idPropiedad="117073" ejecutarRegla="1" id="117073557536" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557537" idEntidadPropiedad="1096" idPropiedad="117071" ejecutarRegla="1" id="117071557537" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557538" idEntidadPropiedad="1096" idPropiedad="117076" ejecutarRegla="1" id="117076557538" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557539" idEntidadPropiedad="1096" idPropiedad="117285" ejecutarRegla="1" id="117285557539" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557540" idEntidadPropiedad="1096" idPropiedad="117065" ejecutarRegla="1" id="117065557540" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557541" idEntidadPropiedad="1096" idPropiedad="117066" ejecutarRegla="1" id="117066557541" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557542" idEntidadPropiedad="1096" idPropiedad="117983" ejecutarRegla="1" id="117983557542" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557543" idEntidadPropiedad="1096" idPropiedad="117986" ejecutarRegla="1" id="117986557543" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557544" idEntidadPropiedad="1096" idPropiedad="117990" ejecutarRegla="1" id="117990557544" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557545" idEntidadPropiedad="1096" idPropiedad="139842" ejecutarRegla="1" id="139842557545" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557546" idEntidadPropiedad="1096" idPropiedad="139821" ejecutarRegla="1" id="139821557546" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557547" idEntidadPropiedad="1096" idPropiedad="117889" ejecutarRegla="1" id="117889557547" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557548" idEntidadPropiedad="1096" idPropiedad="201356" ejecutarRegla="1" id="201356557548" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557549" idEntidadPropiedad="1096" idPropiedad="111191" ejecutarRegla="1" id="111191557549" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557955" idEntidadPropiedad="1098" idPropiedad="AES118" ejecutarRegla="1" id="AES118557955" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557956" idEntidadPropiedad="1098" idPropiedad="AES119" ejecutarRegla="1" id="AES119557956" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557957" idEntidadPropiedad="1098" idPropiedad="AES120" ejecutarRegla="1" id="AES120557957" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="557958" idEntidadPropiedad="1098" idPropiedad="AES121" ejecutarRegla="1" id="AES121557958" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1002" idPropiedad="51" ejecutarRegla="1" id="51568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1013" idPropiedad="111401" ejecutarRegla="1" id="111401568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1014" idPropiedad="111201" ejecutarRegla="1" id="111201568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1042" idPropiedad="111261" ejecutarRegla="1" id="111261568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1042" idPropiedad="111730" ejecutarRegla="1" id="111730568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1042" idPropiedad="111743" ejecutarRegla="1" id="111743568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1054" idPropiedad="116023T" ejecutarRegla="1" id="116023T568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1054" idPropiedad="116024T" ejecutarRegla="1" id="116024T568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1054" idPropiedad="116025T" ejecutarRegla="1" id="116025T568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1054" idPropiedad="116027T" ejecutarRegla="1" id="116027T568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1054" idPropiedad="116392T" ejecutarRegla="1" id="116392T568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1054" idPropiedad="116393T" ejecutarRegla="1" id="116393T568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1090" idPropiedad="116023" ejecutarRegla="1" id="116023568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1090" idPropiedad="116024" ejecutarRegla="1" id="116024568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1090" idPropiedad="116025" ejecutarRegla="1" id="116025568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1090" idPropiedad="116027" ejecutarRegla="1" id="116027568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1090" idPropiedad="116392" ejecutarRegla="1" id="116392568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1090" idPropiedad="116393" ejecutarRegla="1" id="116393568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1096" idPropiedad="111880" ejecutarRegla="1" id="111880568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1116" idPropiedad="111501" ejecutarRegla="1" id="111501568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1119" idPropiedad="111550" ejecutarRegla="1" id="111550568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1120" idPropiedad="111740" ejecutarRegla="1" id="111740568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1121" idPropiedad="111724" ejecutarRegla="1" id="111724568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1122" idPropiedad="111850" ejecutarRegla="1" id="111850568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1150" idPropiedad="DPC1C" ejecutarRegla="1" id="DPC1C568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568690" idEntidadPropiedad="1150" idPropiedad="DPC20" ejecutarRegla="1" id="DPC20568690" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568905" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30568905" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568905" idEntidadPropiedad="1089" idPropiedad="AEP27" ejecutarRegla="1" id="AEP27568905" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568907" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30568907" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568907" idEntidadPropiedad="1089" idPropiedad="AEP27" ejecutarRegla="1" id="AEP27568907" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568907" idEntidadPropiedad="1089" idPropiedad="AEP28" ejecutarRegla="1" id="AEP28568907" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568909" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30568909" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568909" idEntidadPropiedad="1089" idPropiedad="AEP27" ejecutarRegla="1" id="AEP27568909" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568909" idEntidadPropiedad="1089" idPropiedad="AEP29" ejecutarRegla="1" id="AEP29568909" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568911" idEntidadPropiedad="1089" idPropiedad="AEP27" ejecutarRegla="1" id="AEP27568911" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568911" idEntidadPropiedad="1089" idPropiedad="AEP28" ejecutarRegla="1" id="AEP28568911" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568912" idEntidadPropiedad="1089" idPropiedad="AEP27" ejecutarRegla="1" id="AEP27568912" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568912" idEntidadPropiedad="1089" idPropiedad="AEP29" ejecutarRegla="1" id="AEP29568912" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568913" idEntidadPropiedad="1089" idPropiedad="AEP29" ejecutarRegla="1" id="AEP29568913" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568914" idEntidadPropiedad="1089" idPropiedad="AEP28" ejecutarRegla="1" id="AEP28568914" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568915" idEntidadPropiedad="1089" idPropiedad="AEP27" ejecutarRegla="1" id="AEP27568915" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568916" idEntidadPropiedad="1089" idPropiedad="AEP28" ejecutarRegla="1" id="AEP28568916" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="568917" idEntidadPropiedad="1089" idPropiedad="AEP29" ejecutarRegla="1" id="AEP29568917" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="117001" ejecutarRegla="1" id="117001569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="117065" ejecutarRegla="1" id="117065569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="117066" ejecutarRegla="1" id="117066569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="117071" ejecutarRegla="1" id="117071569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="117073" ejecutarRegla="1" id="117073569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="117076" ejecutarRegla="1" id="117076569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="117285" ejecutarRegla="1" id="117285569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="117889" ejecutarRegla="1" id="117889569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="117983" ejecutarRegla="1" id="117983569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="117986" ejecutarRegla="1" id="117986569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="117989" ejecutarRegla="1" id="117989569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="117990" ejecutarRegla="1" id="117990569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="139821" ejecutarRegla="1" id="139821569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="139842" ejecutarRegla="1" id="139842569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="139864" ejecutarRegla="1" id="139864569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569854" idEntidadPropiedad="1096" idPropiedad="139865" ejecutarRegla="1" id="139865569854" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569855" idEntidadPropiedad="1096" idPropiedad="111882" ejecutarRegla="1" id="111882569855" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569861" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30569861" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569861" idEntidadPropiedad="1096" idPropiedad="111955" ejecutarRegla="1" id="111955569861" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569862" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30569862" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569862" idEntidadPropiedad="1096" idPropiedad="117983" ejecutarRegla="1" id="117983569862" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569863" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30569863" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569863" idEntidadPropiedad="1096" idPropiedad="139863" ejecutarRegla="1" id="139863569863" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569864" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30569864" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569864" idEntidadPropiedad="1096" idPropiedad="139863" ejecutarRegla="1" id="139863569864" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569864" idEntidadPropiedad="1096" idPropiedad="139864" ejecutarRegla="1" id="139864569864" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569865" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30569865" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569865" idEntidadPropiedad="1096" idPropiedad="139863" ejecutarRegla="1" id="139863569865" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569865" idEntidadPropiedad="1096" idPropiedad="139865" ejecutarRegla="1" id="139865569865" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569866" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30569866" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569866" idEntidadPropiedad="1096" idPropiedad="117986" ejecutarRegla="1" id="117986569866" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569867" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30569867" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569867" idEntidadPropiedad="1096" idPropiedad="139821" ejecutarRegla="1" id="139821569867" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1002" idPropiedad="51" ejecutarRegla="1" id="51569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1013" idPropiedad="111401" ejecutarRegla="1" id="111401569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1014" idPropiedad="111201" ejecutarRegla="1" id="111201569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1042" idPropiedad="111261" ejecutarRegla="1" id="111261569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1042" idPropiedad="111730" ejecutarRegla="1" id="111730569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1042" idPropiedad="111743" ejecutarRegla="1" id="111743569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1054" idPropiedad="116023T" ejecutarRegla="1" id="116023T569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1054" idPropiedad="116024T" ejecutarRegla="1" id="116024T569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1054" idPropiedad="116025T" ejecutarRegla="1" id="116025T569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1054" idPropiedad="116027T" ejecutarRegla="1" id="116027T569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1054" idPropiedad="116392T" ejecutarRegla="1" id="116392T569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1054" idPropiedad="116393T" ejecutarRegla="1" id="116393T569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1054" idPropiedad="118955T" ejecutarRegla="1" id="118955T569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1095" idPropiedad="AE113T" ejecutarRegla="1" id="AE113T569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1095" idPropiedad="AE115T" ejecutarRegla="1" id="AE115T569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1096" idPropiedad="111880" ejecutarRegla="1" id="111880569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1116" idPropiedad="111501" ejecutarRegla="1" id="111501569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1119" idPropiedad="111550" ejecutarRegla="1" id="111550569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1120" idPropiedad="111740" ejecutarRegla="1" id="111740569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1121" idPropiedad="111724" ejecutarRegla="1" id="111724569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569877" idEntidadPropiedad="1122" idPropiedad="111850" ejecutarRegla="1" id="111850569877" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569903" idEntidadPropiedad="1096" idPropiedad="139865" ejecutarRegla="1" id="139865569903" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="569904" idEntidadPropiedad="1096" idPropiedad="139864" ejecutarRegla="1" id="139864569904" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571129" idEntidadPropiedad="1089" idPropiedad="AEP27" ejecutarRegla="1" id="AEP27571129" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571130" idEntidadPropiedad="1089" idPropiedad="AEP27" ejecutarRegla="1" id="AEP27571130" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1002" idPropiedad="51" ejecutarRegla="1" id="51571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1013" idPropiedad="111401" ejecutarRegla="1" id="111401571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1014" idPropiedad="111201" ejecutarRegla="1" id="111201571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1042" idPropiedad="111261" ejecutarRegla="1" id="111261571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1042" idPropiedad="111730" ejecutarRegla="1" id="111730571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1042" idPropiedad="111743" ejecutarRegla="1" id="111743571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1090" idPropiedad="116023" ejecutarRegla="1" id="116023571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1090" idPropiedad="116024" ejecutarRegla="1" id="116024571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1090" idPropiedad="116025" ejecutarRegla="1" id="116025571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1090" idPropiedad="116027" ejecutarRegla="1" id="116027571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1090" idPropiedad="116392" ejecutarRegla="1" id="116392571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1090" idPropiedad="116393" ejecutarRegla="1" id="116393571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1096" idPropiedad="111880" ejecutarRegla="1" id="111880571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1116" idPropiedad="111501" ejecutarRegla="1" id="111501571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1119" idPropiedad="111550" ejecutarRegla="1" id="111550571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1120" idPropiedad="111740" ejecutarRegla="1" id="111740571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1121" idPropiedad="111724" ejecutarRegla="1" id="111724571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1122" idPropiedad="111850" ejecutarRegla="1" id="111850571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571236" idEntidadPropiedad="1150" idPropiedad="AUXATMP" ejecutarRegla="1" id="AUXATMP571236" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1002" idPropiedad="30" ejecutarRegla="1" id="30571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1002" idPropiedad="51" ejecutarRegla="1" id="51571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1013" idPropiedad="111401" ejecutarRegla="1" id="111401571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1014" idPropiedad="111201" ejecutarRegla="1" id="111201571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1042" idPropiedad="111261" ejecutarRegla="1" id="111261571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1042" idPropiedad="111730" ejecutarRegla="1" id="111730571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1042" idPropiedad="111743" ejecutarRegla="1" id="111743571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1090" idPropiedad="116023" ejecutarRegla="1" id="116023571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1090" idPropiedad="116024" ejecutarRegla="1" id="116024571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1090" idPropiedad="116025" ejecutarRegla="1" id="116025571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1090" idPropiedad="116027" ejecutarRegla="1" id="116027571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1090" idPropiedad="116392" ejecutarRegla="1" id="116392571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1090" idPropiedad="116393" ejecutarRegla="1" id="116393571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1096" idPropiedad="111880" ejecutarRegla="1" id="111880571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1116" idPropiedad="111501" ejecutarRegla="1" id="111501571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1119" idPropiedad="111550" ejecutarRegla="1" id="111550571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1120" idPropiedad="111740" ejecutarRegla="1" id="111740571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1121" idPropiedad="111724" ejecutarRegla="1" id="111724571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1122" idPropiedad="111850" ejecutarRegla="1" id="111850571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1150" idPropiedad="AUXATMP" ejecutarRegla="1" id="AUXATMP571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571237" idEntidadPropiedad="1150" idPropiedad="AUXBTMP" ejecutarRegla="1" id="AUXBTMP571237" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571247" idEntidadPropiedad="1089" idPropiedad="AEP27" ejecutarRegla="1" id="AEP27571247" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571247" idEntidadPropiedad="1089" idPropiedad="AEP28" ejecutarRegla="1" id="AEP28571247" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571247" idEntidadPropiedad="1089" idPropiedad="AEP29" ejecutarRegla="1" id="AEP29571247" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571248" idEntidadPropiedad="1089" idPropiedad="AEP27" ejecutarRegla="1" id="AEP27571248" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571248" idEntidadPropiedad="1089" idPropiedad="AEP28" ejecutarRegla="1" id="AEP28571248" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571248" idEntidadPropiedad="1089" idPropiedad="AEP29" ejecutarRegla="1" id="AEP29571248" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571252" idEntidadPropiedad="1096" idPropiedad="139863" ejecutarRegla="1" id="139863571252" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571252" idEntidadPropiedad="1096" idPropiedad="139864" ejecutarRegla="1" id="139864571252" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571253" idEntidadPropiedad="1096" idPropiedad="139863" ejecutarRegla="1" id="139863571253" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571253" idEntidadPropiedad="1096" idPropiedad="139865" ejecutarRegla="1" id="139865571253" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="571998" idEntidadPropiedad="1098" idPropiedad="AES121" ejecutarRegla="1" id="AES121571998" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="573052" idEntidadPropiedad="1002" idPropiedad="55" ejecutarRegla="1" id="55573052" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="573052" idEntidadPropiedad="1096" idPropiedad="111880" ejecutarRegla="1" id="111880573052" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="573053" idEntidadPropiedad="1002" idPropiedad="55" ejecutarRegla="1" id="55573053" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="573053" idEntidadPropiedad="1096" idPropiedad="111886" ejecutarRegla="1" id="111886573053" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="573111" idEntidadPropiedad="1002" idPropiedad="58" ejecutarRegla="1" id="58573111" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="573111" idEntidadPropiedad="1098" idPropiedad="AES121" ejecutarRegla="1" id="AES121573111" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="573191" idEntidadPropiedad="1089" idPropiedad="AUXMAP" ejecutarRegla="1" id="AUXMAP573191" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="574200" idEntidadPropiedad="1089" idPropiedad="AEP1" ejecutarRegla="1" id="AEP1574200" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="574200" idEntidadPropiedad="1089" idPropiedad="AUXMAP" ejecutarRegla="1" id="AUXMAP574200" />
+    <propiedad idEntidad="1000" idFormulario="6" idRegla="574200" idEntidadPropiedad="1167" idPropiedad="MASAES118" ejecutarRegla="1" id="MASAES118574200" />
+  </propiedades>
+</definicionReglas>

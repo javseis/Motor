@@ -1,0 +1,1769 @@
+[
+    {
+        "control": {
+            "id": "252maincontainer1",
+            "tipoControl": "Grupo",
+            "idEntidadPropiedad": "",
+            "idPropiedad": "",
+            "idTipoFlujo": "",
+            "orden": "",
+            "atributos": {
+                "atributo": []
+            },
+            "controles": {
+                "control": [
+                    {
+                        "id": "252column1",
+                        "tipoControl": "Columna",
+                        "idEntidadPropiedad": "",
+                        "idPropiedad": "",
+                        "idTipoFlujo": "",
+                        "orden": "",
+                        "atributos": {
+                            "atributo": []
+                        },
+                        "controles": {
+                            "control": [
+                                {
+                                    "id": "252row2",
+                                    "tipoControl": "Grupo",
+                                    "idEntidadPropiedad": "",
+                                    "idPropiedad": "",
+                                    "idTipoFlujo": "",
+                                    "orden": "",
+                                    "atributos": {
+                                        "atributo": [
+                                            {
+                                                "nombre": "MostrarSiempre",
+                                                "valor": "1"
+                                            },
+                                            {
+                                                "nombre": "TituloCorto",
+                                                "valor": "Deducciones personales"
+                                            }
+                                        ]
+                                    },
+                                    "controles": {
+                                        "control": [
+                                            {
+                                                "id": "252column5",
+                                                "tipoControl": "Columna",
+                                                "idEntidadPropiedad": "",
+                                                "idPropiedad": "",
+                                                "idTipoFlujo": "",
+                                                "orden": "",
+                                                "atributos": {
+                                                    "atributo": []
+                                                },
+                                                "controles": {
+                                                    "control": [
+                                                        {
+                                                            "id": "252textbox7",
+                                                            "tipoControl": "CuadroTexto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "11060406",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "AlineacionHorizontal",
+                                                                        "valor": ""
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "id": "252column6",
+                                                "tipoControl": "Columna",
+                                                "idEntidadPropiedad": "",
+                                                "idPropiedad": "",
+                                                "idTipoFlujo": "",
+                                                "orden": "",
+                                                "atributos": {
+                                                    "atributo": []
+                                                },
+                                                "controles": {
+                                                    "control": [
+                                                        {
+                                                            "id": "252textbox8",
+                                                            "tipoControl": "CuadroTexto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "MontoPorDeducir",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "AlineacionHorizontal",
+                                                                        "valor": ""
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden39192",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TotalMontoAplicable",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": []
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "252row3",
+                                    "tipoControl": "Grupo",
+                                    "idEntidadPropiedad": "",
+                                    "idPropiedad": "",
+                                    "idTipoFlujo": "",
+                                    "orden": "",
+                                    "atributos": {
+                                        "atributo": [
+                                            {
+                                                "nombre": "TituloCorto",
+                                                "valor": "¿Que gastos se pueden deducir?"
+                                            }
+                                        ]
+                                    },
+                                    "controles": {
+                                        "control": [
+                                            {
+                                                "id": "252column9",
+                                                "tipoControl": "Columna",
+                                                "idEntidadPropiedad": "",
+                                                "idPropiedad": "",
+                                                "idTipoFlujo": "",
+                                                "orden": "",
+                                                "atributos": {
+                                                    "atributo": []
+                                                },
+                                                "controles": {
+                                                    "control": [
+                                                        {
+                                                            "id": "252helpicon10",
+                                                            "tipoControl": "IconosAyuda",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "1100AYUDA",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "IconoAyudaAportaciones",
+                                                                        "valor": "Aportaciones.png|99|5|Aportaciones complementarias"
+                                                                    },
+                                                                    {
+                                                                        "nombre": "IconoAyudaAportacionesSAT",
+                                                                        "valor": "AportcionesSAT.png|99|3|Donativos"
+                                                                    },
+                                                                    {
+                                                                        "nombre": "IconoAyudaColegiaturas",
+                                                                        "valor": "Colegiaturas.png|99|9|Colegiaturas"
+                                                                    },
+                                                                    {
+                                                                        "nombre": "IconoAyudaCuentas",
+                                                                        "valor": "enCuentas.png|99|8|Depósitos en cuentas especiales para el ahorro"
+                                                                    },
+                                                                    {
+                                                                        "nombre": "IconoAyudaDepositos",
+                                                                        "valor": "depositosAhorrro.png|99|6|Primas por seguros de gastos médicos"
+                                                                    },
+                                                                    {
+                                                                        "nombre": "IconoAyudaEscuela",
+                                                                        "valor": "Escuela.png|99|7|Transportación escolar"
+                                                                    },
+                                                                    {
+                                                                        "nombre": "IconoAyudaGastos",
+                                                                        "valor": "GastosFunerarios.png|99|2|Gastos funerales"
+                                                                    },
+                                                                    {
+                                                                        "nombre": "IconoAyudaMedicos",
+                                                                        "valor": "Medicos.png|99|0|Honorarios médicos, dentales y gastos hospitalarios"
+                                                                    },
+                                                                    {
+                                                                        "nombre": "IconoAyudaIntereses",
+                                                                        "valor": "interesesReales.png|99|4|Intereses reales"
+                                                                    },
+                                                                    {
+                                                                        "nombre": "IconoAyudaLimite",
+                                                                        "valor": "LimiteDeduccion.png|99|10|Beneficiarios"
+                                                                    },
+                                                                    {
+                                                                        "nombre": "IconoAyudaIncapacidad",
+                                                                        "valor": "Discapacidad.png|99|1|Gastos médicos por incapacidad o discapacidad"
+                                                                    },
+                                                                    {
+                                                                        "nombre": "SinTitulo",
+                                                                        "valor": ""
+                                                                    },
+                                                                    {
+                                                                        "nombre": "SinEtiqueta",
+                                                                        "valor": ""
+                                                                    },
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Ayuda"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden11",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TotalHonorariosMedicos",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Total honorarios médicos"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden12",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TotalRecuperacionMedicos",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Total recuperación médicos"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden13",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TotalRecuperacionIncapacidad",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Total recuperación incapacidad"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden14",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TotalFunerales",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Total funerales"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden15",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TotalRecuperacionFunerales",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Total recuperación funerales"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden16",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TotalInteresesHipotecarios",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Total intereses hipotecarios"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden17",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TotalPrimasSeguros",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Total primas seguros"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden18",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TotalTransportacionEscolar",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Total transportación escolar"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden19",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TopeDonativos",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Tope donativos"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden20",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TopeAnualUMMA",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Tope anual UMA"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden21",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TotalGastoRecuperado",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Total gasto recuperado"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden22",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TotalMontoDeducible",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TipoControl",
+                                                                        "valor": "Total monto deducible"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "252hidden23",
+                                                            "tipoControl": "Oculto",
+                                                            "idEntidadPropiedad": "2520004",
+                                                            "idPropiedad": "TotalMontoAplicable",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TipoControl",
+                                                                        "valor": "Total monto aplicable"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": []
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "252row4",
+                                    "tipoControl": "Grupo",
+                                    "idEntidadPropiedad": "",
+                                    "idPropiedad": "",
+                                    "idTipoFlujo": "",
+                                    "orden": "",
+                                    "atributos": {
+                                        "atributo": []
+                                    },
+                                    "controles": {
+                                        "control": [
+                                            {
+                                                "id": "252column24",
+                                                "tipoControl": "Columna",
+                                                "idEntidadPropiedad": "",
+                                                "idPropiedad": "",
+                                                "idTipoFlujo": "",
+                                                "orden": "",
+                                                "atributos": {
+                                                    "atributo": []
+                                                },
+                                                "controles": {
+                                                    "control": [
+                                                        {
+                                                            "id": "252row26",
+                                                            "tipoControl": "Grupo",
+                                                            "idEntidadPropiedad": "",
+                                                            "idPropiedad": "",
+                                                            "idTipoFlujo": "",
+                                                            "orden": "",
+                                                            "atributos": {
+                                                                "atributo": [
+                                                                    {
+                                                                        "nombre": "TituloCorto",
+                                                                        "valor": "Facturas identificadas como posibles deducciones personales"
+                                                                    },
+                                                                    {
+                                                                        "nombre": "TituloLargo",
+                                                                        "valor": "Facturas identificadas como posibles deducciones personales"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "controles": {
+                                                                "control": [
+                                                                    {
+                                                                        "id": "252column28",
+                                                                        "tipoControl": "Columna",
+                                                                        "idEntidadPropiedad": "",
+                                                                        "idPropiedad": "",
+                                                                        "idTipoFlujo": "",
+                                                                        "orden": "",
+                                                                        "atributos": {
+                                                                            "atributo": []
+                                                                        },
+                                                                        "controles": {
+                                                                            "control": [
+                                                                                {
+                                                                                    "id": "252label22321",
+                                                                                    "tipoControl": "Etiqueta",
+                                                                                    "idEntidadPropiedad": "2520004",
+                                                                                    "idPropiedad": "TituloClasificados",
+                                                                                    "idTipoFlujo": "",
+                                                                                    "orden": "",
+                                                                                    "atributos": {
+                                                                                        "atributo": [
+                                                                                            {
+                                                                                                "nombre": "TamanoFuente",
+                                                                                                "valor": "18"
+                                                                                            },
+                                                                                            {
+                                                                                                "nombre": "SinTitulo",
+                                                                                                "valor": ""
+                                                                                            },
+                                                                                            {
+                                                                                                "nombre": "TituloCorto",
+                                                                                                "valor": "Facturas identificadas como posibles deducciones personales"
+                                                                                            },
+                                                                                            {
+                                                                                                "nombre": "TituloLargo",
+                                                                                                "valor": "Facturas identificadas como posibles deducciones personales"
+                                                                                            },
+                                                                                            {
+                                                                                                "nombre": "Negritas",
+                                                                                                "valor": ""
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "controles": {
+                                                                                        "control": []
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "id": "252label15622",
+                                                                                    "tipoControl": "Etiqueta",
+                                                                                    "idEntidadPropiedad": "2520004",
+                                                                                    "idPropiedad": "TituloClasificados",
+                                                                                    "idTipoFlujo": "",
+                                                                                    "orden": "",
+                                                                                    "atributos": {
+                                                                                        "atributo": [
+                                                                                            {
+                                                                                                "nombre": "SinTitulo",
+                                                                                                "valor": ""
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "controles": {
+                                                                                        "control": []
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "id": "252label26849",
+                                                                                    "tipoControl": "Etiqueta",
+                                                                                    "idEntidadPropiedad": "2520004",
+                                                                                    "idPropiedad": "TituloSinClasificar",
+                                                                                    "idTipoFlujo": "",
+                                                                                    "orden": "",
+                                                                                    "atributos": {
+                                                                                        "atributo": [
+                                                                                            {
+                                                                                                "nombre": "SinTitulo",
+                                                                                                "valor": ""
+                                                                                            },
+                                                                                            {
+                                                                                                "nombre": "Negritas",
+                                                                                                "valor": ""
+                                                                                            },
+                                                                                            {
+                                                                                                "nombre": "TituloCorto",
+                                                                                                "valor": "Facturas no identificadas como deducciones personales"
+                                                                                            },
+                                                                                            {
+                                                                                                "nombre": "TituloLargo",
+                                                                                                "valor": "Facturas no identificadas como deducciones personales"
+                                                                                            },
+                                                                                            {
+                                                                                                "nombre": "TamanoFuente",
+                                                                                                "valor": "18"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "controles": {
+                                                                                        "control": []
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "id": "252label109154",
+                                                                                    "tipoControl": "Etiqueta",
+                                                                                    "idEntidadPropiedad": "2520004",
+                                                                                    "idPropiedad": "TituloSinClasificar",
+                                                                                    "idTipoFlujo": "",
+                                                                                    "orden": "",
+                                                                                    "atributos": {
+                                                                                        "atributo": [
+                                                                                            {
+                                                                                                "nombre": "SinTitulo",
+                                                                                                "valor": ""
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "controles": {
+                                                                                        "control": []
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "id": "252clasificador29",
+                                                                                    "tipoControl": "Clasificador2018",
+                                                                                    "idEntidadPropiedad": "2520004",
+                                                                                    "idPropiedad": "Opconcepto",
+                                                                                    "idTipoFlujo": "",
+                                                                                    "orden": "",
+                                                                                    "atributos": {
+                                                                                        "atributo": [
+                                                                                            {
+                                                                                                "nombre": "Catalogo",
+                                                                                                "valor": "47"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    "controles": {
+                                                                                        "control": [
+                                                                                            {
+                                                                                                "id": "252column30",
+                                                                                                "tipoControl": "Columna",
+                                                                                                "idEntidadPropiedad": "",
+                                                                                                "idPropiedad": "",
+                                                                                                "idTipoFlujo": "",
+                                                                                                "orden": "",
+                                                                                                "atributos": {
+                                                                                                    "atributo": []
+                                                                                                },
+                                                                                                "controles": {
+                                                                                                    "control": [
+                                                                                                        {
+                                                                                                            "id": "252textbox33",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "TotalImporteHonorariosMedicos",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox34",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "TotalImporteIncapacidadDiscapacidad",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox35",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "TotalImporteFunerales",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox36",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "TotalImporteDonativos",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox37",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "TotalImporteInteresesHipotecarios",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox38",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "TotalImporteAportaciones",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox39",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "TotalImportePrimasSeguros",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox40",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "TotalImporteTransportacionEscolar",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox41",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "TotalImporteAhorro",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox42",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "TotalImporteEducatios",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox43",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "TotalImporteSinClasificacion",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Facturado"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "252column31",
+                                                                                                "tipoControl": "Columna",
+                                                                                                "idEntidadPropiedad": "",
+                                                                                                "idPropiedad": "",
+                                                                                                "idTipoFlujo": "",
+                                                                                                "orden": "",
+                                                                                                "atributos": {
+                                                                                                    "atributo": []
+                                                                                                },
+                                                                                                "controles": {
+                                                                                                    "control": [
+                                                                                                        {
+                                                                                                            "id": "252textbox44",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "MontoHonorariosMedicos",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox45",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "MontoIncapacidadDiscapacidad",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox46",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "MontoFunerales",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox47",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "MontoDonativos",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox48",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "MontoInteresesHipotecarios",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox49",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "MontoAportaciones",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox50",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "MontoPrimasSeguros",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox51",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "MontoTransportacionEscolar",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox52",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "MontoAhorro",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox53",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "MontoEducativos",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252textbox189948",
+                                                                                                            "tipoControl": "CuadroTexto",
+                                                                                                            "idEntidadPropiedad": "2520004",
+                                                                                                            "idPropiedad": "MontoSinClasificar",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": [
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloCorto",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "nombre": "TituloLargo",
+                                                                                                                        "valor": "Deducible"
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "252gridcfdi32",
+                                                                                                "tipoControl": "GridCfdi",
+                                                                                                "idEntidadPropiedad": "2520003",
+                                                                                                "idPropiedad": "UUID",
+                                                                                                "idTipoFlujo": "",
+                                                                                                "orden": "",
+                                                                                                "atributos": {
+                                                                                                    "atributo": []
+                                                                                                },
+                                                                                                "controles": {
+                                                                                                    "control": [
+                                                                                                        {
+                                                                                                            "id": "252row54",
+                                                                                                            "tipoControl": "Grupo",
+                                                                                                            "idEntidadPropiedad": "",
+                                                                                                            "idPropiedad": "",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": []
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": []
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252column55",
+                                                                                                            "tipoControl": "Columna",
+                                                                                                            "idEntidadPropiedad": "",
+                                                                                                            "idPropiedad": "",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": []
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": [
+                                                                                                                    {
+                                                                                                                        "id": "252select57",
+                                                                                                                        "tipoControl": "CuadroCombinado",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "TipoDeduccion",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "Tipo de Deducción"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252textbox58",
+                                                                                                                        "tipoControl": "CuadroTexto",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "RFCEmisor",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "RFC del emisor"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "MuestraEnGrid",
+                                                                                                                                    "valor": "RFC del emisor"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "ValidaLongitud",
+                                                                                                                                    "valor": "13"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "EnMayusculas",
+                                                                                                                                    "valor": "1"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "Obligatorio",
+                                                                                                                                    "valor": "1"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "OrdenColumnaEnGrid",
+                                                                                                                                    "valor": "2"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252textbox59",
+                                                                                                                        "tipoControl": "CuadroTexto",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "NombreEmisor",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "EnMayusculas",
+                                                                                                                                    "valor": "1"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "ValidaLongitud",
+                                                                                                                                    "valor": "120"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "MuestraEnGrid",
+                                                                                                                                    "valor": "Nombre, denominación o razón social"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "Nombre, denominación o razón social"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "Obligatorio",
+                                                                                                                                    "valor": "1"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "OrdenColumnaEnGrid",
+                                                                                                                                    "valor": "3"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252date60",
+                                                                                                                        "tipoControl": "ControlFecha",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "FechaEmision",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "Fecha de emisión"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "ValidaLongitud",
+                                                                                                                                    "valor": "10"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "MuestraEnGrid",
+                                                                                                                                    "valor": "Fecha emisión"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "SoloNumerosPositivos",
+                                                                                                                                    "valor": ""
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "OrdenColumnaEnGrid",
+                                                                                                                                    "valor": "1"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "Obligatorio",
+                                                                                                                                    "valor": "1"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "FormatoColumna",
+                                                                                                                                    "valor": "fechaFormatter"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252select61",
+                                                                                                                        "tipoControl": "CuadroCombinado",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "FormadePago",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "Forma de pago"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "Obligatorio",
+                                                                                                                                    "valor": "1"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "id": "252column56",
+                                                                                                            "tipoControl": "Columna",
+                                                                                                            "idEntidadPropiedad": "",
+                                                                                                            "idPropiedad": "",
+                                                                                                            "idTipoFlujo": "",
+                                                                                                            "orden": "",
+                                                                                                            "atributos": {
+                                                                                                                "atributo": []
+                                                                                                            },
+                                                                                                            "controles": {
+                                                                                                                "control": [
+                                                                                                                    {
+                                                                                                                        "id": "252textbox62",
+                                                                                                                        "tipoControl": "CuadroTexto",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "Concepto",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "MuestraEnGrid",
+                                                                                                                                    "valor": "Descripción o concepto"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "Descripción o concepto"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "ValidaLongitud",
+                                                                                                                                    "valor": "120"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "EnMayusculas",
+                                                                                                                                    "valor": "1"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "OrdenColumnaEnGrid",
+                                                                                                                                    "valor": "4"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "Obligatorio",
+                                                                                                                                    "valor": "1"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252textbox63",
+                                                                                                                        "tipoControl": "CuadroTexto",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "Total",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "ValidaLongitud",
+                                                                                                                                    "valor": "14"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "SoloNumerosDecimales",
+                                                                                                                                    "valor": ""
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "MostrarDecimales",
+                                                                                                                                    "valor": "2"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "Obligatorio",
+                                                                                                                                    "valor": "1"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252textbox64",
+                                                                                                                        "tipoControl": "CuadroTexto",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "MontoDeducible",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "Monto deducible"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "MuestraEnGrid",
+                                                                                                                                    "valor": "Monto deducible"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "ValidaLongitud",
+                                                                                                                                    "valor": "14"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "SoloNumerosDecimales",
+                                                                                                                                    "valor": ""
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "AutocompletarEnterosDecimales",
+                                                                                                                                    "valor": "12"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "AutocompletarDecimales",
+                                                                                                                                    "valor": "2"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "OrdenColumnaEnGrid",
+                                                                                                                                    "valor": "6"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252textbox65",
+                                                                                                                        "tipoControl": "CuadroTexto",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "MontoRecuperacion",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "Cantidad recuperada de los gastos\tefectuados"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "ValidaLongitud",
+                                                                                                                                    "valor": "14"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "AutocompletarEnterosDecimales",
+                                                                                                                                    "valor": "12"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "AutocompletarDecimales",
+                                                                                                                                    "valor": "2"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "SoloNumerosDecimales",
+                                                                                                                                    "valor": ""
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252textbox66",
+                                                                                                                        "tipoControl": "CuadroTexto",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "CURP",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "ValidaLongitud",
+                                                                                                                                    "valor": "18"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "EnMayusculas",
+                                                                                                                                    "valor": "1"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "CURP del beneficiario"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloLargo",
+                                                                                                                                    "valor": "CURP del beneficiario"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252select67",
+                                                                                                                        "tipoControl": "CuadroCombinado",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "Nivel",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "Nivel educativo"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252select68",
+                                                                                                                        "tipoControl": "CuadroCombinado",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "Beneficiario",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "Beneficiario"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252textbox69",
+                                                                                                                        "tipoControl": "CuadroTexto",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "NombreAlumno",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "Nombre del beneficiario"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "ValidaLongitud",
+                                                                                                                                    "valor": "220"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "EnMayusculas",
+                                                                                                                                    "valor": "1"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252select70",
+                                                                                                                        "tipoControl": "CuadroCombinado",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "CreditoDerivado",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "¿Crédito derivado de fideicomiso?"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252select71",
+                                                                                                                        "tipoControl": "CuadroCombinado",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "CreditoDestinado",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "Crédito destinado a"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloLargo",
+                                                                                                                                    "valor": "Crédito destinado para"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "SoloLectura",
+                                                                                                                                    "valor": "20"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "id": "252textbox72",
+                                                                                                                        "tipoControl": "CuadroTexto",
+                                                                                                                        "idEntidadPropiedad": "2520003",
+                                                                                                                        "idPropiedad": "InteresReal",
+                                                                                                                        "idTipoFlujo": "",
+                                                                                                                        "orden": "",
+                                                                                                                        "atributos": {
+                                                                                                                            "atributo": [
+                                                                                                                                {
+                                                                                                                                    "nombre": "ValidaLongitud",
+                                                                                                                                    "valor": "14"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "SoloNumerosDecimales",
+                                                                                                                                    "valor": ""
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "MostrarDecimales",
+                                                                                                                                    "valor": "2"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "nombre": "TituloCorto",
+                                                                                                                                    "valor": "Interés real"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        "controles": {
+                                                                                                                            "control": []
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+]

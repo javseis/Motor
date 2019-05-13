@@ -1,0 +1,929 @@
+﻿<diagramacion>
+  <formulario idEntidad="1000" id="6" nombre="Personas Físicas" versionMayor="1" versionMenor="0">
+    <controles>
+      <control id="1089001" tipoControl="Grupo" idEntidadPropiedad="1089" orden="1">
+        <atributos>
+          <atributo nombre="CalculoAmortizacion" valor="E1089PAEP9,PEAAE|E1089PAEP26,PEAPAA" />
+          <atributo nombre="CalculoInversion" valor="E1089PAEP24,1" />
+          <atributo nombre="TituloCorto" valor="Actividades Profesionales" />
+          <atributo nombre="TituloLargo" valor="Actividades Profesionales&lt;br/&gt;(Sólo personas sin actividad empresarial)" />
+        </atributos>
+        <controles>
+          <control id="1089002" tipoControl="Columna" idEntidadPropiedad="1089" orden="2">
+            <controles>
+              <control id="1089003" tipoControl="Grupo" idEntidadPropiedad="1089" orden="3">
+                <controles>
+                  <control id="1089004" tipoControl="Columna" idEntidadPropiedad="1089" orden="4">
+                    <controles>
+                      <control id="1089005" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP1" orden="5">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="5" />
+                          <atributo nombre="SoloNumerosPositivos" valor="0" />
+                          <atributo nombre="TituloCorto" valor="Total de ingresos" />
+                          <atributo nombre="TituloLargo" valor="Total de ingresos" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089006" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP2" orden="6">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="6" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Ingresos exentos" />
+                          <atributo nombre="TituloLargo" valor="Ingresos exentos" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089007" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP3" orden="7">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="7" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Deducciones autorizadas" />
+                          <atributo nombre="TituloLargo" valor="Deducciones autorizadas" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089008" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP4" orden="8">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="8" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Utilidad fiscal" />
+                          <atributo nombre="TituloLargo" valor="Utilidad fiscal" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089009" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP5" orden="9">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="9" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Pérdida fiscal" />
+                          <atributo nombre="TituloLargo" valor="Pérdida fiscal" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089010" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP6" orden="10">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="10" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="PTU Pagada en el ejercicio" />
+                          <atributo nombre="TituloLargo" valor="PTU Pagada en el ejercicio" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Actividades profesionales - Columna 1" />
+                      <atributo nombre="TituloLargo" valor="Actividades profesionales - Columna 1" />
+                    </atributos>
+                  </control>
+                  <control id="1089011" tipoControl="Columna" idEntidadPropiedad="1089" orden="11">
+                    <controles>
+                      <control id="1089012" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP7" orden="12">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="12" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Diferencia (Utilidad)" />
+                          <atributo nombre="TituloLargo" valor="Diferencia (Utilidad)" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089013" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP8" orden="13">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="13" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Diferencia (Pérdida)" />
+                          <atributo nombre="TituloLargo" valor="Diferencia (Pérdida)" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089014" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP9" orden="14">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="14" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Pérdidas fiscales de ejercicios anteriores aplicadas en el ejercicio" />
+                          <atributo nombre="TituloLargo" valor="Pérdidas fiscales de ejercicios anteriores aplicadas en el ejercicio" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089015" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP10" orden="15">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="15" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Utilidad gravable acumulable" />
+                          <atributo nombre="TituloLargo" valor="Utilidad gravable acumulable" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Actividades profesionales-Columna 2" />
+                      <atributo nombre="TituloLargo" valor="Actividades profesionales-Columna 2" />
+                    </atributos>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Actividades profesionales" />
+                  <atributo nombre="TituloLargo" valor="Actividades profesionales" />
+                </atributos>
+              </control>
+              <control id="1089016" tipoControl="Grupo" idEntidadPropiedad="1089" orden="16">
+                <controles>
+                  <control id="1089017" tipoControl="Columna" idEntidadPropiedad="1089" orden="17">
+                    <controles>
+                      <control id="1089018" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP11" orden="18">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="18" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Sueldos, salarios y prestaciones a trabajadores con capacidades diferentes y/o adultos mayores" />
+                          <atributo nombre="TituloLargo" valor="Sueldos, salarios y prestaciones a trabajadores con capacidades diferentes y/o adultos mayores" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089019" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP12" orden="19">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="19" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Sueldos, salarios y prestaciones a otros trabajadores" />
+                          <atributo nombre="TituloLargo" valor="Sueldos, salarios y prestaciones a otros trabajadores" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089020" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP13" orden="20">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="20" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Contribuciones pagadas excepto ISR, IETU e IVA" />
+                          <atributo nombre="TituloLargo" valor="Contribuciones pagadas excepto ISR, IETU e IVA" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089021" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP14" orden="21">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="21" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Seguros y fianzas" />
+                          <atributo nombre="TituloLargo" valor="Seguros y fianzas" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089022" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP15" orden="22">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="22" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Viáticos y gastos de viaje" />
+                          <atributo nombre="TituloLargo" valor="Viáticos y gastos de viaje" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089023" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP16" orden="23">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="23" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Gasolina y mantenimiento de transporte" />
+                          <atributo nombre="TituloLargo" valor="Gasolina y mantenimiento de transporte" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089024" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP17" orden="24">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="24" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Aportaciones al SAR e INFONAVIT y jubilaciones por vejez" />
+                          <atributo nombre="TituloLargo" valor="Aportaciones al SAR e INFONAVIT y jubilaciones por vejez" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089026" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP18" orden="26">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="26" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Cuotas al IMSS" />
+                          <atributo nombre="TituloLargo" valor="Cuotas al IMSS" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089027" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP19" orden="27">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="27" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Impuesto local sobre los ingresos por servicios profesionales" />
+                          <atributo nombre="TituloLargo" valor="Impuesto local sobre los ingresos por servicios profesionales" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Deducciones por actividad profesional - Columna 1" />
+                      <atributo nombre="TituloLargo" valor="Deducciones por actividad profesional - Columna 1" />
+                    </atributos>
+                  </control>
+                  <control id="1089025" tipoControl="Columna" idEntidadPropiedad="1089" orden="25">
+                    <controles>
+                      <control id="1089029" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP21" orden="28">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="29" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Gastos realizados como consecuencia de desastres naturales" />
+                          <atributo nombre="TituloLargo" valor="Gastos realizados como consecuencia de desastres naturales" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089030" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP22" orden="29">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="30" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Deducción de los pagos efectuados por el uso o goce temporal de automóviles" />
+                          <atributo nombre="TituloLargo" valor="Deducción de los pagos efectuados por el uso o goce temporal de automóviles" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089039" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP27" orden="30">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="30" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Monto deducible al 47% (pagos que son ingresos exentos para el trabajador)" />
+                          <atributo nombre="TituloLargo" valor="Monto deducible al 47% (pagos que son ingresos exentos para el trabajador)" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089038" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP28" orden="31">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="30" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Monto total de los pagos que sean ingresos exentos para el trabajador" />
+                          <atributo nombre="TituloLargo" valor="Monto total de los pagos que sean ingresos exentos para el trabajador" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089040" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP29" orden="32">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="30" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Monto deducible al 53% (pagos que son ingresos exentos para el trabajador)" />
+                          <atributo nombre="TituloLargo" valor="Monto deducible al 53% (pagos que son ingresos exentos para el trabajador)" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089032" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP24" orden="33">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="30" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Otras deducciones" />
+                          <atributo nombre="TituloLargo" valor="Otras deducciones" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089028" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP20" orden="34">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="31" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Estímulo fiscal de las personas con discapacidad y/o adultos mayores" />
+                          <atributo nombre="TituloLargo" valor="Estímulo fiscal de las personas con discapacidad y/o adultos mayores" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1089031" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP23" orden="35">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="32" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Deducción adicional del fomento al primer empleo" />
+                          <atributo nombre="TituloLargo" valor="Deducción adicional del fomento al primer empleo" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Deducciones por actividad profesional - Columna 2" />
+                      <atributo nombre="TituloLargo" valor="Deducciones por actividad profesional - Columna 2" />
+                    </atributos>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Deducciones por actividades profesionales" />
+                  <atributo nombre="TituloLargo" valor="Deducciones por actividades profesionales" />
+                </atributos>
+              </control>
+              <control id="1089033" tipoControl="Grupo" idEntidadPropiedad="1089" orden="36">
+                <controles>
+                  <control id="1089034" tipoControl="Columna" idEntidadPropiedad="1089" orden="37">
+                    <controles>
+                      <control id="1089035" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP25" orden="38">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="35" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="PTU Por distribuir" />
+                          <atributo nombre="TituloLargo" valor="PTU Por distribuir" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Cifras al cierre - Columna 1" />
+                      <atributo nombre="TituloLargo" valor="Cifras al cierre - Columna 1" />
+                    </atributos>
+                  </control>
+                  <control id="1089036" tipoControl="Columna" idEntidadPropiedad="1089" orden="39">
+                    <controles>
+                      <control id="1089037" tipoControl="CuadroTexto" idEntidadPropiedad="1089" idPropiedad="AEP26" orden="40">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="37" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Perdidas fiscales de ejercicios anteriores, pendientes de amortizar, actualizadas" />
+                          <atributo nombre="TituloLargo" valor="Perdidas fiscales de ejercicios anteriores, pendientes de amortizar, actualizadas" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Cifras al cierre - Columna 2" />
+                      <atributo nombre="TituloLargo" valor="Cifras al cierre - Columna 2" />
+                    </atributos>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Cifras al cierre del ejercicio" />
+                  <atributo nombre="TituloLargo" valor="Cifras al cierre del ejercicio" />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Actividad profesional - Columna Principal" />
+              <atributo nombre="TituloLargo" valor="Actividad profesional - Columna Principal" />
+            </atributos>
+          </control>
+        </controles>
+      </control>
+      <control id="10980001" tipoControl="Grupo" idEntidadPropiedad="1098" orden="2">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Retenciones de ISR e IVA" />
+          <atributo nombre="TituloLargo" valor="Retenciones de ISR e IVA" />
+        </atributos>
+        <controles>
+          <control id="10980002" tipoControl="Columna" idEntidadPropiedad="1098" orden="2">
+            <controles>
+              <control id="10980003" tipoControl="ControlesGrid" idEntidadPropiedad="1098" orden="4">
+                <controles>
+                  <control id="10980004" tipoControl="Columna" idEntidadPropiedad="1098" orden="2">
+                    <controles>
+                      <control id="1098701" tipoControl="Oculto" idEntidadPropiedad="1098" idPropiedad="AES118TI" orden="0">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="Tipo de retencion" />
+                        </atributos>
+                      </control>
+                      <control id="10980009" tipoControl="CuadroTexto" idEntidadPropiedad="1098" idPropiedad="AES121" orden="2">
+                        <atributos>
+                          <atributo nombre="EnMayusculas" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="11" />
+                          <atributo nombre="TituloCorto" valor="RFC" />
+                          <atributo nombre="TituloLargo" valor="RFC" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="10980005" tipoControl="CuadroTexto" idEntidadPropiedad="1098" idPropiedad="AES118" orden="3">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="6" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Monto de los ingresos pagados" />
+                          <atributo nombre="TituloLargo" valor="Monto de los ingresos pagados" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Importes  - Columna 1" />
+                      <atributo nombre="TituloLargo" valor="Importes  - Columna 1" />
+                    </atributos>
+                  </control>
+                  <control id="10980008" tipoControl="Columna" idEntidadPropiedad="1098" orden="2">
+                    <controles>
+                      <control id="10980006" tipoControl="CuadroTexto" idEntidadPropiedad="1098" idPropiedad="AES119" orden="4">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="7" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="10980007" tipoControl="CuadroTexto" idEntidadPropiedad="1098" idPropiedad="AES120" orden="8">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="8" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Importes  - Columna 2" />
+                      <atributo nombre="TituloLargo" valor="Importes  - Columna 2" />
+                    </atributos>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Importes " />
+                  <atributo nombre="TituloLargo" valor="Importes " />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Retenciones de ISR e IVA - Columna Principal" />
+              <atributo nombre="TituloLargo" valor="Retenciones de ISR e IVA - Columna Principal" />
+            </atributos>
+          </control>
+        </controles>
+      </control>
+      <control id="11670001" tipoControl="Grupo" idEntidadPropiedad="1167" orden="2">
+        <atributos>
+          <atributo nombre="CargaMasivaRetenciones" valor="Y" />
+          <atributo nombre="TituloCorto" valor="Carga masiva de retenciones" />
+          <atributo nombre="TituloLargo" valor="Carga masiva de retenciones" />
+        </atributos>
+        <controles>
+          <control id="11670002" tipoControl="Columna" idEntidadPropiedad="1167" orden="2">
+            <controles>
+              <control id="11670003" tipoControl="ControlesGridRetenciones" idEntidadPropiedad="1167" orden="4">
+                <controles>
+                  <control id="11670004" tipoControl="Columna" idEntidadPropiedad="1167" orden="2">
+                    <controles>
+                      <control id="1167701" tipoControl="Oculto" idEntidadPropiedad="1167" idPropiedad="MASAES118TI" orden="0">
+                        <atributos>
+                          <atributo nombre="TituloCorto" valor="Tipo de retencion" />
+                        </atributos>
+                      </control>
+                      <control id="11670009" tipoControl="CuadroTexto" idEntidadPropiedad="1167" idPropiedad="MASAES121" orden="2">
+                        <atributos>
+                          <atributo nombre="EnMayusculas" valor="1" />
+                          <atributo nombre="MuestraEnGrid" />
+                          <atributo nombre="OrdenTabulador" valor="11" />
+                          <atributo nombre="TituloCorto" valor="RFC" />
+                          <atributo nombre="TituloLargo" valor="RFC" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="11670005" tipoControl="CuadroTexto" idEntidadPropiedad="1167" idPropiedad="MASAES118" orden="3">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="MuestraEnGrid" />
+                          <atributo nombre="OrdenTabulador" valor="6" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="TituloCorto" valor="Monto de los ingresos pagados" />
+                          <atributo nombre="TituloLargo" valor="Monto de los ingresos pagados" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Importes  - Columna 1" />
+                      <atributo nombre="TituloLargo" valor="Importes  - Columna 1" />
+                    </atributos>
+                  </control>
+                  <control id="11670008" tipoControl="Columna" idEntidadPropiedad="1167" orden="2">
+                    <controles>
+                      <control id="11670006" tipoControl="CuadroTexto" idEntidadPropiedad="1167" idPropiedad="MASAES119" orden="4">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="MuestraEnGrid" />
+                          <atributo nombre="OrdenTabulador" valor="7" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="11670007" tipoControl="CuadroTexto" idEntidadPropiedad="1167" idPropiedad="MASAES120" orden="8">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="MuestraEnGrid" />
+                          <atributo nombre="OrdenTabulador" valor="8" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Importes  - Columna 2" />
+                      <atributo nombre="TituloLargo" valor="Importes  - Columna 2" />
+                    </atributos>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Importes " />
+                  <atributo nombre="TituloLargo" valor="Importes " />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Retenciones de ISR e IVA - Columna Principal" />
+              <atributo nombre="TituloLargo" valor="Retenciones de ISR e IVA - Columna Principal" />
+            </atributos>
+          </control>
+        </controles>
+      </control>
+      <control id="1096001" tipoControl="Grupo" idEntidadPropiedad="1096" orden="1">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Actividades Profesionales" />
+          <atributo nombre="TituloLargo" valor="Actividades Profesionales&lt;br/&gt;(Sólo personas sin actividad empresarial)" />
+        </atributos>
+        <controles>
+          <control id="1096002" tipoControl="Columna" idEntidadPropiedad="1096" orden="2">
+            <controles>
+              <control id="1096003" tipoControl="Grupo" idEntidadPropiedad="1096" orden="3">
+                <controles>
+                  <control id="1096004" tipoControl="Columna" idEntidadPropiedad="1096" orden="4">
+                    <controles>
+                      <control id="1096005" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="111880" orden="5">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="5" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Total de ingresos" />
+                          <atributo nombre="TituloLargo" valor="Total de ingresos" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096006" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="111881" orden="6">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="6" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Ingresos exentos" />
+                          <atributo nombre="TituloLargo" valor="Ingresos exentos" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096007" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="111882" orden="7">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="7" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Deducciones autorizadas" />
+                          <atributo nombre="TituloLargo" valor="Deducciones autorizadas" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096008" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="111883" orden="8">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="8" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Utilidad fiscal" />
+                          <atributo nombre="TituloLargo" valor="Utilidad fiscal" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096009" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="111884" orden="9">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="9" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Pérdida fiscal" />
+                          <atributo nombre="TituloLargo" valor="Pérdida fiscal" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Actividades profesionales - Columna 1" />
+                      <atributo nombre="TituloLargo" valor="Actividades profesionales - Columna 1" />
+                    </atributos>
+                  </control>
+                  <control id="1096011" tipoControl="Columna" idEntidadPropiedad="1096" orden="11">
+                    <controles>
+                      <control id="1096010" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="111955" orden="10">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="10" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="PTU Pagada en el ejercicio" />
+                          <atributo nombre="TituloLargo" valor="PTU Pagada en el ejercicio" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096012" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="111953" orden="12">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="12" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Diferencia (Utilidad)" />
+                          <atributo nombre="TituloLargo" valor="Diferencia (Utilidad)" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096013" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="111954" orden="13">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="13" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Diferencia (Pérdida)" />
+                          <atributo nombre="TituloLargo" valor="Diferencia (Pérdida)" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096014" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="111885" orden="14">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="14" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Pérdidas fiscales de ejercicios anteriores aplicadas en el ejercicio" />
+                          <atributo nombre="TituloLargo" valor="Pérdidas fiscales de ejercicios anteriores aplicadas en el ejercicio" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096015" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="111886" orden="15">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="15" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Utilidad gravable acumulable" />
+                          <atributo nombre="TituloLargo" valor="Utilidad gravable acumulable" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Actividades profesionales-Columna 2" />
+                      <atributo nombre="TituloLargo" valor="Actividades profesionales-Columna 2" />
+                    </atributos>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Actividades profesionales" />
+                  <atributo nombre="TituloLargo" valor="Actividades profesionales" />
+                </atributos>
+              </control>
+              <control id="1096016" tipoControl="Grupo" idEntidadPropiedad="1096" orden="16">
+                <controles>
+                  <control id="1096017" tipoControl="Columna" idEntidadPropiedad="1096" orden="17">
+                    <controles>
+                      <control id="1096018" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="117001" orden="18">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="18" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Sueldos, salarios y prestaciones a trabajadores con capacidades diferentes y/o adultos mayores" />
+                          <atributo nombre="TituloLargo" valor="Sueldos, salarios y prestaciones a trabajadores con capacidades diferentes y/o adultos mayores" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096019" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="117989" orden="19">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="19" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Sueldos, salarios y prestaciones a otros trabajadores" />
+                          <atributo nombre="TituloLargo" valor="Sueldos, salarios y prestaciones a otros trabajadores" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096020" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="117073" orden="20">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="20" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Contribuciones pagadas excepto ISR, IETU e IVA" />
+                          <atributo nombre="TituloLargo" valor="Contribuciones pagadas excepto ISR, IETU e IVA" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096021" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="117071" orden="21">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="21" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Seguros y fianzas" />
+                          <atributo nombre="TituloLargo" valor="Seguros y fianzas" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096022" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="117076" orden="22">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="22" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Viáticos y gastos de viaje" />
+                          <atributo nombre="TituloLargo" valor="Viáticos y gastos de viaje" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096023" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="117285" orden="23">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="23" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Gasolina y mantenimiento de transporte" />
+                          <atributo nombre="TituloLargo" valor="Gasolina y mantenimiento de transporte" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096024" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="117065" orden="24">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="24" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Aportaciones al SAR e INFONAVIT y jubilaciones por vejez" />
+                          <atributo nombre="TituloLargo" valor="Aportaciones al SAR e INFONAVIT y jubilaciones por vejez" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096026" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="117066" orden="26">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="26" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Cuotas al IMSS" />
+                          <atributo nombre="TituloLargo" valor="Cuotas al IMSS" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096027" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="117983" orden="27">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="27" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Impuesto local sobre los ingresos por servicios profesionales" />
+                          <atributo nombre="TituloLargo" valor="Impuesto local sobre los ingresos por servicios profesionales" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Deducciones por actividad profesional - Columna 1" />
+                      <atributo nombre="TituloLargo" valor="Deducciones por actividad profesional - Columna 1" />
+                    </atributos>
+                  </control>
+                  <control id="1096025" tipoControl="Columna" idEntidadPropiedad="1096" orden="25">
+                    <controles>
+                      <control id="1096029" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="117990" orden="29">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="28" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Gastos realizados como consecuencia de desastres naturales" />
+                          <atributo nombre="TituloLargo" valor="Gastos realizados como consecuencia de desastres naturales" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096030" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="139842" orden="30">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="29" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Deducción de los pagos efectuados por el uso o goce temporal de automóviles" />
+                          <atributo nombre="TituloLargo" valor="Deducción de los pagos efectuados por el uso o goce temporal de automóviles" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096038" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="139863" orden="31">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="30" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Monto total de los pagos que sean ingresos exentos para el trabajador" />
+                          <atributo nombre="TituloLargo" valor="Monto total de los pagos que sean ingresos exentos para el trabajador" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096039" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="139864" orden="32">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="31" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Monto deducible al 47% (pagos que son ingresos exentos para el trabajador)" />
+                          <atributo nombre="TituloLargo" valor="Monto deducible al 47% (pagos que son ingresos exentos para el trabajador)" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096040" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="139865" orden="33">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="32" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Monto deducible al 53% (pagos que son ingresos exentos para el trabajador)" />
+                          <atributo nombre="TituloLargo" valor="Monto deducible al 53% (pagos que son ingresos exentos para el trabajador)" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096032" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="117889" orden="35">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="33" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Otras deducciones" />
+                          <atributo nombre="TituloLargo" valor="Otras deducciones" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096028" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="117986" orden="36">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="34" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Estímulo fiscal de las personas con discapacidad y/o adultos mayores" />
+                          <atributo nombre="TituloLargo" valor="Estímulo fiscal de las personas con discapacidad y/o adultos mayores" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                      <control id="1096031" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="139821" orden="37">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="35" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Deducción adicional del fomento al primer empleo" />
+                          <atributo nombre="TituloLargo" valor="Deducción adicional del fomento al primer empleo" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Deducciones por actividad profesional - Columna 2" />
+                      <atributo nombre="TituloLargo" valor="Deducciones por actividad profesional - Columna 2" />
+                    </atributos>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Deducciones por actividades profesionales" />
+                  <atributo nombre="TituloLargo" valor="Deducciones por actividades profesionales" />
+                </atributos>
+              </control>
+              <control id="1096033" tipoControl="Grupo" idEntidadPropiedad="1096" orden="36">
+                <controles>
+                  <control id="1096034" tipoControl="Columna" idEntidadPropiedad="1096" orden="37">
+                    <controles>
+                      <control id="1096035" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="201356" orden="38">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="36" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="PTU Por distribuir" />
+                          <atributo nombre="TituloLargo" valor="PTU Por distribuir" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Cifras al cierre - Columna 1" />
+                      <atributo nombre="TituloLargo" valor="Cifras al cierre - Columna 1" />
+                    </atributos>
+                  </control>
+                  <control id="1096036" tipoControl="Columna" idEntidadPropiedad="1096" orden="39">
+                    <controles>
+                      <control id="1096037" tipoControl="CuadroTexto" idEntidadPropiedad="1096" idPropiedad="111191" orden="40">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="OrdenTabulador" valor="37" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                          <atributo nombre="TituloCorto" valor="Pérdidas fiscales de ejercicios anteriores, pendientes de amortizar, actualizadas" />
+                          <atributo nombre="TituloLargo" valor="Pérdidas fiscales de ejercicios anteriores, pendientes de amortizar, actualizadas" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                        </atributos>
+                      </control>
+                    </controles>
+                    <atributos>
+                      <atributo nombre="TituloCorto" valor="Cifras al cierre - Columna 2" />
+                      <atributo nombre="TituloLargo" valor="Cifras al cierre - Columna 2" />
+                    </atributos>
+                  </control>
+                </controles>
+                <atributos>
+                  <atributo nombre="TituloCorto" valor="Cifras al cierre del ejercicio" />
+                  <atributo nombre="TituloLargo" valor="Cifras al cierre del ejercicio" />
+                </atributos>
+              </control>
+            </controles>
+            <atributos>
+              <atributo nombre="TituloCorto" valor="Actividad profesional - Columna Principal" />
+              <atributo nombre="TituloLargo" valor="Actividad profesional - Columna Principal" />
+            </atributos>
+          </control>
+        </controles>
+      </control>
+    </controles>
+  </formulario>
+</diagramacion>

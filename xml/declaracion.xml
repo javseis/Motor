@@ -1,0 +1,561 @@
+<modeloDatos >
+	<relacionesGrid/>
+	<calculos/>
+	<SubRegimenes>
+		<catalogo xmlns="http://www.w3.org/1999/xhtml">
+			<idcatalogo>605</idcatalogo>
+			<descripcion>Sueldos, salarios y asimilados</descripcion>
+		</catalogo>
+	</SubRegimenes>
+	<Roles>
+		<Catalogo>
+			<IdCatalogo>2</IdCatalogo>
+			<Descripcion>Persona Moral</Descripcion>
+		</Catalogo>
+		<Catalogo>
+			<IdCatalogo>40</IdCatalogo>
+			<Descripcion>Contacto Gestión (ORG)</Descripcion>
+		</Catalogo>
+		<Catalogo>
+			<IdCatalogo>300030</IdCatalogo>
+			<Descripcion>PATRON PM</Descripcion>
+		</Catalogo>
+		<Catalogo>
+			<IdCatalogo>300051</IdCatalogo>
+			<Descripcion>PAGADOR PM</Descripcion>
+		</Catalogo>
+		<Catalogo>
+			<IdCatalogo>300055</IdCatalogo>
+			<Descripcion>CONTRIBUYENTE PM</Descripcion>
+		</Catalogo>
+		<Catalogo>
+			<IdCatalogo>300066</IdCatalogo>
+			<Descripcion>CONTR OBL PAGO POR INTERNET PM</Descripcion>
+		</Catalogo>
+		<Catalogo>
+			<IdCatalogo>300483</IdCatalogo>
+			<Descripcion>ACTIVIDAD MEDIA PM</Descripcion>
+		</Catalogo>
+		<Catalogo>
+			<IdCatalogo>300506</IdCatalogo>
+			<Descripcion>PM RIESGO</Descripcion>
+		</Catalogo>
+		<Catalogo>
+			<IdCatalogo>300513</IdCatalogo>
+			<Descripcion>BUEN_FIN</Descripcion>
+		</Catalogo>
+		<Catalogo>
+			<IdCatalogo>300532</IdCatalogo>
+			<Descripcion>INTEGRADA PM</Descripcion>
+		</Catalogo>
+	</Roles>
+	<ClabesBancarias/>
+	<DetalleErrores>
+		<entidaderror xmlns="http://www.w3.org/1999/xhtml" id="360006" grid="1">
+			<fila indice="0">
+				<detalle propiedad="SS1" indice="0" definicion="SI(ESNULO(&quot;$SS1_0&quot;)&amp;&amp;ESNULO(&quot;$SS2_0&quot;),FALSO,VERDADERO)" tiporegla="Validacion" resultado="false" mensaje="Es obligatorio llenar el campo de &lt;b&gt;Nombre, denominación o razón social&lt;/b&gt;"/>
+				<detalle propiedad="SS2" indice="0" definicion="SI(ESNULO(&quot;$SS2_0&quot;),FALSO,VERDADERO)" tiporegla="Validacion" resultado="false" mensaje="El &lt;b&gt;Nombre, denominación o razón social&lt;/b&gt; es obligatorio"/>
+				<detalle propiedad="SS2" indice="0" definicion="SI(ESNULO(&quot;$SS1_0&quot;)&amp;&amp;ESNULO(&quot;$SS2_0&quot;),FALSO,VERDADERO)" tiporegla="Validacion" resultado="false" mensaje="Es obligatorio llenar el campo de &lt;b&gt;Nombre, denominación o razón social&lt;/b&gt;"/>
+				<detalle propiedad="JSE1" indice="0" definicion="SI((ESNULO(&quot;$JSE1_0&quot;)||$JSE1_0&lt;0),FALSO,VERDADERO)" tiporegla="Validacion" resultado="false" mensaje="Debe tener un valor"/>
+				<detalle propiedad="JP1" indice="0" definicion="SI(ESNULO(&quot;$JP1_0&quot;),FALSO,VERDADERO)" tiporegla="Validacion" resultado="false" mensaje="El campo debe tener un valor"/>
+				<detalle propiedad="II1" indice="0" definicion="SI((ESNULO(&quot;$II1_0&quot;))&amp;&amp;(ESNULO(&quot;$II2_0&quot;))&amp;&amp;(ESNULO(&quot;$II4_0&quot;))&amp;&amp;(ESNULO(&quot;$II5_0&quot;)),FALSO,VERDADERO)" tiporegla="Validacion" resultado="false" mensaje="Se requiere información de ingresos por indemnización"/>
+				<detalle propiedad="II1" indice="0" definicion="SI($II1_0&lt;=0,FALSO,VERDADERO)" tiporegla="Validacion" resultado="false" mensaje="Debe ser mayor a cero"/>
+				<detalle propiedad="II2" indice="0" definicion="SI((ESNULO(&quot;$II1_0&quot;))&amp;&amp;(ESNULO(&quot;$II2_0&quot;))&amp;&amp;(ESNULO(&quot;$II4_0&quot;))&amp;&amp;(ESNULO(&quot;$II5_0&quot;)),FALSO,VERDADERO)" tiporegla="Validacion" resultado="false" mensaje="Se requiere información de ingresos por indemnización"/>
+				<detalle propiedad="II4" indice="0" definicion="SI((ESNULO(&quot;$II1_0&quot;))&amp;&amp;(ESNULO(&quot;$II2_0&quot;))&amp;&amp;(ESNULO(&quot;$II4_0&quot;))&amp;&amp;(ESNULO(&quot;$II5_0&quot;)),FALSO,VERDADERO)" tiporegla="Validacion" resultado="false" mensaje="Se requiere información de ingresos por indemnización"/>
+				<detalle propiedad="II4" indice="0" definicion="SI((ESNULO(&quot;$II4_0&quot;))||($II4_0&lt;=0),FALSO,VERDADERO)" tiporegla="Validacion" resultado="false" mensaje="Debe de ser mayor a cero"/>
+				<detalle propiedad="II5" indice="0" definicion="SI((ESNULO(&quot;$II1_0&quot;))&amp;&amp;(ESNULO(&quot;$II2_0&quot;))&amp;&amp;(ESNULO(&quot;$II4_0&quot;))&amp;&amp;(ESNULO(&quot;$II5_0&quot;)),FALSO,VERDADERO)" tiporegla="Validacion" resultado="false" mensaje="Se requiere información de ingresos por indemnización"/>
+				<detalle propiedad="AS1" indice="0" definicion="SI($AS1_0&gt;0,VERDADERO,FALSO)" tiporegla="Validacion" resultado="false" mensaje="El valor debe ser mayor a $0.00"/>
+				<detalle propiedad="AS2" indice="0" definicion="SI($AS2_0&lt;=0,FALSO,VERDADERO)" tiporegla="Validacion" resultado="false" mensaje="Debe ser superior a cero"/>
+			</fila>
+		</entidaderror>
+	</DetalleErrores>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" claveimpuesto="0119" id="360001" titulo="Detalle del Pago (ISR)" titulolargo="Determinación del Pago ISR Personas Físicas" tipo="SAT_DETERMINACION_PAGO" clave="SAT_DET_PAG">
+		<propiedad id="C6" claveinformativa="C6" clave="SAT_C6" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C7" claveinformativa="C7" clave="SAT_C7" orden="1" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="C8" claveinformativa="C8" clave="SAT_C8" orden="2" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C9" claveinformativa="C9" clave="SAT_C9" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C10" claveinformativa="C10" clave="SAT_C10" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C11" claveinformativa="C11" clave="SAT_C11" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="C12" claveinformativa="C12" clave="SAT_C12" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C12A" claveinformativa="C12A" clave="SAT_C12A" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C12B" claveinformativa="C12B" clave="SAT_C12B" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C13" claveinformativa="C13" clave="SAT_C13" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C14" claveinformativa="C14" clave="SAT_C14" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C15" claveinformativa="C15" clave="SAT_C15" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C16" claveinformativa="C16" clave="SAT_C16" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C17" claveinformativa="C17" clave="SAT_C17" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C18" claveinformativa="C18" clave="SAT_C18" orden="" separamiles="1" tieneotrosestimulos="1" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C19" claveinformativa="C19" clave="SAT_C19" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C34" claveinformativa="C34" clave="SAT_C34" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C21" claveinformativa="C21" clave="SAT_C21" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="C5" claveinformativa="C5" clave="SAT_C5" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C20" claveinformativa="C20" clave="SAT_C20" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C20B" claveinformativa="C20B" clave="SAT_C20B" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C20A" claveinformativa="C20A" clave="SAT_20A" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C22" claveinformativa="C22" clave="SAT_C22" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="C23A" claveinformativa="C23A" clave="SAT_C23A" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="C23" claveinformativa="C23" clave="SAT_C23" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C24" claveinformativa="C24" clave="SAT_C24" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C25" claveinformativa="C25" clave="SAT_C25" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="C26" claveinformativa="C26" clave="SAT_C26" orden="" separamiles="1" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="UC26" claveinformativa="UC26" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="220096" claveinformativa="220096" clave="SAT_220096" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="C28" claveinformativa="C28" clave="SAT_C28" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="220366" claveinformativa="220366" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" claveimpuesto="0119" id="360002" titulo="Detalle de Compensaciones" titulolargo="Detalle de Compensaciones" tipo="SAT_COMPENSACIONES" clave="SAT_COM" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" claveimpuesto="0119" id="360003" titulo="Detalle de Otros Estímulos" titulolargo="Detalle de Otros Estímulos" tipo="SAT_OTROS_ESTIMULOS" clave="SAT_OTR_EST" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360004" titulo="Cfdis" titulolargo="Cfdis" tipo="SAT_ANEXOS" clave="SAT_DED_PER" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360005A" tipo="SAT_ANEXOS " clave="SAT_TOT_DED_PER">
+		<propiedad id="TotalDeduccionesPersonales" claveinformativa="TotalDeduccionesPersonales" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="TotalEstimulosFiscales" claveinformativa="TotalEstimulosFiscales" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="TotalSinSeleccion" claveinformativa="TotalSinSeleccion" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="MontoPorDeducir" claveinformativa="MontoPorDeducir" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="TotalMontoRecuperacion" claveinformativa="TotalMontoRecuperacion" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="11060405" claveinformativa="11060405" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="11060404" claveinformativa="11060404" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="11060406" claveinformativa="11060406" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="MontoHonorariosMedicos" claveinformativa="MontoHonorariosMedicos" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="MontoIncapacidadDiscapacidad" claveinformativa="MontoIncapacidadDiscapacidad" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="MontoFunerales" claveinformativa="MontoFunerales" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="MontoDonativos" claveinformativa="MontoDonativos" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="MontoInteresesHipotecarios" claveinformativa="MontoInteresesHipotecarios" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="MontoAportaciones" claveinformativa="MontoAportaciones" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="MontoPrimasSeguros" claveinformativa="MontoPrimasSeguros" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="MontoTransportacionEscolar" claveinformativa="MontoTransportacionEscolar" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="MontoAhorro" claveinformativa="MontoAhorro" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="MontoEducativos" claveinformativa="MontoEducativos" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="TieneIncapacidad" claveinformativa="TieneIncapacidad" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360005" tipo="SAT_ANEXOS " clave="SAT_SUE_SAL" grid="1" numeroelementos="1">
+		<fila identificador="1" orden="1" indice="0" error="0">
+			<propiedad id="SS1" claveinformativa="206005" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">SAT970701NN3</propiedad>
+			<propiedad id="SS2" claveinformativa="206011" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">SERVICIO DE ADMINISTRACION TRIBUTARIA</propiedad>
+			<propiedad id="SS3" claveinformativa="117934" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">343630</propiedad>
+			<propiedad id="SS4" claveinformativa="117746" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">5309</propiedad>
+			<propiedad id="SS5" claveinformativa="117695" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">60880</propiedad>
+			<propiedad id="SS6" claveinformativa="111891" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="SS7" claveinformativa="117936" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="SS8" claveinformativa="117701" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="SS9" claveinformativa="117703" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="SS10" claveinformativa="117705" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="SS11" claveinformativa="117704" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="SS12" claveinformativa="11070501" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="SS18" claveinformativa="C7A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="AS1" claveinformativa="117815" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="AS2" claveinformativa="117816" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="II1" claveinformativa="117669" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="II2" claveinformativa="117707" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="II3" claveinformativa="117806" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="II4" claveinformativa="117808" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="II5" claveinformativa="117809" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="JP1" claveinformativa="117670" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="JP2" claveinformativa="117777" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="JP4" claveinformativa="117804" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="JSE1" claveinformativa="117754" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="JSE2" claveinformativa="117777" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="JSE3" claveinformativa="117803" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="JSE4" claveinformativa="117804" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="SS20" claveinformativa="SS20" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="SS21" claveinformativa="SS21" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="II12" claveinformativa="II12" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="II13" claveinformativa="II13" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="II14" claveinformativa="II14" clave="Ingreso acumulable (comparación ingreso gravado vs USMO)" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="II15" claveinformativa="II15" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="II10" claveinformativa="11070705" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="JP9" claveinformativa="JP9" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="JP10" claveinformativa="JP10" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="JP8" claveinformativa="JP8" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="JSE11" claveinformativa="JSE11" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="JSE12" claveinformativa="JSE12" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="JSE13" claveinformativa="JSE13" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="JSE14" claveinformativa="JSE14" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+			<propiedad id="SSEXE" claveinformativa="SSEXE" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+			<propiedad id="SSMR" claveinformativa="SSMR" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">343630</propiedad>
+			<propiedad id="SSRISR" claveinformativa="SSRISR" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">60880</propiedad>
+			<propiedad id="SSSE" claveinformativa="SSSE" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		</fila>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360007" tipo="SAT_ANEXOS " clave="SAT_TOT_SAL">
+		<propiedad id="IA8" claveinformativa="11072801" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="PP9" claveinformativa="11072802" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IR10" claveinformativa="11072803" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="SPC11" claveinformativa="11072804" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ISRINA24" claveinformativa="11072805" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="SS22" claveinformativa="SS22" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="SS23" claveinformativa="SS23" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="SS24" claveinformativa="SS24" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SS19" claveinformativa="SS19" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARRSS02" claveinformativa="ARRSS02" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARRSS00" claveinformativa="ARRSS00" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARRSS01" claveinformativa="ARRSS01" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IA12" claveinformativa="11072001" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360008" tipo="SAT_LINEA_CAPTURA_PARCIALIDADES" clave="SAT_LC_PRC" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360009" tipo="SAT_ANEXOS " clave="SAT_ARR">
+		<propiedad id="ARR01" claveinformativa="140A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SARR01" claveinformativa="11081201" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR02" claveinformativa="140Bis" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR03" claveinformativa="11081301" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR04" claveinformativa="143A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR05" claveinformativa="11081302" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SARR02" claveinformativa="11081401" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR06E1" claveinformativa="11081501" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR06E2" claveinformativa="11081502" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR06E3" claveinformativa="11081503" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR06" claveinformativa="11081504" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR07" claveinformativa="308A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SARR05" claveinformativa="308A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR08" claveinformativa="150A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SARR06" claveinformativa="150A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR09" claveinformativa="11081601" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SARR07" claveinformativa="11081601" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR20" claveinformativa="11081303" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR00A" claveinformativa="ARR00A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR00B" claveinformativa="ARR00B" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR00C" claveinformativa="ARR00C" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360010" tipo="SAT_ANEXOS " clave="SAT_ARR_MON_PEN" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360011" tipo="SAT_ANEXOS " clave="SAT_ACT_EMP">
+		<propiedad id="ACE01" claveinformativa="220063" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE02" claveinformativa="11091201" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE03" claveinformativa="11091202" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE04" claveinformativa="220067" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE05" claveinformativa="11091301" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE06" claveinformativa="11091302" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE07E1" claveinformativa="11091501" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE07E2" claveinformativa="11091502" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE07E3" claveinformativa="11091503" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE07E4" claveinformativa="11091504" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE07" claveinformativa="11091505" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE08" claveinformativa="11092101" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE09" claveinformativa="11092102" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE10" claveinformativa="11092103" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE11" claveinformativa="11092104" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE12" claveinformativa="11092105" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE13" claveinformativa="11092106" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE14" claveinformativa="220070A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE15" claveinformativa="11091801" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE25" claveinformativa="11092901" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE26" claveinformativa="11093001" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="113047" claveinformativa="113047" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="114007" claveinformativa="114007" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="115010" claveinformativa="115010" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE00A" claveinformativa="ACE00A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360012" tipo="SAT_ANEXOS " clave="SAT_ACT_EMP_DET_ING" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360013" tipo="SAT_ANEXOS " clave="SAT_ACT_EMP_DET_DED_AUT" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360014" tipo="SAT_ANEXOS " clave="SAT_ACT_EMP_POS_FIN_ACT" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360015" tipo="SAT_ANEXOS " clave="SAT_ACT_EMP_POS_FIN_PAS" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360016" tipo="SAT_ANEXOS " clave="SAT_ACT_EMP_POS_FIN_CAP" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360017" tipo="" clave="SAT_SER_PRO">
+		<propiedad id="SP01" claveinformativa="220063" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP02" claveinformativa="11101201" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP03" claveinformativa="11101202" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP04" claveinformativa="11101203" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP05" claveinformativa="220067" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP06" claveinformativa="11101301" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP07" claveinformativa="11101302" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP08E1" claveinformativa="11101501" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP08E2" claveinformativa="11101502" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP08E3" claveinformativa="11101503" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP08" claveinformativa="11101504" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP09" claveinformativa="11102101" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP10" claveinformativa="11102102" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP11" claveinformativa="11102103" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP12" claveinformativa="11102104" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP13" claveinformativa="11102105" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP14" claveinformativa="11102106" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP15" claveinformativa="220070A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP16" claveinformativa="220071" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP17" claveinformativa="11101801" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP28" claveinformativa="11101303" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP00A" claveinformativa="SP00A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP00B" claveinformativa="SP00B" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360018" tipo="SAT_ANEXOS " clave="SAT_SER_PRO_MON_PEN" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360019" tipo="SAT_ANEXOS " clave="SAT_ING_SIS_FIN" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360020" tipo="SAT_ANEXOS " clave="SAT_ING_SIS_NO_FIN" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360021" tipo="SAT_ANEXOS " clave="SAT_ING_RET_PAR_TOT" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360022" tipo="SAT_ANEXOS " clave="SAT_TOT_INT">
+		<propiedad id="IN01" claveinformativa="11122201" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN02" claveinformativa="11122202" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN03" claveinformativa="11122203" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN04" claveinformativa="11122204" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN05" claveinformativa="11122306" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN06" claveinformativa="11122307" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN07" claveinformativa="11122308" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN08" claveinformativa="11122309" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN09" claveinformativa="11122405" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN10" claveinformativa="11122406" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN11" claveinformativa="11122407" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="INT01" claveinformativa="11122408" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="INT02" claveinformativa="11122409" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="INT03" claveinformativa="11122410" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="INT04" claveinformativa="11122411" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="INT05" claveinformativa="11122412" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="INT06" claveinformativa="11122413" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN12" claveinformativa="11122414" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN13" claveinformativa="11122415" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN14" claveinformativa="11122501" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="INT01Ejercicio" claveinformativa="INT01Ejercicio" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2011</propiedad>
+		<propiedad id="INT02Ejercicio" claveinformativa="INT02Ejercicio" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2012</propiedad>
+		<propiedad id="INT03Ejercicio" claveinformativa="INT03Ejercicio" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2013</propiedad>
+		<propiedad id="INT04Ejercicio" claveinformativa="INT04Ejercicio" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2014</propiedad>
+		<propiedad id="INT05Ejercicio" claveinformativa="INT05Ejercicio" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2015</propiedad>
+		<propiedad id="IN00A" claveinformativa="IN00A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN00B" claveinformativa="IN00B" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN00C" claveinformativa="IN00C" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360023" tipo="SAT_ANEXOS " clave="SAT_DIV" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360024" tipo="SAT_ANEXOS " clave="SAT_DIV_TOT">
+		<propiedad id="DIV01" claveinformativa="11131205" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIV02" claveinformativa="11131206" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIV03" claveinformativa="11131207" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIV00" claveinformativa="DIV00" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIV00A" claveinformativa="DIV00A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360025" tipo="SAT_ANEXOS " clave="SAT_DEM_ING" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360026" tipo="SAT_ANEXOS " clave="SAT_DEM_ING_TOT">
+		<propiedad id="DI01" claveinformativa="11141201" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DI02" claveinformativa="11141202" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DI03" claveinformativa="11141203" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIC1" claveinformativa="11141204" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIC2" claveinformativa="11141205" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIC3" claveinformativa="11141205" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIP10" claveinformativa="11141212" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIP11" claveinformativa="11141213" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIP12" claveinformativa="11141214" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIP13" claveinformativa="11141215" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIP14" claveinformativa="11141216" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIP15" claveinformativa="11141217" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIP10Ejercicio" claveinformativa="DIP10Ejercicio" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2011</propiedad>
+		<propiedad id="DIP11Ejercicio" claveinformativa="DIP11Ejercicio" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2012</propiedad>
+		<propiedad id="DIP12Ejercicio" claveinformativa="DIP12Ejercicio" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2013</propiedad>
+		<propiedad id="DIP13Ejercicio" claveinformativa="DIP13Ejercicio" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2014</propiedad>
+		<propiedad id="DIP14Ejercicio" claveinformativa="DIP14Ejercicio" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2015</propiedad>
+		<propiedad id="DIP6" claveinformativa="11141218" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIP7" claveinformativa="11141219" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIP8" claveinformativa="11141220" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DI04" claveinformativa="310A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DI05" claveinformativa="11141701" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DI06" claveinformativa="11141801" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DI00A" claveinformativa="DI00A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DI00B" claveinformativa="DI00B" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DI00C" claveinformativa="DI00C" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SUMDIPA" claveinformativa="SUMDIPA" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360027" tipo="SAT_ANEXOS " clave="SAT_PRE" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360028" tipo="SAT_ANEXOS " clave="SAT_PRE_TOT">
+		<propiedad id="PRE01" claveinformativa="11151206" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="PRE02" claveinformativa="11151207" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="PRE03" claveinformativa="11151801" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="PRE00" claveinformativa="PRE00" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360029" tipo="SAT_ANEXOS " clave="SAT_ENA_01" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360030" tipo="SAT_ANEXOS " clave="SAT_ENA_02" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360031" tipo="SAT_ANEXOS " clave="SAT_ENA_TOT">
+		<propiedad id="EB01" claveinformativa="11161219" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB02" claveinformativa="11161220" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB03" claveinformativa="11161221" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB04" claveinformativa="11161222" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB05" claveinformativa="EB05" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EBT1" claveinformativa="11161223" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EBT2" claveinformativa="11161224" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EBT3" claveinformativa="11161225" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EBP1" claveinformativa="11161226" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EBP2" claveinformativa="11161227" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EBP3" claveinformativa="11161228" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB06" claveinformativa="11162501" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB07" claveinformativa="11161601" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB08" claveinformativa="11161602" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB09" claveinformativa="11161701" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB10" claveinformativa="11162601" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB11" claveinformativa="11161801" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB00A" claveinformativa="EB00A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB00B" claveinformativa="EB00B" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB00C" claveinformativa="EB00C" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB00D" claveinformativa="EB00D" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB00E" claveinformativa="EB00E" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB00F" claveinformativa="EB00F" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SUMAEBD5" claveinformativa="" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SUMAEBDP6" claveinformativa="" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SUMAEBD7" claveinformativa="" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SUMAEBDP4" claveinformativa="" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SUMEBD5" claveinformativa="SUMEBD5" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SUMEBD7" claveinformativa="SUMEBD7" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SUMEBDP6" claveinformativa="SUMA EBDP6" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SUMEBDP4" claveinformativa="SUMEBDP4" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360032" tipo="SAT_ANEXOS " clave="SAT_ADQ_BIE" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360033" tipo="SAT_ANEXOS " clave="SAT_TOT_ADQ_BIE">
+		<propiedad id="AB01" claveinformativa="11171201" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="AB02" claveinformativa="11171202" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="AB03" claveinformativa="11171203" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="AB04" claveinformativa="11171208" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="AB05" claveinformativa="11171209" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="AB06" claveinformativa="11171204" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="AB07" claveinformativa="11171301" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="AB08" claveinformativa="11171302" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="AB09" claveinformativa="11171601" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="AB00A" claveinformativa="AB00A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360034" tipo="SAT_ANEXOS " clave="SAT_DET_IMP">
+		<propiedad id="DEG01" claveinformativa="11202001" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG02" claveinformativa="11202002" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DEG03" claveinformativa="11202003" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG04" claveinformativa="11060420" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DEG05" claveinformativa="11202004" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">1220</propiedad>
+		<propiedad id="DEG06" claveinformativa="11202005" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG07" claveinformativa="11202006" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG08" claveinformativa="11202007" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG09" claveinformativa="11202008" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DEG10" claveinformativa="11202009" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DEG11" claveinformativa="11202010" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DEG12" claveinformativa="11202011" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG13" claveinformativa="11202012" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG14" claveinformativa="11202013" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG15" claveinformativa="11202014" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DEG16" claveinformativa="11202015" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG17" claveinformativa="11202016" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG18" claveinformativa="11202017" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG19" claveinformativa="11202018" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG19D1A" claveinformativa="11202019A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG19D1" claveinformativa="11202019" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DEG19D2" claveinformativa="11202020" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="DEG19D3" claveinformativa="11202021" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ACE17" claveinformativa="11092001" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="SP19" claveinformativa="11102001" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ARR11" claveinformativa="11082001" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB13" claveinformativa="11162001" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="AB11" claveinformativa="11172001" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="IN16" claveinformativa="11122001" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="PRE05" claveinformativa="11152001" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIV05" claveinformativa="11132001" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DI08" claveinformativa="11142001" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="111810A" claveinformativa="111810A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB17" claveinformativa="11162005" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB14A" claveinformativa="11162002" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB15" claveinformativa="11162003" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="EB16" claveinformativa="11162004" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DIV09" claveinformativa="11132005" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="DI15" claveinformativa="11142008" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="205192" claveinformativa="11202022" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360035" tipo="SAT_ANEXOS " clave="SAT_RET" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360036" tipo="SAT_ANEXOS " clave="SAT_DAT_INF">
+		<propiedad id="ODI1" claveinformativa="ODI1" clave="SAT_PRE" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ODI2" claveinformativa="ODI2" clave="SAT_DON" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ODI3" claveinformativa="ODI3" clave="SAT_PREM" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ODI4" claveinformativa="ODI4" clave="SAT_TOT_ING" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ODI5" claveinformativa="ODI5" clave="SAT_IMP_ING" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ODI6" claveinformativa="ODI6" clave="SAT_IMP_ING_HER" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ODI00" claveinformativa="ODI00" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ODI00A" claveinformativa="ODI00A" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ODI00B" claveinformativa="ODI00B" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ODI00C" claveinformativa="ODI00C" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="ODI00D" claveinformativa="ODI00D" clave="" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360037" tipo="SAT_ANEXOS " clave="SAT_DAT_COP" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="360038" tipo="SAT_ANEXOS " clave="SAT_INT_COP" grid="1" numeroelementos="0"/>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="510001" tipo="SAT_DATOS_CONTRIBUYENTE" clave="SAT_DAT_CON">
+		<propiedad id="10" claveinformativa="10" clave="SAT_RFC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">ÑEBG6910254Z9</propiedad>
+		<propiedad id="11" claveinformativa="11" clave="SAT_RFC_REP_LEG" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="12" claveinformativa="12" clave="SAT_CUR_REP_LEG" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="13" claveinformativa="13" clave="SAT_NOM_DEL_REP_LEG" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="14" claveinformativa="14" clave="SAT_APE_PAT_REP_LEG" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="15" claveinformativa="15" clave="SAT_APE_MAT_REP_LEG" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="16" claveinformativa="16" clave="SAT_BO_" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">362052972011740854402950097965</propiedad>
+		<propiedad id="17" claveinformativa="17" clave="SAT_ALS" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">O-016</propiedad>
+		<propiedad id="18" claveinformativa="18" clave="SAT_ADD" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="2" claveinformativa="2" clave="SAT_CUR" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">XEBG691025MMSCRL07</propiedad>
+		<propiedad id="3" claveinformativa="3" clave="SAT_NOM" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">MARIA DEL CARMEN</propiedad>
+		<propiedad id="3A" claveinformativa="3A" clave="SAT_NOM_COM" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="4" claveinformativa="4" clave="SAT_APE_PAT" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">ORDUÑO</propiedad>
+		<propiedad id="5" claveinformativa="5" clave="SAT_APE_MAT" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">RAMIREZ</propiedad>
+		<propiedad id="6" claveinformativa="6" clave="SAT_RAZ_SOC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="7" claveinformativa="7" clave="SAT_TIP_DE_SOC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="8" claveinformativa="8" clave="SAT_ID_DE_PER" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="9" claveinformativa="9" clave="SAT_TIP_DE_PER" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">F</propiedad>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="510002" tipo="SAT_DATOS_GENERALES" clave="SAT_DAT_GEN">
+		<propiedad id="20" claveinformativa="20" clave="SAT_ID_DE_LA_DEC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="21" claveinformativa="21" clave="SAT_VER_DE_LA_REF" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="22" claveinformativa="22" clave="SAT_CLA_TIP_DE_COM" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="23" claveinformativa="23" clave="SAT_CLA_DEL_PER" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">035</propiedad>
+		<propiedad id="24" claveinformativa="24" clave="SAT_DES_DEL_TIP_DE_DEC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">Normal</propiedad>
+		<propiedad id="25" claveinformativa="25" clave="SAT_DES_DE_LA_PER" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">8-Del Ejercicio</propiedad>
+		<propiedad id="26" claveinformativa="26" clave="SAT_DES_DEL_PER" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">Del Ejercicio</propiedad>
+		<propiedad id="27" claveinformativa="27" clave="SAT_CLA_DE_LA_CLA_DE_DEC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">002</propiedad>
+		<propiedad id="28" claveinformativa="28" clave="SAT_FEC_DE_VEN_DE_LA_DEC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2017-05-02T00:00:00</propiedad>
+		<propiedad id="29" claveinformativa="29" clave="SAT_FEC_DE_CAU" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2017-05-02T00:00:00</propiedad>
+		<propiedad id="30" claveinformativa="30" clave="SAT_EJE" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2016</propiedad>
+		<propiedad id="31" claveinformativa="31" clave="SAT_CLA_DEL_TIP_DE_DEC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">001</propiedad>
+		<propiedad id="32" claveinformativa="32" clave="SAT_CLA_DE_PER" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">Y</propiedad>
+		<propiedad id="33" claveinformativa="33" clave="SAT_DES_DEL_TIP_DE_COM" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="34" claveinformativa="34" clave="SAT_MED_DE_LLE_DE_LA_DEC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">E</propiedad>
+		<propiedad id="35" claveinformativa="35" clave="SAT_ID_DE_LA_DEC_PAD" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">00000000-0000-0000-0000-000000000000</propiedad>
+		<propiedad id="36" claveinformativa="36" clave="SAT_ID_DE_LA_DEC_RAI" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">00000000-0000-0000-0000-000000000000</propiedad>
+		<propiedad id="37" claveinformativa="37" clave="SAT_MED_DE_PRE_DE_LA_DEC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="38" claveinformativa="38" clave="SAT_FEC_CON_DEC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2017-01-27T00:00:00</propiedad>
+		<propiedad id="39" claveinformativa="39" clave="SAT_CLA_USU_INI" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">ÑEBG6910254Z9</propiedad>
+		<propiedad id="40" claveinformativa="40" clave="SAT_CLA_USU_CON" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="41" claveinformativa="41" clave="SAT_CLA_DEL_REG_PRE" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">6</propiedad>
+		<propiedad id="42" claveinformativa="42" clave="SAT_DES_DEL_REG_PRE" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">Declaración Anual de Personas Físicas</propiedad>
+		<propiedad id="43" claveinformativa="43" clave="SAT_FIR_DE_LA_DEC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">false</propiedad>
+		<propiedad id="44" claveinformativa="44" clave="SAT_NUM_DE_SER_CER" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="45" claveinformativa="45" clave="SAT_MED_DE_AUT" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">1</propiedad>
+		<propiedad id="46" claveinformativa="46" clave="SAT_ADD" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">Addenda</propiedad>
+		<propiedad id="47" claveinformativa="47" clave="SAT_FEC_SIS" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="48" claveinformativa="48" clave="SAT_CER" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="49" claveinformativa="49" clave="SAT_FIR" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="50" claveinformativa="50" clave="SAT_CVE_MED_PRE" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="51" claveinformativa="51" clave="SAT_ID_ARE_GEO" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">1</propiedad>
+		<propiedad id="52" claveinformativa="52" clave="SAT_DES_ARE_GEO" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">A</propiedad>
+		<propiedad id="52A" claveinformativa="52A" clave="SAT_ARE_GEO_UNI" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="53" claveinformativa="53" clave="SAT_SUB_REG" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">605|Régimen de Sueldos y Salarios e Ingresos Asimilados a Salarios|2005-08-29|</propiedad>
+		<propiedad id="54" claveinformativa="54" clave="SAT_ID_ANU" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="55" claveinformativa="55" clave="SAT_SIN_CAL" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="56" claveinformativa="56" clave="SAT_SIM" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="57" claveinformativa="57" clave="SAT_CON_PRE" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">1</propiedad>
+		<propiedad id="58" claveinformativa="58" clave="SAT_FUE_LIN" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">0</propiedad>
+		<propiedad id="59" claveinformativa="59" clave="SAT_TIE_TRA" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="60" claveinformativa="60" clave="SAT_APL_EST" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="61" claveinformativa="61" clave="SAT_SEC_PRI" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="62" claveinformativa="62" clave="SAT_ENT_FED" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">17</propiedad>
+		<propiedad id="63" claveinformativa="63" clave="SAT_ENT_FED_HIST" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="64" claveinformativa="64" clave="SAT_SUB_REG_HIST" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="65" claveinformativa="65" clave="SAT_ID_APL" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="66" claveinformativa="66" clave="SAT_NOM_APL" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="67" claveinformativa="67" clave="SAT_ES_MOV" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="69" claveinformativa="69" clave="SAT_ES_PRO" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="70" claveinformativa="70" clave="SAT_REC_PRO" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="71" claveinformativa="71" clave="SAT_APL_PAG_PAR" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="72" claveinformativa="72" clave="SAT_EST_TIE_FOL_AUT_FIR_POR" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="73" claveinformativa="73" clave="SAT_FIR_POR" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="74" claveinformativa="74" clave="SAT_UTI_FAC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="75" claveinformativa="75" clave="SAT_CON_PRO" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">1|Persona|R|2005-08-29|2999-12-31;9|Persona Fisica|R|2005-08-29|2999-12-31;44|Contacto Gestión (PART)|R|2005-08-29|2999-12-31;300031|ASALARIADO|R|2005-01-01|2999-12-31;300155|CONTRIBUYENTE PF|SR|2005-08-29|2999-12-31</propiedad>
+		<propiedad id="76" claveinformativa="76" clave="SAT_EDI_PRE_SAL" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="77" claveinformativa="77" clave="SAT_EDI_PRE_CFDI" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="78" claveinformativa="78" clave="SAT_EDI_PRE_INT" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="79" claveinformativa="79" clave="SAT_EDI_PRE_PRO" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="80" claveinformativa="80" clave="SAT_TIE_PRE_SAL" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="81" claveinformativa="81" clave="SAT_TIE_PRE_CFDI" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="82" claveinformativa="82" clave="SAT_TIE_PRE_INT" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="83" claveinformativa="83" clave="SAT_TIE_PRE_PRO" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+	<entidad xmlns="http://www.w3.org/1999/xhtml" visibilidad="true" id="510003" tipo="SAT_DATOS_ACUSE" clave="SAT_DAT_ACU">
+		<propiedad id="24001" claveinformativa="24001" clave="SAT_FEC_DE_PRE_DE_LA_DEC" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="24002" claveinformativa="24002" clave="SAT_FEC_DE_VEN_DE_LA_LIN_DE_CAP" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="24003" claveinformativa="24003" clave="SAT_SEL_DIG" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="24004" claveinformativa="24004" clave="SAT_LIN_DE_CAP" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="24005" claveinformativa="24005" clave="SAT_LEY_OBL_AP_PAG_POR_INT" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">2</propiedad>
+		<propiedad id="24006" claveinformativa="24006" clave="SAT_NUM_DE_OPE" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="24007" claveinformativa="24007" clave="SAT_TOT_AP_PAG" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="24008" claveinformativa="24008" clave="SAT_ALS_EN_DON_SE_PRE_LA" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso="">1</propiedad>
+		<propiedad id="24009" claveinformativa="24009" clave="SAT_ADD" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="24010" claveinformativa="24010" clave="SAT_COD_DE_BAR" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="24011" claveinformativa="24011" clave="SAT_COD" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+		<propiedad id="24012" claveinformativa="24012" clave="SAT_CON_COD" orden="" separamiles="" tieneotrosestimulos="" tienecompensaciones="" escompensaciontabulada="" esfechaiso=""/>
+	</entidad>
+</modeloDatos>

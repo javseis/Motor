@@ -1,0 +1,65 @@
+﻿<textos>
+  <ayudas>
+    <entidad IdEntidad="1034">
+      <ayuda IdPropiedad="EB2" Valor="Captura el remanente de pérdidas proveniente de ejercicios anteriores determinado conforme al procedimiento del Art. 122 fracción II LISR, cuando en la declaración en la que se generó no hubiera resultado impuesto." />
+      <ayuda IdPropiedad="EB3" Valor="Captura el impuesto que corresponda pagar en este año por el ingreso percibido derivado de las enajenaciones a plazo efectuadas de acuerdo con el Art. 120 LISR." />
+      <ayuda IdPropiedad="EB4" Valor="Se refiere a la sumatoria de las enajenaciones de bienes inmuebles que se hubiera realizado durante el ejercicio y cuyos ingresos totales no quedan sujetos al pago del ISR conforme a las disposiciones fiscales vigentes.&lt;br/&gt;Los ingresos derivados de la enajenación de tu casa habitación pueden quedar totalmente exentos en los términos de la Ley del Impuesto sobre la Renta, siempre que el monto de la contraprestación obtenida no exceda de setecientas mil unidades de inversión y la transmisión se formalice ante fedatario público.&lt;/br&gt;De acuerdo con el Artículo 129 del Reglamento de la Ley del Impuesto sobre la Renta, para la exención por la enajenación de la casa habitación del contribuyente, se considera que ésta comprende además la superficie del terreno que no exceda de tres veces el área cubierta por las construcciones que integran la casa habitación.&lt;/br&gt;Si este es tu caso (exención total en la enajenación), únicamente captura en este campo el importe total de la operación exenta por la enajenación de la casa habitación, esto es, no requieres entrar a la pantalla de enajenación de bienes inmuebles. (Art. 93 fracción XIX de la LISR)." />
+      <ayuda IdPropiedad="EB5" Valor="Suma de ingresos por enajenación de inmuebles totalmente exentos (no incluidos en el detalle): Se refiere a la sumatoria de las enajenaciones de bienes inmuebles que se hubiera realizado durante el ejercicio y cuyos ingresos totales no quedan sujetos al pago del ISR conforme a las disposiciones fiscales vigentes.&lt;br/&gt;Los ingresos derivados de la enajenación de tu casa habitación pueden quedar totalmente exentos en los términos de la Ley del Impuesto sobre la Renta, siempre que el monto de la contraprestación obtenida no exceda de un setecientas mil unidades de inversión y la transmisión se formalice ante fedatario público." />
+    </entidad>
+    <entidad IdEntidad="1035">
+      <ayuda IdPropiedad="EB10" Valor="Captura el precio de enajenación del terreno en la parte exenta." />
+      <ayuda IdPropiedad="EB11" Valor="Captura el precio de enajenación de la construcción en la parte gravada." />
+      <ayuda IdPropiedad="EB12" Valor="Captura el precio de enajenación de la construcción en la parte exenta." />
+      <ayuda IdPropiedad="EB13" Valor="Captura la fecha de la venta del inmueble en formato (día – mes – año)" />
+      <ayuda IdPropiedad="EB14" Valor="En su caso, señala si el pago de la enajenación se recibe en parcialidades." />
+      <ayuda IdPropiedad="EB15" Valor="Si estás recibiendo el ingreso en parcialidades, captura el importe efectivamente obtenido en el año." />
+      <ayuda IdPropiedad="EB16" Valor="Captura el costo comprobado de adquisición del terreno sin actualización." />
+      <ayuda IdPropiedad="EB17" Valor="Captura la fecha de adquisición del inmueble en formato (día – mes – año)" />
+      <ayuda IdPropiedad="EB18" Valor="Captura el costo comprobado de adquisición de la construcción sin actualización (Art. 122 y 123 LISR). Recuerda dejar el campo en blanco si lo que enajenaste fue únicamente el terreno." />
+      <ayuda IdPropiedad="EB19" Valor="Captura la fecha de adquisición del inmueble en formato (día – mes – año)" />
+      <ayuda IdPropiedad="EB20" Valor="Captura el Registro Federal de Contribuyentes del Fedatario Público ante el que se llevó a cabo la operación." />
+      <ayuda IdPropiedad="EB21" Valor="Captura el monto del pago del impuesto sobre la renta calculado y enterado por el fedatario (Art. 126 LISR)." />
+      <ayuda IdPropiedad="EB22" Valor="Captura el monto del pago del impuesto sobre la renta calculado y enterado por el fedatario a la Entidad Federativa (Art. 127 LISR)." />
+      <ayuda IdPropiedad="EB23" Valor="Captura el monto del pago del impuesto al valor agregado calculado y enterado por el fedatario (Art. 33 LIVA)." />
+      <ayuda IdPropiedad="EB6" Valor=" Selecciona si los datos que se proporcionan son Integrados, que se refiere a cuando la adquisición del terreno y de la construcción son de la misma fecha, o si son Separados, esto es, cuando la fecha de adquisición del terreno no coincide con la de la construcción." />
+      <ayuda IdPropiedad="EB7" Valor="Captura el precio de enajenación (gravado) del bien inmueble." />
+      <ayuda IdPropiedad="EB8" Valor="Captura el precio de enajenación (exento) del bien inmueble." />
+      <ayuda IdPropiedad="EB9" Valor="Captura el precio de enajenación del terreno en la parte gravada." />
+    </entidad>
+    <entidad IdEntidad="1115">
+      <ayuda IdPropiedad="EB31" Valor="Captura el precio de enajenación del bien mueble." />
+      <ayuda IdPropiedad="EB32" Valor="Captura la fecha de la venta del bien mueble en formato (día – mes – año)." />
+      <ayuda IdPropiedad="EB33" Valor="Captura el Registro Federal de Contribuyentes del adquirente o del Fedatario Público ante el que se llevó a cabo la operación." />
+      <ayuda IdPropiedad="EB34" Valor="Captura el monto del pago del impuesto sobre la renta calculado y enterado por un tercero. (Art. 154 LISR)." />
+      <ayuda IdPropiedad="EB35" Valor="En su caso, señala si el pago de la enajenación se recibe en parcialidades." />
+      <ayuda IdPropiedad="EB36" Valor="Si estás recibiendo el ingreso en parcialidades, captura el importe efectivamente obtenido en el año." />
+      <ayuda IdPropiedad="EB37" Valor="Vehículo u otro bien." />
+      <ayuda IdPropiedad="EB38" Valor="Captura el costo del bien sin actualización. (Art. 124 LISR)" />
+      <ayuda IdPropiedad="EB39" Valor="Captura la fecha de adquisición del bien en formato (día – mes – año)" />
+      <ayuda IdPropiedad="EB40" Valor="• Obra de arte.&lt;br/&gt;• Automóvil con antigüedad de año modelo de 25 o más años.&lt;br/&gt;• Metales y piedras preciosas, perlas y manufactura de joyería.&lt;br/&gt;• Otro bien sobre el que cuentes con la autorización de la autoridad fiscal para no disminuir su costo de adquisición en función de los años transcurridos.&lt;br/&gt;• Obra de Arte." />
+    </entidad>
+    <entidad IdEntidad="1116">
+      <ayuda IdPropiedad="111501" Valor="Capture el Total de ingresos por la enajenación de bienes muebles e inmuebles y acciones, incluyendo los ingresos exentos." />
+      <ayuda IdPropiedad="111504" Valor="Capture el monto de los ingresos exentos por la enajenación de bienes" />
+      <ayuda IdPropiedad="111523" Valor="Capture las deducciones autorizadas, no incluya dentro de esta cantidad el impuesto local por los ingresos por enajenación de bienes inmuebles pagado." />
+      <ayuda IdPropiedad="111535" Valor="Capture la ganancia acumulable por la enajenación de bienes" />
+      <ayuda IdPropiedad="111536" Valor="Capture la ganancia no acumulable, determinada conforme a las disposiciones fiscales" />
+      <ayuda IdPropiedad="111544" Valor="Capture la pérdida en enajenación de bienes de ejercicios anteriores aplicada en el ejercicio" />
+      <ayuda IdPropiedad="111599" Valor="En caso de que su entidad federativa hubiera establecido el impuesto local sobre los ingresos que obtengan las personas físicas por la enajenación de inmuebles a que se refiere  la Ley del Impuesto al Valor Agregado, capture el monto que hubiera pagado durante el ejercicio por este concepto." />
+      <ayuda IdPropiedad="111840" Valor="En caso de haber determinado pérdida en el ejercicio por la enajención de bienes, ésta se podrá disminuir de los otros ingresos que deba acumular en la declaración anual, excepto los ingresos a que se refieren los Capítulos I y II  del Título IV de la LISR." />
+    </entidad>
+    <entidad IdEntidad="1117">
+      <ayuda IdPropiedad="EB24" Valor="Selecciona el tipo de gasto (o inversión) y captura el importe y fecha en que se efectuó cada uno. Dentro de los mismos se consideran los siguientes:&lt;br/&gt;1. Construcciones, mejoras y/o ampliaciones&lt;br/&gt;&lt;br/&gt;2. Gastos notariales, impuestos y derechos por escrituración; comisiones y mediaciones; avalúos&lt;br/&gt;&lt;br/&gt;3. Impuesto local por los ingresos por la enajenación de inmuebles" />
+      <ayuda IdPropiedad="EB25" Valor="Captura el monto de la erogación sin actualizar" />
+      <ayuda IdPropiedad="EB26" Valor="Captura la fecha en que efectuaste la erogación" />
+      <ayuda IdPropiedad="EB27" Valor="Captura el importe de la erogación que corresponda al terreno" />
+      <ayuda IdPropiedad="EB28" Valor="Captura la fecha en efectuaste la erogación correspondiente al terreno" />
+      <ayuda IdPropiedad="EB29" Valor="Captura el importe de la erogación que corresponda a la construcción" />
+      <ayuda IdPropiedad="EB30" Valor="Captura la fecha en efectuaste la erogación correspondiente a la construcción" />
+    </entidad>
+    <entidad IdEntidad="1118">
+      <ayuda IdPropiedad="EB41" Valor="Captura el importe de la erogación realizada" />
+      <ayuda IdPropiedad="EB42" Valor="Captura la fecha en la que realizaste la erogación" />
+    </entidad>
+  </ayudas>
+</textos>

@@ -1,0 +1,13 @@
+﻿<navegacion>
+  <agrupador idEntidad="1000" idFormulario="11" id="2255" titulo="Sueldos y Salarios" idEntidadPropiedad="1085" idPropiedad="327" idTipoAgrupador="1" icono="Sueldos y Salarios" idSubRegimen="605" Orden="1">
+    <seccion idControlFormulario="1004001" tituloSeccion="Datos de identificación" tipoSeccion="Determinación del Pago" Orden="50" />
+    <seccion idControlFormulario="1005001" tituloSeccion="Ingresos" tipoSeccion="Determinación del Pago" Orden="60" inhabilitarEnSelector="1" />
+    <seccion idControlFormulario="1006001" tituloSeccion="Deducciones personales" tipoSeccion="Determinación del Pago" Orden="70" inhabilitarEnSelector="1" />
+    <seccion idControlFormulario="1007001" tituloSeccion="Determinación del Impuesto sobre la Renta" tipoSeccion="Determinación del Pago" Orden="80" />
+    <seccion idControlFormulario="1008001" tituloSeccion="Determinación de pago" tipoSeccion="Determinación del Pago" Orden="90" />
+    <seccion idControlFormulario="1009001" tituloSeccion="Campos Declaración Ingresos" tipoSeccion="Determinación del Pago" Orden="100" ocultar="1" />
+    <seccion idControlFormulario="1010001" tituloSeccion="Campos Declaración Deducciones" tipoSeccion="Determinación del Pago" Orden="100" ocultar="1" />
+    <seccion idControlFormulario="1011001" tituloSeccion="Campos Declaración Exentos" tipoSeccion="Determinación del Pago" Orden="100" ocultar="1" />
+    <seccion idControlFormulario="1013001" tituloSeccion="Campos Declaración Retenciones" tipoSeccion="Determinación del Pago" Orden="100" ocultar="1" />
+  </agrupador>
+</navegacion>

@@ -1,0 +1,881 @@
+﻿<diagramacion>
+  <formulario idEntidad="1000" id="11" nombre="Personas Físicas" versionMayor="1" versionMenor="0">
+    <controles>
+      <control id="1004001" tipoControl="Grupo" idEntidadPropiedad="1001" orden="1">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Datos de identificación" />
+          <atributo nombre="TituloLargo" valor="Datos de identificación" />
+        </atributos>
+        <controles>
+          <control id="1004002" tipoControl="Columna" idEntidadPropiedad="1001" orden="1">
+            <controles>
+              <control id="1004005" tipoControl="EtiquetaTexto" idEntidadPropiedad="1001" idPropiedad="10" orden="1" />
+              <control id="1004006" tipoControl="EtiquetaTexto" idEntidadPropiedad="1002" idPropiedad="30" orden="2" />
+            </controles>
+          </control>
+          <control id="1004003" tipoControl="Columna" idEntidadPropiedad="1001" orden="2">
+            <controles>
+              <control id="1004007" tipoControl="EtiquetaTexto" idEntidadPropiedad="1001" idPropiedad="3A" orden="1" />
+              <control id="1004008" tipoControl="EtiquetaTexto" idEntidadPropiedad="1002" idPropiedad="52A" orden="2" />
+            </controles>
+          </control>
+          <control id="1004004" tipoControl="Columna" idEntidadPropiedad="1001" orden="3">
+            <controles>
+              <control id="1004009" tipoControl="EtiquetaTexto" idEntidadPropiedad="1002" idPropiedad="24" orden="1" />
+              <control id="1004010" tipoControl="EtiquetaTexto" idEntidadPropiedad="1002" idPropiedad="33" orden="3" />
+            </controles>
+          </control>
+        </controles>
+      </control>
+      <control id="1005001" tipoControl="Grupo" idEntidadPropiedad="1005" orden="1">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Ingresos" />
+          <atributo nombre="TituloLargo" valor="Ingresos" />
+          <atributo nombre="CalculoExentos" />
+        </atributos>
+        <controles>
+          <control id="1005002" tipoControl="Columna" idEntidadPropiedad="1005" orden="1">
+            <controles>
+              <control id="1005027" tipoControl="Grupo" idEntidadPropiedad="1005" orden="1">
+                <controles>
+                  <control id="1005033" tipoControl="Columna" idEntidadPropiedad="1005" orden="1">
+                    <controles>
+                      <control id="1005003" tipoControl="FormularioGridEdicion" idEntidadPropiedad="1005" orden="1">
+                        <controles>
+                          <control id="1005004" tipoControl="Columna" idEntidadPropiedad="1005" orden="1">
+                            <controles>
+                              <control id="1005005" tipoControl="Grupo" idEntidadPropiedad="1005" orden="1">
+                                <controles>
+                                  <control id="1005007" tipoControl="Columna" idEntidadPropiedad="1005" orden="1">
+                                    <controles>
+                                      <control id="1005010" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SS5" orden="1">
+                                        <atributos>
+                                          <atributo nombre="EnMayusculas" valor="1" />
+                                          <atributo nombre="ValidaLongitud" valor="13" />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005021" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="AUX111819" orden="1" />
+                                      <control id="1005022" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SS0" orden="1" />
+                                      <control id="1005024" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SSMRTI" orden="1" />
+                                      <control id="1005026" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="AUXSS5" orden="1" />
+                                      <control id="1005042" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SS0C" orden="1" />
+                                      <control id="1005110" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="GRIDSS5" orden="1">
+                                        <atributos>
+                                          <atributo nombre="EnMayusculas" valor="1" />
+                                          <atributo nombre="ValidaLongitud" valor="13" />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                          <atributo nombre="CopiaElementoGrid" valor="SS5" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1005008" tipoControl="Columna" idEntidadPropiedad="1005" orden="1">
+                                    <controles>
+                                      <control id="1005011" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SS12" orden="2">
+                                        <atributos>
+                                          <atributo nombre="ValidaLongitud" valor="120" />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="EnMayusculas" valor="1" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005111" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="GRIDSS12" orden="2">
+                                        <atributos>
+                                          <atributo nombre="ValidaLongitud" valor="120" />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                          <atributo nombre="EnMayusculas" valor="1" />
+                                          <atributo nombre="CopiaElementoGrid" valor="SS12" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1005034" tipoControl="Columna" idEntidadPropiedad="1005" orden="3">
+                                    <controles>
+                                      <control id="1005035" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SSTI" orden="1" />
+                                      <control id="1005135" tipoControl="CuadroCombinado" idEntidadPropiedad="1005" idPropiedad="GRIDSSTI" orden="1">
+                                        <atributos>
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="1" />
+                                          <atributo nombre="CopiaElementoGrid" valor="SSTI" />
+                                          <atributo nombre="NoValidarCampoVacio" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                </controles>
+                              </control>
+                              <control id="1005006" tipoControl="Grupo" idEntidadPropiedad="1005" orden="1">
+                                <controles>
+                                  <control id="1005013" tipoControl="Columna" idEntidadPropiedad="1005" orden="1">
+                                    <controles>
+                                      <control id="1005023" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SSMR" orden="1">
+                                        <atributos>
+                                          <atributo nombre="MuestraEnGrid" valor="Ingreso anual" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005012" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SS1" orden="3">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005112" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="GRIDSS1" orden="3">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                          <atributo nombre="CopiaElementoGrid" valor="SS1" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1005014" tipoControl="Columna" idEntidadPropiedad="1005" orden="1">
+                                    <controles>
+                                      <control id="1005017" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SS2" orden="4">
+                                        <atributos>
+                                          <atributo nombre="AyudaEnDialogo" valor="Evita duplicar tus exenciones por concepto de Aguinaldo, Prima Vacacional y PTU." />
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                          <atributo nombre="Vineta" valor="I." />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005117" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="GRIDSS2" orden="4">
+                                        <atributos>
+                                          <atributo nombre="AyudaEnDialogo" valor="Evita duplicar tus exenciones por concepto de Aguinaldo, Prima Vacacional y PTU." />
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                          <atributo nombre="Vineta" valor="I." />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                          <atributo nombre="CopiaElementoGrid" valor="SS2" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1005015" tipoControl="Columna" idEntidadPropiedad="1005" orden="1">
+                                    <controles>
+                                      <control id="1005025" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SSRISR" orden="1">
+                                        <atributos>
+                                          <atributo nombre="MuestraEnGrid" valor="ISR retenido" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005018" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SS3" orden="5">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                          <atributo nombre="Vineta" valor="II." />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                          <atributo nombre="TituloCorto" valor="Impuesto retenido" />
+                                          <atributo nombre="TituloLargo" valor="Impuesto retenido" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1005118" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="GRIDSS3" orden="5">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                          <atributo nombre="Vineta" valor="II." />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                          <atributo nombre="TituloCorto" valor="Impuesto retenido" />
+                                          <atributo nombre="TituloLargo" valor="Impuesto retenido" />
+                                          <atributo nombre="CopiaElementoGrid" valor="SS3" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="TituloCorto" valor="Salarios" />
+                                  <atributo nombre="TituloLargo" valor="Salarios" />
+                                </atributos>
+                              </control>
+                              <control id="1005036" tipoControl="Grupo" idEntidadPropiedad="1005" orden="3">
+                                <controles>
+                                  <control id="1005037" tipoControl="Columna" idEntidadPropiedad="1005" orden="1">
+                                    <controles>
+                                      <control id="1005040" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SA1" orden="1" />
+                                      <control id="1005140" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="GRIDSA1" orden="1">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                          <atributo nombre="CopiaElementoGrid" valor="SA1" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1005038" tipoControl="Columna" idEntidadPropiedad="1005" orden="2" />
+                                  <control id="1005039" tipoControl="Columna" idEntidadPropiedad="1005" orden="3">
+                                    <controles>
+                                      <control id="1005041" tipoControl="Oculto" idEntidadPropiedad="1005" idPropiedad="SA2" orden="1" />
+                                      <control id="1005141" tipoControl="CuadroTexto" idEntidadPropiedad="1005" idPropiedad="GRIDSA2" orden="1">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="SoloNumerosPositivos" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                          <atributo nombre="CopiaElementoGrid" valor="SA2" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                </controles>
+                                <atributos>
+                                  <atributo nombre="TituloCorto" valor="Asimilados a salarios" />
+                                  <atributo nombre="TituloLargo" valor="Asimilados a salarios" />
+                                </atributos>
+                              </control>
+                            </controles>
+                          </control>
+                        </controles>
+                      </control>
+                    </controles>
+                  </control>
+                </controles>
+              </control>
+              <control id="1005032" tipoControl="Grupo" idEntidadPropiedad="1005" orden="1">
+                <controles>
+                  <control id="1005028" tipoControl="Columna" idEntidadPropiedad="1005" orden="1">
+                    <controles>
+                      <control id="1005030" tipoControl="CuadroTexto" idEntidadPropiedad="1056" idPropiedad="SE1" orden="8">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                          <atributo nombre="OrdenTabulador" valor="1" />
+                          <atributo nombre="MuestraEnGrid" valor="Subsidio ejercicio" />
+                        </atributos>
+                      </control>
+                    </controles>
+                  </control>
+                  <control id="1005029" tipoControl="Columna" idEntidadPropiedad="1005" orden="1">
+                    <controles>
+                      <control id="1005031" tipoControl="CuadroTexto" idEntidadPropiedad="1056" idPropiedad="SE2" orden="9">
+                        <atributos>
+                          <atributo nombre="CapturaDecimales" valor="1" />
+                          <atributo nombre="SoloNumerosPositivos" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                          <atributo nombre="OrdenTabulador" valor="1" />
+                          <atributo nombre="MuestraEnGrid" valor="Subsidio entregado" />
+                        </atributos>
+                      </control>
+                    </controles>
+                  </control>
+                </controles>
+              </control>
+            </controles>
+          </control>
+        </controles>
+      </control>
+      <control id="1006001" tipoControl="Grupo" idEntidadPropiedad="1033" orden="3">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Deducciones personales" />
+          <atributo nombre="TituloLargo" valor="Deducciones personales" />
+        </atributos>
+        <controles>
+          <control id="1006002" tipoControl="Columna" idEntidadPropiedad="1033" orden="1">
+            <controles>
+              <control id="1006028" tipoControl="Grupo" idEntidadPropiedad="1033" orden="1">
+                <controles>
+                  <control id="1006029" tipoControl="Columna" idEntidadPropiedad="1033" orden="1">
+                    <controles>
+                      <control id="1006030" tipoControl="IconosAyuda" idEntidadPropiedad="1033" idPropiedad="1033AYUDA" orden="1">
+                        <atributos>
+                          <atributo nombre="IconoAyudaAportaciones" valor="Aportaciones.png|99|5|Aportaciones voluntarias" />
+                          <atributo nombre="IconoAyudaAportacionesSAT" valor="AportcionesSAT.png|99|3|Donativos" />
+                          <atributo nombre="IconoAyudaColegiaturas" valor="Colegiaturas.png|99|9|Colegiaturas" />
+                          <atributo nombre="IconoAyudaCuentas" valor="enCuentas.png|99|8|Depósitos en cuentas especiales" />
+                          <atributo nombre="IconoAyudaDepositos" valor="depositosAhorrro.png|99|6|Primas de seguros" />
+                          <atributo nombre="IconoAyudaEscuela" valor="Escuela.png|99|7|Transporte escolar" />
+                          <atributo nombre="IconoAyudaGastos" valor="GastosFunerarios.png|99|2|Gastos funerales" />
+                          <atributo nombre="IconoAyudaIntereses" valor="interesesReales.png|99|4|Intereses por créditos hipotecarios" />
+                          <atributo nombre="IconoAyudaLimite" valor="LimiteDeduccion.png|99|10|Límite de deducción" />
+                          <atributo nombre="IconoAyudaMedicos" valor="Medicos.png|99|1|Gastos médicos" />
+                        </atributos>
+                      </control>
+                    </controles>
+                  </control>
+                </controles>
+              </control>
+              <control id="1006003" tipoControl="Grupo" idEntidadPropiedad="1033" orden="2">
+                <controles>
+                  <control id="1006004" tipoControl="Columna" idEntidadPropiedad="1033" orden="1">
+                    <controles>
+                      <control id="1006005" tipoControl="FormularioGridEdicion" idEntidadPropiedad="1033" orden="1">
+                        <controles>
+                          <control id="1006006" tipoControl="Columna" idEntidadPropiedad="1033" orden="1">
+                            <controles>
+                              <control id="1006007" tipoControl="Grupo" idEntidadPropiedad="1033" orden="1">
+                                <controles>
+                                  <control id="1006008" tipoControl="Columna" idEntidadPropiedad="1033" orden="1">
+                                    <controles>
+                                      <control id="1006011" tipoControl="CuadroCombinado" idEntidadPropiedad="1033" idPropiedad="DPC14" orden="1">
+                                        <atributos>
+                                          <atributo nombre="AnchoColumna" valor="135px" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1006031" tipoControl="Oculto" idEntidadPropiedad="1033" idPropiedad="AUXCOMPARA" orden="1" />
+                                      <control id="1006032" tipoControl="Oculto" idEntidadPropiedad="1033" idPropiedad="DPC999" orden="1" />
+                                      <control id="1006111" tipoControl="CuadroCombinado" idEntidadPropiedad="1033" idPropiedad="GRIDDPC14" orden="1">
+                                        <atributos>
+                                          <atributo nombre="AnchoColumna" valor="135px" />
+                                          <atributo nombre="ValidaLongitud" valor="12" />
+                                          <atributo nombre="OrdenTabulador" valor="1" />
+                                          <atributo nombre="CopiaElementoGrid" valor="DPC14" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1006131" tipoControl="Oculto" idEntidadPropiedad="1033" idPropiedad="GRIDAUXCOMPARA" orden="1">
+                                        <atributos>
+                                          <atributo nombre="CopiaElementoGrid" valor="AUXCOMPARA" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1006132" tipoControl="Oculto" idEntidadPropiedad="1033" idPropiedad="GRIDDPC999" orden="1">
+                                        <atributos>
+                                          <atributo nombre="CopiaElementoGrid" valor="DPC999" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1006009" tipoControl="Columna" idEntidadPropiedad="1033" orden="2">
+                                    <controles>
+                                      <control id="1006012" tipoControl="Oculto" idEntidadPropiedad="1033" idPropiedad="DPC16" orden="1">
+                                        <atributos>
+                                          <atributo nombre="EnMayusculas" valor="1" />
+                                          <atributo nombre="ValidaLongitud" valor="13" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="2" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1006112" tipoControl="CuadroTexto" idEntidadPropiedad="1033" idPropiedad="GRIDDPC16" orden="1">
+                                        <atributos>
+                                          <atributo nombre="EnMayusculas" valor="1" />
+                                          <atributo nombre="ValidaLongitud" valor="13" />
+                                          <atributo nombre="OrdenTabulador" valor="2" />
+                                          <atributo nombre="CopiaElementoGrid" valor="DPC16" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1006010" tipoControl="Columna" idEntidadPropiedad="1033" orden="3">
+                                    <controles>
+                                      <control id="1006013" tipoControl="Oculto" idEntidadPropiedad="1033" idPropiedad="DPC15" orden="1">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                                          <atributo nombre="ValidaLongitud" valor="11" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="3" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1006113" tipoControl="CuadroTexto" idEntidadPropiedad="1033" idPropiedad="GRIDDPC15" orden="1">
+                                        <atributos>
+                                          <atributo nombre="CapturaDecimales" valor="1" />
+                                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                                          <atributo nombre="ValidaLongitud" valor="11" />
+                                          <atributo nombre="OrdenTabulador" valor="3" />
+                                          <atributo nombre="CopiaElementoGrid" valor="DPC15" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                </controles>
+                              </control>
+                              <control id="1006014" tipoControl="Grupo" idEntidadPropiedad="1033" orden="1">
+                                <controles>
+                                  <control id="1006015" tipoControl="Columna" idEntidadPropiedad="1033" orden="1">
+                                    <controles>
+                                      <control id="1006018" tipoControl="Oculto" idEntidadPropiedad="1033" idPropiedad="DPC7" orden="1">
+                                        <atributos>
+                                          <atributo nombre="EnMayusculas" valor="1" />
+                                          <atributo nombre="ValidaLongitud" valor="18" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="4" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1006118" tipoControl="CuadroTexto" idEntidadPropiedad="1033" idPropiedad="GRIDDPC7" orden="1">
+                                        <atributos>
+                                          <atributo nombre="EnMayusculas" valor="1" />
+                                          <atributo nombre="ValidaLongitud" valor="18" />
+                                          <atributo nombre="OrdenTabulador" valor="4" />
+                                          <atributo nombre="CopiaElementoGrid" valor="DPC7" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1006016" tipoControl="Columna" idEntidadPropiedad="1033" orden="1">
+                                    <controles>
+                                      <control id="1006019" tipoControl="CuadroCombinado" idEntidadPropiedad="1033" idPropiedad="DPC5" orden="1">
+                                        <atributos>
+                                          <atributo nombre="SinSeleccionEnGrid" />
+                                          <atributo nombre="MuestraEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="5" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1006119" tipoControl="CuadroCombinado" idEntidadPropiedad="1033" idPropiedad="GRIDDPC5" orden="1">
+                                        <atributos>
+                                          <atributo nombre="SinSeleccionEnGrid" />
+                                          <atributo nombre="OrdenTabulador" valor="5" />
+                                          <atributo nombre="CopiaElementoGrid" valor="DPC5" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                  <control id="1006017" tipoControl="Columna" idEntidadPropiedad="1033" orden="1">
+                                    <controles>
+                                      <control id="1006020" tipoControl="CuadroCombinado" idEntidadPropiedad="1033" idPropiedad="DPC8" orden="1">
+                                        <atributos>
+                                          <atributo nombre="Catalogo" valor="46" />
+                                          <atributo nombre="MuestraEnGrid" valor="Beneficiario" />
+                                          <atributo nombre="OrdenTabulador" valor="6" />
+                                          <atributo nombre="SinSeleccionEnGrid" />
+                                        </atributos>
+                                      </control>
+                                      <control id="1006120" tipoControl="CuadroCombinado" idEntidadPropiedad="1033" idPropiedad="GRIDDPC8" orden="1">
+                                        <atributos>
+                                          <atributo nombre="Catalogo" valor="46" />
+                                          <atributo nombre="OrdenTabulador" valor="6" />
+                                          <atributo nombre="SinSeleccionEnGrid" />
+                                          <atributo nombre="CopiaElementoGrid" valor="DPC8" />
+                                        </atributos>
+                                      </control>
+                                    </controles>
+                                  </control>
+                                </controles>
+                              </control>
+                            </controles>
+                          </control>
+                        </controles>
+                      </control>
+                    </controles>
+                  </control>
+                </controles>
+              </control>
+              <control id="1006021" tipoControl="Grupo" idEntidadPropiedad="1033" orden="3">
+                <controles>
+                  <control id="1006022" tipoControl="Columna" idEntidadPropiedad="1033" orden="1">
+                    <controles>
+                      <control id="1006024" tipoControl="CuadroTexto" idEntidadPropiedad="1150" idPropiedad="DPC1A" orden="1">
+                        <atributos>
+                          <atributo nombre="ValidaLongitud" valor="11" />
+                          <atributo nombre="OrdenTabulador" valor="7" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                        </atributos>
+                      </control>
+                    </controles>
+                  </control>
+                  <control id="1006023" tipoControl="Columna" idEntidadPropiedad="1033" orden="1">
+                    <controles>
+                      <control id="1006027" tipoControl="CuadroTexto" idEntidadPropiedad="1150" idPropiedad="DPC22" orden="1">
+                        <atributos>
+                          <atributo nombre="OrdenTabulador" valor="8" />
+                          <atributo nombre="ValidaLongitud" valor="12" />
+                          <atributo nombre="SoloNumerosPositivos" valor="1" />
+                        </atributos>
+                      </control>
+                    </controles>
+                  </control>
+                </controles>
+              </control>
+            </controles>
+          </control>
+        </controles>
+      </control>
+      <control id="1007001" tipoControl="Grupo" idEntidadPropiedad="1025" orden="4">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Determinación del Impuesto sobre la Renta" />
+          <atributo nombre="TituloLargo" valor="Determinación del Impuesto sobre la Renta" />
+        </atributos>
+        <controles>
+          <control id="1007002" tipoControl="Columna" idEntidadPropiedad="1025" orden="1">
+            <controles>
+              <control id="1007003" tipoControl="CuadroTexto" idEntidadPropiedad="1025" idPropiedad="111837" orden="1">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="TituloCorto" valor="Ingresos acumulables" />
+                  <atributo nombre="TituloLargo" valor="Ingresos acumulables" />
+                </atributos>
+              </control>
+              <control id="1007004" tipoControl="CuadroTexto" idEntidadPropiedad="1025" idPropiedad="111811" orden="2">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="TituloCorto" valor="Monto aplicable de las deducciones personales" />
+                  <atributo nombre="TituloLargo" valor="Monto aplicable de las deducciones personales" />
+                </atributos>
+              </control>
+              <control id="1007005" tipoControl="CuadroTexto" idEntidadPropiedad="1025" idPropiedad="111819" orden="3">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="TituloCorto" valor="Impuesto retenido" />
+                  <atributo nombre="TituloLargo" valor="Impuesto retenido" />
+                </atributos>
+              </control>
+              <control id="1007019" tipoControl="CuadroTexto" idEntidadPropiedad="1025" idPropiedad="111820" orden="4">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1007006" tipoControl="CuadroTexto" idEntidadPropiedad="1025" idPropiedad="111024" orden="5">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                </atributos>
+              </control>
+              <control id="1007018" tipoControl="CuadroTexto" idEntidadPropiedad="1025" idPropiedad="111961" orden="6">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="18" />
+                </atributos>
+              </control>
+              <control id="1007007" tipoControl="CuadroCombinado" idEntidadPropiedad="1025" idPropiedad="205192" orden="7">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="TituloCorto" valor="Optas por:" />
+                  <atributo nombre="TituloLargo" valor="Optas por:" />
+                </atributos>
+              </control>
+              <control id="1007020" tipoControl="CuadroCombinado" idEntidadPropiedad="1025" idPropiedad="205359A" orden="8">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CuentaClabe" valor="" />
+                </atributos>
+              </control>
+              <control id="1007008" tipoControl="CuadroTexto" idEntidadPropiedad="1025" idPropiedad="205359" orden="9">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="ValidaLongitud" valor="18" />
+                  <atributo nombre="NoRemoverCeros" valor="1" />
+                </atributos>
+              </control>
+              <control id="1007009" tipoControl="CuadroCombinado" idEntidadPropiedad="1025" idPropiedad="205358" orden="10">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="NombreBanco" />
+                </atributos>
+              </control>
+              <control id="1007010" tipoControl="CuadroCombinado" idEntidadPropiedad="1025" idPropiedad="139877" orden="10">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="TextoAlineacionEtiqueta" valor="Justificado" />
+                </atributos>
+              </control>
+              <control id="1007011" tipoControl="CuadroCombinado" idEntidadPropiedad="1080" idPropiedad="DIO0" orden="10">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="12" />
+                  <atributo nombre="SoloNumerosPositivos" valor="1" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1007012" tipoControl="CuadroTexto" idEntidadPropiedad="1080" idPropiedad="DIO1" orden="10">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="13" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1007013" tipoControl="CuadroTexto" idEntidadPropiedad="1080" idPropiedad="DIO2" orden="10">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="14" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1007014" tipoControl="CuadroTexto" idEntidadPropiedad="1080" idPropiedad="DIO3" orden="10">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="15" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1007015" tipoControl="CuadroTexto" idEntidadPropiedad="1080" idPropiedad="DIO4" orden="10">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="16" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1007016" tipoControl="CuadroTexto" idEntidadPropiedad="1080" idPropiedad="DIO5" orden="10">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="17" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1007017" tipoControl="CuadroTexto" idEntidadPropiedad="1080" idPropiedad="DIO6" orden="10">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="OrdenTabulador" valor="18" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+            </controles>
+          </control>
+        </controles>
+      </control>
+      <control id="1008001" tipoControl="Grupo" idEntidadPropiedad="1085" orden="5">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Determinación de pago" />
+          <atributo nombre="TituloLargo" valor="Determinación de pago" />
+        </atributos>
+        <controles>
+          <control id="1008002" tipoControl="Columna" idEntidadPropiedad="1085" orden="1">
+            <controles>
+              <control id="1008003" tipoControl="CuadroTexto" idEntidadPropiedad="1085" idPropiedad="301" orden="1">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1008004" tipoControl="CuadroTexto" idEntidadPropiedad="1085" idPropiedad="308" orden="2">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1008005" tipoControl="CuadroTexto" idEntidadPropiedad="1085" idPropiedad="302" orden="3">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1008006" tipoControl="CuadroTexto" idEntidadPropiedad="1085" idPropiedad="303" orden="4">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1008007" tipoControl="CuadroTexto" idEntidadPropiedad="1085" idPropiedad="304" orden="5">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1008018" tipoControl="CuadroCombinado" idEntidadPropiedad="1085" idPropiedad="DASC1" orden="7">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="ValidaLongitud" valor="1" />
+                </atributos>
+              </control>
+              <control id="1008009" tipoControl="CuadroDetalleCompensaciones" idEntidadPropiedad="1085" idPropiedad="309" orden="8">
+                <controles>
+                  <control id="1008021" tipoControl="CuadroCombinado" idEntidadPropiedad="1086" idPropiedad="400" orden="19" />
+                  <control id="1008022" tipoControl="CuadroCombinado" idEntidadPropiedad="1086" idPropiedad="401" orden="20" />
+                  <control id="1008023" tipoControl="CuadroCombinado" idEntidadPropiedad="1086" idPropiedad="402" orden="21" />
+                  <control id="1008024" tipoControl="CuadroCombinado" idEntidadPropiedad="1086" idPropiedad="403" orden="22" />
+                  <control id="1008025" tipoControl="CuadroTexto" idEntidadPropiedad="1086" idPropiedad="404" orden="23" />
+                  <control id="1008026" tipoControl="CuadroTexto" idEntidadPropiedad="1086" idPropiedad="405" orden="24" />
+                  <control id="1008027" tipoControl="CuadroCombinado" idEntidadPropiedad="1086" idPropiedad="406" orden="25" />
+                  <control id="1008028" tipoControl="CuadroTexto" idEntidadPropiedad="1086" idPropiedad="407" orden="26" />
+                  <control id="1008029" tipoControl="CuadroCombinado" idEntidadPropiedad="1086" idPropiedad="408" orden="27" />
+                  <control id="1008030" tipoControl="CuadroTexto" idEntidadPropiedad="1086" idPropiedad="409" orden="28" />
+                  <control id="1008031" tipoControl="ControlFecha" idEntidadPropiedad="1086" idPropiedad="410" orden="29" />
+                  <control id="1008032" tipoControl="CuadroTexto" idEntidadPropiedad="1086" idPropiedad="411" orden="30" />
+                  <control id="1008033" tipoControl="CuadroTexto" idEntidadPropiedad="1086" idPropiedad="412" orden="31" />
+                  <control id="1008034" tipoControl="CuadroTexto" idEntidadPropiedad="1086" idPropiedad="413" orden="32" />
+                </controles>
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="ClaveImpuesto" valor="0119" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                </atributos>
+              </control>
+              <control id="1008010" tipoControl="ControlFecha" idEntidadPropiedad="1085" idPropiedad="318" orden="9">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="Mascara" valor="99/99/9999" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="10" />
+                </atributos>
+              </control>
+              <control id="1008011" tipoControl="CuadroTexto" idEntidadPropiedad="1085" idPropiedad="319" orden="10">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="10" />
+                </atributos>
+              </control>
+              <control id="1008012" tipoControl="CuadroTexto" idEntidadPropiedad="1085" idPropiedad="322" orden="11">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1008013" tipoControl="CuadroCombinado" idEntidadPropiedad="1085" idPropiedad="323" orden="12">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                </atributos>
+              </control>
+              <control id="1008019" tipoControl="CuadroCombinado" idEntidadPropiedad="1085" idPropiedad="PARC1" orden="13">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="ValidaLongitud" valor="1" />
+                </atributos>
+              </control>
+              <control id="1008014" tipoControl="CuadroTexto" idEntidadPropiedad="1085" idPropiedad="324" orden="14">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1008015" tipoControl="CuadroTexto" idEntidadPropiedad="1085" idPropiedad="325" orden="15">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1008016" tipoControl="CuadroTexto" idEntidadPropiedad="1085" idPropiedad="326" orden="16">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+              <control id="1008017" tipoControl="CuadroTexto" idEntidadPropiedad="1085" idPropiedad="327" orden="17">
+                <atributos>
+                  <atributo nombre="AlineacionHorizontal" valor="1" />
+                  <atributo nombre="CapturaDecimales" valor="1" />
+                  <atributo nombre="SoloNumerosPositivos" />
+                  <atributo nombre="ValidaLongitud" valor="12" />
+                </atributos>
+              </control>
+            </controles>
+          </control>
+        </controles>
+      </control>
+      <control id="1009001" tipoControl="Grupo" idEntidadPropiedad="1014" orden="1">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Campos Declaración Ingresos" />
+          <atributo nombre="TituloLargo" valor="Campos Declaración Ingresos" />
+        </atributos>
+        <controles>
+          <control id="1009002" tipoControl="Columna" idEntidadPropiedad="1014" orden="1">
+            <controles>
+              <control id="1009004" tipoControl="CuadroTexto" idEntidadPropiedad="1014" idPropiedad="111202" orden="1" />
+              <control id="1009005" tipoControl="CuadroTexto" idEntidadPropiedad="1014" idPropiedad="111207" orden="2" />
+            </controles>
+          </control>
+          <control id="1009003" tipoControl="Columna" idEntidadPropiedad="1014" orden="1">
+            <controles>
+              <control id="1009006" tipoControl="CuadroTexto" idEntidadPropiedad="1014" idPropiedad="111206" orden="1" />
+              <control id="1009007" tipoControl="CuadroTexto" idEntidadPropiedad="1014" idPropiedad="111201" orden="2" />
+            </controles>
+          </control>
+        </controles>
+      </control>
+      <control id="1010001" tipoControl="Grupo" idEntidadPropiedad="1019" orden="1">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Campos Declaración Deducciones" />
+          <atributo nombre="TituloLargo" valor="Campos Declaración Deducciones" />
+        </atributos>
+        <controles>
+          <control id="1010002" tipoControl="Columna" idEntidadPropiedad="1019" orden="1">
+            <controles>
+              <control id="1010004" tipoControl="CuadroTexto" idEntidadPropiedad="1019" idPropiedad="117523" orden="1" />
+              <control id="1010005" tipoControl="CuadroTexto" idEntidadPropiedad="1019" idPropiedad="119008" orden="2" />
+              <control id="1010006" tipoControl="CuadroTexto" idEntidadPropiedad="1019" idPropiedad="139858" orden="3" />
+            </controles>
+          </control>
+          <control id="1010003" tipoControl="Columna" idEntidadPropiedad="1019" orden="1">
+            <controles>
+              <control id="1010007" tipoControl="CuadroTexto" idEntidadPropiedad="1019" idPropiedad="117522" orden="1" />
+              <control id="1010008" tipoControl="CuadroTexto" idEntidadPropiedad="1019" idPropiedad="139857" orden="2" />
+              <control id="1010009" tipoControl="CuadroTexto" idEntidadPropiedad="1019" idPropiedad="139859" orden="3" />
+            </controles>
+          </control>
+        </controles>
+      </control>
+      <control id="1011001" tipoControl="Grupo" idEntidadPropiedad="1083" orden="1">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Campos Declaración Exentos" />
+          <atributo nombre="TituloLargo" valor="Campos Declaración Exentos" />
+        </atributos>
+        <controles>
+          <control id="1011002" tipoControl="Columna" idEntidadPropiedad="1083" orden="1">
+            <controles>
+              <control id="1011004" tipoControl="CuadroTexto" idEntidadPropiedad="1083" idPropiedad="111865" orden="1" />
+              <control id="1011005" tipoControl="CuadroTexto" idEntidadPropiedad="1083" idPropiedad="111866" orden="2" />
+              <control id="1011006" tipoControl="CuadroTexto" idEntidadPropiedad="1083" idPropiedad="111867" orden="3" />
+            </controles>
+          </control>
+          <control id="1011003" tipoControl="Columna" idEntidadPropiedad="1083" orden="1">
+            <controles>
+              <control id="1011007" tipoControl="CuadroTexto" idEntidadPropiedad="1083" idPropiedad="111868" orden="1" />
+              <control id="1011008" tipoControl="CuadroTexto" idEntidadPropiedad="1083" idPropiedad="111869" orden="2" />
+              <control id="1011009" tipoControl="CuadroTexto" idEntidadPropiedad="1083" idPropiedad="111870" orden="3" />
+            </controles>
+          </control>
+        </controles>
+      </control>
+      <control id="1013001" tipoControl="Grupo" idEntidadPropiedad="1160" orden="1">
+        <atributos>
+          <atributo nombre="TituloCorto" valor="Campos Declaración Retenciones" />
+          <atributo nombre="TituloLargo" valor="Campos Declaración Retenciones" />
+        </atributos>
+        <controles>
+          <control id="1013002" tipoControl="Columna" idEntidadPropiedad="1160" orden="1">
+            <controles>
+              <control id="1013004" tipoControl="CuadroTexto" idEntidadPropiedad="1160" idPropiedad="112226" orden="1" />
+            </controles>
+          </control>
+          <control id="1013003" tipoControl="Columna" idEntidadPropiedad="1160" orden="1">
+            <controles>
+              <control id="1013005" tipoControl="CuadroTexto" idEntidadPropiedad="1160" idPropiedad="132226" orden="1" />
+            </controles>
+          </control>
+        </controles>
+      </control>
+    </controles>
+  </formulario>
+</diagramacion>

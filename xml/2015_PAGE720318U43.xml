@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DatosAnexoPersonaFisica>
+  <Isr />
+  <RetencionesIntereses />
+  <Salarios>
+    <DatosSalario idEntidad="1005">
+      <C_DEC_RFCEEOG1 claveInformativa="118438">CMT940211TD2</C_DEC_RFCEEOG1>
+      <C_DEC_LDLEATV1>9449837</C_DEC_LDLEATV1>
+      <C_DEC_NRFCR claveInformativa="139878">COLEGIO MEXICO DE TEHUACAN S.C.</C_DEC_NRFCR>
+      <C_DEC_ERNETCI1>19080</C_DEC_ERNETCI1>
+      <N_DEC_MIENSIC1>10</N_DEC_MIENSIC1>
+      <N_DEC_MFEISNA1>12</N_DEC_MFEISNA1>
+      <I_DEC_SISSUNU1 claveInformativa="SS1">17037</I_DEC_SISSUNU1>
+      <I_DEC_SIESSUN1 claveInformativa="SS2">4949</I_DEC_SIESSUN1>
+      <I_DEC_IRDEQDM1 claveInformativa="SS3">0</I_DEC_IRDEQDM1>
+      <I_DEC_ILISSGP1>0</I_DEC_ILISSGP1>
+      <I_DEC_SEEATUM1>1147</I_DEC_SEEATUM1>
+      <I_DEC_IA2NCGU2>12088</I_DEC_IA2NCGU2>
+      <I_DEC_MSLNEEE1>440</I_DEC_MSLNEEE1>
+      <N_DEC_AGSMREA1>2</N_DEC_AGSMREA1>
+      <F_DEC_FPERCEH1>2015-04-27</F_DEC_FPERCEH1>
+      <CHKBOXSalarios claveInformativa="SS0">true</CHKBOXSalarios>
+      <CHKBOXAsimilados claveInformativa="SS0C">false</CHKBOXAsimilados>
+      <CHKBOXIndemnizacion claveInformativa="SS0A">false</CHKBOXIndemnizacion>
+      <CHKBOXParcialidades claveInformativa="SJ1">false</CHKBOXParcialidades>
+      <CHKBOXUnaExhibicion claveInformativa="SJ1A">false</CHKBOXUnaExhibicion>
+      <CHKBOXJubilacion claveInformativa="SS0B">false</CHKBOXJubilacion>
+    </DatosSalario>
+    <DatosSalario idEntidad="1005">
+      <C_DEC_RFCEEOG1 claveInformativa="118438">CEP990809CT3</C_DEC_RFCEEOG1>
+      <C_DEC_LDLEATV1>9454951</C_DEC_LDLEATV1>
+      <C_DEC_NRFCR claveInformativa="139878">COLEGIO DE EDUCACION PROFESIONAL TECNICA DEL ESTADO DE PUEBLA</C_DEC_NRFCR>
+      <C_DEC_ERNETCI1>19080</C_DEC_ERNETCI1>
+      <N_DEC_MIENSIC1>12</N_DEC_MIENSIC1>
+      <N_DEC_MFEISNA1>12</N_DEC_MFEISNA1>
+      <I_DEC_IASNSAG1 claveInformativa="SA1">4275</I_DEC_IASNSAG1>
+      <I_DEC_IRDE2ME1 claveInformativa="SA2">254</I_DEC_IRDE2ME1>
+      <I_DEC_ILISSGP1>0</I_DEC_ILISSGP1>
+      <I_DEC_SEEATUM1>0</I_DEC_SEEATUM1>
+      <I_DEC_IA2NCGU2>4275</I_DEC_IA2NCGU2>
+      <N_DEC_AGSMREA1>2</N_DEC_AGSMREA1>
+      <F_DEC_FPERCEH1>2015-04-27</F_DEC_FPERCEH1>
+      <CHKBOXSalarios claveInformativa="SS0">false</CHKBOXSalarios>
+      <CHKBOXAsimilados claveInformativa="SS0C">true</CHKBOXAsimilados>
+      <CHKBOXIndemnizacion claveInformativa="SS0A">false</CHKBOXIndemnizacion>
+      <CHKBOXParcialidades claveInformativa="SJ1">false</CHKBOXParcialidades>
+      <CHKBOXUnaExhibicion claveInformativa="SJ1A">false</CHKBOXUnaExhibicion>
+      <CHKBOXJubilacion claveInformativa="SS0B">false</CHKBOXJubilacion>
+    </DatosSalario>
+  </Salarios>
+  <SalariosSubsidios>
+    <DatosSalarioSubsidio idEntidad="1056">
+      <I_DEC_SEEATUM1 claveInformativa="SE1">1147</I_DEC_SEEATUM1>
+      <I_DEC_MSLNEEE1 claveInformativa="SE2">440</I_DEC_MSLNEEE1>
+    </DatosSalarioSubsidio>
+  </SalariosSubsidios>
+  <SalariosIngresosAcumulables>
+    <DatosSalarioIngresoAcumulable idEntidad="1014">
+      <I_DEC_IA2NCGU2 claveInformativa="111207">12088</I_DEC_IA2NCGU2>
+    </DatosSalarioIngresoAcumulable>
+    <DatosSalarioIngresoAcumulable idEntidad="1014">
+      <I_DEC_IA2NCGU2 claveInformativa="111207">4275</I_DEC_IA2NCGU2>
+    </DatosSalarioIngresoAcumulable>
+  </SalariosIngresosAcumulables>
+  <Anexo2 />
+  <Selector />
+</DatosAnexoPersonaFisica>

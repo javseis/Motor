@@ -1,0 +1,8 @@
+﻿<navegacion>
+  <agrupador idEntidad="1000" idFormulario="6" id="2108" titulo="Actividades Profesionales" idEntidadPropiedad="1089" idTipoAgrupador="1" icono="ActividadesProfesionales" idSubRegimen="4" Orden="4">
+    <seccion idControlFormulario="1089001" tituloSeccion="Actividades Profesionales" tipoSeccion="Determinación del Pago" Orden="1" />
+    <seccion idControlFormulario="10980001" tituloSeccion="Retenciones de ISR e IVA" tipoSeccion="Determinación del Pago" Orden="2" />
+    <seccion idControlFormulario="11670001" tituloSeccion="Carga masiva de retenciones" tipoSeccion="Determinación del Pago" Orden="3" />
+    <seccion idControlFormulario="1096001" tituloSeccion="Actividades Profesionales" tipoSeccion="Determinación del Pago" Orden="3" ocultar="1" />
+  </agrupador>
+</navegacion>

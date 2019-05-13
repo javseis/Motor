@@ -1,0 +1,24 @@
+﻿<navegacion>
+  <agrupador idEntidad="1000" idFormulario="6" id="2246" titulo="Retenciones y Pagos Efectuados por Terceros" idEntidadPropiedad="1159" idTipoAgrupador="1" icono="Retenciones" Orden="18">
+    <seccion idControlFormulario="1160001" tituloSeccion="Total Retenciones y pagos efectuados por terceros" tipoSeccion="Anexo" Orden="2" ocultar="1" />
+  </agrupador>
+  <agrupador idEntidad="1000" idFormulario="6" id="38" titulo="Deducciones Personales" idEntidadPropiedad="1033" idTipoAgrupador="2" icono="DeduccionesPersonales" Orden="201">
+    <seccion idControlFormulario="1033001" tituloSeccion="Deducciones personales" tipoSeccion="Determinación del Pago" Orden="2" />
+    <seccion idControlFormulario="1150001" tituloSeccion="Deducciones personales aplicables" tipoSeccion="Determinación del Pago" Orden="3" />
+    <seccion idControlFormulario="1063001" tituloSeccion="Carga masiva de deducciones" tipoSeccion="Determinación del Pago" Orden="4" />
+    <seccion idControlFormulario="1019001" tituloSeccion="Total Deducciones Personales" tipoSeccion="Determinación del Pago" Orden="5" ocultar="1" />
+  </agrupador>
+  <agrupador idEntidad="1000" idFormulario="6" id="1074" titulo="Datos Complementarios" idTipoAgrupador="3" icono="DatosComplementarios" Orden="301">
+    <seccion idControlFormulario="1080018" tituloSeccion="Ingresos exentos" tipoSeccion="Determinación del Pago" Orden="1" />
+    <seccion idControlFormulario="1080019" tituloSeccion="Otros estímulos" tipoSeccion="Determinación del Pago" Orden="1" />
+    <seccion idControlFormulario="1080020" tituloSeccion="Partes relacionadas" tipoSeccion="Determinación del Pago" Orden="1" />
+    <seccion idControlFormulario="1081001" tituloSeccion="Datos complementarios ISR" tipoSeccion="Determinación del Pago" Orden="2" />
+    <seccion idControlFormulario="1083001" tituloSeccion="Datos Informativos Obligatorios" tipoSeccion="Determinación del Pago" Orden="4" ocultar="1" />
+    <seccion idControlFormulario="1004001" tituloSeccion="Información adicional" tipoSeccion="Determinación del Pago" Orden="50" />
+    <seccion idControlFormulario="1139001" tituloSeccion="Datos de copropiedad, sociedad conyugal o sucesión" tipoSeccion="Determinación del Pago" Orden="100" />
+  </agrupador>
+  <agrupador idEntidad="1000" idFormulario="6" id="51" titulo="ISR" idEntidadPropiedad="1085" idPropiedad="327" idTipoAgrupador="4" icono="ISR" Orden="401">
+    <seccion idControlFormulario="1025001" tituloSeccion="Determinación del impuesto sobre la renta" tipoSeccion="Determinación del Pago" Orden="1" />
+    <seccion idControlFormulario="10850001" tituloSeccion="Determinación del pago ISR" tipoSeccion="Determinación del Pago" Orden="200" />
+  </agrupador>
+</navegacion>

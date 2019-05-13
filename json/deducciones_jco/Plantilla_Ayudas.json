@@ -1,0 +1,90 @@
+{
+    "textos": {
+      "ayudas": {
+        "entidad": [
+          {
+            "IdEntidad": "2390054",
+            "ayuda": [
+              {
+                "IdPropiedad": "DIAG00A",
+                "Valor": "Apoyos gubernamentales y o condonación o remisión de deudas."
+              }
+            ]
+          },
+          {
+            "IdEntidad": "2390058",
+            "ayuda": [
+              {
+                "IdPropiedad": "C16",
+                "Valor": "Estímulo fiscal por el pago de casetas, exclusivo para contribuyentes dedicados al transporte terrestre público y privado, de carga o pasaje, así como turístico."
+              }
+            ]
+          },
+          {
+            "IdEntidad": "2390061",
+            "ayuda": [
+              {
+                "IdPropiedad": "MontoDeducible",
+                "Valor": "Importe del gasto que puedes deducir, incluido en la factura."
+              },
+              {
+                "IdPropiedad": "MontoOriginalCredito",
+                "Valor": "Captura el monto original del crédito hipotecario sin que este exceda de setecientas cincuenta mil unidades de inversión. "
+              },
+              {
+                "IdPropiedad": "SaldoInsoluto",
+                "Valor": "Captura el monto del saldo insoluto del crédito al 31 de diciembre de 2015."
+              }
+            ]
+          },
+          {
+            "IdEntidad": "2390062",
+            "ayuda": [
+              {
+                "IdPropiedad": "MontoPorDeducir",
+                "Valor": "El monto total por deducir, no podrá exceder de la cantidad que resulte menor entre el 15% del total de tus ingresos o de $137,693.76 (5 UMA´s elevadas al año).<br><br>Se disminuye con el importe de las facturas deducibles, excepto de aquellas que no son consideradas para el monto total deducible."
+              },
+              {
+                "IdPropiedad": "11060406",
+                "Valor": "Suma de los montos deducibles incluido en tus facturas."
+              }
+            ]
+          },
+          {
+            "IdEntidad": "2390001",
+            "ayuda": [
+              {
+                "IdPropiedad": "SS1",
+                "Valor": "Si prestas tus servicios a un organismo internacional y o de un estado extranjero no requieres capturar el RFC, únicamente registra el Nombre, denominación o razón social de tu empleador."
+              },
+              {
+                "IdPropiedad": "SS4",
+                "Valor": "Es la suma de los importes de aguinaldo, prima vacacional, PTU, prima dominical y otros ingresos exentos informados por tu patrón."
+              },
+              {
+                "IdPropiedad": "SS7",
+                "Valor": "El importe se disminuirá de las retenciones de sueldos y salarios cuando tengas dos o más patrones y te hayan entregado subsidio para el empleo."
+              }
+            ]
+          },
+          {
+            "IdEntidad": "2390002",
+            "ayuda": [
+              {
+                "IdPropiedad": "SS22",
+                "Valor": "Los topes máximos para tus ingresos exentos son:<br><br> <b>Sueldos y Salarios:</b><br> <ul> \t<li>Aguinaldo: $ 2,418.00 (30 UMA´s)</li> \t<li>PTU: $ 1,209.00 (15 UMA´s)</li> \t<li>Prima vacacional: $ 1,209.00 (15 UMA´s)</li> \t<li>Prima dominical: $ 4,191.20 (1 UMA por cada domingo laborado. Monto máximo 52 UMA´s al año)</li> </ul> <br> <b>Indemnización:</b> $ 7,254.00 (90 UMA’s por cada año de servicio)<br> <b>Jubilación en parcialidades:</b> $ 441,043.20 (15 UMA´s elevadas al año)<br/> <b>Jubilación pago único:</b> $ 2,646,259.20 (90 UMA´s elevadas al año).<br/><br/>* UMA (Unidad de Medida Actualización)."
+              },
+              {
+                "IdPropiedad": "SS23",
+                "Valor": "Tus ingresos no acumulables resultan de disminuir a tus ingresos anuales por indemnización y o jubilación pago único, los ingresos exentos y el último salario mensual ordinario (USMO)."
+              },
+              {
+                "IdPropiedad": "IA12",
+                "Valor": "Tus ingresos anuales menos tus ingresos exentos serán tus ingresos acumulables. Si tuviste ingresos por indemnización y o jubilación pago único, además se acumulará la cantidad menor de tus ingresos gravados o tu último sueldo mensual ordinario."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }

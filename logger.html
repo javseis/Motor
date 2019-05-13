@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    <title>Declaraciones SAT Logger</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="all">
+    <style type="text/css">
+        ::-ms-clear
+        {
+            display: none;
+        }
+    </style>
+
+</head>
+<style>
+    .container
+    {
+        height: 500px;
+    }
+
+    #logsMessages
+    {
+        width: 100%;
+        height: 280px;
+    }
+
+    #logsErrors, #logsRules
+    {
+        width: 100%;
+        height: 200px;
+    }
+
+    table
+    {
+        margin-left: 8px !important;
+        border: solid 4px #006193 !important;
+        word-wrap: break-word !important;
+        table-layout: fixed !important;
+        overflow-y: scroll !important;
+        display: block !important;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Logger</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a id="limpiar" href="#">Limpiar</a>
+                </li>
+                <li>
+                    <a href="#">Recargar</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Filtrar <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Validacion</a>
+                        </li>
+                        <li>
+                            <a href="#">Calculo</a>
+                        </li>
+                        <li>
+                            <a href="#">Visual</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">Error</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">Otros</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Patron">
+                </div>
+                <button type="submit" class="btn btn-default">Buscar</button>
+            </form>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <label>Mensajes</label>
+                <table id="logsMessages" class="table table-bordered">
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <label>Reglas</label>
+                <table id="logsRules" class="table table-bordered">
+                </table>
+            </div>
+            <div class="col-lg-8">
+                <label>Errores</label>
+                <table id="logsErrors" class="table table-bordered">
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carga los scripts despues del HTML (best-practices) -->
+    <script type='text/javascript' src="js/3rdparty/namespace.min.js"></script>
+    <script type='text/javascript' src="js/3rdparty/jquery-1.7.2.min.js"></script>
+    <script type='text/javascript' src="js/3rdparty/bootstrap.min.js"></script>
+    <script type='text/javascript' src="js/3rdparty/knockout-2.3.0.js"></script>
+    <script type='text/javascript' src="js/3rdparty/base64.min.js"></script>
+    <script type='text/javascript' src="js/3rdparty/json2.min.js"></script>
+    <script type="text/javascript">
+        "use strict";
+
+        $(document).ready(function () {
+            var connection = new WebSocket("ws://HardBitMB.local:9090");
+
+            console.log('Estableciendo conexion...');
+
+            connection.onopen = function () {
+                console.log('Conexion establecida...');
+                connection.send(JSON.stringify({ msg: 'Recibiendo logs' }));
+            };
+
+            connection.onmessage = function (message) {
+                var data = JSON.parse(message.data);
+                console.log(data);
+                var klass = '';
+
+                if (data.tipo) {
+                    switch (data.tipo) {
+                        case 'error':
+                            klass = "danger";
+                            var tr = $('<tr class="' + klass + '"></tr>');
+                            for (var prop in data) {
+                                if (data[prop] !== 'error') {
+                                    var td = $('<td></td>');
+                                    td.append(data[prop]);
+                                    tr.append(td);
+                                }
+                            }
+                            $('#logsErrors').append(tr);
+                            klass = '';
+                            break;
+
+                        case 'calculo':
+                            klass = "active";
+                            break;
+
+                        case 'visual':
+                            klass = "warning";
+                            break;
+
+                        case 'validacion':
+                            klass = "success";
+                            break;
+                    }
+
+                    if (klass !== '') {
+                        var tr = $('<tr class="' + klass + '"></tr>');
+                        for (var prop in data) {
+                            var td = $('<td></td>');
+                            td.append(data[prop]);
+                            tr.append(td);
+                        }
+                        $('#logsRules').append(tr);
+                    }
+                } else {
+                    var tr = $('<tr class="success"></tr>');
+                    for (var prop in data) {
+                        var td = $('<td></td>');
+                        td.append(data[prop]);
+                        tr.append(td);
+                    }
+                    $('#logsMessages').append(tr);
+                }
+            };
+
+            $('#limpiar').on('click', function () {
+                $('table').empty();
+            });
+        });
+    </script>
+</body>
+</html>

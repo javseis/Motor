@@ -1,0 +1,8 @@
+﻿<navegacion>
+  <agrupador idEntidad="1000" idFormulario="6" id="1072" titulo="Intereses" idTipoAgrupador="1" icono="Intereses" idSubRegimen="9" Orden="9">
+    <seccion idControlFormulario="10410001" tituloSeccion="Intereses y retenciones" tipoSeccion="Determinación del Pago" Orden="81" />
+    <seccion idControlFormulario="1040001" tituloSeccion="Resumen de intereses" tipoSeccion="Determinación del Pago" Orden="83" />
+    <seccion idControlFormulario="1042001" tituloSeccion="Intereses" tipoSeccion="Determinación del Pago" Orden="84" ocultar="1" />
+    <seccion idControlFormulario="11640001" tituloSeccion="Carga masiva de retenciones" tipoSeccion="Determinación del Pago" Orden="84" />
+  </agrupador>
+</navegacion>

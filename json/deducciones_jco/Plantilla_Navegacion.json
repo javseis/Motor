@@ -1,0 +1,156 @@
+{
+    "agrupador": [
+      {
+        "id": "51group1",
+        "titulo": "G COMUN",
+        "idEntidadPropiedad": "",
+        "idPropiedad": "",
+        "idTipoAgrupador": "",
+        "icono": "",
+        "subregimen": "",
+        "orden": "",
+        "seccion": [
+          {
+            "id": "51section1",
+            "idControlFormulario": "51maincontainer1",
+            "tituloSeccion": "SEC COMUN",
+            "tipoSeccion": "",
+            "orden": "",
+            "ocultar": ""
+          }
+        ]
+      },
+      {
+        "id": "239group4",
+        "idGrupo": "",
+        "idGrupoRequerido": "",
+        "idTipoFlujo": "",
+        "titulo": "Determinación de Impuesto",
+        "idEntidadPropiedad": "",
+        "idPropiedad": "",
+        "idTipoAgrupador": "3",
+        "icono": "ISR",
+        "subregimen": "",
+        "orden": "1",
+        "seccion": [
+          {
+            "id": "239section14",
+            "idSeccion": "",
+            "idSeccionRequerida": "",
+            "idTipoFlujo": "",
+            "idControlFormulario": "239maincontainer14",
+            "esSeccionPropuesta": false,
+            "tituloSeccion": "Determinación del ISR",
+            "tipoSeccion": "",
+            "orden": "",
+            "ocultar": ""
+          },
+          {
+            "id": "239section15",
+            "idSeccion": "",
+            "idSeccionRequerida": "",
+            "idTipoFlujo": "",
+            "idControlFormulario": "239maincontainer15",
+            "esSeccionPropuesta": false,
+            "tituloSeccion": "Datos informativos",
+            "tipoSeccion": "",
+            "orden": "",
+            "ocultar": ""
+          }
+        ]
+      },
+      {
+        "id": "239group6",
+        "idGrupo": "",
+        "idGrupoRequerido": "",
+        "idTipoFlujo": "",
+        "titulo": "Determinación del pago",
+        "idEntidadPropiedad": "2390058",
+        "idPropiedad": "C26",
+        "idTipoAgrupador": "4",
+        "icono": "",
+        "subregimen": "",
+        "orden": "",
+        "seccion": [
+          {
+            "id": "239section17",
+            "idSeccion": "",
+            "idSeccionRequerida": "",
+            "idTipoFlujo": "",
+            "idControlFormulario": "239maincontainer17",
+            "esSeccionPropuesta": false,
+            "tituloSeccion": "Determinación pago",
+            "tipoSeccion": "",
+            "orden": "",
+            "ocultar": ""
+          }
+        ]
+      },
+      {
+        "id": "239group8",
+        "idGrupo": "",
+        "idGrupoRequerido": "",
+        "idTipoFlujo": "",
+        "titulo": "Deducciones personales",
+        "idEntidadPropiedad": "",
+        "idPropiedad": "",
+        "idTipoAgrupador": "2",
+        "icono": "",
+        "subregimen": "",
+        "orden": "",
+        "seccion": [
+          {
+            "id": "239section25",
+            "idSeccion": "",
+            "idSeccionRequerida": "",
+            "idTipoFlujo": "",
+            "idControlFormulario": "239maincontainer25",
+            "esSeccionPropuesta": false,
+            "tituloSeccion": "Deducciones personales",
+            "tipoSeccion": "",
+            "orden": "",
+            "ocultar": ""
+          },
+          {
+            "id": "239section26",
+            "idSeccion": "",
+            "idSeccionRequerida": "",
+            "idTipoFlujo": "",
+            "idControlFormulario": "239maincontainer26",
+            "esSeccionPropuesta": false,
+            "tituloSeccion": "Montos Deducciones Personales",
+            "tipoSeccion": "",
+            "orden": "",
+            "ocultar": 1
+          }
+        ]
+      },
+      {
+        "id": "239group9",
+        "idGrupo": "",
+        "idGrupoRequerido": "",
+        "idTipoFlujo": "",
+        "titulo": "Sueldos, salarios y asimilados",
+        "idEntidadPropiedad": "",
+        "idPropiedad": "",
+        "idTipoAgrupador": "1",
+        "icono": "SueldosYSalarios",
+        "subregimen": "605",
+        "orden": "1",
+        "seccion": [
+          {
+            "id": "239section27",
+            "idSeccion": "",
+            "idSeccionRequerida": "",
+            "idTipoFlujo": "",
+            "idControlFormulario": "239maincontainer27",
+            "esSeccionPropuesta": false,
+            "tituloSeccion": "Ingresos",
+            "tipoSeccion": "",
+            "orden": "",
+            "ocultar": ""
+          }
+        ]
+      }
+    ]
+  }
